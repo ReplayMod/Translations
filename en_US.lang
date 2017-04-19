@@ -9,7 +9,6 @@ replaymod.api.notenoughspace=Not enough space left to upload this file. Consider
 replaymod.api.invalidfile=This file is invalid
 replaymod.api.fileduplicate=This file has already been uploaded
 replaymod.api.filenoexist=This file does not exist
-replaymod.api.nopermissions=You don't have permission to access this file
 replaymod.api.alreadyrated=You already rated this file
 replaymod.api.usernoexist=This user does not exist
 replaymod.api.invalidcategory=Invalid file category
