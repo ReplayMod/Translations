@@ -16,8 +16,6 @@ replaymod.api.nofilesuploaded=No files uploaded
 replaymod.api.toomanyvalues=Too many values passed for %1$s
 replaymod.api.noparameters=At least one parameter required. Parameters: %1$s
 replaymod.api.invalidfilename=File name must be between 5 and 30 characters long
-replaymod.api.unknownlang=This language has not been translated
-replaymod.api.zippingerror=An error occured while zipping the language files
 replaymod.api.usernameexists=This username is already taken
 replaymod.api.mailexists=This Email address is already linked to an account
 replaymod.api.invalidmail=Invalid Email Address
@@ -55,14 +53,12 @@ replaymod.category.build=Build
 replaymod.category.misc=Miscellaneous
 
 #Common GUI-related strings
-replaymod.gui.replay=Replay
 replaymod.gui.login=Login
 replaymod.gui.logout=Logout
 replaymod.gui.cancel=Cancel
 replaymod.gui.username=Username
 replaymod.gui.password=Password
 replaymod.gui.back=Back
-replaymod.gui.duration=Duration
 replaymod.gui.load=Load
 replaymod.gui.download=Download
 replaymod.gui.like=Like
@@ -81,7 +77,6 @@ replaymod.gui.recording=Recording
 replaymod.gui.speed=Speed
 replaymod.gui.register=Register
 replaymod.gui.mail=Email Address
-replaymod.gui.loading=Loading
 replaymod.gui.pleasewait=Please wait
 replaymod.gui.render=Render
 replaymod.gui.iphidden=Server IP Hidden
@@ -112,11 +107,6 @@ replaymod.gui.titleempty=Title cannot be empty
 replaymod.gui.videothumbnailtoolarge=Thumbnail size exceeds 2MB
 replaymod.gui.videothumbnailformat=Thumbnail has to be either JPEG or PNG format
 
-replaymod.gui.original=Original
-replaymod.gui.modified=Modified
-
-replaymod.gui.outdated=There is a newer Replay Mod version available. Please download it from replaymod.com
-
 replaymod.gui.hours=h
 replaymod.gui.minutes=min
 replaymod.gui.seconds=sec
@@ -132,11 +122,6 @@ replaymod.gui.position=Position
 replaymod.gui.unknownerror=An unknown error occured
 
 replaymod.gui.exit=Exit Replay
-replaymod.gui.java=Java 1.7 or newer required
-replaymod.gui.morereplays=At least one Replay required
-
-replaymod.gui.loggedin=LOGGED IN
-replaymod.gui.loggedout=LOGGED OUT
 
 replaymod.gui.mainmenu=Main Menu
 replaymod.gui.settings=Settings
@@ -152,7 +137,6 @@ replaymod.gui.loadentitytracker=Loading entity positions: %%d%%%%
 #Only change these if it's neccessary
 replaymod.gui.replayviewer=Replay Viewer
 replaymod.gui.replaycenter=Replay Center
-replaymod.gui.replaysettings=Replay Settings
 replaymod.gui.replayeditor=Replay Editor
 
 #Login GUI
@@ -176,14 +160,11 @@ replaymod.gui.register.error.longpw=Password has to be at most 1024 characters l
 replaymod.gui.register.error.authfailed=Could not authenticate your Minecraft account
 
 #Replay Viewer GUI
-replaymod.gui.viewer.rename.title=Rename Replay
 replaymod.gui.viewer.rename.name=Replay Name
 replaymod.gui.viewer.replayfolder=Open Replay Folder...
-replaymod.gui.viewer.noauth=Log in to upload a Replay
-replaymod.gui.viewer.alreadyuploaded=This Replay has already been uploaded
 
 replaymod.gui.viewer.delete.linea=Are you sure you want to delete this replay?
-replaymod.gui.viewer.delete.failed1=Your OS did not allow us to move the replay. There is
+replaymod.gui.viewer.delete.failed1=Your OS did not allow us to remove the replay. There is
 replaymod.gui.viewer.delete.failed2=nothing we can do about this. You have to do it yourself.
 replaymod.gui.viewer.delete.lineb='%1$s' will be lost forever! (a long time!)
 
@@ -217,7 +198,6 @@ replaymod.gui.center.downloadrequired=Download the Replay to rate or favorite it
 
 replaymod.gui.center.favorite=Favorite
 replaymod.gui.center.unfavorite=Unfavorite
-replaymod.gui.center.favorites=Favorites
 
 replaymod.gui.center.author=by %1$s%2$s
 
@@ -241,8 +221,6 @@ replaymod.gui.upload.error.name=The Replay Name may not contain special characte
 replaymod.gui.upload.error.tags=Tags may only contain letters and are separated using a comma
 
 #Replay Editor
-replaymod.gui.editor.replayfile=Replay File
-
 replaymod.gui.editor.savemode.override=Replace Source File
 replaymod.gui.editor.savemode.newfile=Save to new File
 
@@ -271,7 +249,6 @@ replaymod.gui.cancelrender.title=Cancel Rendering
 replaymod.gui.cancelrender.message=Are you sure that you want to cancel the current rendering process?
 #Saving Replay GUI
 replaymod.gui.replaysaving.title=Saving Replay File...
-replaymod.gui.replaysaving.message=Please wait while your recent Replay is being saved.
 replaymod.gui.replaymodified.message=Replay was modified. Would you like to save the changes?
 replaymod.gui.replaymodified.yes=Save Modified Replay
 replaymod.gui.replaymodified.no=Discard Changes
@@ -289,30 +266,14 @@ replaymod.gui.playeroverview.remembersettings.description=Saves Player Visibilit
 #Replay Mod Settings GUI
 replaymod.gui.settings.title=Replay Mod Settings
 
-replaymod.gui.settings.interpolation.linear=Linear
-replaymod.gui.settings.interpolation.cubic=Cubic
-replaymod.gui.settings.interpolation.catmullrom=Catmull Rom
-
-replaymod.gui.settings.bitrate=Video Bitrate
-replaymod.gui.settings.framerate=Video Framerate
 replaymod.gui.settings.notifications=Enable Notifications
 replaymod.gui.settings.recordserver=Record Server
 replaymod.gui.settings.recordsingleplayer=Record Singleplayer
 replaymod.gui.settings.indicator=Recording Indicator
-replaymod.gui.settings.lighting=Ambient Lighting
-replaymod.gui.settings.forcechunks=Force Render Chunks
-replaymod.gui.settings.resources=Server Resource Packs
-replaymod.gui.settings.interpolation=Path Interpolation
-replaymod.gui.settings.linearinterpolation=Linear Path Interpolation
 replaymod.gui.settings.pathpreview=Show Path Preview
-replaymod.gui.settings.keyframecleancallback=Clear Confirmation
-replaymod.gui.settings.renderinvisible=Render invisible Entities
 replaymod.gui.settings.camera=Camera
 replaymod.gui.settings.showchat=Show Chat
 replaymod.gui.settings.interpolator=Default Interpolator
-
-replaymod.gui.settings.warning.linea=WARNING: Recording settings will be
-replaymod.gui.settings.warning.lineb=applied the next time you join a world.
 
 #Replay Mod Keybindings
 replaymod.input.lighting=Toggle Lighting
@@ -329,7 +290,6 @@ replaymod.input.marker=Add Event Marker
 replaymod.input.pathpreview=Toggle Path Preview
 replaymod.input.assetmanager=Asset Manager
 replaymod.input.objectmanager=Object Manager
-replaymod.input.interpolation=Toggle Interpolation
 replaymod.input.settings=ReplayMod Settings
 
 # CameraControllers
@@ -338,16 +298,6 @@ replaymod.camera.vanilla=Vanilla-ish
 
 #Keyframe Presets GUI
 replaymod.gui.keyframerepository.title=Keyframe Repository
-replaymod.gui.keyframerepository.presets=Keyframe Presets
-replaymod.gui.keyframerepository.positionkeyframes=Position Keyframes
-replaymod.gui.keyframerepository.timekeyframes=Time Keyframes
-
-replaymod.gui.keyframerepository.savecurrent=Save current Path
-
-replaymod.gui.keyframerepository.noentries=No Presets available
-
-replaymod.gui.keyframerepository.preset.defaultname=New Keyframe Preset
-replaymod.gui.keyframerepository.duplicate=This Preset already exists
 
 #Edit Keyframe GUI
 replaymod.gui.editkeyframe.title.pos=Edit Position Keyframe
@@ -385,7 +335,6 @@ replaymod.gui.editkeyframe.interpolator.linear.name=Linear Interpolator
 replaymod.gui.editkeyframe.interpolator.linear.desc=Draws straight lines between the keyframes.
 
 #Render Settings GUI
-replaymod.gui.rendersettings.title=Rendering Options
 replaymod.gui.rendersettings.renderer=Rendering Method
 
 replaymod.gui.rendersettings.renderer.default=Default Rendering
@@ -406,13 +355,8 @@ replaymod.gui.rendersettings.customresolution.warning.cubic=Cubic Rendering requ
 replaymod.gui.rendersettings.customresolution.warning.equirectangular=Equirectangular Rendering requires an aspect ratio of 2:1
 replaymod.gui.rendersettings.customresolution.warning.yuv420=For this preset, the width and height values need to be even numbers
 replaymod.gui.rendersettings.customresolution.warning.ods=ODS Rendering requires an aspect ratio of 1:1
-replaymod.gui.rendersettings.resolution=Video Resolution
-replaymod.gui.rendersettings.interpolation=Path Interpolation
-replaymod.gui.rendersettings.forcechunks=Force Render Chunks
 replaymod.gui.rendersettings.framerate=Video Framerate
-replaymod.gui.rendersettings.quality=Video Quality
 replaymod.gui.rendersettings.chromakey=Chroma Keying
-replaymod.gui.rendersettings.skycolor=Sky Color
 replaymod.gui.rendersettings.nametags=Render Name Tags
 replaymod.gui.rendersettings.outputfile=Output File
 replaymod.gui.rendersettings.360metadata=Inject 360° Metadata
@@ -423,7 +367,6 @@ replaymod.gui.rendersettings.arguments=Command Line Arguments
 replaymod.gui.rendersettings.ffmpeg.description=If you are an advanced user, you can customize the command line parameters used to export the video. For more information, check http://replaymod.com/docs
 
 replaymod.gui.rendersettings.stabilizecamera=Stabilize Camera
-replaymod.gui.rendersettings.exportyoutube=Export for YouTube
 
 replaymod.gui.rendersettings.video=Video Settings
 replaymod.gui.rendersettings.advanced=Advanced Settings
@@ -463,7 +406,6 @@ replaymod.gui.rendering.timeleft=Time Left
 
 #Render Errors
 replaymod.gui.rendering.error.title=Rendering Failed
-replaymod.gui.rendering.error.optifine=Please uninstall Optifine before rendering.
 replaymod.gui.rendering.error.message=To render a video, you need to have ffmpeg installed. http://ffmpeg.org
 
 #Ingame Menu
@@ -486,7 +428,6 @@ replaymod.gui.ingame.unnamedmarker=Unnamed Event Marker
 
 #Clear Keyframe Callback
 replaymod.gui.clearcallback.title=Clear all Keyframes?
-replaymod.gui.clearcallback.message=This Callback can be disabled in the Replay Settings.
 
 #Asset Manager Gui
 replaymod.gui.assets.title=Asset Manager
