@@ -341,3 +341,4 @@ replaymod.gui.objects.properties.opacity=Przezroczystosc
 replaymod.gui.objects.properties.name=Nazwa objektu
 replaymod.gui.objects.empty=Nie dodano zadnego obiektu
 replaymod.gui.objects.defaultname=Nowy objekt
+replaymod.gui.overwrite=Nadpisz
