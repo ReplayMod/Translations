@@ -1,0 +1,21 @@
+replaymod.title=Replay Mod
+replaymod.api.invalidlogin=Ungültige Login-Daten
+replaymod.api.notenoughspace=Nicht genug Speicherplatz, um diese Datei hochzuladen. Kaufe dir Premium auf ReplayMod.com
+replaymod.api.fileduplicate=Diese Datei wurde bereits hochgeladen
+replaymod.api.invalidfilename=Der Dateiname muss zwischen 5 und 30 Zeichen lang sein
+replaymod.api.usernameexists=Dieser Benutzername wird bereits verwendet
+replaymod.api.mailexists=Diese Email-Adresse ist bereits mit einem Account verbunden
+replaymod.api.invalidmail=Ungültige Email-Adresse
+replaymod.api.nopermissions=Dir fehlen die Berechtigungen, um das zu tun
+replaymod.api.authfailed=Authentifizierung zu den Minecraft-Server fehlgeschlagen
+replaymod.api.mcuserexists=Es ist bereits ein ReplayMod-Account mit diesem Minecraft-Account verknüpft
+replaymod.api.filetoobig=Die hochgeladene Datei ist zu groß
+replaymod.api.usernametoolong=Dieser Benutzername ist zu lang
+replaymod.api.descriptiontoolong=Die Beschreibung ist zu lange
+replaymod.api.passwordlength=Das Passwort muss 5 bis 1024 Zeichen lang sein
+#All of the chat messages
+replaymod.chat.recordingstarted=Aufnahme gestartet
+replaymod.chat.recordingfailed=Fehler beim Starten der Aufnahme
+replaymod.chat.savingthumb=Speichere Thumbnail...
+replaymod.chat.savedthumb=Thumbnail wurde erfolgreich gespeichert
+replaymod.chat.failedthumb=Thumbnail konnte nicht gespeichert werden
