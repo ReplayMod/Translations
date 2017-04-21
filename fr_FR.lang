@@ -1,6 +1,6 @@
 replaymod.title=Replay Mod
 replaymod.api.filenoexist=Ce fichier n'existe pas
-replaymod.api.authfailed=L'authentification aux serveurs de session Minecraft à échoué
+replaymod.api.authfailed=L'authentification aux Serveurs de Session Minecraft a échoué
 replaymod.api.mcuserexists=Un compte ReplayMod est déjà associé à ce compte Minecraft
 replaymod.api.filetoobig=Le fichier publié est trop large
 replaymod.api.usernametoolong=Ce nom d'utilisateur est trop long
@@ -60,7 +60,7 @@ replaymod.gui.modwarning.missing=Mods manquants
 replaymod.api.invalidlogin=Données de connexion invalides
 replaymod.api.notenoughspace=Pas assez d'espace libre pour télécharger ce fichier. Veuillez acheter la version Premium sur ReplayMod.com
 replaymod.api.fileduplicate=Ce fichier a déjà été publié
-replaymod.api.invalidfilename=Le nom du fichier doit avoir entre 5 et 30 caractères
+replaymod.api.invalidfilename=Les noms de fichiers doivent être compris entre 5 et 30 caractères
 replaymod.api.usernameexists=Ce pseudo est déjà pris
 replaymod.api.mailexists=Cet adresse courriel est déjà lié à un compte
 replaymod.api.invalidmail=Adresse courriel invalide
