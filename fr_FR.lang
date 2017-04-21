@@ -1,2 +1,59 @@
 replaymod.title=Replay Mod
-replaymod.api.filenoexist=Ce fichier n'existe pas.
+replaymod.api.filenoexist=Ce fichier n'existe pas
+replaymod.api.authfailed=
+replaymod.api.mcuserexists=Un compte ReplayMod est déjà associé à ce compte Minecraft
+replaymod.api.filetoobig=Le fichier téléchargé est trop lourd
+replaymod.api.usernametoolong=Ce nom d'utilisateur est trop long
+replaymod.api.descriptiontoolong=Cette description est trop longue
+replaymod.api.passwordlength=Le mot de passe doit faire entre 5 et 1024 caractères
+#All of the chat messages
+replaymod.chat.recordingstarted=Enregistrement en cours
+replaymod.chat.recordingfailed=L'enregistrement n'a pas pu démarrer
+replaymod.chat.savingthumb=Sauvegarde de la miniature ...
+replaymod.chat.savedthumb=La miniature a été sauvegardée avec succès
+replaymod.gui.objects.defaultname=Nouvel objet
+replaymod.gui.rendersettings.advanced=Paramètres avancés
+replaymod.gui.rendersettings.presets.mp4.potato=MP4 - Qualité patate
+replaymod.gui.rendersettings.presets.png=Séquence PNG
+replaymod.gui.rendersettings.antialiasing.x2=2×
+replaymod.gui.rendersettings.antialiasing.x4=4x
+replaymod.gui.rendersettings.antialiasing.x8=8x
+#Render Queue GUI
+replaymod.gui.renderqueue.title=Liste d'attente des rendus
+replaymod.gui.renderqueue.add=Ajouter la configuration actuelle
+#Rendering GUI
+replaymod.gui.rendering.title=Rendu de la vidéo en cours
+replaymod.gui.rendering.pause=Mettre le rendu en pause
+replaymod.gui.rendering.resume=Continuer le rendu
+replaymod.gui.rendering.cancel=Annuler le rendu
+replaymod.gui.rendering.cancel.callback=Êtes-vous sûr ?
+replaymod.gui.rendering.preview=Afficher la prévisualisation (la performance pourrait en souffrir)
+replaymod.gui.rendering.progress=Images rendues: %1$d / %2$d
+replaymod.gui.rendering.timetaken=Temps du rendu
+replaymod.gui.rendering.timeleft=Temps restant
+replaymod.gui.rendering.error.message=Pour rendre une vidéo, vous devez avoir ffmpeg installé.  http://ffmpeg.org
+replaymod.gui.ingame.menu.pause=Mettre en pause la scène
+replaymod.gui.ingame.menu.unpause=Continuer la scène
+replaymod.gui.ingame.menu.renderpath=Afficher le passage de la caméra
+replaymod.gui.ingame.menu.zoomin=Zoomer vers l'intérieur
+replaymod.gui.ingame.menu.zoomout=Zoomer vers l'extérieur
+replaymod.error.negativetime3=Les parties invalides sont marquées en rouge.
+#Replay Mod Incompatibility Warning
+replaymod.gui.modwarning.title=Incompatibilité détectée
+replaymod.gui.modwarning.message3=Charger cette scène peut provoquer des erreurs ou un crash.
+replaymod.gui.modwarning.name=Nom du mod :
+replaymod.gui.modwarning.id=Identifiant du mod :
+replaymod.gui.modwarning.version.expected=Attendu
+replaymod.gui.modwarning.version.found=Trouvé
+#OpenEye
+replaymod.gui.offeropeneye1=Voulez-vous installer OpenEye ?
+replaymod.gui.offeropeneye2=OpenEye est un mod qui collecte des informations anonymes
+replaymod.gui.offeropeneye3=à propos des mods étant utilisés et à propos de tout crash qui pourrait arriver.
+replaymod.gui.offeropeneye5=OpenEye peut être désactivé à tout moment et est complètement optionnel.
+replaymod.gui.offeropeneye6=Plus d'informations disponibles sur https://openeye.openmods.info/faq
+replaymod.gui.offeropeneye7=Cliquer Oui téléchargera OpenEye et le placer dans votre dossier mods.
+replaymod.gui.offeropeneye8=Il sera alors actif la prochaine fois que vous démarrerez Minecraft.
+replaymod.api.invalidauthkey=Clé d'authentification invalide
+replaymod.api.invalidfile=Ce fichier est invalide
+replaymod.api.alreadyrated=Vous avez déjà voté ce fichier
+replaymod.gui.modwarning.missing=Mods manquants
