@@ -82,7 +82,7 @@ replaymod.category.build=Construction
 replaymod.category.misc=Divers
 #Common GUI-related strings
 replaymod.gui.login=Connexion
-replaymod.gui.logout=Déconnexion
+replaymod.gui.logout=Se déconnecter
 replaymod.gui.cancel=Annuler
 replaymod.gui.username=Pseudo
 replaymod.gui.password=Mot de passe
