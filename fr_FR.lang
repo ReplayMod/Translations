@@ -4,13 +4,13 @@ replaymod.api.authfailed=L'authentification aux Serveurs de Session Minecraft a 
 replaymod.api.mcuserexists=Un compte ReplayMod est déjà associé à ce compte Minecraft
 replaymod.api.filetoobig=Le fichier publié est trop large
 replaymod.api.usernametoolong=Le pseudo est trop long
-replaymod.api.descriptiontoolong=Cette description est trop longue
-replaymod.api.passwordlength=Le mot de passe doit être entre 5 et 1024 caractères
+replaymod.api.descriptiontoolong=La description est trop longue
+replaymod.api.passwordlength=Le mot de passe doit faire entre 5 et 1024 caractères
 #All of the chat messages
 replaymod.chat.recordingstarted=Enregistrement en cours
 replaymod.chat.recordingfailed=L'enregistrement n'a pas pu démarrer
 replaymod.chat.savingthumb=Sauvegarde de la Vignette...
-replaymod.chat.savedthumb=La vignette a été sauvegardée avec succès
+replaymod.chat.savedthumb=La miniature a été sauvegardée avec succès
 replaymod.gui.objects.defaultname=Nouvel objet
 replaymod.gui.rendersettings.advanced=Paramètres avancés
 replaymod.gui.rendersettings.presets.mp4.potato=MP4 - Qualité de patate
@@ -66,7 +66,7 @@ replaymod.api.mailexists=Cet adresse courriel est déjà lié à un compte
 replaymod.api.invalidmail=Adresse courriel invalide
 replaymod.api.nopermissions=Vous n'avez pas la permission de faire cela
 replaymod.api.suspended=Votre compte a été suspendu
-replaymod.chat.failedthumb=La vignette n'a pas pu être sauvegardée
+replaymod.chat.failedthumb=L'enregistrement de la miniature a échoué
 replaymod.chat.addedmarker=Marqueur d'Évènement a été ajouté
 #Chat messages displayed in Replay Viewer
 replaymod.chat.morekeyframes=Au moins 2 images clés de position et 2 images clés temporelles sont requises
