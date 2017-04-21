@@ -67,7 +67,7 @@ replaymod.api.invalidmail=Adresse courriel invalide
 replaymod.api.nopermissions=Vous n'avez pas la permission de faire cela
 replaymod.api.suspended=Votre compte a été suspendu
 replaymod.chat.failedthumb=L'enregistrement de la miniature a échoué
-replaymod.chat.addedmarker=Marqueur d'Évènement a été ajouté
+replaymod.chat.addedmarker=Marqueur d'Évènement ajouté
 #Chat messages displayed in Replay Viewer
 replaymod.chat.morekeyframes=Au moins 2 images clés de position et 2 images clés temporelles sont requises
 replaymod.chat.negativetime=Les chemins de la caméra ne peuvent pas reculer dans le temps. S'il vous plaît, consultez votre seigneur du temps à proximité pour de l'assistance.
