@@ -3,7 +3,7 @@ replaymod.api.filenoexist=Ce fichier n'existe pas
 replaymod.api.authfailed=L'authentification aux Serveurs de Session Minecraft a échoué
 replaymod.api.mcuserexists=Un compte ReplayMod est déjà associé à ce compte Minecraft
 replaymod.api.filetoobig=Le fichier publié est trop large
-replaymod.api.usernametoolong=Ce nom d'utilisateur est trop long
+replaymod.api.usernametoolong=Le pseudo est trop long
 replaymod.api.descriptiontoolong=Cette description est trop longue
 replaymod.api.passwordlength=Le mot de passe doit être entre 5 et 1024 caractères
 #All of the chat messages
