@@ -216,3 +216,4 @@ replaymod.gui.exit=Sair do Replay
 replaymod.gui.mainmenu=Menu Principal
 replaymod.gui.settings=Configurações
 replaymod.gui.keyframerepo.delete=Você tem certeza que quer deletar esses keyframes?
+replaymod.gui.restorereplay1=Parece que o Minecraft não fechou normalmente
