@@ -317,7 +317,7 @@ replaymod.gui.rendering.resume=Продолжить Обработку
 replaymod.gui.rendering.cancel=Отменить Обработку
 replaymod.gui.rendering.cancel.callback=Вы уверенны, что хотите это сделать?
 replaymod.gui.rendering.preview=Показать Превью (Конечный результат может оказаться хуже)
-replaymod.gui.rendering.progress=Обработано кадров: %1$d /
+replaymod.gui.rendering.progress=Обработано кадров: %1$d / %2$d
 replaymod.gui.rendering.timetaken=Время Обработки
 replaymod.gui.rendering.timeleft=Осталось времени
 #Render Errors
