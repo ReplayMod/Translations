@@ -149,3 +149,16 @@ replaymod.gui.login.logging=Connexion...
 replaymod.gui.login.incorrect=Incorrect pseudo ou mot de passe
 replaymod.gui.login.skip=Sauter
 replaymod.api.usernoexist=Cet utilisateur n'existe pas
+#Website API translations
+replaymod.api.parammissing=Paramètre requis manquant : %1$s
+replaymod.api.invalidvalue=Valeur invalide passée pour le paramètre %1$s - Valeurs possibles\n %2$s
+replaymod.api.invalidcategory=Catégorie de fichier invalide
+replaymod.api.nofilesuploaded=Aucun fichier téléchargé
+replaymod.api.toomanyvalues=Trop de valeurs passées pour %1$s
+replaymod.api.noparameters=Au moins un paramètre requis. Paramètres: %1$s
+replaymod.gui.editkeyframe.spec.method.shoulder.distance=Distance de la caméra
+replaymod.gui.editkeyframe.spec.method.firstperson=Première personne
+replaymod.gui.editkeyframe.spec.method.shoulder.yaw=Angle de rotation
+replaymod.gui.videovisibility.unlisted=Non répertorié
+replaymod.gui.removelike=Enlever mon "J'aime"
+replaymod.gui.removedislike=Enlever mon "Je n'aime pas"
