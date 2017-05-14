@@ -360,7 +360,7 @@ replaymod.gui.modwarning.version.expected=本来のバージョン
 replaymod.gui.modwarning.version.found=実際のバージョン
 #OpenEye
 replaymod.gui.offeropeneye1=OpenEyeをインストールしますか?
-replaymod.gui.offeropeneye2=OpenEyeは匿名の情報を収集するMODです。
+replaymod.gui.offeropeneye2=OpenEyeは匿名の情報を収集するMODです
 replaymod.gui.offeropeneye3=実行しているMODや起こったクラッシュの情報を収集します。
 replaymod.gui.offeropeneye5=OpenEyeは完全に任意のタイミングで無効化できます。
 replaymod.gui.offeropeneye6=さらなる情報はこちらにあります: https://openeye.openmods.info/faq
@@ -403,4 +403,4 @@ replaymod.gui.objects.properties.name=オブジェクト名
 replaymod.gui.objects.empty=オブジェクトが追加されていません
 replaymod.gui.objects.defaultname=新規オブジェクト
 replaymod.gui.objects=カスタムオブジェクト
-replaymod.gui.offeropeneye4=　
+replaymod.gui.offeropeneye4=
