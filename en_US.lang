@@ -127,6 +127,7 @@ replaymod.gui.mainmenu=Main Menu
 replaymod.gui.settings=Settings
 
 replaymod.gui.keyframerepo.delete=Are you sure you want to delete these keyframes?
+replaymod.gui.keyframerepo.overwrite=Are you sure you want to overwrite these keyframes?
 
 replaymod.gui.restorereplay1=It seems like Minecraft has not quit normally.
 replaymod.gui.restorereplay2=The Replay "%1$s" was not saved correctly.
