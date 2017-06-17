@@ -234,3 +234,4 @@ replaymod.gui.editor.connect.title=Assembler des Replay
 replaymod.gui.editor.modify.title=Modifier un Replay
 replaymod.gui.editor.trim.description=Supprime le début et la fin du Replay, garde seulement le moment du Replay entre les temps indiqués
 replaymod.gui.editor.connect.description=Assemble des Replay dans un ordre spécifique
+replaymod.gui.objects=Objets customisés
