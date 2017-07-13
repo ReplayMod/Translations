@@ -12,7 +12,7 @@ replaymod.api.mcuserexists=Es ist bereits ein ReplayMod-Account mit diesem Minec
 replaymod.api.filetoobig=Die hochgeladene Datei ist zu groß
 replaymod.api.usernametoolong=Dieser Benutzername ist zu lang
 replaymod.api.descriptiontoolong=Die Beschreibung ist zu lange
-replaymod.api.passwordlength=Das Passwort muss 5 bis 1024 Zeichen lang sein
+replaymod.api.passwordlength=Das Passwort muss zwischen 5 und 1024 Zeichen lang sein
 #All of the chat messages
 replaymod.chat.recordingstarted=Aufnahme gestartet
 replaymod.chat.recordingfailed=Fehler beim Starten der Aufnahme
