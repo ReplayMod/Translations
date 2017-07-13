@@ -308,7 +308,7 @@ replaymod.gui.rendersettings.antialiasing.x8=8x
 #Render Queue GUI
 replaymod.gui.renderqueue.title=Renderwarteschlange
 replaymod.gui.renderqueue.open=Warteschlange öffnen
-replaymod.gui.renderqueue.jobname=Job Name:
+replaymod.gui.renderqueue.jobname=Aufgabenname
 replaymod.gui.renderqueue.add=Aktuelle Konfiguration hinzufügen
 #Rendering GUI
 replaymod.gui.rendering.title=Video wird gerendert
