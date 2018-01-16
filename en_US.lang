@@ -481,3 +481,15 @@ replaymod.gui.offeropeneye5=OpenEye can be disabled at any time and is completel
 replaymod.gui.offeropeneye6=More information is available at https://openeye.openmods.info/faq
 replaymod.gui.offeropeneye7=Clicking Yes will download OpenEye and place it in your mods folder.
 replaymod.gui.offeropeneye8=It will then be active the next time you start Minecraft.
+
+#Advanced Screenshots Gui
+replaymod.gui.advancedscreenshots.title=Screenshot Settings
+replaymod.gui.advancedscreenshots.create=Take Screenshot
+replaymod.gui.advancedscreenshots.resolution=Resolution
+
+# Screenshot Finished Gui
+replaymod.gui.advancedscreenshots.finished.description=You successfully created a Screenshot!
+replaymod.gui.advancedscreenshots.finished.description.360=You successfully created a 360° Screenshot!
+replaymod.gui.advancedscreenshots.finished.description.veer=Upload and view the image in VR on VeeR.tv or open it on your disk.
+replaymod.gui.advancedscreenshots.finished.upload.veer=Upload to VeeR.tv
+replaymod.gui.advancedscreenshots.finished.showfile=Show file on disk
