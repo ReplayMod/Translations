@@ -283,3 +283,36 @@ replaymod.input.resettilt=Rétablir la Rotation de la Caméra
 replaymod.input.playpause=Jouer/Mettre en Pause le Replay
 replaymod.input.marker=Ajouter un Marqueur d'Événement
 replaymod.input.pathpreview=Afficher l'Aperçu du Tracé
+replaymod.gui.objects.empty=Aucun objet ajouté
+replaymod.gui.objects.properties.name=Nom de l'objet
+replaymod.gui.editor.modify.description=Donne accès à plusieurs filtres pour modifier vos Replay
+#Replay Mod Keybindings
+replaymod.input.lighting=Changer l'éclairage
+replaymod.input.assetmanager=Gestionnaire d'extensions
+replaymod.input.objectmanager=Gestionnaire d'objets
+replaymod.input.settings=Paramètres de Replay Mod
+# CameraControllers
+replaymod.camera.classic=Classique
+#Keyframe Presets GUI
+replaymod.gui.keyframerepository.title=Liste de KeyFrame
+#Edit Keyframe GUI
+replaymod.gui.editkeyframe.title.pos=Éditer la KeyFrame de positionnelle
+replaymod.gui.editkeyframe.title.time=Éditer la KeyFrame temporelle
+replaymod.gui.editkeyframe.title.marker=Éditer le marqueur d'événement
+replaymod.gui.editkeyframe.title.spec=Éditer la KeyFrame du spectateur
+replaymod.gui.editkeyframe.xpos=Position X
+replaymod.gui.editkeyframe.ypos=Position Y
+replaymod.gui.editkeyframe.zpos=Position Z
+replaymod.gui.editkeyframe.timelineposition=Position sur la Timeline
+replaymod.gui.editkeyframe.markername=Nom du marqueur d'événement
+replaymod.gui.editkeyframe.timestamp=Index temporel
+replaymod.gui.editkeyframe.interpolator.catmullrom.alpha=Transparence :
+replaymod.gui.editkeyframe.interpolator.linear.desc=Fait apparaitre des lignes droites entre les KeyFrames.
+#Render Settings GUI
+replaymod.gui.rendersettings.renderer=Methode de rendu
+replaymod.gui.rendersettings.renderer.default=Rendu par défault
+replaymod.gui.rendersettings.renderer.stereoscopic=Rendu stéréoscopique
+replaymod.gui.rendersettings.renderer.equirectangular=Rendu equirectangulaire
+replaymod.gui.rendersettings.renderer.ods=Rendu ODS
+replaymod.gui.rendersettings.renderer.default.description=Rends une vidéo avec la résolution spécifiée. Option de rendu rapide.
+replaymod.gui.rendersettings.renderer.stereoscopic.description=Rends une vidéo stéréoscopique 3D, utilisable par différentes technologies 3D. L'image destinée à un oeil fait la moitié de la largeur de la vidéo
