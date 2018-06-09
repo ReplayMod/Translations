@@ -405,3 +405,4 @@ replaymod.gui.objects.defaultname=Neues Objekt
 replaymod.gui.objects=Eigene Objekte
 replaymod.gui.offeropeneye4=
 replaymod.gui.keyframerepo.overwrite=Bist du dir sicher, dass du diese Keyframes überschreiben möchtest?
+replaymod.gui.rendering.error.ffmpeglog=FFmpeg Ausgabe:
