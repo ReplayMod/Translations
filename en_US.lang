@@ -356,6 +356,7 @@ replaymod.gui.rendersettings.customresolution.warning.cubic=Cubic Rendering requ
 replaymod.gui.rendersettings.customresolution.warning.equirectangular=Equirectangular Rendering requires an aspect ratio of 2:1
 replaymod.gui.rendersettings.customresolution.warning.yuv420=For this preset, the width and height values need to be even numbers
 replaymod.gui.rendersettings.customresolution.warning.ods=ODS Rendering requires an aspect ratio of 1:1
+replaymod.gui.rendersettings.bitrate=Bitrate
 replaymod.gui.rendersettings.framerate=Video Framerate
 replaymod.gui.rendersettings.chromakey=Chroma Keying
 replaymod.gui.rendersettings.nametags=Render Name Tags
