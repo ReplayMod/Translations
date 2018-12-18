@@ -294,6 +294,7 @@ replaymod.input.pathpreview=Toggle Path Preview
 replaymod.input.assetmanager=Asset Manager
 replaymod.input.objectmanager=Object Manager
 replaymod.input.settings=ReplayMod Settings
+replaymod.input.quickmode=Quick Mode
 
 # CameraControllers
 replaymod.camera.classic=Classic
