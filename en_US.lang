@@ -355,17 +355,17 @@ replaymod.gui.rendersettings.renderer.equirectangular.description=Renders the vi
 replaymod.gui.rendersettings.renderer.ods.description=Renders the video with a stereoscopic 3D 360 degree panoramic view, also called VR Video. This is usable by YouTube's new VR video function.
 
 replaymod.gui.rendersettings.customresolution=Video Resolution
-replaymod.gui.rendersettings.customresolution.warning.cubic=Cubic Rendering requires an aspect ratio of 4:3
-replaymod.gui.rendersettings.customresolution.warning.equirectangular=Equirectangular Rendering requires an aspect ratio of 2:1
 replaymod.gui.rendersettings.customresolution.warning.yuv420=For this preset, the width and height values need to be even numbers
-replaymod.gui.rendersettings.customresolution.warning.ods=ODS Rendering requires an aspect ratio of 1:1
+replaymod.gui.rendersettings.customresolution.warning.yuv420.cubic=For this preset, the height must be divisible by 6
+replaymod.gui.rendersettings.customresolution.warning.cubic.height=Cubic Rendering requires a height divisible by 3
 replaymod.gui.rendersettings.bitrate=Bitrate
 replaymod.gui.rendersettings.framerate=Video Framerate
 replaymod.gui.rendersettings.chromakey=Chroma Keying
 replaymod.gui.rendersettings.nametags=Render Name Tags
 replaymod.gui.rendersettings.outputfile=Output File
-replaymod.gui.rendersettings.360metadata=Inject 360° Metadata
-replaymod.gui.rendersettings.360metadata.error=360° Metadata can only be added to Equirectangular videos in MP4 format
+replaymod.gui.rendersettings.sphericalFov=Spherical FOV
+replaymod.gui.rendersettings.sphericalmetadata=Inject Spherical Metadata
+replaymod.gui.rendersettings.sphericalmetadata.error=Spherical Metadata can only be added to Equirectangular and ODS videos in MP4 format
 
 replaymod.gui.rendersettings.command=Command
 replaymod.gui.rendersettings.arguments=Command Line Arguments
