@@ -134,6 +134,8 @@ replaymod.gui.restorereplay2=The Replay "%1$s" was not saved correctly.
 replaymod.gui.restorereplay3=Do you wish to recover it?
 
 replaymod.gui.loadentitytracker=Loading entity positions: %%d%%%%
+replaymod.gui.loadquickmode=Loading Quick Mode: %%d%%%%
+replaymod.gui.noquickmode=Quick Mode is only available on Minecraft %1$s and above
 
 #Only change these if it's neccessary
 replaymod.gui.replayviewer=Replay Viewer
@@ -292,6 +294,7 @@ replaymod.input.pathpreview=Toggle Path Preview
 replaymod.input.assetmanager=Asset Manager
 replaymod.input.objectmanager=Object Manager
 replaymod.input.settings=ReplayMod Settings
+replaymod.input.quickmode=Quick Mode
 
 # CameraControllers
 replaymod.camera.classic=Classic
