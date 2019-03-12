@@ -74,6 +74,7 @@ replaymod.gui.start=Start
 replaymod.gui.end=End
 replaymod.gui.delete=Delete
 replaymod.gui.recording=Recording
+replaymod.gui.paused=Paused
 replaymod.gui.speed=Speed
 replaymod.gui.register=Register
 replaymod.gui.mail=Email Address
@@ -85,6 +86,11 @@ replaymod.gui.saveas=Save as ...
 replaymod.gui.done=Done
 replaymod.gui.close=Close
 replaymod.gui.notagain=Don't show again
+
+replaymod.gui.recording.resume=Resume Recording
+replaymod.gui.recording.pause=Pause Recording
+replaymod.gui.recording.stop=Stop Recording
+replaymod.gui.recording.start=Start Recording
 
 replaymod.gui.renderdonetitle=Video rendered
 replaymod.gui.openfolder=Open Video Folder
@@ -277,6 +283,7 @@ replaymod.gui.settings.pathpreview=Show Path Preview
 replaymod.gui.settings.camera=Camera
 replaymod.gui.settings.showchat=Show Chat
 replaymod.gui.settings.interpolator=Default Interpolator
+replaymod.gui.settings.autostartrecording=Automatic Recording
 
 #Replay Mod Keybindings
 replaymod.input.lighting=Toggle Lighting
