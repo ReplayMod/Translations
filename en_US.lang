@@ -253,6 +253,14 @@ replaymod.gui.editor.progress.status.finished=Finished Editing!
 
 replaymod.gui.editor.disclaimer=The Replay Editor is an experimental feature and may contain bugs.
 
+#Replay Editor UI 2.0 (marker based UI)
+replaymod.gui.edit.apply=Apply
+replaymod.gui.edit.split=Insert split
+replaymod.gui.edit.split.tooltip=Split the Replay into multiple Replays at the marked point
+replaymod.gui.edit.cut.start=Insert cut
+replaymod.gui.edit.cut.end=End cut
+replaymod.gui.edit.cut.tooltip=Cut (remove) a section of the Replay
+
 #Cancel Replay GUI
 replaymod.gui.cancelrender.title=Cancel Rendering
 replaymod.gui.cancelrender.message=Are you sure that you want to cancel the current rendering process?
