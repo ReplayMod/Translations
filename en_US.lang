@@ -143,6 +143,8 @@ replaymod.gui.restorereplay3=Do you wish to recover it?
 replaymod.gui.loadentitytracker=Loading entity positions: %%d%%%%
 replaymod.gui.loadquickmode=Loading Quick Mode: %%d%%%%
 replaymod.gui.noquickmode=Quick Mode is only available on Minecraft %1$s and above
+replaymod.gui.minimalmode.unsupported=This feature is not available for your current Minecraft version.
+replaymod.gui.minimalmode.supportedversion=(only Minecraft %1$s is supported by your Replay Mod version)
 
 #Only change these if it's neccessary
 replaymod.gui.replayviewer=Replay Viewer
