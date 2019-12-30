@@ -147,8 +147,8 @@ replaymod.gui.minimalmode.unsupported=Este recurso não está disponível para s
 replaymod.gui.minimalmode.supportedversion=(apenas Minecraft %1$s é suportado pela sua versão do Replay Mod)
 
 #Only change these if it's neccessary
-replaymod.gui.replayviewer=Visualizador de Replay
-replaymod.gui.replaycenter=Centro de Replay
+replaymod.gui.replayviewer=Visualizar Replay
+replaymod.gui.replaycenter=Central de Replay
 replaymod.gui.replayeditor=Editor de Replay
 
 #Login GUI
@@ -203,8 +203,8 @@ replaymod.gui.center.search.order.best=Melhor
 replaymod.gui.center.search.order.recent=Recente
 replaymod.gui.center.search.name=Nome do Replay
 replaymod.gui.center.search.server=IP do Servidor (apenas Multiplayer)
-replaymod.gui.center.search.category=Filtrar por Categoria
-replaymod.gui.center.search.version=Filtrar por Versão
+replaymod.gui.center.search.category=Categoria
+replaymod.gui.center.search.version=Versão
 
 replaymod.gui.center.downloadrequired=Faça o download do Replay para avaliar e/ou favoritar
 
@@ -290,7 +290,7 @@ replaymod.gui.settings.notifications=Habilitar Notificações
 replaymod.gui.settings.recordserver=Gravar Server
 replaymod.gui.settings.recordsingleplayer=Gravar Jogador Único
 replaymod.gui.settings.indicator=Indicador de Gravação
-replaymod.gui.settings.pathpreview=Mostrar visualização do caminho
+replaymod.gui.settings.pathpreview=Mostrar prévia do caminho
 replaymod.gui.settings.camera=Câmera
 replaymod.gui.settings.showchat=Mostrar Chat
 replaymod.gui.settings.interpolator=Interpolador padrão
@@ -311,7 +311,7 @@ replaymod.input.marker=Adicionar Marcador de Evento
 replaymod.input.pathpreview=Alternar visualização de caminho
 replaymod.input.assetmanager=Gerenciamento de Ativos
 replaymod.input.objectmanager=Gerenciamento de Objetos
-replaymod.input.settings=ReplayMod Configurações
+replaymod.input.settings=Configurações do ReplayMod
 replaymod.input.quickmode=Modo rápido
 
 # CameraControllers
@@ -487,11 +487,11 @@ replaymod.error.negativetime3=As partes inválidas estão marcadas em vermelho.
 
 #Replay Mod Incompatibility Warning
 replaymod.gui.modwarning.title=Incompatibilidade detectada
-replaymod.gui.modwarning.message1=Uma possível incompatibilidade entre o seu atual
-replaymod.gui.modwarning.message2=A versão do Minecraft e este Replay foram detectados.
+replaymod.gui.modwarning.message1=Uma possível incompatibilidade entre a sua atual
+replaymod.gui.modwarning.message2=versão do Minecraft e este Replay foram detectados.
 replaymod.gui.modwarning.message3=O carregamento desse Replay pode resultar em erros ou falha.
-replaymod.gui.modwarning.name=Nome do Mod:
-replaymod.gui.modwarning.id=Id do Mod:
+replaymod.gui.modwarning.name=Nome:
+replaymod.gui.modwarning.id=Id:
 replaymod.gui.modwarning.missing=Mods Ausentes
 replaymod.gui.modwarning.version=Versões diferentes do Mod
 replaymod.gui.modwarning.version.expected=Esperado
