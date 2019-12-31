@@ -94,7 +94,7 @@ replaymod.gui.recording.stop=Parar a gravação
 replaymod.gui.recording.start=Começar a gravação
 
 replaymod.gui.renderdonetitle=Vídeo renderizado
-replaymod.gui.openfolder=Abrir Pasta de Vídeo
+replaymod.gui.openfolder=Abrir Pasta do Vídeo
 replaymod.gui.youtubeupload=Postar no Youtube
 replaymod.gui.renderdone1=Seu vídeo foi renderizado com sucesso.
 replaymod.gui.renderdone2=Como você gostaria de prosseguir?
@@ -308,7 +308,7 @@ replaymod.input.rollcounterclockwise=Girar sentido Anti-Horário
 replaymod.input.resettilt=Redefinir inclinação da câmera
 replaymod.input.playpause=Reproduzir/Pausar Replay
 replaymod.input.marker=Adicionar Marcador de Evento
-replaymod.input.pathpreview=Alternar visualização de caminho
+replaymod.input.pathpreview=Visualizador de caminho
 replaymod.input.assetmanager=Gerenciamento de Ativos
 replaymod.input.objectmanager=Gerenciamento de Objetos
 replaymod.input.settings=Configurações do ReplayMod
