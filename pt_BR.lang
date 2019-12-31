@@ -121,7 +121,7 @@ replaymod.gui.milliseconds=ms
 
 replaymod.gui.pitch=Inclinação
 replaymod.gui.yaw=Rotação
-replaymod.gui.roll=Rodar
+replaymod.gui.roll=Rolar
 
 replaymod.gui.camera=Câmera
 replaymod.gui.position=Posição
@@ -331,7 +331,7 @@ replaymod.gui.editkeyframe.ypos=Posição Y
 replaymod.gui.editkeyframe.zpos=Posição Z
 replaymod.gui.editkeyframe.campitch=Inclinação da Câmera
 replaymod.gui.editkeyframe.camyaw=Rotação da Câmera
-replaymod.gui.editkeyframe.camroll=Giro da Câmera
+replaymod.gui.editkeyframe.camroll=Rolamento da Câmera
 replaymod.gui.editkeyframe.timelineposition=Posição da Linha do Tempo
 replaymod.gui.editkeyframe.markername=Nome do Marcador de Evento
 replaymod.gui.editkeyframe.timestamp=Índice de tempo
