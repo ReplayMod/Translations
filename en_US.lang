@@ -313,6 +313,10 @@ replaymod.input.assetmanager=Asset Manager
 replaymod.input.objectmanager=Object Manager
 replaymod.input.settings=ReplayMod Settings
 replaymod.input.quickmode=Quick Mode
+replaymod.input.positionkeyframe=Position/Spectator Keyframe
+replaymod.input.positiononlykeyframe=Position Keyframe
+replaymod.input.timekeyframe=Time Keyframe
+replaymod.input.bothkeyframes=Position/Spectator + Time Keyframe
 
 # CameraControllers
 replaymod.camera.classic=Classic
