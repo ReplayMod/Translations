@@ -285,6 +285,7 @@ replaymod.gui.playeroverview.remembersettings.description=Saves Player Visibilit
 
 #Replay Mod Settings GUI
 replaymod.gui.settings.title=Replay Mod Settings
+replaymod.gui.settings.default=DEFAULT
 
 replaymod.gui.settings.notifications=Enable Notifications
 replaymod.gui.settings.recordserver=Record Server
