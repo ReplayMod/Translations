@@ -296,6 +296,10 @@ replaymod.gui.settings.camera=Camera
 replaymod.gui.settings.showchat=Show Chat
 replaymod.gui.settings.interpolator=Default Interpolator
 replaymod.gui.settings.autostartrecording=Automatic Recording
+replaymod.gui.settings.fullbrightness=Full Brightness
+replaymod.gui.settings.fullbrightness.gamma=Gamma
+replaymod.gui.settings.fullbrightness.nightvision=Night Vision
+replaymod.gui.settings.fullbrightness.both=Both
 
 #Replay Mod Keybindings
 replaymod.input.lighting=Toggle Lighting
