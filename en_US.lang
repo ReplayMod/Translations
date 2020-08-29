@@ -429,6 +429,8 @@ replaymod.gui.renderqueue.title=Render Queue
 replaymod.gui.renderqueue.open=Open Queue
 replaymod.gui.renderqueue.jobname=Job Name:
 replaymod.gui.renderqueue.add=Add current configuration
+replaymod.gui.renderqueue.renderall=Render All
+replaymod.gui.renderqueue.renderselected=Render Selected
 
 #Rendering GUI
 replaymod.gui.rendering.title=Rendering Video
