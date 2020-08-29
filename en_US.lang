@@ -87,6 +87,8 @@ replaymod.gui.done=Done
 replaymod.gui.close=Close
 replaymod.gui.notagain=Don't show again
 replaymod.gui.edit=Edit
+replaymod.gui.copy=Copy
+replaymod.gui.paste=Paste
 
 replaymod.gui.recording.resume=Resume Recording
 replaymod.gui.recording.pause=Pause Recording
