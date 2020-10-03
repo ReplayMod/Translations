@@ -420,6 +420,7 @@ replaymod.gui.rendersettings.presets.webm.custom=WEBM - Custom Bitrate
 replaymod.gui.rendersettings.presets.mkv.lossless=MKV - Lossless
 replaymod.gui.rendersettings.presets.blend=Blend file
 replaymod.gui.rendersettings.presets.png=PNG Sequence
+replaymod.gui.rendersettings.presets.exr=OpenEXR Sequence
 
 replaymod.gui.rendersettings.antialiasing=Anti-Aliasing
 replaymod.gui.rendersettings.antialiasing.none=None
