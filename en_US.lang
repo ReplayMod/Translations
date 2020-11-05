@@ -402,6 +402,7 @@ replaymod.gui.rendersettings.sphericalmetadata=Inject Spherical Metadata
 replaymod.gui.rendersettings.sphericalmetadata.error=Spherical Metadata can only be added to Equirectangular and ODS videos in MP4 format
 replaymod.gui.rendersettings.depthmap=Depth map
 replaymod.gui.rendersettings.depthmap.onlyexr=Depth map export is only supported with OpenEXR format.
+replaymod.gui.rendersettings.camerapath=Export camera path
 
 replaymod.gui.rendersettings.command=Command
 replaymod.gui.rendersettings.arguments=Command Line Arguments
