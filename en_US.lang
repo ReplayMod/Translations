@@ -473,6 +473,9 @@ replaymod.gui.ingame.menu.zoomin=Zoom in
 replaymod.gui.ingame.menu.zoomout=Zoom out
 
 replaymod.gui.ingame.unnamedmarker=Unnamed Event Marker
+replaymod.gui.ingame.autoactivating=This keybinding may auto-activate at appropriate times.
+replaymod.gui.ingame.autoactivating.disable=Ctrl-click to disable auto-activation.
+replaymod.gui.ingame.autoactivating.enable=Ctrl-click to enable auto-activation.
 
 #Clear Keyframe Callback
 replaymod.gui.clearcallback.title=Clear all Keyframes?
