@@ -476,6 +476,7 @@ replaymod.gui.ingame.unnamedmarker=Unnamed Event Marker
 replaymod.gui.ingame.autoactivating=This keybinding may auto-activate at appropriate times.
 replaymod.gui.ingame.autoactivating.disable=Ctrl-click to disable auto-activation.
 replaymod.gui.ingame.autoactivating.enable=Ctrl-click to enable auto-activation.
+replaymod.gui.ingame.first_keyframe_not_at_start_warning=You just placed your first keyframe and it's not at 00:00.\n\nThis usually is an indication that you have misunderstood how the\nvideo timeline (that's the bottom one) works:\n\nWhile The top timeline shows your current time in the replay,\nthe bottom one shows the time in the video you are creating.\nThe video will always start at 00:00! If your first keyframe is not at 00:00,\nthen the video will appear frozen until the time of the first keyframe!
 
 #Clear Keyframe Callback
 replaymod.gui.clearcallback.title=Clear all Keyframes?
