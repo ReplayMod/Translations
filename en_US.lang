@@ -1,33 +1,5 @@
 replaymod.title=Replay Mod
 
-#Website API translations
-replaymod.api.parammissing=Required parameter missing: %1$s
-replaymod.api.invalidvalue=Invalid value passed for parameter %1$s - Possible values: %2$s
-replaymod.api.invalidlogin=Invalid login data provided
-replaymod.api.invalidauthkey=Invalid authentication key provided
-replaymod.api.notenoughspace=Not enough space left to upload this file. Consider purchasing Premium on ReplayMod.com
-replaymod.api.invalidfile=This file is invalid
-replaymod.api.fileduplicate=This file has already been uploaded
-replaymod.api.filenoexist=This file does not exist
-replaymod.api.alreadyrated=You already rated this file
-replaymod.api.usernoexist=This user does not exist
-replaymod.api.invalidcategory=Invalid file category
-replaymod.api.nofilesuploaded=No files uploaded
-replaymod.api.toomanyvalues=Too many values passed for %1$s
-replaymod.api.noparameters=At least one parameter required. Parameters: %1$s
-replaymod.api.invalidfilename=File name must be between 5 and 30 characters long
-replaymod.api.usernameexists=This username is already taken
-replaymod.api.mailexists=This Email address is already linked to an account
-replaymod.api.invalidmail=Invalid Email Address
-replaymod.api.nopermissions=You don't have permission to do this
-replaymod.api.authfailed=Authentication to the Minecraft Session Servers failed
-replaymod.api.mcuserexists=A ReplayMod account is already associated with this Minecraft account
-replaymod.api.filetoobig=The uploaded file is too big
-replaymod.api.usernametoolong=The username is too long
-replaymod.api.descriptiontoolong=The description is too long
-replaymod.api.passwordlength=The password has to be between 5 and 1024 characters long
-replaymod.api.suspended=Your account has been suspended
-
 #All of the chat messages
 replaymod.chat.recordingstarted=Recording started
 replaymod.chat.recordingfailed=Failed to start recording
@@ -40,44 +12,22 @@ replaymod.chat.addedmarker=Event Marker has been added
 
 #Chat messages displayed in Replay Viewer
 replaymod.chat.morekeyframes=At least 2 position keyframes and 2 time keyframes required
-replaymod.chat.negativetime=Camera Paths can't play time backwards. Please consult your nearest time lord for assistance.
 replaymod.chat.pathstarted=Camera Path started
 replaymod.chat.pathfinished=Camera Path finished
 replaymod.chat.pathinterrupted=Camera Path canceled
 
-#Replay Categories
-replaymod.category=Category
-replaymod.category.survival=Survival
-replaymod.category.minigame=Minigame
-replaymod.category.build=Build
-replaymod.category.misc=Miscellaneous
-
 #Common GUI-related strings
-replaymod.gui.login=Login
-replaymod.gui.logout=Logout
 replaymod.gui.cancel=Cancel
-replaymod.gui.username=Username
-replaymod.gui.password=Password
 replaymod.gui.back=Back
 replaymod.gui.load=Load
-replaymod.gui.download=Download
-replaymod.gui.like=Like
-replaymod.gui.dislike=Dislike
 replaymod.gui.removelike=Remove Like
 replaymod.gui.removedislike=Remove Dislike
 replaymod.gui.save=Save
-replaymod.gui.upload=Upload
 replaymod.gui.rename=Rename
 replaymod.gui.remove=Remove
-replaymod.gui.add=Add
-replaymod.gui.start=Start
-replaymod.gui.end=End
 replaymod.gui.delete=Delete
-replaymod.gui.recording=Recording
 replaymod.gui.paused=Paused
 replaymod.gui.speed=Speed
-replaymod.gui.register=Register
-replaymod.gui.mail=Email Address
 replaymod.gui.pleasewait=Please wait
 replaymod.gui.render=Render
 replaymod.gui.iphidden=Server IP Hidden
@@ -132,7 +82,6 @@ replaymod.gui.unknownerror=An unknown error occured
 
 replaymod.gui.exit=Exit Replay
 
-replaymod.gui.mainmenu=Main Menu
 replaymod.gui.settings=Settings
 
 replaymod.gui.keyframerepo.delete=Are you sure you want to delete these keyframes?
@@ -150,28 +99,6 @@ replaymod.gui.minimalmode.supportedversion=(only Minecraft %1$s is supported by 
 
 #Only change these if it's neccessary
 replaymod.gui.replayviewer=Replay Viewer
-replaymod.gui.replaycenter=Replay Center
-replaymod.gui.replayeditor=Replay Editor
-
-#Login GUI
-replaymod.gui.login.title=Login to ReplayMod.com
-replaymod.gui.login.logging=Logging in...
-replaymod.gui.login.incorrect=Incorrect username or password
-replaymod.gui.login.connectionerror=Could not connect to ReplayMod.com
-
-replaymod.gui.login.skip=Skip
-
-replaymod.gui.register.title=Register on ReplayMod.com
-replaymod.gui.register.confirmpw=Confirm Password
-
-replaymod.gui.register.disclaimer=By registering an account, you agree to the Replay Mod's Terms of Service: https://replaymod.com/legal/terms
-
-replaymod.gui.register.error.nomatch=Passwords don't match
-replaymod.gui.register.error.shortusername=Username has to be at least 5 characters long
-replaymod.gui.register.error.invalidname=Username may only contain letters and numbers
-replaymod.gui.register.error.shortpw=Password has to be at least 5 characters long
-replaymod.gui.register.error.longpw=Password has to be at most 1024 characters long
-replaymod.gui.register.error.authfailed=Could not authenticate your Minecraft account
 
 #Replay Viewer GUI
 replaymod.gui.viewer.rename.name=Replay Name
@@ -182,82 +109,6 @@ replaymod.gui.viewer.delete.linea=Are you sure you want to delete this replay?
 replaymod.gui.viewer.delete.failed1=Your OS did not allow us to remove the replay. There is
 replaymod.gui.viewer.delete.failed2=nothing we can do about this. You have to do it yourself.
 replaymod.gui.viewer.delete.lineb='%1$s' will be lost forever! (a long time!)
-
-replaymod.gui.viewer.download.title=Downloading Replay File...
-replaymod.gui.viewer.download.message=Please wait while "%1$s" is being downloaded.
-
-replaymod.gui.viewer.chooser.title=Choose Replay File
-replaymod.gui.viewer.chooser.message=You have a modified version of "%1$s" on your computer. Which Replay do you want to load?
-
-replaymod.gui.login.noacc=Don't have an account yet?
-
-#Replay Center GUI
-replaymod.gui.center.logoutcallback=Do you really want to log out?
-replaymod.gui.center.top.recent=Recent
-replaymod.gui.center.top.best=Best
-replaymod.gui.center.top.downloaded=Downloaded
-replaymod.gui.center.top.favorited=Favorited
-replaymod.gui.center.top.search=Search
-
-replaymod.gui.center.search.filters=Search Filters
-replaymod.gui.center.search.gametype=Gametype
-replaymod.gui.center.search.order=Sort by
-replaymod.gui.center.search.order.best=Best
-replaymod.gui.center.search.order.recent=Recent
-replaymod.gui.center.search.name=Replay Name
-replaymod.gui.center.search.server=Server IP (Multiplayer only)
-replaymod.gui.center.search.category=Filter by Category
-replaymod.gui.center.search.version=Filter by Version
-
-replaymod.gui.center.downloadrequired=Download the Replay to rate or favorite it
-
-replaymod.gui.center.favorite=Favorite
-replaymod.gui.center.unfavorite=Unfavorite
-
-replaymod.gui.center.author=by %1$s%2$s
-
-#Upload GUI
-replaymod.gui.upload.title=Upload File
-replaymod.gui.upload.start=Start Upload
-replaymod.gui.upload.cancel=Cancel Upload
-replaymod.gui.upload.tagshint=Tags separated by comma
-replaymod.gui.upload.namehint=Replay Title
-replaymod.gui.upload.descriptionhint=Description
-replaymod.gui.upload.duration=Duration: %02dm%02ds
-replaymod.gui.upload.uploading=Uploading...
-replaymod.gui.upload.success=File has been successfully uploaded
-replaymod.gui.upload.canceled=Upload has been canceled
-replaymod.gui.upload.hideip2=Hide Server IP (%s)
-replaymod.gui.upload.nothumbnail=Missing Thumbnail. Please create a Thumbnail in the Replay using the %1$s key.
-replaymod.gui.upload.tryagain=Try again?
-
-replaymod.gui.upload.error.name.length=The Replay Name has to be between 5 and 30 characters long
-replaymod.gui.upload.error.name=The Replay Name may not contain special characters
-replaymod.gui.upload.error.tags=Tags may only contain letters and are separated using a comma
-
-#Replay Editor
-replaymod.gui.editor.savemode.override=Replace Source File
-replaymod.gui.editor.savemode.newfile=Save to new File
-
-replaymod.gui.editor.trim.title=Trim Replay
-replaymod.gui.editor.connect.title=Connect Replays
-replaymod.gui.editor.modify.title=Modify Replay
-
-replaymod.gui.editor.trim.description=Removes the beginning and end of a Replay File, only keeping the Replay between the given timestamps
-replaymod.gui.editor.connect.description=Connects multiple Replays in the specified order
-replaymod.gui.editor.modify.description=Provides several filters to modify Replay Files
-
-replaymod.gui.editor.trim.marker=Select Event Marker
-
-replaymod.gui.editor.progress.title=Editing Replay File...
-replaymod.gui.editor.progress.pleasewait=Please wait while the Replay is being edited.
-
-replaymod.gui.editor.progress.status.initializing=Initializing
-replaymod.gui.editor.progress.status.writing.raw=Rewriting Replay...
-replaymod.gui.editor.progress.status.writing.final=Writing File to disk...
-replaymod.gui.editor.progress.status.finished=Finished Editing!
-
-replaymod.gui.editor.disclaimer=The Replay Editor is an experimental feature and may contain bugs.
 
 #Replay Editor UI 2.0 (marker based UI)
 replaymod.gui.edit.apply=Apply
@@ -272,11 +123,6 @@ replaymod.gui.cancelrender.title=Cancel Rendering
 replaymod.gui.cancelrender.message=Are you sure that you want to cancel the current rendering process?
 #Saving Replay GUI
 replaymod.gui.replaysaving.title=Saving Replay File...
-replaymod.gui.replaymodified.message=Replay was modified. Would you like to save the changes?
-replaymod.gui.replaymodified.yes=Save Modified Replay
-replaymod.gui.replaymodified.no=Discard Changes
-replaymod.gui.replaymodified.warning1=A Replay named "%1$s" already exists.
-replaymod.gui.replaymodified.warning2=Are you sure you want to replace it?
 
 #Player Overview GUI
 replaymod.gui.playeroverview.visible=Visible
@@ -318,8 +164,6 @@ replaymod.input.resettilt=Reset Camera Tilt
 replaymod.input.playpause=Play/Pause Replay
 replaymod.input.marker=Add Event Marker
 replaymod.input.pathpreview=Toggle Path Preview
-replaymod.input.assetmanager=Asset Manager
-replaymod.input.objectmanager=Object Manager
 replaymod.input.settings=ReplayMod Settings
 replaymod.input.quickmode=Quick Mode
 replaymod.input.positionkeyframe=Position/Spectator Keyframe
@@ -348,15 +192,6 @@ replaymod.gui.editkeyframe.camroll=Camera Roll
 replaymod.gui.editkeyframe.timelineposition=Timeline Position
 replaymod.gui.editkeyframe.markername=Event Marker Name
 replaymod.gui.editkeyframe.timestamp=Time Index
-
-replaymod.gui.editkeyframe.spec.method=Spectating Method
-replaymod.gui.editkeyframe.spec.method.firstperson=First Person
-replaymod.gui.editkeyframe.spec.method.shoulder=Shoulder Camera
-
-replaymod.gui.editkeyframe.spec.method.shoulder.distance=Camera Distance
-replaymod.gui.editkeyframe.spec.method.shoulder.pitch=Pitch Offset
-replaymod.gui.editkeyframe.spec.method.shoulder.yaw=Rotation Angle
-replaymod.gui.editkeyframe.spec.method.shoulder.smoothness=Path Smoothness
 
 replaymod.gui.editkeyframe.interpolator=Interpolator
 replaymod.gui.editkeyframe.interpolator.default.name=Default Interpolator
@@ -417,7 +252,6 @@ replaymod.gui.rendersettings.commandline=Command Line Settings
 
 replaymod.gui.rendersettings.presets=Encoding Presets
 replaymod.gui.rendersettings.presets.mp4.custom=MP4 - Custom Bitrate
-replaymod.gui.rendersettings.presets.mp4.high=MP4 - High Quality
 replaymod.gui.rendersettings.presets.mp4.default=MP4 - Default Quality
 replaymod.gui.rendersettings.presets.mp4.potato=MP4 - Potato Quality
 replaymod.gui.rendersettings.presets.webm.custom=WEBM - Custom Bitrate
@@ -434,7 +268,6 @@ replaymod.gui.rendersettings.antialiasing.x8=8x
 
 #Render Queue GUI
 replaymod.gui.renderqueue.title=Render Queue
-replaymod.gui.renderqueue.jobname=Job Name:
 replaymod.gui.renderqueue.add=Add current configuration
 replaymod.gui.renderqueue.renderall=Render All
 replaymod.gui.renderqueue.renderselected=Render Selected
@@ -482,26 +315,6 @@ replaymod.gui.ingame.first_keyframe_not_at_start_warning=You just placed your fi
 #Clear Keyframe Callback
 replaymod.gui.clearcallback.title=Clear all Keyframes?
 
-#Asset Manager Gui
-replaymod.gui.assets.title=Asset Manager
-replaymod.gui.assets.filechooser=Asset File
-replaymod.gui.assets.defaultname=New Asset
-replaymod.gui.assets.emptylist=No Assets available
-replaymod.gui.assets.namehint=Asset Name
-replaymod.gui.assets.changefile=Change Asset File
-replaymod.gui.assets.noselection=No Asset selected
-
-#Object Manager Gui
-replaymod.gui.objects.properties.anchor=Anchor Point
-replaymod.gui.objects.properties.position=Position
-replaymod.gui.objects.properties.scale=Scale
-replaymod.gui.objects.properties.orientation=Orientation
-replaymod.gui.objects.properties.opacity=Opacity
-replaymod.gui.objects.properties.name=Object Name
-replaymod.gui.objects.empty=No Objects added
-replaymod.gui.objects.defaultname=New Object
-replaymod.gui.objects=Custom Objects
-
 #Errors
 replaymod.error.unknownrestriction1=This replay cannot be played with your current version.
 replaymod.error.unknownrestriction2=It tried to enforce %s which is unknown.
@@ -520,16 +333,6 @@ replaymod.gui.modwarning.missing=Missing Mods
 replaymod.gui.modwarning.version=Different Mod Versions
 replaymod.gui.modwarning.version.expected=Expected
 replaymod.gui.modwarning.version.found=Found
-
-#OpenEye
-replaymod.gui.offeropeneye1=Do you want to install OpenEye?
-replaymod.gui.offeropeneye2=OpenEye is a mod that collects anonymous information
-replaymod.gui.offeropeneye3=about the mods being run and any crashes that happen.
-replaymod.gui.offeropeneye4=
-replaymod.gui.offeropeneye5=OpenEye can be disabled at any time and is completely optional.
-replaymod.gui.offeropeneye6=More information is available at https://openeye.openmods.info/faq
-replaymod.gui.offeropeneye7=Clicking Yes will download OpenEye and place it in your mods folder.
-replaymod.gui.offeropeneye8=It will then be active the next time you start Minecraft.
 
 #Advanced Screenshots Gui
 replaymod.gui.advancedscreenshots.title=Screenshot Settings
