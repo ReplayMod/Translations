@@ -1,0 +1,347 @@
+replaymod.title=Replay Mód
+
+#All of the chat messages
+replaymod.chat.recordingstarted=Nahrávanie začalo
+replaymod.chat.recordingfailed=Pri nahrávaní nastala chyba
+
+replaymod.chat.savingthumb=Ukladám náhľad...
+replaymod.chat.savedthumb=Náhľad bol uložený
+replaymod.chat.failedthumb=Náhľad nemohol byť uložený
+
+replaymod.chat.addedmarker=Event Marker has been added
+
+#Chat messages displayed in Replay Viewer
+replaymod.chat.morekeyframes=Aspoň 2 kľúčové pozície a snímky sú povinné
+replaymod.chat.pathstarted=Cesta kamery začala
+replaymod.chat.pathfinished=Cesta kamery skončila
+replaymod.chat.pathinterrupted=Cesta kamery bola ukončená
+
+#Common GUI-related strings
+replaymod.gui.cancel=Zrušiť
+replaymod.gui.back=Späť
+replaymod.gui.load=Načítať
+replaymod.gui.removelike=Odstrániť lajk
+replaymod.gui.removedislike=Odstrániť dislajk
+replaymod.gui.save=Uložiť
+replaymod.gui.rename=Premenovať
+replaymod.gui.remove=Odstrániť
+replaymod.gui.delete=Vymazať
+replaymod.gui.paused=Zastavené
+replaymod.gui.speed=Rýchlosť
+replaymod.gui.pleasewait=Prosím počkajte
+replaymod.gui.render=Vykresliť
+replaymod.gui.iphidden=Adresa servera skrytá
+replaymod.gui.overwrite=Prepísať
+replaymod.gui.saveas=Uložiť ako...
+replaymod.gui.done=Hotovo
+replaymod.gui.close=Zavrieť
+replaymod.gui.notagain=Neukazovať znovu #vanilla consistency
+replaymod.gui.edit=Upraviť
+replaymod.gui.copy=Kopírovať
+replaymod.gui.paste=Prilepiť
+
+replaymod.gui.recording.resume=Pokračovať nahrávanie
+replaymod.gui.recording.pause=Pozastaviť nahrávanie
+replaymod.gui.recording.stop=Zastaviť nahrávanie
+replaymod.gui.recording.start=Začať nahrávanie
+
+replaymod.gui.renderdonetitle=Video vykreslené
+replaymod.gui.openfolder=Otvoriť priečinok s nahrávkami
+replaymod.gui.youtubeupload=Nahrať na YouTube
+replaymod.gui.renderdone1=Vaše video bolo vykreslené.
+replaymod.gui.renderdone2=Ako by ste rádi pokračovali?
+replaymod.gui.videotitle=Názov
+replaymod.gui.videodescription=Popis
+replaymod.gui.videotags=Vlajky, vlajky, vlajky...
+replaymod.gui.videothumbnail=Náhľad videa
+replaymod.gui.videovisibility.private=Súkromné
+replaymod.gui.videovisibility.unlisted=Nezaradené
+replaymod.gui.videovisibility.public=Verejné
+replaymod.gui.ytuploadprogress.auth=[1/4] Schvaľovanie
+replaymod.gui.ytuploadprogress.prepare_video=[2/4] Pripravovanie: %%d%%%%
+replaymod.gui.ytuploadprogress.upload=[3/4] Nahrávanie: %%d%%%%
+replaymod.gui.ytuploadprogress.cleanup=[4/4] Čistenie
+replaymod.gui.ytuploadprogress.done=Hotovo: %s
+replaymod.gui.titleempty=Názov nemôže byť prázdny
+replaymod.gui.videothumbnailtoolarge=Náhľad má viac ako 2MB
+replaymod.gui.videothumbnailformat=Náhľad môže byť JPEG alebo PNG
+
+replaymod.gui.hours=h
+replaymod.gui.minutes=min
+replaymod.gui.seconds=sek
+replaymod.gui.milliseconds=ms
+
+replaymod.gui.pitch=Pitch
+replaymod.gui.yaw=Yaw
+replaymod.gui.roll=Roll
+
+replaymod.gui.camera=Kamera
+replaymod.gui.position=Pozícia
+
+replaymod.gui.unknownerror=Nastala neznáma chyba
+
+replaymod.gui.exit=Odísť z prehrávania
+
+replaymod.gui.settings=Nastavenia
+
+replaymod.gui.keyframerepo.delete=Ste si istý že chcete vymazať tieto kľúčové snímky?
+replaymod.gui.keyframerepo.overwrite=Ste si istý že chcete prepísať tieto kľúčové snímky?
+
+replaymod.gui.restorereplay1=Vyzerá to tak že hra nebola zatvorená normálne.
+replaymod.gui.restorereplay2=Nahrávka "%1$s" nebola správne uložená.
+replaymod.gui.restorereplay3=Chcete ju obnoviť?
+
+replaymod.gui.loadentitytracker=Načítavanie pozíc entít: %%d%%%%
+replaymod.gui.loadquickmode=Načítava sa rýchly mód: %%d%%%%
+replaymod.gui.noquickmode=Rýchly mód je dostupný len v Minecrafte %1$s a viac
+replaymod.gui.minimalmode.unsupported=Táto funkcia nie je dostupná vo vašej verzii Minecraftu.
+replaymod.gui.minimalmode.supportedversion=(len na Minecraft %1$s je dostupná táto verzia Replay módu)
+
+#Only change these if it's neccessary
+replaymod.gui.replayviewer=Zobrazovač nahrávok
+
+#Replay Viewer GUI
+replaymod.gui.viewer.rename.name=Meno nahrávky
+replaymod.gui.viewer.replayfolder=Otvoriť priečinok nahrávok...
+replaymod.gui.viewer.bulkrender=Vykresli %1$d videí
+
+replaymod.gui.viewer.delete.linea=Ste si istý že chcete vymazať túto nahrávku?
+replaymod.gui.viewer.delete.failed1=Váš operačný systém nepovoľuje vymazanie nahrávky. Nie je
+replaymod.gui.viewer.delete.failed2=nič čo by sme mohli spraviť. Musíte to spraviť sami.
+replaymod.gui.viewer.delete.lineb='%1$s' bute navždy preč! (Navždy!)
+
+#Replay Editor UI 2.0 (marker based UI)
+replaymod.gui.edit.apply=Použiť
+replaymod.gui.edit.split=Rozdeliť
+replaymod.gui.edit.split.tooltip=Rozdeluje Nahrávku do viacerých v označenom bode
+replaymod.gui.edit.cut.start=Pridať strih
+replaymod.gui.edit.cut.end=Ukončiť strih
+replaymod.gui.edit.cut.tooltip=Vystrihne (vymaže) časť nahrávky
+
+#Cancel Replay GUI
+replaymod.gui.cancelrender.title=Zrušiť vykreslenie
+replaymod.gui.cancelrender.message=Ste si istý že chcete zrušiť vykreslovanie nahrávky?
+#Saving Replay GUI
+replaymod.gui.replaysaving.title=Ukladá sa nahrávka...
+
+#Player Overview GUI
+replaymod.gui.playeroverview.visible=Viditeľné
+replaymod.gui.playeroverview.hideall=Skryť všetko
+replaymod.gui.playeroverview.showall=Zobraziť všetko
+replaymod.gui.playeroverview.spectate=Pozorovať hráča
+replaymod.gui.playeroverview.remembersettings=Zapamätať skrytých hráčov
+replaymod.gui.playeroverview.remembersettings.description=Zapamätá skrytie hráčov po zatvorení
+
+#Replay Mod Settings GUI
+replaymod.gui.settings.title=Nastavenia Replay módu
+replaymod.gui.settings.default=Predvolené
+
+replaymod.gui.settings.notifications=Zapnúť upozornenia
+replaymod.gui.settings.recordserver=Nahrávať servery
+replaymod.gui.settings.recordsingleplayer=Nahrávať svety
+replaymod.gui.settings.indicator=Ukazovateľ nahrávania
+replaymod.gui.settings.pathpreview=Ukázať cestu
+replaymod.gui.settings.camera=Kamera
+replaymod.gui.settings.showchat=Ukázať čet
+replaymod.gui.settings.interpolator=Predvolený zakladač
+replaymod.gui.settings.autostartrecording=Automatické nahrávanie
+replaymod.gui.settings.rename_recording_dialog=Premenovať dialóg
+replaymod.gui.settings.fullbrightness=Plný jas
+replaymod.gui.settings.fullbrightness.gamma=Gama
+replaymod.gui.settings.fullbrightness.nightvision=Nočné videnie
+replaymod.gui.settings.fullbrightness.both=Obe
+
+#Replay Mod Keybindings
+replaymod.input.lighting=Prepnúť osvetlenie
+replaymod.input.thumbnail=Zosnímať náhľad
+replaymod.input.playeroverview=Prehľad hráča
+replaymod.input.clearkeyframes=Vyčistiť kľúčové snímky
+replaymod.input.synctimeline=Synchronizovať časovú os
+replaymod.input.keyframerepository=Otvoriť prednastavenia kľúčových snímok
+replaymod.input.rollclockwise=Otáčka vpravo
+replaymod.input.rollcounterclockwise=Otáčka vľavo
+replaymod.input.resettilt=Resetovať otáčku
+replaymod.input.playpause=Prehrať/pozastaviť
+replaymod.input.marker=Add Event Marker
+replaymod.input.pathpreview=Prepnúť prehľad cesty
+replaymod.input.settings=Nastavenia Replay módu
+replaymod.input.quickmode=Rýchly mód
+replaymod.input.positionkeyframe=Kľúčová snímka pozície/sledovača
+replaymod.input.positiononlykeyframe=Kľúčová snímka pozície
+replaymod.input.timekeyframe=Kľúčová snímka času
+replaymod.input.bothkeyframes=Obe kľúčové snímky
+
+# CameraControllers
+replaymod.camera.classic=Klasická
+replaymod.camera.vanilla=Približne vanilová
+
+#Keyframe Presets GUI
+replaymod.gui.keyframerepository.title=Keyframe Repository
+
+#Edit Keyframe GUI
+replaymod.gui.editkeyframe.title.pos=Edit Position Keyframe
+replaymod.gui.editkeyframe.title.time=Edit Time Keyframe
+replaymod.gui.editkeyframe.title.marker=Edit Event Marker
+replaymod.gui.editkeyframe.title.spec=Edit Spectator Keyframe
+replaymod.gui.editkeyframe.xpos=X Position
+replaymod.gui.editkeyframe.ypos=Y Position
+replaymod.gui.editkeyframe.zpos=Z Position
+replaymod.gui.editkeyframe.campitch=Camera Pitch
+replaymod.gui.editkeyframe.camyaw=Camera Yaw
+replaymod.gui.editkeyframe.camroll=Camera Roll
+replaymod.gui.editkeyframe.timelineposition=Timeline Position
+replaymod.gui.editkeyframe.markername=Event Marker Name
+replaymod.gui.editkeyframe.timestamp=Time Index
+
+replaymod.gui.editkeyframe.interpolator=Interpolator
+replaymod.gui.editkeyframe.interpolator.default.name=Default Interpolator
+replaymod.gui.editkeyframe.interpolator.default.desc=Uses the default interpolator defined in the Replay Mod Settings.
+replaymod.gui.editkeyframe.interpolator.catmullrom.name=Catmull Rom Spline Interpolator
+replaymod.gui.editkeyframe.interpolator.catmullrom.desc=Calculates a catmull rom spline with customizable alpha value for precise tightness and smoothness of the camera path.
+replaymod.gui.editkeyframe.interpolator.catmullrom.alpha=Alpha:
+replaymod.gui.editkeyframe.interpolator.cubic.name=Cubic Spline Interpolator
+replaymod.gui.editkeyframe.interpolator.cubic.desc=Calculates a cubic equation matrix for all points for a smooth camera path.
+replaymod.gui.editkeyframe.interpolator.linear.name=Linear Interpolator
+replaymod.gui.editkeyframe.interpolator.linear.desc=Draws straight lines between the keyframes.
+
+#Render Settings GUI
+replaymod.gui.rendersettings.addtoqueue=Add to Queue
+
+replaymod.gui.rendersettings.renderer=Rendering Method
+
+replaymod.gui.rendersettings.renderer.default=Default Rendering
+replaymod.gui.rendersettings.renderer.tiled=Tiled Rendering
+replaymod.gui.rendersettings.renderer.stereoscopic=Stereoscopic Rendering
+replaymod.gui.rendersettings.renderer.cubic=Cubic Rendering
+replaymod.gui.rendersettings.renderer.equirectangular=Equirectangular Rendering
+replaymod.gui.rendersettings.renderer.ods=ODS Rendering
+replaymod.gui.rendersettings.renderer.blend=Blender Export [Experimental]
+
+replaymod.gui.rendersettings.renderer.default.description=Renders the video in the specified resolution. Fastest Rendering Option.
+replaymod.gui.rendersettings.renderer.stereoscopic.description=Renders the video as a stereoscopic (side-by-side) 3D movie, usable by different 3D technologies. The image for one eye is half the width of the video
+replaymod.gui.rendersettings.renderer.cubic.description=Renders the video with a 360 degree panoramic view, using Cubic Projection. This is usable by several 360 degree video players (and the Oculus Rift), for example VR Player.
+replaymod.gui.rendersettings.renderer.equirectangular.description=Renders the video with a 360 degree panoramic view, using Equirectangular Projection. This is usable by YouTube's new 360 degree video function, and several video players (and the Oculus Rift), for example VR Player.
+replaymod.gui.rendersettings.renderer.ods.description=Renders the video with a stereoscopic 3D 360 degree panoramic view, also called VR Video. This is usable by YouTube's new VR video function.
+replaymod.gui.rendersettings.renderer.blend.description=Exports visible geometry as a .blend file which can be opened using the Blender software. Highly experimental: Requires lots of RAM, has quite a few known issues and sometimes produces broken Blender files.
+
+replaymod.gui.rendersettings.customresolution=Video Resolution
+replaymod.gui.rendersettings.customresolution.warning.yuv420=For this preset, the width and height values need to be even numbers
+replaymod.gui.rendersettings.customresolution.warning.yuv420.cubic=For this preset, the height must be divisible by 6
+replaymod.gui.rendersettings.customresolution.warning.cubic.height=Cubic Rendering requires a height divisible by 3
+replaymod.gui.rendersettings.bitrate=Bitrate
+replaymod.gui.rendersettings.framerate=Video Framerate
+replaymod.gui.rendersettings.chromakey=Chroma Keying
+replaymod.gui.rendersettings.nametags=Render Name Tags
+replaymod.gui.rendersettings.outputfile=Output File
+replaymod.gui.rendersettings.sphericalFov=Spherical FOV
+replaymod.gui.rendersettings.sphericalmetadata=Inject Spherical Metadata
+replaymod.gui.rendersettings.sphericalmetadata.error=Spherical Metadata can only be added to Equirectangular and ODS videos in MP4 format
+replaymod.gui.rendersettings.depthmap=Depth map
+replaymod.gui.rendersettings.depthmap.only_exr_or_png=Depth map export is only supported with OpenEXR or PNG format.
+replaymod.gui.rendersettings.camerapath=Export camera path
+
+replaymod.gui.rendersettings.command=Command
+replaymod.gui.rendersettings.arguments=Command Line Arguments
+replaymod.gui.rendersettings.ffmpeg.description=If you are an advanced user, you can customize the command line parameters used to export the video. For more information, check http://replaymod.com/docs
+
+replaymod.gui.rendersettings.stabilizecamera=Stabilize Camera
+
+replaymod.gui.rendersettings.video=Video Settings
+replaymod.gui.rendersettings.advanced=Advanced Settings
+replaymod.gui.rendersettings.commandline=Command Line Settings
+
+replaymod.gui.rendersettings.presets=Encoding Presets
+replaymod.gui.rendersettings.presets.mp4.custom=MP4 - Custom Bitrate
+replaymod.gui.rendersettings.presets.mp4.default=MP4 - Default Quality
+replaymod.gui.rendersettings.presets.mp4.potato=MP4 - Potato Quality
+replaymod.gui.rendersettings.presets.webm.custom=WEBM - Custom Bitrate
+replaymod.gui.rendersettings.presets.mkv.lossless=MKV - Lossless
+replaymod.gui.rendersettings.presets.blend=Blend file
+replaymod.gui.rendersettings.presets.png=PNG Sequence
+replaymod.gui.rendersettings.presets.exr=OpenEXR Sequence
+
+replaymod.gui.rendersettings.antialiasing=Anti-Aliasing
+replaymod.gui.rendersettings.antialiasing.none=None
+replaymod.gui.rendersettings.antialiasing.x2=2x
+replaymod.gui.rendersettings.antialiasing.x4=4x
+replaymod.gui.rendersettings.antialiasing.x8=8x
+
+#Render Queue GUI
+replaymod.gui.renderqueue.title=Render Queue
+replaymod.gui.renderqueue.add=Add current configuration
+replaymod.gui.renderqueue.renderall=Render All
+replaymod.gui.renderqueue.renderselected=Render Selected
+
+#Rendering GUI
+replaymod.gui.rendering.title=Rendering Video
+replaymod.gui.rendering.pause=Pause Rendering
+replaymod.gui.rendering.resume=Resume Rendering
+replaymod.gui.rendering.cancel=Cancel Rendering
+replaymod.gui.rendering.cancel.callback=Are you sure?
+replaymod.gui.rendering.preview=Show Preview (Performance might suffer)
+replaymod.gui.rendering.progress=Frames rendered: %1$d / %2$d
+replaymod.gui.rendering.timetaken=Render Time
+replaymod.gui.rendering.timeleft=Time Left
+
+#Render Errors
+replaymod.gui.rendering.error.title=Rendering Failed
+replaymod.gui.rendering.error.message=To render a video, you need to have ffmpeg installed. http://ffmpeg.org
+replaymod.gui.rendering.error.ffmpeglog=FFmpeg output:
+replaymod.gui.rendering.error.ffmpegargs.1=It seems like you have modified the Command Line Arguments.
+replaymod.gui.rendering.error.ffmpegargs.2=Do you want to reset them to the defaults and try again?
+
+#Ingame Menu
+replaymod.gui.ingame.menu.addposkeyframe=Add Position Keyframe
+replaymod.gui.ingame.menu.removeposkeyframe=Remove Position Keyframe
+replaymod.gui.ingame.menu.addspeckeyframe=Add Spectator Keyframe
+replaymod.gui.ingame.menu.removespeckeyframe=Remove Spectator Keyframe
+replaymod.gui.ingame.menu.addtimekeyframe=Add Time Keyframe
+replaymod.gui.ingame.menu.removetimekeyframe=Remove Time Keyframe
+replaymod.gui.ingame.menu.pause=Pause Replay
+replaymod.gui.ingame.menu.unpause=Unpause Replay
+replaymod.gui.ingame.menu.renderpath=Render Camera Path
+replaymod.gui.ingame.menu.playpath=Play Camera Path from Cursor Position
+replaymod.gui.ingame.menu.playpathfromstart=Play Camera Path from Start
+replaymod.gui.ingame.menu.pausepath=Pause Camera Path
+replaymod.gui.ingame.menu.zoomin=Zoom in
+replaymod.gui.ingame.menu.zoomout=Zoom out
+
+replaymod.gui.ingame.unnamedmarker=Unnamed Event Marker
+replaymod.gui.ingame.autoactivating=This keybinding may auto-activate at appropriate times.
+replaymod.gui.ingame.autoactivating.disable=Ctrl-click to disable auto-activation.
+replaymod.gui.ingame.autoactivating.enable=Ctrl-click to enable auto-activation.
+replaymod.gui.ingame.first_keyframe_not_at_start_warning=You just placed your first keyframe and it's not at 00:00.\n\nThis usually is an indication that you have misunderstood how the\nvideo timeline (that's the bottom one) works:\n\nWhile The top timeline shows your current time in the replay,\nthe bottom one shows the time in the video you are creating.\nThe video will always start at 00:00! If your first keyframe is not at 00:00,\nthen the video will appear frozen until the time of the first keyframe!
+
+#Clear Keyframe Callback
+replaymod.gui.clearcallback.title=Clear all Keyframes?
+
+#Errors
+replaymod.error.unknownrestriction1=This replay cannot be played with your current version.
+replaymod.error.unknownrestriction2=It tried to enforce %s which is unknown.
+replaymod.error.negativetime1=Some of your time keyframes are out of order.
+replaymod.error.negativetime2=Going backwards in time is not supported.
+replaymod.error.negativetime3=The invalid parts are marked in red.
+
+#Replay Mod Incompatibility Warning
+replaymod.gui.modwarning.title=Incompatibility detected
+replaymod.gui.modwarning.message1=A possible incompatibility between your current
+replaymod.gui.modwarning.message2=Minecraft version and this Replay has been detected.
+replaymod.gui.modwarning.message3=Loading this Replay may result in errors or a crash.
+replaymod.gui.modwarning.name=Mod Name:
+replaymod.gui.modwarning.id=Mod Id:
+replaymod.gui.modwarning.missing=Missing Mods
+replaymod.gui.modwarning.version=Different Mod Versions
+replaymod.gui.modwarning.version.expected=Expected
+replaymod.gui.modwarning.version.found=Found
+
+#Advanced Screenshots Gui
+replaymod.gui.advancedscreenshots.title=Screenshot Settings
+replaymod.gui.advancedscreenshots.create=Take Screenshot
+replaymod.gui.advancedscreenshots.resolution=Resolution
+
+# Screenshot Finished Gui
+replaymod.gui.advancedscreenshots.finished.description=You successfully created a Screenshot!
+replaymod.gui.advancedscreenshots.finished.description.360=You successfully created a 360° Screenshot!
+replaymod.gui.advancedscreenshots.finished.description.veer=Upload and view the image in VR on VeeR.tv or open it on your disk.
+replaymod.gui.advancedscreenshots.finished.upload.veer=Upload to VeeR.tv
+replaymod.gui.advancedscreenshots.finished.showfile=Show file on disk
