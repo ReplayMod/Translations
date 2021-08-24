@@ -98,17 +98,17 @@ replaymod.gui.minimalmode.unsupported=This feature is not available for your cur
 replaymod.gui.minimalmode.supportedversion=(only Minecraft %1$s is supported by your Replay Mod version)
 
 #Only change these if it's neccessary
-replaymod.gui.replayviewer=Replay Viewer
+replaymod.gui.replayviewer=리플레이 뷰어
 
 #Replay Viewer GUI
-replaymod.gui.viewer.rename.name=Replay Name
-replaymod.gui.viewer.replayfolder=Open Replay Folder...
-replaymod.gui.viewer.bulkrender=Render %1$d videos
+replaymod.gui.viewer.rename.name=리플레이 이름
+replaymod.gui.viewer.replayfolder=리플레이 폴더 열기
+replaymod.gui.viewer.bulkrender=%1$d 비디오 렌더
 
-replaymod.gui.viewer.delete.linea=Are you sure you want to delete this replay?
-replaymod.gui.viewer.delete.failed1=Your OS did not allow us to remove the replay. There is
-replaymod.gui.viewer.delete.failed2=nothing we can do about this. You have to do it yourself.
-replaymod.gui.viewer.delete.lineb='%1$s' will be lost forever! (a long time!)
+replaymod.gui.viewer.delete.linea=정말 이 리플레이를 삭제하시겠습니까?
+replaymod.gui.viewer.delete.failed1=운영체제에서 리플레이를 지우도록 허용하지 않았습니다. 우리가
+replaymod.gui.viewer.delete.failed2=할 수 있는 일은 아무것도 없습니다. 직접 제거해 주세요.
+replaymod.gui.viewer.delete.lineb='%1$s' 이 영구적으로 삭제됩니다!
 
 #Replay Editor UI 2.0 (marker based UI)
 replaymod.gui.edit.apply=Apply
@@ -133,8 +133,8 @@ replaymod.gui.playeroverview.remembersettings=Remember Hidden Players
 replaymod.gui.playeroverview.remembersettings.description=Saves Player Visibility in Replay File
 
 #Replay Mod Settings GUI
-replaymod.gui.settings.title=Replay Mod Settings
-replaymod.gui.settings.default=DEFAULT
+replaymod.gui.settings.title=리플레이 모드 설정
+replaymod.gui.settings.default=기본
 
 replaymod.gui.settings.notifications=Enable Notifications
 replaymod.gui.settings.recordserver=Record Server
@@ -172,11 +172,11 @@ replaymod.input.timekeyframe=Time Keyframe
 replaymod.input.bothkeyframes=Position/Spectator + Time Keyframe
 
 # CameraControllers
-replaymod.camera.classic=Classic
-replaymod.camera.vanilla=Vanilla-ish
+replaymod.camera.classic=클래식
+replaymod.camera.vanilla=바닐라
 
 #Keyframe Presets GUI
-replaymod.gui.keyframerepository.title=Keyframe Repository
+replaymod.gui.keyframerepository.title=키 프레임 저장소
 
 #Edit Keyframe GUI
 replaymod.gui.editkeyframe.title.pos=Edit Position Keyframe
@@ -205,9 +205,9 @@ replaymod.gui.editkeyframe.interpolator.linear.name=Linear Interpolator
 replaymod.gui.editkeyframe.interpolator.linear.desc=Draws straight lines between the keyframes.
 
 #Render Settings GUI
-replaymod.gui.rendersettings.addtoqueue=Add to Queue
+replaymod.gui.rendersettings.addtoqueue=대기열에 추가
 
-replaymod.gui.rendersettings.renderer=Rendering Method
+replaymod.gui.rendersettings.renderer=렌더링 방법
 
 replaymod.gui.rendersettings.renderer.default=Default Rendering
 replaymod.gui.rendersettings.renderer.tiled=Tiled Rendering
@@ -240,28 +240,28 @@ replaymod.gui.rendersettings.depthmap=Depth map
 replaymod.gui.rendersettings.depthmap.only_exr_or_png=Depth map export is only supported with OpenEXR or PNG format.
 replaymod.gui.rendersettings.camerapath=Export camera path
 
-replaymod.gui.rendersettings.command=Command
-replaymod.gui.rendersettings.arguments=Command Line Arguments
-replaymod.gui.rendersettings.ffmpeg.description=If you are an advanced user, you can customize the command line parameters used to export the video. For more information, check http://replaymod.com/docs
+replaymod.gui.rendersettings.command=명령
+replaymod.gui.rendersettings.arguments=명령줄 인수
+replaymod.gui.rendersettings.ffmpeg.description=고급 사용자인 경우 비디오를 내보내는데 사용할 명령줄 매개 변수를 지정할 수 있습니다. 자세한 내용은 http://replaymod.com/docs 을 참조하십시오.
 
-replaymod.gui.rendersettings.stabilizecamera=Stabilize Camera
+replaymod.gui.rendersettings.stabilizecamera=카메라 안정화
 
 replaymod.gui.rendersettings.video=비디오 설정
 replaymod.gui.rendersettings.advanced=고급 설정
 replaymod.gui.rendersettings.commandline=명령줄 설정
 
-replaymod.gui.rendersettings.presets=Encoding Presets
-replaymod.gui.rendersettings.presets.mp4.custom=MP4 - Custom Bitrate
-replaymod.gui.rendersettings.presets.mp4.default=MP4 - Default Quality
-replaymod.gui.rendersettings.presets.mp4.potato=MP4 - Potato Quality
-replaymod.gui.rendersettings.presets.webm.custom=WEBM - Custom Bitrate
-replaymod.gui.rendersettings.presets.mkv.lossless=MKV - Lossless
-replaymod.gui.rendersettings.presets.blend=Blend file
-replaymod.gui.rendersettings.presets.png=PNG Sequence
-replaymod.gui.rendersettings.presets.exr=OpenEXR Sequence
+replaymod.gui.rendersettings.presets=인코딩 프리셋
+replaymod.gui.rendersettings.presets.mp4.custom=MP4 - 사용자 지정 비트레이트
+replaymod.gui.rendersettings.presets.mp4.default=MP4 - 기본 품질
+replaymod.gui.rendersettings.presets.mp4.potato=MP4 - 낮은 품질
+replaymod.gui.rendersettings.presets.webm.custom=WEBM - 사용자 지정 비트레이트
+replaymod.gui.rendersettings.presets.mkv.lossless=MKV - 무손실
+replaymod.gui.rendersettings.presets.blend=파일 혼합
+replaymod.gui.rendersettings.presets.png=PNG 시퀀스
+replaymod.gui.rendersettings.presets.exr=OpenEXR 시퀀스
 
-replaymod.gui.rendersettings.antialiasing=Anti-Aliasing
-replaymod.gui.rendersettings.antialiasing.none=None
+replaymod.gui.rendersettings.antialiasing=안티앨리어싱
+replaymod.gui.rendersettings.antialiasing.none=없음
 replaymod.gui.rendersettings.antialiasing.x2=2x
 replaymod.gui.rendersettings.antialiasing.x4=4x
 replaymod.gui.rendersettings.antialiasing.x8=8x
@@ -313,7 +313,7 @@ replaymod.gui.ingame.autoactivating.enable=Ctrl-click to enable auto-activation.
 replaymod.gui.ingame.first_keyframe_not_at_start_warning=You just placed your first keyframe and it's not at 00:00.\n\nThis usually is an indication that you have misunderstood how the\nvideo timeline (that's the bottom one) works:\n\nWhile The top timeline shows your current time in the replay,\nthe bottom one shows the time in the video you are creating.\nThe video will always start at 00:00! If your first keyframe is not at 00:00,\nthen the video will appear frozen until the time of the first keyframe!
 
 #Clear Keyframe Callback
-replaymod.gui.clearcallback.title=Clear all Keyframes?
+replaymod.gui.clearcallback.title=모든 키 프레임을 지웁니까?
 
 #Errors
 replaymod.error.unknownrestriction1=This replay cannot be played with your current version.
