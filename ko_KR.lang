@@ -2,40 +2,40 @@ replaymod.title=리플레이 모드
 
 #All of the chat messages
 replaymod.chat.recordingstarted=녹화를 시작했습니다
-replaymod.chat.recordingfailed=녹화 시작을 실패했습니다
+replaymod.chat.recordingfailed=녹화를 시작할 수 없습니다
 
-replaymod.chat.savingthumb=썸네일 저장 중...
+replaymod.chat.savingthumb=썸네일을 저장하는 중...
 replaymod.chat.savedthumb=썸네일이 성공적으로 저장되었습니다
 replaymod.chat.failedthumb=썸네일을 저장하지 못했습니다
 
 replaymod.chat.addedmarker=이벤트 마커가 추가되었습니다
 
 #Chat messages displayed in Replay Viewer
-replaymod.chat.morekeyframes=최소 2개의 위치 키 프레임과 2개의 시간 키 프레임 필요합니다
+replaymod.chat.morekeyframes=최소 2개의 위치 키 프레임과 2개의 시간 키 프레임이 필요합니다
 replaymod.chat.pathstarted=카메라 경로 시작됨
 replaymod.chat.pathfinished=카메라 경로 완료됨
 replaymod.chat.pathinterrupted=카메라 경로 취소됨
 
 #Common GUI-related strings
-replaymod.gui.cancel=최소
+replaymod.gui.cancel=취소
 replaymod.gui.back=이전
 replaymod.gui.load=불러오기
-replaymod.gui.removelike=Remove Like
-replaymod.gui.removedislike=Remove Dislike
+replaymod.gui.removelike=좋아요 취소
+replaymod.gui.removedislike=싫어요 취소
 replaymod.gui.save=저장
 replaymod.gui.rename=이름 바꾸기
 replaymod.gui.remove=제거
 replaymod.gui.delete=삭제
 replaymod.gui.paused=일시정지
 replaymod.gui.speed=속도
-replaymod.gui.pleasewait=잠시만 기다려주세요
+replaymod.gui.pleasewait=잠시 기다리세요
 replaymod.gui.render=렌더
 replaymod.gui.iphidden=서버 IP 숨김
 replaymod.gui.overwrite=덮어쓰기
 replaymod.gui.saveas=다른 이름으로 저장
 replaymod.gui.done=완료
 replaymod.gui.close=닫기
-replaymod.gui.notagain=다시 표시 안함
+replaymod.gui.notagain=다시 표시하지 않기
 replaymod.gui.edit=편집
 replaymod.gui.copy=복사
 replaymod.gui.paste=붙여넣기
@@ -45,22 +45,22 @@ replaymod.gui.recording.pause=녹화 일시정지
 replaymod.gui.recording.stop=녹화 중지
 replaymod.gui.recording.start=녹화 시작
 
-replaymod.gui.renderdonetitle=비디오가 렌더링됨
-replaymod.gui.openfolder=비디오 폴더 열기
+replaymod.gui.renderdonetitle=영상이 렌더링됨
+replaymod.gui.openfolder=영상 폴더 열기
 replaymod.gui.youtubeupload=YouTube에 업로드
-replaymod.gui.renderdone1=비디오가 성공적으로 렌더링 되었습니다.
+replaymod.gui.renderdone1=영상이 성공적으로 렌더링 되었습니다.
 replaymod.gui.renderdone2=어떻게 하시겠습니까?
 replaymod.gui.videotitle=제목
 replaymod.gui.videodescription=설명
 replaymod.gui.videotags=태그,태그,태그
-replaymod.gui.videothumbnail=비디오 썸네일
+replaymod.gui.videothumbnail=영상 썸네일
 replaymod.gui.videovisibility.private=비공개
 replaymod.gui.videovisibility.unlisted=일부 공개
 replaymod.gui.videovisibility.public=공개
-replaymod.gui.ytuploadprogress.auth=[1/4] 허가
-replaymod.gui.ytuploadprogress.prepare_video=[2/4] 비디오 준비 중: %%d%%%%
-replaymod.gui.ytuploadprogress.upload=[3/4] 업로드 중: %%d%%%%
-replaymod.gui.ytuploadprogress.cleanup=[4/4] 마무리 중
+replaymod.gui.ytuploadprogress.auth=[1/4] 인증
+replaymod.gui.ytuploadprogress.prepare_video=[2/4] 영상을 준비하는 중: %%d%%%%
+replaymod.gui.ytuploadprogress.upload=[3/4] 업로드 하는 중: %%d%%%%
+replaymod.gui.ytuploadprogress.cleanup=[4/4] 마무리 하는 중
 replaymod.gui.ytuploadprogress.done=완료: %s
 replaymod.gui.titleempty=제목은 비워 둘 수 없습니다
 replaymod.gui.videothumbnailtoolarge=썸네일 이미지 크기가 2MB를 초과합니다.
@@ -71,9 +71,9 @@ replaymod.gui.minutes=분
 replaymod.gui.seconds=초
 replaymod.gui.milliseconds=밀리초
 
-replaymod.gui.pitch=핀치
-replaymod.gui.yaw=Yaw
-replaymod.gui.roll=Roll
+replaymod.gui.pitch=피치
+replaymod.gui.yaw=요
+replaymod.gui.roll=롤
 
 replaymod.gui.camera=카메라
 replaymod.gui.position=위치
@@ -84,18 +84,18 @@ replaymod.gui.exit=리플레이 나가기
 
 replaymod.gui.settings=설정
 
-replaymod.gui.keyframerepo.delete=Are you sure you want to delete these keyframes?
-replaymod.gui.keyframerepo.overwrite=Are you sure you want to overwrite these keyframes?
+replaymod.gui.keyframerepo.delete=이 키 프레임을 삭제하시겠습니까?
+replaymod.gui.keyframerepo.overwrite=이 키 프레임을 덮어쓰시겠습니까?
 
-replaymod.gui.restorereplay1=It seems like Minecraft has not quit normally.
-replaymod.gui.restorereplay2=The Replay "%1$s" was not saved correctly.
-replaymod.gui.restorereplay3=Do you wish to recover it?
+replaymod.gui.restorereplay1=Minecraft가 정상적으로 종료되지 않은것 같습니다.
+replaymod.gui.restorereplay2=리플레이 %1$s이(가) 올바르게 저장되지 않았습니다.
+replaymod.gui.restorereplay3=복원하시겠습니까?
 
-replaymod.gui.loadentitytracker=Loading entity positions: %%d%%%%
-replaymod.gui.loadquickmode=Loading Quick Mode: %%d%%%%
-replaymod.gui.noquickmode=Quick Mode is only available on Minecraft %1$s and above
-replaymod.gui.minimalmode.unsupported=This feature is not available for your current Minecraft version.
-replaymod.gui.minimalmode.supportedversion=(only Minecraft %1$s is supported by your Replay Mod version)
+replaymod.gui.loadentitytracker=개체 위치 불러오는중: %%d%%%%
+replaymod.gui.loadquickmode=퀵 모드 불러오는중: %%d%%%%
+replaymod.gui.noquickmode=퀵 모드는 Minecraft 버전 %1$s 이상에서만 사용할 수 있습니다.
+replaymod.gui.minimalmode.unsupported=현재 Minecraft 버전에서는 이 기능을 사용할 수 없습니다.
+replaymod.gui.minimalmode.supportedversion=(당신의 리플레이 모드 버전에서 Minecraft 버전 %1$s만 지원됩니다.)
 
 #Only change these if it's neccessary
 replaymod.gui.replayviewer=리플레이 뷰어
@@ -103,7 +103,7 @@ replaymod.gui.replayviewer=리플레이 뷰어
 #Replay Viewer GUI
 replaymod.gui.viewer.rename.name=리플레이 이름
 replaymod.gui.viewer.replayfolder=리플레이 폴더 열기
-replaymod.gui.viewer.bulkrender=%1$d 비디오 렌더
+replaymod.gui.viewer.bulkrender=비디오 %1$d 렌더링
 
 replaymod.gui.viewer.delete.linea=정말 이 리플레이를 삭제하시겠습니까?
 replaymod.gui.viewer.delete.failed1=운영체제에서 리플레이를 지우도록 허용하지 않았습니다. 우리가
@@ -111,7 +111,7 @@ replaymod.gui.viewer.delete.failed2=할 수 있는 일은 아무것도 없습니
 replaymod.gui.viewer.delete.lineb='%1$s' 이 영구적으로 삭제됩니다!
 
 #Replay Editor UI 2.0 (marker based UI)
-replaymod.gui.edit.apply=Apply
+replaymod.gui.edit.apply=적용
 replaymod.gui.edit.split=Insert split
 replaymod.gui.edit.split.tooltip=Split the Replay into multiple Replays at the marked point
 replaymod.gui.edit.cut.start=Insert cut
@@ -119,37 +119,37 @@ replaymod.gui.edit.cut.end=End cut
 replaymod.gui.edit.cut.tooltip=Cut (remove) a section of the Replay
 
 #Cancel Replay GUI
-replaymod.gui.cancelrender.title=Cancel Rendering
+replaymod.gui.cancelrender.title=렌더링 취소
 replaymod.gui.cancelrender.message=Are you sure that you want to cancel the current rendering process?
 #Saving Replay GUI
 replaymod.gui.replaysaving.title=Saving Replay File...
 
 #Player Overview GUI
-replaymod.gui.playeroverview.visible=Visible
-replaymod.gui.playeroverview.hideall=Hide all
-replaymod.gui.playeroverview.showall=Show all
-replaymod.gui.playeroverview.spectate=Spectate Player
-replaymod.gui.playeroverview.remembersettings=Remember Hidden Players
-replaymod.gui.playeroverview.remembersettings.description=Saves Player Visibility in Replay File
+replaymod.gui.playeroverview.visible=표시
+replaymod.gui.playeroverview.hideall=모두 숨김
+replaymod.gui.playeroverview.showall=모두 표시
+replaymod.gui.playeroverview.spectate=플레이어 관전
+replaymod.gui.playeroverview.remembersettings=숨긴 플레이어 기억
+replaymod.gui.playeroverview.remembersettings.description=리플레이 파일에 플레이어 표시 여부 저장
 
 #Replay Mod Settings GUI
 replaymod.gui.settings.title=리플레이 모드 설정
 replaymod.gui.settings.default=기본
 
-replaymod.gui.settings.notifications=Enable Notifications
-replaymod.gui.settings.recordserver=Record Server
-replaymod.gui.settings.recordsingleplayer=Record Singleplayer
+replaymod.gui.settings.notifications=알림 켜기
+replaymod.gui.settings.recordserver=서버 녹화
+replaymod.gui.settings.recordsingleplayer=싱글플레이 녹화
 replaymod.gui.settings.indicator=Recording Indicator
-replaymod.gui.settings.pathpreview=Show Path Preview
-replaymod.gui.settings.camera=Camera
-replaymod.gui.settings.showchat=Show Chat
+replaymod.gui.settings.pathpreview=경로 미리보기 표시
+replaymod.gui.settings.camera=카메라
+replaymod.gui.settings.showchat=채팅 표시
 replaymod.gui.settings.interpolator=Default Interpolator
-replaymod.gui.settings.autostartrecording=Automatic Recording
+replaymod.gui.settings.autostartrecording=자동 녹화
 replaymod.gui.settings.rename_recording_dialog=Rename Dialog
-replaymod.gui.settings.fullbrightness=Full Brightness
-replaymod.gui.settings.fullbrightness.gamma=Gamma
-replaymod.gui.settings.fullbrightness.nightvision=Night Vision
-replaymod.gui.settings.fullbrightness.both=Both
+replaymod.gui.settings.fullbrightness=최대 밝기
+replaymod.gui.settings.fullbrightness.gamma=감마
+replaymod.gui.settings.fullbrightness.nightvision=야간 투시
+replaymod.gui.settings.fullbrightness.both=모두
 
 #Replay Mod Keybindings
 replaymod.input.lighting=Toggle Lighting
@@ -173,7 +173,7 @@ replaymod.input.bothkeyframes=Position/Spectator + Time Keyframe
 
 # CameraControllers
 replaymod.camera.classic=클래식
-replaymod.camera.vanilla=바닐라
+replaymod.camera.vanilla=Vanilla-ish
 
 #Keyframe Presets GUI
 replaymod.gui.keyframerepository.title=키 프레임 저장소
@@ -224,21 +224,21 @@ replaymod.gui.rendersettings.renderer.equirectangular.description=Renders the vi
 replaymod.gui.rendersettings.renderer.ods.description=Renders the video with a stereoscopic 3D 360 degree panoramic view, also called VR Video. This is usable by YouTube's new VR video function.
 replaymod.gui.rendersettings.renderer.blend.description=Exports visible geometry as a .blend file which can be opened using the Blender software. Highly experimental: Requires lots of RAM, has quite a few known issues and sometimes produces broken Blender files.
 
-replaymod.gui.rendersettings.customresolution=Video Resolution
+replaymod.gui.rendersettings.customresolution=영상 해상도
 replaymod.gui.rendersettings.customresolution.warning.yuv420=For this preset, the width and height values need to be even numbers
 replaymod.gui.rendersettings.customresolution.warning.yuv420.cubic=For this preset, the height must be divisible by 6
 replaymod.gui.rendersettings.customresolution.warning.cubic.height=Cubic Rendering requires a height divisible by 3
-replaymod.gui.rendersettings.bitrate=Bitrate
-replaymod.gui.rendersettings.framerate=Video Framerate
+replaymod.gui.rendersettings.bitrate=비트레이트
+replaymod.gui.rendersettings.framerate=영상 프레임레이트
 replaymod.gui.rendersettings.chromakey=Chroma Keying
-replaymod.gui.rendersettings.nametags=Render Name Tags
-replaymod.gui.rendersettings.outputfile=Output File
+replaymod.gui.rendersettings.nametags=이름표 렌더링
+replaymod.gui.rendersettings.outputfile=출력 파일
 replaymod.gui.rendersettings.sphericalFov=Spherical FOV
 replaymod.gui.rendersettings.sphericalmetadata=Inject Spherical Metadata
 replaymod.gui.rendersettings.sphericalmetadata.error=Spherical Metadata can only be added to Equirectangular and ODS videos in MP4 format
-replaymod.gui.rendersettings.depthmap=Depth map
+replaymod.gui.rendersettings.depthmap=깊이 맵
 replaymod.gui.rendersettings.depthmap.only_exr_or_png=Depth map export is only supported with OpenEXR or PNG format.
-replaymod.gui.rendersettings.camerapath=Export camera path
+replaymod.gui.rendersettings.camerapath=카메라 경로 내보내기
 
 replaymod.gui.rendersettings.command=명령
 replaymod.gui.rendersettings.arguments=명령줄 인수
@@ -260,35 +260,35 @@ replaymod.gui.rendersettings.presets.blend=파일 혼합
 replaymod.gui.rendersettings.presets.png=PNG 시퀀스
 replaymod.gui.rendersettings.presets.exr=OpenEXR 시퀀스
 
-replaymod.gui.rendersettings.antialiasing=안티앨리어싱
+replaymod.gui.rendersettings.antialiasing=안티 앨리어싱
 replaymod.gui.rendersettings.antialiasing.none=없음
 replaymod.gui.rendersettings.antialiasing.x2=2x
 replaymod.gui.rendersettings.antialiasing.x4=4x
 replaymod.gui.rendersettings.antialiasing.x8=8x
 
 #Render Queue GUI
-replaymod.gui.renderqueue.title=Render Queue
-replaymod.gui.renderqueue.add=Add current configuration
-replaymod.gui.renderqueue.renderall=Render All
-replaymod.gui.renderqueue.renderselected=Render Selected
+replaymod.gui.renderqueue.title=렌더 대기열
+replaymod.gui.renderqueue.add=현재 구성 추가
+replaymod.gui.renderqueue.renderall=모두 렌더
+replaymod.gui.renderqueue.renderselected=선택한 렌더
 
 #Rendering GUI
-replaymod.gui.rendering.title=Rendering Video
-replaymod.gui.rendering.pause=Pause Rendering
-replaymod.gui.rendering.resume=Resume Rendering
-replaymod.gui.rendering.cancel=Cancel Rendering
-replaymod.gui.rendering.cancel.callback=Are you sure?
-replaymod.gui.rendering.preview=Show Preview (Performance might suffer)
-replaymod.gui.rendering.progress=Frames rendered: %1$d / %2$d
-replaymod.gui.rendering.timetaken=Render Time
-replaymod.gui.rendering.timeleft=Time Left
+replaymod.gui.rendering.title=영상 렌더링
+replaymod.gui.rendering.pause=렌더링 일시정지
+replaymod.gui.rendering.resume=렌더링 재개
+replaymod.gui.rendering.cancel=렌더링 취소
+replaymod.gui.rendering.cancel.callback=정말 취소하시겠습니까?
+replaymod.gui.rendering.preview=미리 보기 표시 (성능 저하가 발생할 수 있음)
+replaymod.gui.rendering.progress=렌더링된 프레임: %1$d / %2$d
+replaymod.gui.rendering.timetaken=렌더 시간
+replaymod.gui.rendering.timeleft=남은 시간
 
 #Render Errors
-replaymod.gui.rendering.error.title=Rendering Failed
-replaymod.gui.rendering.error.message=To render a video, you need to have ffmpeg installed. http://ffmpeg.org
-replaymod.gui.rendering.error.ffmpeglog=FFmpeg output:
-replaymod.gui.rendering.error.ffmpegargs.1=It seems like you have modified the Command Line Arguments.
-replaymod.gui.rendering.error.ffmpegargs.2=Do you want to reset them to the defaults and try again?
+replaymod.gui.rendering.error.title=렌더링 실패
+replaymod.gui.rendering.error.message=영상을 렌더링하려면 ffmpeg가 설치되어 있어야 합니다. http://ffmpeg.org
+replaymod.gui.rendering.error.ffmpeglog=FFmpeg 기록:
+replaymod.gui.rendering.error.ffmpegargs.1=명령줄 인수를 수정한 것으로 보입니다.
+replaymod.gui.rendering.error.ffmpegargs.2=기본값으로 재설정하고 다시 시도하시겠습니까?
 
 #Ingame Menu
 replaymod.gui.ingame.menu.addposkeyframe=Add Position Keyframe
@@ -303,10 +303,10 @@ replaymod.gui.ingame.menu.renderpath=Render Camera Path
 replaymod.gui.ingame.menu.playpath=Play Camera Path from Cursor Position
 replaymod.gui.ingame.menu.playpathfromstart=Play Camera Path from Start
 replaymod.gui.ingame.menu.pausepath=Pause Camera Path
-replaymod.gui.ingame.menu.zoomin=Zoom in
-replaymod.gui.ingame.menu.zoomout=Zoom out
+replaymod.gui.ingame.menu.zoomin=확대
+replaymod.gui.ingame.menu.zoomout=축소
 
-replaymod.gui.ingame.unnamedmarker=Unnamed Event Marker
+replaymod.gui.ingame.unnamedmarker=이름없는 이벤트 마커
 replaymod.gui.ingame.autoactivating=This keybinding may auto-activate at appropriate times.
 replaymod.gui.ingame.autoactivating.disable=Ctrl-click to disable auto-activation.
 replaymod.gui.ingame.autoactivating.enable=Ctrl-click to enable auto-activation.
@@ -323,16 +323,16 @@ replaymod.error.negativetime2=Going backwards in time is not supported.
 replaymod.error.negativetime3=The invalid parts are marked in red.
 
 #Replay Mod Incompatibility Warning
-replaymod.gui.modwarning.title=Incompatibility detected
-replaymod.gui.modwarning.message1=A possible incompatibility between your current
-replaymod.gui.modwarning.message2=Minecraft version and this Replay has been detected.
-replaymod.gui.modwarning.message3=Loading this Replay may result in errors or a crash.
-replaymod.gui.modwarning.name=Mod Name:
-replaymod.gui.modwarning.id=Mod Id:
-replaymod.gui.modwarning.missing=Missing Mods
-replaymod.gui.modwarning.version=Different Mod Versions
-replaymod.gui.modwarning.version.expected=Expected
-replaymod.gui.modwarning.version.found=Found
+replaymod.gui.modwarning.title=비호환성이 감지됨
+replaymod.gui.modwarning.message1=현재 Minecraft 버전과
+replaymod.gui.modwarning.message2=이 리플레이가 호환되지 않을 수 있습니다.
+replaymod.gui.modwarning.message3=이 리플레이를 로드하면 오류 또는 충돌이 발생할 수 있습니다.
+replaymod.gui.modwarning.name=모드 이름:
+replaymod.gui.modwarning.id=모드 Id:
+replaymod.gui.modwarning.missing=누락된 모드
+replaymod.gui.modwarning.version=다른 모드 버전
+replaymod.gui.modwarning.version.expected=예상
+replaymod.gui.modwarning.version.found=발견
 
 #Advanced Screenshots Gui
 replaymod.gui.advancedscreenshots.title=스크린샷 설정
