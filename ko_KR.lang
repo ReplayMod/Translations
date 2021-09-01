@@ -103,12 +103,12 @@ replaymod.gui.replayviewer=리플레이 뷰어
 #Replay Viewer GUI
 replaymod.gui.viewer.rename.name=리플레이 이름
 replaymod.gui.viewer.replayfolder=리플레이 폴더 열기
-replaymod.gui.viewer.bulkrender=비디오 %1$d 렌더링
+replaymod.gui.viewer.bulkrender=영상 %1$d 렌더
 
 replaymod.gui.viewer.delete.linea=정말 이 리플레이를 삭제하시겠습니까?
 replaymod.gui.viewer.delete.failed1=운영체제에서 리플레이를 지우도록 허용하지 않았습니다. 우리가
 replaymod.gui.viewer.delete.failed2=할 수 있는 일은 아무것도 없습니다. 직접 제거해 주세요.
-replaymod.gui.viewer.delete.lineb='%1$s' 이 영구적으로 삭제됩니다!
+replaymod.gui.viewer.delete.lineb='%1$s'이(가) 영원히 삭제됩니다!
 
 #Replay Editor UI 2.0 (marker based UI)
 replaymod.gui.edit.apply=적용
@@ -120,9 +120,9 @@ replaymod.gui.edit.cut.tooltip=Cut (remove) a section of the Replay
 
 #Cancel Replay GUI
 replaymod.gui.cancelrender.title=렌더링 취소
-replaymod.gui.cancelrender.message=Are you sure that you want to cancel the current rendering process?
+replaymod.gui.cancelrender.message=현재 렌더링 프로세스를 취소하시겠습니까?
 #Saving Replay GUI
-replaymod.gui.replaysaving.title=Saving Replay File...
+replaymod.gui.replaysaving.title=리플레이 파일을 저장하는 중...
 
 #Player Overview GUI
 replaymod.gui.playeroverview.visible=표시
@@ -139,13 +139,13 @@ replaymod.gui.settings.default=기본
 replaymod.gui.settings.notifications=알림 켜기
 replaymod.gui.settings.recordserver=서버 녹화
 replaymod.gui.settings.recordsingleplayer=싱글플레이 녹화
-replaymod.gui.settings.indicator=Recording Indicator
+replaymod.gui.settings.indicator=녹화 상태 표시기
 replaymod.gui.settings.pathpreview=경로 미리보기 표시
 replaymod.gui.settings.camera=카메라
 replaymod.gui.settings.showchat=채팅 표시
-replaymod.gui.settings.interpolator=Default Interpolator
+replaymod.gui.settings.interpolator=기본 보간기
 replaymod.gui.settings.autostartrecording=자동 녹화
-replaymod.gui.settings.rename_recording_dialog=Rename Dialog
+replaymod.gui.settings.rename_recording_dialog=이름 변경 창 표시
 replaymod.gui.settings.fullbrightness=최대 밝기
 replaymod.gui.settings.fullbrightness.gamma=감마
 replaymod.gui.settings.fullbrightness.nightvision=야간 투시
@@ -157,44 +157,44 @@ replaymod.input.thumbnail=Capture Thumbnail
 replaymod.input.playeroverview=Player Overview
 replaymod.input.clearkeyframes=Clear Keyframes
 replaymod.input.synctimeline=Synchronize Timeline
-replaymod.input.keyframerepository=Open Keyframe Presets
+replaymod.input.keyframerepository=키 프레임 프리셋 열기
 replaymod.input.rollclockwise=Roll Clockwise
 replaymod.input.rollcounterclockwise=Roll Counterclockwise
 replaymod.input.resettilt=Reset Camera Tilt
 replaymod.input.playpause=Play/Pause Replay
-replaymod.input.marker=Add Event Marker
+replaymod.input.marker=이벤트 마커 추가
 replaymod.input.pathpreview=Toggle Path Preview
 replaymod.input.settings=ReplayMod Settings
-replaymod.input.quickmode=Quick Mode
+replaymod.input.quickmode=퀵 모드
 replaymod.input.positionkeyframe=Position/Spectator Keyframe
 replaymod.input.positiononlykeyframe=Position Keyframe
-replaymod.input.timekeyframe=Time Keyframe
+replaymod.input.timekeyframe=시간 키 프레임
 replaymod.input.bothkeyframes=Position/Spectator + Time Keyframe
 
 # CameraControllers
 replaymod.camera.classic=클래식
-replaymod.camera.vanilla=Vanilla-ish
+replaymod.camera.vanilla=바닐라
 
 #Keyframe Presets GUI
 replaymod.gui.keyframerepository.title=키 프레임 저장소
 
 #Edit Keyframe GUI
-replaymod.gui.editkeyframe.title.pos=Edit Position Keyframe
-replaymod.gui.editkeyframe.title.time=Edit Time Keyframe
-replaymod.gui.editkeyframe.title.marker=Edit Event Marker
-replaymod.gui.editkeyframe.title.spec=Edit Spectator Keyframe
-replaymod.gui.editkeyframe.xpos=X Position
-replaymod.gui.editkeyframe.ypos=Y Position
-replaymod.gui.editkeyframe.zpos=Z Position
-replaymod.gui.editkeyframe.campitch=Camera Pitch
-replaymod.gui.editkeyframe.camyaw=Camera Yaw
-replaymod.gui.editkeyframe.camroll=Camera Roll
-replaymod.gui.editkeyframe.timelineposition=Timeline Position
-replaymod.gui.editkeyframe.markername=Event Marker Name
-replaymod.gui.editkeyframe.timestamp=Time Index
+replaymod.gui.editkeyframe.title.pos=위치 키 프레임 편집
+replaymod.gui.editkeyframe.title.time=시간 키 프레임 편집
+replaymod.gui.editkeyframe.title.marker=이벤트 마커 편집
+replaymod.gui.editkeyframe.title.spec=관전자 키 프레임 편집
+replaymod.gui.editkeyframe.xpos=X 위치
+replaymod.gui.editkeyframe.ypos=Y 위치
+replaymod.gui.editkeyframe.zpos=Z 위치
+replaymod.gui.editkeyframe.campitch=카메라 피치
+replaymod.gui.editkeyframe.camyaw=카메라 요
+replaymod.gui.editkeyframe.camroll=카메라 롤
+replaymod.gui.editkeyframe.timelineposition=타임라인 위치
+replaymod.gui.editkeyframe.markername=이벤트 마커 이름
+replaymod.gui.editkeyframe.timestamp=시간 색인
 
 replaymod.gui.editkeyframe.interpolator=Interpolator
-replaymod.gui.editkeyframe.interpolator.default.name=Default Interpolator
+replaymod.gui.editkeyframe.interpolator.default.name=기본 보간기
 replaymod.gui.editkeyframe.interpolator.default.desc=Uses the default interpolator defined in the Replay Mod Settings.
 replaymod.gui.editkeyframe.interpolator.catmullrom.name=Catmull Rom Spline Interpolator
 replaymod.gui.editkeyframe.interpolator.catmullrom.desc=Calculates a catmull rom spline with customizable alpha value for precise tightness and smoothness of the camera path.
