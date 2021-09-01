@@ -193,7 +193,7 @@ replaymod.gui.editkeyframe.timelineposition=타임라인 위치
 replaymod.gui.editkeyframe.markername=이벤트 마커 이름
 replaymod.gui.editkeyframe.timestamp=시간 색인
 
-replaymod.gui.editkeyframe.interpolator=Interpolator
+replaymod.gui.editkeyframe.interpolator=보간기
 replaymod.gui.editkeyframe.interpolator.default.name=기본 보간기
 replaymod.gui.editkeyframe.interpolator.default.desc=Uses the default interpolator defined in the Replay Mod Settings.
 replaymod.gui.editkeyframe.interpolator.catmullrom.name=Catmull Rom Spline Interpolator
@@ -209,13 +209,13 @@ replaymod.gui.rendersettings.addtoqueue=대기열에 추가
 
 replaymod.gui.rendersettings.renderer=렌더링 방법
 
-replaymod.gui.rendersettings.renderer.default=Default Rendering
+replaymod.gui.rendersettings.renderer.default=기본 렌더링
 replaymod.gui.rendersettings.renderer.tiled=Tiled Rendering
 replaymod.gui.rendersettings.renderer.stereoscopic=Stereoscopic Rendering
 replaymod.gui.rendersettings.renderer.cubic=Cubic Rendering
 replaymod.gui.rendersettings.renderer.equirectangular=Equirectangular Rendering
-replaymod.gui.rendersettings.renderer.ods=ODS Rendering
-replaymod.gui.rendersettings.renderer.blend=Blender Export [Experimental]
+replaymod.gui.rendersettings.renderer.ods=ODS 렌더링
+replaymod.gui.rendersettings.renderer.blend=Blender로 내보내기 [실험적]
 
 replaymod.gui.rendersettings.renderer.default.description=Renders the video in the specified resolution. Fastest Rendering Option.
 replaymod.gui.rendersettings.renderer.stereoscopic.description=Renders the video as a stereoscopic (side-by-side) 3D movie, usable by different 3D technologies. The image for one eye is half the width of the video
@@ -242,7 +242,7 @@ replaymod.gui.rendersettings.camerapath=카메라 경로 내보내기
 
 replaymod.gui.rendersettings.command=명령
 replaymod.gui.rendersettings.arguments=명령줄 인수
-replaymod.gui.rendersettings.ffmpeg.description=고급 사용자인 경우 비디오를 내보내는데 사용할 명령줄 매개 변수를 지정할 수 있습니다. 자세한 내용은 http://replaymod.com/docs 을 참조하십시오.
+replaymod.gui.rendersettings.ffmpeg.description=고급 사용자인 경우 비디오를 내보내는데 사용할 명령줄 매개 변수를 지정할 수 있습니다. 자세한 내용은 http://replaymod.com/docs을 참조하세요.
 
 replaymod.gui.rendersettings.stabilizecamera=카메라 안정화
 
@@ -291,18 +291,18 @@ replaymod.gui.rendering.error.ffmpegargs.1=명령줄 인수를 수정한 것으�
 replaymod.gui.rendering.error.ffmpegargs.2=기본값으로 재설정하고 다시 시도하시겠습니까?
 
 #Ingame Menu
-replaymod.gui.ingame.menu.addposkeyframe=Add Position Keyframe
-replaymod.gui.ingame.menu.removeposkeyframe=Remove Position Keyframe
-replaymod.gui.ingame.menu.addspeckeyframe=Add Spectator Keyframe
-replaymod.gui.ingame.menu.removespeckeyframe=Remove Spectator Keyframe
-replaymod.gui.ingame.menu.addtimekeyframe=Add Time Keyframe
-replaymod.gui.ingame.menu.removetimekeyframe=Remove Time Keyframe
-replaymod.gui.ingame.menu.pause=Pause Replay
-replaymod.gui.ingame.menu.unpause=Unpause Replay
-replaymod.gui.ingame.menu.renderpath=Render Camera Path
-replaymod.gui.ingame.menu.playpath=Play Camera Path from Cursor Position
-replaymod.gui.ingame.menu.playpathfromstart=Play Camera Path from Start
-replaymod.gui.ingame.menu.pausepath=Pause Camera Path
+replaymod.gui.ingame.menu.addposkeyframe=위치 키 프레임 추가
+replaymod.gui.ingame.menu.removeposkeyframe=위치 키 프레임 제거
+replaymod.gui.ingame.menu.addspeckeyframe=관전자 키 프레임 추가
+replaymod.gui.ingame.menu.removespeckeyframe=관전자 키 프레임 제거
+replaymod.gui.ingame.menu.addtimekeyframe=시간 키 프레임 추가
+replaymod.gui.ingame.menu.removetimekeyframe=시간 키 프레임 제거
+replaymod.gui.ingame.menu.pause=리플레이 일시정지
+replaymod.gui.ingame.menu.unpause=리플레이 재생
+replaymod.gui.ingame.menu.renderpath=카메라 경로 렌더
+replaymod.gui.ingame.menu.playpath=커서 위치에서 카메라 경로 재생
+replaymod.gui.ingame.menu.playpathfromstart=시작 지점에서 카메라 경로 재생
+replaymod.gui.ingame.menu.pausepath=카메라 경로 일시정지
 replaymod.gui.ingame.menu.zoomin=확대
 replaymod.gui.ingame.menu.zoomout=축소
 
