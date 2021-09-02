@@ -113,7 +113,7 @@ replaymod.gui.viewer.delete.lineb='%1$s'이(가) 영원히 삭제됩니다!
 #Replay Editor UI 2.0 (marker based UI)
 replaymod.gui.edit.apply=적용
 replaymod.gui.edit.split=분할 삽입
-replaymod.gui.edit.split.tooltip=표시된 지점에서 리플레이를 여러개의 리플레이로 분할
+replaymod.gui.edit.split.tooltip=표시된 지점에서 리플레이를 여러개의 리플레이로 분할합니다.
 replaymod.gui.edit.cut.start=간격 편집
 replaymod.gui.edit.cut.end=편집 끝
 replaymod.gui.edit.cut.tooltip=리플레이 섹션 잘라내기(제거)
