@@ -217,9 +217,9 @@ replaymod.gui.rendersettings.renderer.equirectangular=등장방형도법 렌더�
 replaymod.gui.rendersettings.renderer.ods=ODS 렌더링
 replaymod.gui.rendersettings.renderer.blend=Blender로 내보내기 [실험적]
 
-replaymod.gui.rendersettings.renderer.default.description=Renders the video in the specified resolution. Fastest Rendering Option.
-replaymod.gui.rendersettings.renderer.stereoscopic.description=Renders the video as a stereoscopic (side-by-side) 3D movie, usable by different 3D technologies. The image for one eye is half the width of the video
-replaymod.gui.rendersettings.renderer.cubic.description=Renders the video with a 360 degree panoramic view, using Cubic Projection. This is usable by several 360 degree video players (and the Oculus Rift), for example VR Player.
+replaymod.gui.rendersettings.renderer.default.description=지정한 해상도로 영상을 렌더링합니다. 가장 빠른 렌더링 옵션.
+replaymod.gui.rendersettings.renderer.stereoscopic.description=다양한 3D 기술이 사용될 수 있는 입체 3D 동영상으로 영상을 렌더링합니다. 한쪽 눈의 이미지는 영상 폭의 절반입니다.
+replaymod.gui.rendersettings.renderer.cubic.description=입방 투영을 사용하여 360도 파노라마 보기로 영상을 렌더링합니다. 이 기능은 VR 플레이어와 같은 여러 360도 영상 플레이어(및 Oculus Rift)에서 사용할 수 있습니다.
 replaymod.gui.rendersettings.renderer.equirectangular.description=Renders the video with a 360 degree panoramic view, using Equirectangular Projection. This is usable by YouTube's new 360 degree video function, and several video players (and the Oculus Rift), for example VR Player.
 replaymod.gui.rendersettings.renderer.ods.description=Renders the video with a stereoscopic 3D 360 degree panoramic view, also called VR Video. This is usable by YouTube's new VR video function.
 replaymod.gui.rendersettings.renderer.blend.description=Exports visible geometry as a .blend file which can be opened using the Blender software. Highly experimental: Requires lots of RAM, has quite a few known issues and sometimes produces broken Blender files.
