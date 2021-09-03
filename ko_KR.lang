@@ -260,7 +260,7 @@ replaymod.gui.rendersettings.presets.blend=파일 혼합
 replaymod.gui.rendersettings.presets.png=PNG 시퀀스
 replaymod.gui.rendersettings.presets.exr=OpenEXR 시퀀스
 
-replaymod.gui.rendersettings.antialiasing=안티 앨리어싱
+replaymod.gui.rendersettings.antialiasing=안티앨리어싱
 replaymod.gui.rendersettings.antialiasing.none=없음
 replaymod.gui.rendersettings.antialiasing.x2=2x
 replaymod.gui.rendersettings.antialiasing.x4=4x
@@ -324,9 +324,9 @@ replaymod.error.negativetime3=잘못된 부분은 빨간색으로 표시됩니�
 
 #Replay Mod Incompatibility Warning
 replaymod.gui.modwarning.title=비호환성이 감지됨
-replaymod.gui.modwarning.message1=현재 Minecraft 버전과
+replaymod.gui.modwarning.message1=현재 사용하는 Minecraft 버전과
 replaymod.gui.modwarning.message2=이 리플레이가 호환되지 않을 수 있습니다.
-replaymod.gui.modwarning.message3=이 리플레이를 로드하면 오류 또는 충돌이 발생할 수 있습니다.
+replaymod.gui.modwarning.message3=이 리플레이를 불러오면 오류 또는 충돌이 발생할 수 있습니다.
 replaymod.gui.modwarning.name=모드 이름:
 replaymod.gui.modwarning.id=모드 Id:
 replaymod.gui.modwarning.missing=누락된 모드
