@@ -95,7 +95,7 @@ replaymod.gui.loadentitytracker=개체 위치 불러오는중: %%d%%%%
 replaymod.gui.loadquickmode=퀵 모드 불러오는중: %%d%%%%
 replaymod.gui.noquickmode=퀵 모드는 Minecraft 버전 %1$s 이상에서만 사용할 수 있습니다.
 replaymod.gui.minimalmode.unsupported=현재 Minecraft 버전에서는 이 기능을 사용할 수 없습니다.
-replaymod.gui.minimalmode.supportedversion=(당신의 리플레이 모드 버전에서 Minecraft 버전 %1$s만 지원됩니다.)
+replaymod.gui.minimalmode.supportedversion=(현재 리플레이 모드 버전에서는 Minecraft 버전 %1$s만 지원니다.)
 
 #Only change these if it's neccessary
 replaymod.gui.replayviewer=리플레이 뷰어
@@ -212,22 +212,22 @@ replaymod.gui.rendersettings.renderer=렌더링 방식
 replaymod.gui.rendersettings.renderer.default=기본 렌더링
 replaymod.gui.rendersettings.renderer.tiled=타일 렌더링
 replaymod.gui.rendersettings.renderer.stereoscopic=스테레오스코픽 렌더링
-replaymod.gui.rendersettings.renderer.cubic=큐빅 렌더링
+replaymod.gui.rendersettings.renderer.cubic=입방 렌더링
 replaymod.gui.rendersettings.renderer.equirectangular=등장방형도법 렌더링
 replaymod.gui.rendersettings.renderer.ods=ODS 렌더링
 replaymod.gui.rendersettings.renderer.blend=Blender로 내보내기 [실험적]
 
 replaymod.gui.rendersettings.renderer.default.description=지정한 해상도로 영상을 렌더링합니다. 가장 빠른 렌더링 옵션.
 replaymod.gui.rendersettings.renderer.stereoscopic.description=다양한 3D 기술이 사용될 수 있는 입체 3D 동영상으로 영상을 렌더링합니다. 한쪽 눈의 이미지는 영상 폭의 절반입니다.
-replaymod.gui.rendersettings.renderer.cubic.description=입방 투영을 사용하여 360도 파노라마 보기로 영상을 렌더링합니다. 이 기능은 VR 플레이어와 같은 여러 360도 영상 플레이어(및 Oculus Rift)에서 사용할 수 있습니다.
-replaymod.gui.rendersettings.renderer.equirectangular.description=Renders the video with a 360 degree panoramic view, using Equirectangular Projection. This is usable by YouTube's new 360 degree video function, and several video players (and the Oculus Rift), for example VR Player.
-replaymod.gui.rendersettings.renderer.ods.description=Renders the video with a stereoscopic 3D 360 degree panoramic view, also called VR Video. This is usable by YouTube's new VR video function.
-replaymod.gui.rendersettings.renderer.blend.description=Exports visible geometry as a .blend file which can be opened using the Blender software. Highly experimental: Requires lots of RAM, has quite a few known issues and sometimes produces broken Blender files.
+replaymod.gui.rendersettings.renderer.cubic.description=입방 투영을 사용하여 360도 파노라마 보기로 영상을 렌더링합니다. 이 기능은 VR 플레이어와 같은 여러 360도 영상 플레이어 및 Oculus Rift에서 사용할 수 있습니다.
+replaymod.gui.rendersettings.renderer.equirectangular.description=등장방형도법 투영을 사용하여 360도 파노라마 보기로 영상을 렌더링합니다. 이것은 Youtube의 새로운 360도 영상 기능과 여러 영상 플레이어(예: VR 플레이어)에서 사용할 수 있습니다.
+replaymod.gui.rendersettings.renderer.ods.description=입체 3D 360도 파노라마 뷰로 영상을 렌더링합니다. 이것은 Youtube의 새로운 VR 영상 기능으로 사용할 수 있습니다.
+replaymod.gui.rendersettings.renderer.blend.description=Blender를 사용하여 열 수 있는 .blend 파일로 표시되는 형상을 내보냅니다. 매우 실험적: 많은 RAM이 필요하고 알려진 문제가 상당히 많으며 때로는 손상된 Blender 파일을 생성합니다.
 
 replaymod.gui.rendersettings.customresolution=영상 해상도
 replaymod.gui.rendersettings.customresolution.warning.yuv420=이 프리셋의 경우 너비와 높이 값이 짝수여야 합니다.
 replaymod.gui.rendersettings.customresolution.warning.yuv420.cubic=이 프리셋의 경우 높이를 6으로 나누어야 합니다.
-replaymod.gui.rendersettings.customresolution.warning.cubic.height=큐빅 렌더링에서는 높이를 3으로 나누어야 합니다.
+replaymod.gui.rendersettings.customresolution.warning.cubic.height=입방 렌더링에서는 높이를 3으로 나누어야 합니다.
 replaymod.gui.rendersettings.bitrate=비트레이트
 replaymod.gui.rendersettings.framerate=영상 프레임레이트
 replaymod.gui.rendersettings.chromakey=크로마 키잉
