@@ -12,9 +12,9 @@ replaymod.chat.addedmarker=이벤트 마커가 추가되었습니다
 
 #Chat messages displayed in Replay Viewer
 replaymod.chat.morekeyframes=최소 2개의 위치 키 프레임과 2개의 시간 키 프레임이 필요합니다
-replaymod.chat.pathstarted=카메라 경로 시작됨
-replaymod.chat.pathfinished=카메라 경로 완료됨
-replaymod.chat.pathinterrupted=카메라 경로 취소됨
+replaymod.chat.pathstarted=카메라 경로를 시작함
+replaymod.chat.pathfinished=카메라 경로를 완료함
+replaymod.chat.pathinterrupted=카메라 경로를 취소함
 
 #Common GUI-related strings
 replaymod.gui.cancel=취소
@@ -35,7 +35,7 @@ replaymod.gui.overwrite=덮어쓰기
 replaymod.gui.saveas=다른 이름으로 저장
 replaymod.gui.done=완료
 replaymod.gui.close=닫기
-replaymod.gui.notagain=다시 표시하지 않기
+replaymod.gui.notagain=다시 보지 않기
 replaymod.gui.edit=편집
 replaymod.gui.copy=복사
 replaymod.gui.paste=붙여넣기
@@ -60,7 +60,7 @@ replaymod.gui.videovisibility.public=공개
 replaymod.gui.ytuploadprogress.auth=[1/4] 인증
 replaymod.gui.ytuploadprogress.prepare_video=[2/4] 영상을 준비하는 중: %%d%%%%
 replaymod.gui.ytuploadprogress.upload=[3/4] 업로드 하는 중: %%d%%%%
-replaymod.gui.ytuploadprogress.cleanup=[4/4] 마무리 하는 중
+replaymod.gui.ytuploadprogress.cleanup=[4/4] 정리 하는 중
 replaymod.gui.ytuploadprogress.done=완료: %s
 replaymod.gui.titleempty=제목은 비워 둘 수 없습니다
 replaymod.gui.videothumbnailtoolarge=썸네일 이미지 크기가 2MB를 초과합니다.
@@ -145,7 +145,7 @@ replaymod.gui.settings.camera=카메라
 replaymod.gui.settings.showchat=채팅 표시
 replaymod.gui.settings.interpolator=기본 보간기
 replaymod.gui.settings.autostartrecording=자동 녹화
-replaymod.gui.settings.rename_recording_dialog=이름 변경 창 표시
+replaymod.gui.settings.rename_recording_dialog=이름 변경 대화상자 표시
 replaymod.gui.settings.fullbrightness=최대 밝기
 replaymod.gui.settings.fullbrightness.gamma=밝기
 replaymod.gui.settings.fullbrightness.nightvision=야간 투시
@@ -153,7 +153,7 @@ replaymod.gui.settings.fullbrightness.both=모두
 
 #Replay Mod Keybindings
 replaymod.input.lighting=조명 전환
-replaymod.input.thumbnail=썸네일 찍기
+replaymod.input.thumbnail=썸네일 촬영
 replaymod.input.playeroverview=플레이어 개요
 replaymod.input.clearkeyframes=키 프레임 제거
 replaymod.input.synctimeline=타임라인 동기화
@@ -199,7 +199,7 @@ replaymod.gui.editkeyframe.interpolator.default.desc=리플레이 모드 설정�
 replaymod.gui.editkeyframe.interpolator.catmullrom.name=캣멀 롬 스플라인 보간기
 replaymod.gui.editkeyframe.interpolator.catmullrom.desc=카메라 경로의 정밀 조임 및 매끄러움을 위해 사용자 지정 가능한 알파 값으로 캣멀 롬 스플라인을 계산합니다.
 replaymod.gui.editkeyframe.interpolator.catmullrom.alpha=알파:
-replaymod.gui.editkeyframe.interpolator.cubic.name=입방 스플라인 보간기
+replaymod.gui.editkeyframe.interpolator.cubic.name= 스플라인 보간기
 replaymod.gui.editkeyframe.interpolator.cubic.desc=부드러운 카메라 경로를 위한 모든 점에 대한 입방정식 행렬을 계산합니다.
 replaymod.gui.editkeyframe.interpolator.linear.name=선형 보간기
 replaymod.gui.editkeyframe.interpolator.linear.desc=키 프레임 사이에 직선을 그립니다.
@@ -212,7 +212,7 @@ replaymod.gui.rendersettings.renderer=렌더링 방식
 replaymod.gui.rendersettings.renderer.default=기본 렌더링
 replaymod.gui.rendersettings.renderer.tiled=타일 렌더링
 replaymod.gui.rendersettings.renderer.stereoscopic=스테레오스코픽 렌더링
-replaymod.gui.rendersettings.renderer.cubic=입방 렌더링
+replaymod.gui.rendersettings.renderer.cubic=큐빅 렌더링
 replaymod.gui.rendersettings.renderer.equirectangular=등장방형도법 렌더링
 replaymod.gui.rendersettings.renderer.ods=ODS 렌더링
 replaymod.gui.rendersettings.renderer.blend=Blender로 내보내기 [실험적]
@@ -227,11 +227,11 @@ replaymod.gui.rendersettings.renderer.blend.description=Blender를 사용하여 
 replaymod.gui.rendersettings.customresolution=영상 해상도
 replaymod.gui.rendersettings.customresolution.warning.yuv420=이 프리셋의 경우 너비와 높이 값이 짝수여야 합니다.
 replaymod.gui.rendersettings.customresolution.warning.yuv420.cubic=이 프리셋의 경우 높이를 6으로 나누어야 합니다.
-replaymod.gui.rendersettings.customresolution.warning.cubic.height=입방 렌더링에서는 높이를 3으로 나누어야 합니다.
+replaymod.gui.rendersettings.customresolution.warning.cubic.height=큐빅 렌더링에서는 높이를 3으로 나누어야 합니다.
 replaymod.gui.rendersettings.bitrate=비트레이트
 replaymod.gui.rendersettings.framerate=영상 프레임레이트
 replaymod.gui.rendersettings.chromakey=크로마 키잉
-replaymod.gui.rendersettings.nametags=이름표 렌더링
+replaymod.gui.rendersettings.nametags=이름표 렌더
 replaymod.gui.rendersettings.outputfile=출력 파일
 replaymod.gui.rendersettings.sphericalFov=구형 FOV
 replaymod.gui.rendersettings.sphericalmetadata=구형 메타데이터 주입
@@ -270,7 +270,7 @@ replaymod.gui.rendersettings.antialiasing.x8=8x
 replaymod.gui.renderqueue.title=렌더 대기열
 replaymod.gui.renderqueue.add=현재 구성 추가
 replaymod.gui.renderqueue.renderall=모두 렌더
-replaymod.gui.renderqueue.renderselected=선택한 렌더
+replaymod.gui.renderqueue.renderselected=선택한 항목 렌더
 
 #Rendering GUI
 replaymod.gui.rendering.title=영상 렌더링
@@ -313,13 +313,13 @@ replaymod.gui.ingame.autoactivating.enable=Ctrl 키+클릭으로 자동 활성�
 replaymod.gui.ingame.first_keyframe_not_at_start_warning=첫 번째 키 프레임을 놓았지만 00:00이 아닙니다.\n\n이는 일반적으로 영상 타임라인(아래쪽 타임라인)의\n작동 방식을 잘못 이해했음을 나타냅니다.\n\n위쪽 타임라인은 재생의 현재 시간을 표시하지만\n아래쪽 타임라인은 생성하는 비디오의 시간을 표시합니다.\n영상은 항상 00:00에서 시작합니다! 첫 번째 키 프레임이 00:00에 있지 않으면\n첫 번째 키 프레임이 끝날 때까지 영상이 정지 상태로 표시됩니다!
 
 #Clear Keyframe Callback
-replaymod.gui.clearcallback.title=모든 키 프레임을 지웁니까?
+replaymod.gui.clearcallback.title=모든 키 프레임을 지우시겠습니까?
 
 #Errors
 replaymod.error.unknownrestriction1=이 리플레이는 현재 버전으로 재생할 수 없습니다.
 replaymod.error.unknownrestriction2=알 수 없는 %s을(를) 적용하려고 했습니다.
 replaymod.error.negativetime1=일부 시간 키 프레임이 작동하지 않습니다.
-replaymod.error.negativetime2=시간을 되돌리는 것은 지원되지 않습니다.
+replaymod.error.negativetime2=시간을 되돌리는 것은 지원하지 않습니다.
 replaymod.error.negativetime3=잘못된 부분은 빨간색으로 표시됩니다.
 
 #Replay Mod Incompatibility Warning
