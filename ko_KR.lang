@@ -1,4 +1,4 @@
-replaymod.title=리플레이 모드
+replaymod.title=Replay Mod
 
 #All of the chat messages
 replaymod.chat.recordingstarted=녹화를 시작했습니다
@@ -95,7 +95,7 @@ replaymod.gui.loadentitytracker=개체 위치 불러오는중: %%d%%%%
 replaymod.gui.loadquickmode=퀵 모드 불러오는중: %%d%%%%
 replaymod.gui.noquickmode=퀵 모드는 Minecraft 버전 %1$s 이상에서만 사용할 수 있습니다.
 replaymod.gui.minimalmode.unsupported=현재 Minecraft 버전에서는 이 기능을 사용할 수 없습니다.
-replaymod.gui.minimalmode.supportedversion=(현재 리플레이 모드 버전에서는 Minecraft 버전 %1$s만 지원니다.)
+replaymod.gui.minimalmode.supportedversion=(현재 Replay Mod 버전에서는 Minecraft 버전 %1$s만 지원니다.)
 
 #Only change these if it's neccessary
 replaymod.gui.replayviewer=리플레이 뷰어
@@ -115,7 +115,7 @@ replaymod.gui.edit.apply=적용
 replaymod.gui.edit.split=분할 삽입
 replaymod.gui.edit.split.tooltip=표시된 지점에서 리플레이를 여러개의 리플레이로 분할합니다.
 replaymod.gui.edit.cut.start=간격 편집
-replaymod.gui.edit.cut.end=편집 끝
+replaymod.gui.edit.cut.end=끝 편집
 replaymod.gui.edit.cut.tooltip=리플레이 섹션 잘라내기(제거)
 
 #Cancel Replay GUI
@@ -133,7 +133,7 @@ replaymod.gui.playeroverview.remembersettings=숨긴 플레이어 기억
 replaymod.gui.playeroverview.remembersettings.description=리플레이 파일에 플레이어 표시 여부 저장
 
 #Replay Mod Settings GUI
-replaymod.gui.settings.title=리플레이 모드 설정
+replaymod.gui.settings.title=Replay Mod 설정
 replaymod.gui.settings.default=기본
 
 replaymod.gui.settings.notifications=알림 켜기
@@ -164,7 +164,7 @@ replaymod.input.resettilt=카메라 기울기 초기화
 replaymod.input.playpause=리플레이 재생/일시정지
 replaymod.input.marker=이벤트 마커 추가
 replaymod.input.pathpreview=경로 미리보기 전환
-replaymod.input.settings=리플레이 모드 설정
+replaymod.input.settings=Replay Mod 설정
 replaymod.input.quickmode=퀵 모드
 replaymod.input.positionkeyframe=위치/관전 키 프레임
 replaymod.input.positiononlykeyframe=위치 키 프레임
@@ -195,7 +195,7 @@ replaymod.gui.editkeyframe.timestamp=시간 색인
 
 replaymod.gui.editkeyframe.interpolator=보간기
 replaymod.gui.editkeyframe.interpolator.default.name=기본 보간기
-replaymod.gui.editkeyframe.interpolator.default.desc=리플레이 모드 설정에 정의된 기본 보간기를 사용합니다.
+replaymod.gui.editkeyframe.interpolator.default.desc=Replay Mod 설정에 정의된 기본 보간기를 사용합니다.
 replaymod.gui.editkeyframe.interpolator.catmullrom.name=캣멀 롬 스플라인 보간기
 replaymod.gui.editkeyframe.interpolator.catmullrom.desc=카메라 경로의 정밀 조임 및 매끄러움을 위해 사용자 지정 가능한 알파 값으로 캣멀 롬 스플라인을 계산합니다.
 replaymod.gui.editkeyframe.interpolator.catmullrom.alpha=알파:
@@ -342,6 +342,6 @@ replaymod.gui.advancedscreenshots.resolution=해상도
 # Screenshot Finished Gui
 replaymod.gui.advancedscreenshots.finished.description=성공적으로 스크린샷을 생성했습니다!
 replaymod.gui.advancedscreenshots.finished.description.360=성공적으로 360° 스크린샷을 생성했습니다!
-replaymod.gui.advancedscreenshots.finished.description.veer=VeeR.tv에서 VR로 이미지를 업로드 및 보거나 디스크에서 엽니다.
+replaymod.gui.advancedscreenshots.finished.description.veer=VeeR.tv에서 VR로 이미지를 업로드 후 보거나 디스크에서 엽니다.
 replaymod.gui.advancedscreenshots.finished.upload.veer=VeeR.tv에 업로드
 replaymod.gui.advancedscreenshots.finished.showfile=디스크에 파일 표시
