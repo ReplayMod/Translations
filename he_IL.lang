@@ -410,7 +410,7 @@ replaymod.gui.rendering.timeleft=הזמן שנותר
 replaymod.gui.rendering.error.title=הרינדור נכשל
 replaymod.gui.rendering.error.optifine=לפני שתרנדר Optifine בבקשה הסר את המוד.
 replaymod.gui.rendering.error.shader.ods= ODS לפני שתרנד סרטוני shaders בבקשה הסר את המוד.
-replaymod.gui.rendering.error.message= בשביל לרנדר סרטון אתה צריך שיהיה מותקן לך ffmpeg  http://ffmpeg.org
+replaymod.gui.rendering.error.message= בשביל לרנדר סרטון אתה צריך שיהיה מותקן לך ffmpeg 
 
 #Ingame Menu
 replaymod.gui.ingame.menu.addposkeyframe=הוסף קי-פריים מיקום

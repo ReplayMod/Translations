@@ -258,7 +258,7 @@ replaymod.gui.rendering.timetaken=渲染時間
 replaymod.gui.rendering.timeleft=剩餘時間
 #Render Errors
 replaymod.gui.rendering.error.title=渲染失敗
-replaymod.gui.rendering.error.message=影片要渲染，需要安裝ffmpeg。http://ffmpeg.org
+replaymod.gui.rendering.error.message=影片要渲染，需要安裝ffmpeg。
 #Ingame Menu
 replaymod.gui.ingame.menu.addposkeyframe=新增位置關鍵影格
 replaymod.gui.ingame.menu.removeposkeyframe=刪除位置關鍵影格

@@ -304,7 +304,7 @@ replaymod.gui.rendering.timeleft=Pozostaly czas
 #Render Errors
 replaymod.gui.rendering.error.title=Renderowanie zakonczone niepowodzeniem
 replaymod.gui.rendering.error.optifine=Odinstaluj Optifine by móc renderowac.
-replaymod.gui.rendering.error.message=Aby wyrenderowaæ film, musisz zainstalowac ffmpeg. http://ffmpeg.org
+replaymod.gui.rendering.error.message=Aby wyrenderowaæ film, musisz zainstalowac ffmpeg.
 #Ingame Menu
 replaymod.gui.ingame.menu.addposkeyframe=Dodaj pozycje kamery
 replaymod.gui.ingame.menu.removeposkeyframe=Usun pozycje kamery

@@ -435,7 +435,7 @@ replaymod.gui.rendering.timeleft=Återstående tid
 
 #Render Errors
 replaymod.gui.rendering.error.title=Rendering misslyckades
-replaymod.gui.rendering.error.message=För att rendera en video måste du installera ffmpeg. http://ffmpeg.org
+replaymod.gui.rendering.error.message=För att rendera en video måste du installera ffmpeg.
 replaymod.gui.rendering.error.ffmpeglog=FFmpeg-utmatning:
 replaymod.gui.rendering.error.ffmpegargs.1=Det verkar som att du har ändrat argumenten i kommandoraden.
 replaymod.gui.rendering.error.ffmpegargs.2=Vill du återställa dem till dess standardvärden och försöka igen?

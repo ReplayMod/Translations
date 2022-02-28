@@ -322,7 +322,7 @@ replaymod.gui.rendering.timetaken=Время
 replaymod.gui.rendering.timeleft=Осталось времени
 #Render Errors
 replaymod.gui.rendering.error.title=Ошибка визуализации
-replaymod.gui.rendering.error.message=Чтобы визуализировать видео, необходимо установить ffmpeg. http://ffmpeg.org
+replaymod.gui.rendering.error.message=Чтобы визуализировать видео, необходимо установить ffmpeg.
 #Ingame Menu
 replaymod.gui.ingame.menu.addposkeyframe=Новый ключевой кадр позиции
 replaymod.gui.ingame.menu.removeposkeyframe=Удалить ключевой кадр позиции

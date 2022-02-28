@@ -322,7 +322,7 @@ replaymod.gui.rendering.timetaken=書き出し時間
 replaymod.gui.rendering.timeleft=残り時間
 #Render Errors
 replaymod.gui.rendering.error.title=書き出しに失敗しました
-replaymod.gui.rendering.error.message=動画を書き出すには、ffmpegをインストールする必要があります。http://ffmpeg.org
+replaymod.gui.rendering.error.message=動画を書き出すには、ffmpegをインストールする必要があります。
 #Ingame Menu
 replaymod.gui.ingame.menu.addposkeyframe=ポジションキーフレームを追加
 replaymod.gui.ingame.menu.removeposkeyframe=ポジションキーフレームを削除

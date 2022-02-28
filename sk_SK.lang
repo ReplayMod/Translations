@@ -285,7 +285,7 @@ replaymod.gui.rendering.timeleft=Približný čas zostáva
 
 #Render Errors
 replaymod.gui.rendering.error.title=Pri vykreslovaní nastala chyba
-replaymod.gui.rendering.error.message=Aby ste mohli vykresliť video musíte stiahnuť http://ffmpeg.org a dať to do .minecraft .
+replaymod.gui.rendering.error.message=Aby ste mohli vykresliť video musíte stiahnuť ffmpeg a dať to do .minecraft .
 replaymod.gui.rendering.error.ffmpeglog=FFmpeg výstup:
 replaymod.gui.rendering.error.ffmpegargs.1=Vyzerá to tak že príkazové argumenty boli zmenené.
 replaymod.gui.rendering.error.ffmpegargs.2=Chcete ich zmeniť na pôvodnú hodnotu a pokračovať?

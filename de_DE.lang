@@ -322,7 +322,7 @@ replaymod.gui.rendering.timetaken=Renderzeit
 replaymod.gui.rendering.timeleft=Zeit übrig
 #Render Errors
 replaymod.gui.rendering.error.title=Rendern fehlgeschlagen
-replaymod.gui.rendering.error.message=Um ein Video zu rendern, muss ffmpeg installiert sein. http://ffmpeg.org
+replaymod.gui.rendering.error.message=Um ein Video zu rendern, muss ffmpeg installiert sein.
 #Ingame Menu
 replaymod.gui.ingame.menu.addposkeyframe=Positions Keyframe hinzufügen
 replaymod.gui.ingame.menu.removeposkeyframe=Positions Keyframe entfernen

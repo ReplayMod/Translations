@@ -432,7 +432,7 @@ replaymod.gui.rendering.timeleft=Tempo restante
 
 #Render Errors
 replaymod.gui.rendering.error.title=Falha na renderização
-replaymod.gui.rendering.error.message=Para renderizar um vídeo, você precisa ter o ffmpeg instalado. http://ffmpeg.org
+replaymod.gui.rendering.error.message=Para renderizar um vídeo, você precisa ter o ffmpeg instalado.
 replaymod.gui.rendering.error.ffmpeglog=Saída FFmpeg:
 replaymod.gui.rendering.error.ffmpegargs.1=Parece que você modificou os argumentos da linha de comando.
 replaymod.gui.rendering.error.ffmpegargs.2=Deseja redefini-los para os padrões e tentar novamente?
