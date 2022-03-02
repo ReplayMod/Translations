@@ -232,6 +232,7 @@ replaymod.gui.rendersettings.bitrate=Bitrate
 replaymod.gui.rendersettings.framerate=Video Framerate
 replaymod.gui.rendersettings.chromakey=Chroma Keying
 replaymod.gui.rendersettings.nametags=Render Name Tags
+replaymod.gui.rendersettings.includealpha=Preserve Alpha Channel
 replaymod.gui.rendersettings.outputfile=Output File
 replaymod.gui.rendersettings.sphericalFov=Spherical FOV
 replaymod.gui.rendersettings.sphericalmetadata=Inject Spherical Metadata
