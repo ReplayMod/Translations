@@ -26,6 +26,7 @@ replaymod.gui.save=Save
 replaymod.gui.rename=Rename
 replaymod.gui.remove=Remove
 replaymod.gui.delete=Delete
+replaymod.gui.recording=Recording
 replaymod.gui.paused=Paused
 replaymod.gui.speed=Speed
 replaymod.gui.pleasewait=Please wait
