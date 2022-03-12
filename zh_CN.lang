@@ -1,33 +1,5 @@
 replaymod.title=Replay Mod
 
-#Website API translations
-replaymod.api.parammissing=缺少必要的参数: %1$s
-replaymod.api.invalidvalue=无效的参数 %1$s - 允许的参数为: %2$s
-replaymod.api.invalidlogin=无效的登录数据
-replaymod.api.invalidauthkey=无效的认证密钥
-replaymod.api.notenoughspace=服务器没有足够的空间来上传这个文件.考虑购买更多空间请访问ReplayMod.com
-replaymod.api.invalidfile=此文件无效
-replaymod.api.fileduplicate=此文件已被上传
-replaymod.api.filenoexist=此文件不存在
-replaymod.api.alreadyrated=你已经评论过了这个文件
-replaymod.api.usernoexist=此用户不存在
-replaymod.api.invalidcategory=无效的文件类型
-replaymod.api.nofilesuploaded=没有上传的文件
-replaymod.api.toomanyvalues=这个数值太高了，参数: %1$s
-replaymod.api.noparameters=至少需要一个参数. 参数: %1$s
-replaymod.api.invalidfilename=文件名必须在5~30个字符之间
-replaymod.api.usernameexists=这个用户名已被使用
-replaymod.api.mailexists=这个电子邮箱已被绑定
-replaymod.api.invalidmail=无效的电子邮箱地址
-replaymod.api.nopermissions=你没有权限这样做
-replaymod.api.authfailed=Minecraft服务器认证失败
-replaymod.api.mcuserexists=一个Replaymod账户已经和这个Minecraft帐户关联了
-replaymod.api.filetoobig=上传的文件过大
-replaymod.api.usernametoolong=用户名过长
-replaymod.api.descriptiontoolong=简介过长
-replaymod.api.passwordlength=密码必须在5~32个字符之间
-replaymod.api.suspended=您的帐户已被冻结
-
 #All of the chat messages
 replaymod.chat.recordingstarted=开始录制
 replaymod.chat.recordingfailed=无法开启录制
@@ -40,44 +12,23 @@ replaymod.chat.addedmarker=标记事件已添加
 
 #Chat messages displayed in Replay Viewer
 replaymod.chat.morekeyframes=至少需要2个位置关键帧和2个时间关键帧
-replaymod.chat.negativetime=镜头路径不能倒退，请向你附近的时间领主寻求帮助。
 replaymod.chat.pathstarted=镜头模式启动
 replaymod.chat.pathfinished=镜头路径完成
 replaymod.chat.pathinterrupted=镜头路径取消
 
-#Replay Categories
-replaymod.category=类别
-replaymod.category.survival=生存
-replaymod.category.minigame=小游戏
-replaymod.category.build=建筑
-replaymod.category.misc=其他
-
 #Common GUI-related strings
-replaymod.gui.login=登录
-replaymod.gui.logout=注销
 replaymod.gui.cancel=取消
-replaymod.gui.username=用户名
-replaymod.gui.password=密码
 replaymod.gui.back=完成
 replaymod.gui.load=加载
-replaymod.gui.download=下载
-replaymod.gui.like=好评
-replaymod.gui.dislike=差评
 replaymod.gui.removelike=撤销
 replaymod.gui.removedislike=撤销
 replaymod.gui.save=保存
-replaymod.gui.upload=上传
 replaymod.gui.rename=重命名
 replaymod.gui.remove=删除
-replaymod.gui.add=添加
-replaymod.gui.start=开始
-replaymod.gui.end=结束
 replaymod.gui.delete=删除
-replaymod.gui.recording=录制中
 replaymod.gui.paused=已暂停
+replaymod.gui.recording=录制中
 replaymod.gui.speed=速度
-replaymod.gui.register=注册
-replaymod.gui.mail=电子邮箱
 replaymod.gui.pleasewait=请稍候
 replaymod.gui.render=渲染
 replaymod.gui.iphidden=隐藏服务器IP
@@ -87,6 +38,8 @@ replaymod.gui.done=完成
 replaymod.gui.close=关闭
 replaymod.gui.notagain=不再显示
 replaymod.gui.edit=编辑
+replaymod.gui.copy=复制
+replaymod.gui.paste=粘贴
 
 replaymod.gui.recording.resume=继续录制
 replaymod.gui.recording.pause=暂停录制
@@ -130,7 +83,6 @@ replaymod.gui.unknownerror=出现未知错误
 
 replaymod.gui.exit=退出回放
 
-replaymod.gui.mainmenu=主菜单
 replaymod.gui.settings=设置
 
 replaymod.gui.keyframerepo.delete=你确定你要删除这些关键帧？
@@ -148,113 +100,16 @@ replaymod.gui.minimalmode.supportedversion=（您的Replay Mod版本仅支持 Mi
 
 #Only change these if it's neccessary
 replaymod.gui.replayviewer=回放中心
-replaymod.gui.replaycenter=录像中心
-replaymod.gui.replayeditor=录像编辑器
-
-#Login GUI
-replaymod.gui.login.title=登录到ReplayMod.com
-replaymod.gui.login.logging=登录中……
-replaymod.gui.login.incorrect=用户名或密码错误
-replaymod.gui.login.connectionerror=无法连接到ReplayMod.com
-
-replaymod.gui.login.skip=跳过
-
-replaymod.gui.register.title=注册Replay账号
-replaymod.gui.register.confirmpw=确认密码
-
-replaymod.gui.register.disclaimer=注册账户后,将默认同意服务条款:https://replaymod.com/legal/terms
-
-replaymod.gui.register.error.nomatch=两次密码不匹配
-replaymod.gui.register.error.shortusername=用户名至少需要5个字符
-replaymod.gui.register.error.invalidname=用户名只能包含字母和数字
-replaymod.gui.register.error.shortpw=密码至少需要5个字符
-replaymod.gui.register.error.longpw=密码不能超过1024个字符
-replaymod.gui.register.error.authfailed=无法验证你的Minecraft帐户
 
 #Replay Viewer GUI
 replaymod.gui.viewer.rename.name=录像名称
-replaymod.gui.viewer.replayfolder=打开录像文件夹……
+replaymod.gui.viewer.replayfolder=打开录像文件夹...
+replaymod.gui.viewer.bulkrender=渲染了 %1$d 个视频
 
 replaymod.gui.viewer.delete.linea=确定要删除这个录像吗？
 replaymod.gui.viewer.delete.failed1=你的操作系统不允许继续重播,我们
 replaymod.gui.viewer.delete.failed2=我们不能为此做些什么,你必须自己去处理。
 replaymod.gui.viewer.delete.lineb="%1$s"将会永远失去！(真的很久！)
-
-replaymod.gui.viewer.download.title=下载录像文件……
-replaymod.gui.viewer.download.message=请稍候 "%1$s" 正在下载.
-
-replaymod.gui.viewer.chooser.title=选择录像文件
-replaymod.gui.viewer.chooser.message=你有一个修改过的 "%1$s" 在你的电脑上。你要回放哪个录像？
-
-replaymod.gui.login.noacc=没有帐号？
-
-#Replay Center GUI
-replaymod.gui.center.logoutcallback=你真的想注销吗？
-replaymod.gui.center.top.recent=最近的
-replaymod.gui.center.top.best=最佳的
-replaymod.gui.center.top.downloaded=下载
-replaymod.gui.center.top.favorited=收藏
-replaymod.gui.center.top.search=搜索
-
-replaymod.gui.center.search.filters=搜索条件
-replaymod.gui.center.search.gametype=游戏类型
-replaymod.gui.center.search.order=排序方式
-replaymod.gui.center.search.order.best=最佳的
-replaymod.gui.center.search.order.recent=最近的
-replaymod.gui.center.search.name=录像名称
-replaymod.gui.center.search.server=服务器IP(仅限多人游戏)
-replaymod.gui.center.search.category=类别
-replaymod.gui.center.search.version=游戏版本
-
-replaymod.gui.center.downloadrequired=下载并收藏这个录像
-
-replaymod.gui.center.favorite=收藏
-replaymod.gui.center.unfavorite=取消收藏
-
-replaymod.gui.center.author=来自 %1$s%2$s
-
-#Upload GUI
-replaymod.gui.upload.title=上传文件
-replaymod.gui.upload.start=开始上传
-replaymod.gui.upload.cancel=取消上传
-replaymod.gui.upload.tagshint=用逗号分隔多个标签
-replaymod.gui.upload.namehint=录像名称
-replaymod.gui.upload.descriptionhint=简介
-replaymod.gui.upload.duration=时长：%02dm%02ds
-replaymod.gui.upload.uploading=上传中……
-replaymod.gui.upload.success=文件已成功上传
-replaymod.gui.upload.canceled=上传已取消
-replaymod.gui.upload.hideip2=隐藏服务器IP (%s)
-replaymod.gui.upload.nothumbnail=缺失缩略图. 请在回放过程中按 %1$s 键来截取缩略图.
-replaymod.gui.upload.tryagain=再试一次？
-
-replaymod.gui.upload.error.name.length=录像名称必须在5~30个字符之间
-replaymod.gui.upload.error.name=录像名称不能含有特殊字符
-replaymod.gui.upload.error.tags=标签只可以包含字母,并用逗号分隔
-
-#Replay Editor
-replaymod.gui.editor.savemode.override=替换源文件
-replaymod.gui.editor.savemode.newfile=保存为新文件
-
-replaymod.gui.editor.trim.title=剪辑录像
-replaymod.gui.editor.connect.title=连接录像
-replaymod.gui.editor.modify.title=修改录像
-
-replaymod.gui.editor.trim.description=剪掉开头和结尾的回放,只保留两个时间点内的内容
-replaymod.gui.editor.connect.description=在指定的顺序连接多个录像
-replaymod.gui.editor.modify.description=提供几个分类来修改录像文件
-
-replaymod.gui.editor.trim.marker=选择事件标记
-
-replaymod.gui.editor.progress.title=编辑录像文件……
-replaymod.gui.editor.progress.pleasewait=请稍候，正在编辑录像文件.
-
-replaymod.gui.editor.progress.status.initializing=正在重置
-replaymod.gui.editor.progress.status.writing.raw=重置录像文件中……
-replaymod.gui.editor.progress.status.writing.final=导出录像文件到磁盘……
-replaymod.gui.editor.progress.status.finished=完成编辑！
-
-replaymod.gui.editor.disclaimer=录像编辑器是一个实验性的功能，可能会有很多Bug。
 
 #Replay Editor UI 2.0 (marker based UI)
 replaymod.gui.edit.apply=应用
@@ -269,11 +124,6 @@ replaymod.gui.cancelrender.title=取消渲染
 replaymod.gui.cancelrender.message=你确定要取消当前的渲染过程吗？
 #Saving Replay GUI
 replaymod.gui.replaysaving.title=保存录像文件中……
-replaymod.gui.replaymodified.message=录像已经改变，你需要再次保存这些修改么？
-replaymod.gui.replaymodified.yes=保存修改的录像
-replaymod.gui.replaymodified.no=放弃修改
-replaymod.gui.replaymodified.warning1=一个同名的"%1$s"已经存在了。
-replaymod.gui.replaymodified.warning2=你确定要覆盖它？
 
 #Player Overview GUI
 replaymod.gui.playeroverview.visible=玩家实体
@@ -285,6 +135,7 @@ replaymod.gui.playeroverview.remembersettings.description=玩家将在录像文�
 
 #Replay Mod Settings GUI
 replaymod.gui.settings.title=录像回放设置
+replaymod.gui.settings.default=默认
 
 replaymod.gui.settings.notifications=启用通知
 replaymod.gui.settings.recordserver=录制多人游戏
@@ -295,6 +146,11 @@ replaymod.gui.settings.camera=镜头
 replaymod.gui.settings.showchat=显示聊天
 replaymod.gui.settings.interpolator=默认插值器
 replaymod.gui.settings.autostartrecording=自动录制
+replaymod.gui.settings.rename_recording_dialog=重命名对话框
+replaymod.gui.settings.fullbrightness=高亮度
+replaymod.gui.settings.fullbrightness.gamma=Gamma值
+replaymod.gui.settings.fullbrightness.nightvision=夜视
+replaymod.gui.settings.fullbrightness.both=同时使用
 
 #Replay Mod Keybindings
 replaymod.input.lighting=照明模式
@@ -309,10 +165,12 @@ replaymod.input.resettilt=重置镜头的旋转角度
 replaymod.input.playpause=播放/暂停回放
 replaymod.input.marker=添加标记事件
 replaymod.input.pathpreview=切换路径预览
-replaymod.input.assetmanager=资源管理器
-replaymod.input.objectmanager=目标管理器
 replaymod.input.settings=ReplayMod配置
 replaymod.input.quickmode=快速模式
+replaymod.input.positionkeyframe=位置/旁观者关键帧
+replaymod.input.positiononlykeyframe=位置关键帧
+replaymod.input.timekeyframe=时间关键帧
+replaymod.input.bothkeyframes=位置/旁观者+时间关键帧
 
 # CameraControllers
 replaymod.camera.classic=经典
@@ -336,15 +194,6 @@ replaymod.gui.editkeyframe.timelineposition=时间轴位置
 replaymod.gui.editkeyframe.markername=标记事件名称
 replaymod.gui.editkeyframe.timestamp=时间系数
 
-replaymod.gui.editkeyframe.spec.method=摄影视角
-replaymod.gui.editkeyframe.spec.method.firstperson=第一人称
-replaymod.gui.editkeyframe.spec.method.shoulder=越肩视角
-
-replaymod.gui.editkeyframe.spec.method.shoulder.distance=镜头距离
-replaymod.gui.editkeyframe.spec.method.shoulder.pitch=仰角偏移
-replaymod.gui.editkeyframe.spec.method.shoulder.yaw=旋转角度
-replaymod.gui.editkeyframe.spec.method.shoulder.smoothness=路径平滑
-
 replaymod.gui.editkeyframe.interpolator=插值器
 replaymod.gui.editkeyframe.interpolator.default.name=默认插值器
 replaymod.gui.editkeyframe.interpolator.default.desc=在Replay Mod设置中使用默认的插值器。
@@ -357,6 +206,8 @@ replaymod.gui.editkeyframe.interpolator.linear.name=线性插值器
 replaymod.gui.editkeyframe.interpolator.linear.desc=在关键帧直接构建直线。
 
 #Render Settings GUI
+replaymod.gui.rendersettings.addtoqueue=添加到队列
+
 replaymod.gui.rendersettings.renderer=渲染方式
 
 replaymod.gui.rendersettings.renderer.default=默认渲染
@@ -368,7 +219,6 @@ replaymod.gui.rendersettings.renderer.ods=ODS渲染
 replaymod.gui.rendersettings.renderer.blend=Blender格式导出[实验性]
 
 replaymod.gui.rendersettings.renderer.default.description=最快速的渲染方式,支持所有Minecraft光影达到一定的分辨率(取决于你的显卡).
-
 replaymod.gui.rendersettings.renderer.stereoscopic.description=使用不同的3D技术，将视频渲染成一个立体的（并排）3D电影。每只眼睛能看到的图像是视频宽度的一半
 replaymod.gui.rendersettings.renderer.cubic.description=用360度全景图渲染视频,这是由360度视频播放器(Oculus Rift)所播放,例如VR Player.
 replaymod.gui.rendersettings.renderer.equirectangular.description=用360度全景图渲染视频,采用圆柱式投影,这是YouTube新的360度视频功能,由360度视频播放器(Oculus Rift)所播放,例如VR Player.
@@ -383,10 +233,14 @@ replaymod.gui.rendersettings.bitrate=比特率
 replaymod.gui.rendersettings.framerate=录像帧率
 replaymod.gui.rendersettings.chromakey=色度键控
 replaymod.gui.rendersettings.nametags=名称标签
+replaymod.gui.rendersettings.includealpha=保留音频轨道
 replaymod.gui.rendersettings.outputfile=导出文件
 replaymod.gui.rendersettings.sphericalFov=球形FOV
 replaymod.gui.rendersettings.sphericalmetadata=添加球体元数据
 replaymod.gui.rendersettings.sphericalmetadata.error=球体元数据只能用360度全景图渲染成MP4格式
+replaymod.gui.rendersettings.depthmap=深度图
+replaymod.gui.rendersettings.depthmap.only_exr_or_png=只支持使用PNG或OpenEXR格式进行深度图导出
+replaymod.gui.rendersettings.camerapath=导出摄像路径
 
 replaymod.gui.rendersettings.command=命令
 replaymod.gui.rendersettings.arguments=命令行参数
@@ -400,13 +254,13 @@ replaymod.gui.rendersettings.commandline=命令行设置
 
 replaymod.gui.rendersettings.presets=编码预设
 replaymod.gui.rendersettings.presets.mp4.custom=MP4 - 自定义码率
-replaymod.gui.rendersettings.presets.mp4.high=MP4 - 高质量
 replaymod.gui.rendersettings.presets.mp4.default=MP4 - 一般质量
 replaymod.gui.rendersettings.presets.mp4.potato=MP4 - 低质量
 replaymod.gui.rendersettings.presets.webm.custom=WEBM - 自定义码率
 replaymod.gui.rendersettings.presets.mkv.lossless=MKV - 无损质量
 replaymod.gui.rendersettings.presets.blend=Blend 格式文件
 replaymod.gui.rendersettings.presets.png=PNG格式
+replaymod.gui.rendersettings.presets.exr=OpenEXR序列
 
 replaymod.gui.rendersettings.antialiasing=图形保真
 replaymod.gui.rendersettings.antialiasing.none=无
@@ -416,9 +270,9 @@ replaymod.gui.rendersettings.antialiasing.x8=8x
 
 #Render Queue GUI
 replaymod.gui.renderqueue.title=渲染序列
-replaymod.gui.renderqueue.open=打开序列
-replaymod.gui.renderqueue.jobname=工程名称：
 replaymod.gui.renderqueue.add=添加当前配置
+replaymod.gui.renderqueue.renderall=渲染全部
+replaymod.gui.renderqueue.renderselected=渲染选定项
 
 #Rendering GUI
 replaymod.gui.rendering.title=渲染视频
@@ -434,6 +288,9 @@ replaymod.gui.rendering.timeleft=剩余时间
 #Render Errors
 replaymod.gui.rendering.error.title=渲染失败
 replaymod.gui.rendering.error.message=要渲染视频,需要安装ffmpeg
+replaymod.gui.rendering.error.ffmpeglog=FFmpeg输出：
+replaymod.gui.rendering.error.ffmpegargs.1=你似乎修改了命令行参数
+replaymod.gui.rendering.error.ffmpegargs.2=你想恢复他们到默认值然后再试一次吗？
 
 #Ingame Menu
 replaymod.gui.ingame.menu.addposkeyframe=添加位置关键帧
@@ -452,29 +309,13 @@ replaymod.gui.ingame.menu.zoomin=放大
 replaymod.gui.ingame.menu.zoomout=缩小
 
 replaymod.gui.ingame.unnamedmarker=未命名的标记事件
+replaymod.gui.ingame.autoactivating=这个按键绑定可能会在恰当的时候自动激活。
+replaymod.gui.ingame.autoactivating.disable=Ctrl+点击来关闭自动激活。
+replaymod.gui.ingame.autoactivating.enable=Ctrl+点击来开启自动激活。
+replaymod.gui.ingame.first_keyframe_not_at_start_warning=您刚刚放置了第一个关键帧，但他不在00:00。\n\n这通常表明您误解了视频时间轴（底部的时间轴）的工作方式：\n\n顶部的时间轴在replay中显示您当前的时间，\n底部的时间轴显示您正在制作的视频中的时间。\n视频将始终在00:00开始！如果你的第一个关键帧不在 00:00,\n则视频将显示为冻结，直到第一个关键帧出现！
 
 #Clear Keyframe Callback
 replaymod.gui.clearcallback.title=清除所有的关键帧？
-
-#Asset Manager Gui
-replaymod.gui.assets.title=资源管理器
-replaymod.gui.assets.filechooser=资源文件
-replaymod.gui.assets.defaultname=新资源
-replaymod.gui.assets.emptylist=没有可用资源
-replaymod.gui.assets.namehint=资源名称
-replaymod.gui.assets.changefile=更改资源文件
-replaymod.gui.assets.noselection=没有选择资源
-
-#Object Manager Gui
-replaymod.gui.objects.properties.anchor=定位点
-replaymod.gui.objects.properties.position=位置
-replaymod.gui.objects.properties.scale=缩放
-replaymod.gui.objects.properties.orientation=方向
-replaymod.gui.objects.properties.opacity=不透明度
-replaymod.gui.objects.properties.name=对象名称
-replaymod.gui.objects.empty=没有添加对象
-replaymod.gui.objects.defaultname=新的目标
-replaymod.gui.objects=自定义对象
 
 #Errors
 replaymod.error.unknownrestriction1=你当前的版本不支持录像视频的播放。
@@ -494,16 +335,6 @@ replaymod.gui.modwarning.missing=缺失Mod
 replaymod.gui.modwarning.version=不同的Mod版本
 replaymod.gui.modwarning.version.expected=异常
 replaymod.gui.modwarning.version.found=发现
-
-#OpenEye
-replaymod.gui.offeropeneye1=你想安装OpenEye么？
-replaymod.gui.offeropeneye2=OpenEye是一个收集匿名信息的Mod
-replaymod.gui.offeropeneye3=包含Mod运行和任何崩溃的信息。
-replaymod.gui.offeropeneye4= 
-replaymod.gui.offeropeneye5=OpenEye可以随时禁用，并且是完全可选的。
-replaymod.gui.offeropeneye6=了解更多信息，请访问https://openeye.openmods.info/faq
-replaymod.gui.offeropeneye7=点击这个会下载OpenEye并安装到你的Mods文件夹。
-replaymod.gui.offeropeneye8=下次你启动Minecraft的时候能够激活它。
 
 #Advanced Screenshots Gui
 replaymod.gui.advancedscreenshots.title=屏幕截图设置
