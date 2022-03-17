@@ -1,63 +1,34 @@
-replaymod.api.invalidlogin=Неверные данные входа
-replaymod.api.notenoughspace=Недостаточно места, чтобы загрузить этот файл. Купите Premium на сайте ReplayMod.com
-replaymod.api.fileduplicate=Данный файл уже загружен
-replaymod.api.invalidfilename=Название файла должно быть от 5 до 30 символов длиной
-replaymod.api.usernameexists=Имя пользователя уже занято
-replaymod.api.mailexists=Данный адрес электронной почты уже связан с учётной записью
 replaymod.title=Replay Mod
-replaymod.api.invalidmail=Неверный адрес электронной почты
-replaymod.api.nopermissions=Недостаточно прав, чтобы сделать это
-replaymod.api.authfailed=Аутентификация на сервер сессий Minecraft не удалась
-replaymod.api.mcuserexists=Учётная запись ReplayMod уже связана с этой учётной записью Minecraft
-replaymod.api.filetoobig=Загруженный файл слишком большой
-replaymod.api.usernametoolong=Имя пользователя слишком длинное
-replaymod.api.descriptiontoolong=Описание слишком длинное
-replaymod.api.passwordlength=Пароль должен быть от 5 до 1024 символов длиной
-replaymod.api.suspended=Ваша учётная запись была приостановлена
+
 #All of the chat messages
 replaymod.chat.recordingstarted=Запись началась
 replaymod.chat.recordingfailed=Не удалось начать запись
+
 replaymod.chat.savingthumb=Сохранение миниатюры...
 replaymod.chat.savedthumb=Миниатюра сохранена
 replaymod.chat.failedthumb=Невозможно сохранить миниатюру
+
 replaymod.chat.addedmarker=Маркер события добавлен
+
 #Chat messages displayed in Replay Viewer
 replaymod.chat.morekeyframes=Требуется как минимум 2 ключевых кадра позиции и 2 ключевых кадра времени
-replaymod.chat.negativetime=Переход назад во времени не поддерживается.
 replaymod.chat.pathstarted=Воспроизведение дорожки начато
 replaymod.chat.pathfinished=Воспроизведение дорожки завершено
 replaymod.chat.pathinterrupted=Воспроизведение дорожки остановлено
-#Replay Categories
-replaymod.category=Категория
-replaymod.category.survival=Выживание
-replaymod.category.minigame=Мини-игра
-replaymod.category.build=Строительство
-replaymod.category.misc=Разное
+
 #Common GUI-related strings
-replaymod.gui.login=Войти
-replaymod.gui.logout=Выйти
 replaymod.gui.cancel=Отмена
-replaymod.gui.username=Имя пользователя
-replaymod.gui.password=Пароль
 replaymod.gui.back=Назад
 replaymod.gui.load=Открыть
-replaymod.gui.download=Загрузить
-replaymod.gui.like=Нравится
-replaymod.gui.dislike=Не нравится
 replaymod.gui.removelike=Убрать оценку
 replaymod.gui.removedislike=Убрать оценку
 replaymod.gui.save=Сохранить
-replaymod.gui.upload=Загрузить
 replaymod.gui.rename=Переименовать
 replaymod.gui.remove=Убрать
-replaymod.gui.add=Добавить
-replaymod.gui.start=Начало
-replaymod.gui.end=Конец
 replaymod.gui.delete=Удалить
 replaymod.gui.recording=Запись
+replaymod.gui.paused=Paused
 replaymod.gui.speed=Скорость
-replaymod.gui.register=Регистрация
-replaymod.gui.mail=Электронная почта
 replaymod.gui.pleasewait=Подождите
 replaymod.gui.render=Визуализировать
 replaymod.gui.iphidden=Адрес сервера скрыт
@@ -66,6 +37,15 @@ replaymod.gui.saveas=Сохранить как...
 replaymod.gui.done=Готово
 replaymod.gui.close=Закрыть
 replaymod.gui.notagain=Не показывать снова
+replaymod.gui.edit=Edit
+replaymod.gui.copy=Copy
+replaymod.gui.paste=Paste
+
+replaymod.gui.recording.resume=Resume Recording
+replaymod.gui.recording.pause=Pause Recording
+replaymod.gui.recording.stop=Stop Recording
+replaymod.gui.recording.start=Start Recording
+
 replaymod.gui.renderdonetitle=Визуализация завершена
 replaymod.gui.openfolder=Открыть папку с видео
 replaymod.gui.youtubeupload=Загрузить на YouTube
@@ -86,119 +66,65 @@ replaymod.gui.ytuploadprogress.done=Готово: %s
 replaymod.gui.titleempty=Нет названия
 replaymod.gui.videothumbnailtoolarge=Размер изображения превышает 2 Мбайт
 replaymod.gui.videothumbnailformat=Изображение должно быть в формате JPEG или PNG
+
 replaymod.gui.hours=ч
 replaymod.gui.minutes=мин
 replaymod.gui.seconds=с
 replaymod.gui.milliseconds=мс
+
 replaymod.gui.pitch=Тангаж
 replaymod.gui.yaw=Рысканье
 replaymod.gui.roll=Крен
+
 replaymod.gui.camera=Камера
 replaymod.gui.position=Позиция
+
 replaymod.gui.unknownerror=Произошла неизвестная ошибка
+
 replaymod.gui.exit=Покинуть повтор
-replaymod.gui.mainmenu=Главное меню
+
 replaymod.gui.settings=Настройки
+
 replaymod.gui.keyframerepo.delete=Вы уверены, что хотите удалить данные ключевые кадры?
+replaymod.gui.keyframerepo.overwrite=Вы уверены, что хотите перезаписать данные ключевые кадры?
+
 replaymod.gui.restorereplay1=Похоже, Minecraft был закрыт необычным образом.
 replaymod.gui.restorereplay2=Повтор «%1$s» неправильно сохранён.
 replaymod.gui.restorereplay3=Хотите восстановить его?
+
 replaymod.gui.loadentitytracker=Загрузка местоположения сущностей: %%d%%%%
+replaymod.gui.loadquickmode=Loading Quick Mode: %%d%%%%
+replaymod.gui.noquickmode=Quick Mode is only available on Minecraft %1$s and above
+replaymod.gui.minimalmode.unsupported=This feature is not available for your current Minecraft version.
+replaymod.gui.minimalmode.supportedversion=(only Minecraft %1$s is supported by your Replay Mod version)
+
 #Only change these if it's neccessary
 replaymod.gui.replayviewer=Просмотрщик
-replaymod.gui.replaycenter=Центр повторов
-replaymod.gui.replayeditor=Редактор
-#Login GUI
-replaymod.gui.login.title=Вход в ReplayMod.com
-replaymod.gui.login.logging=Выполняется вход...
-replaymod.gui.login.incorrect=Неверное имя пользователя и/или пароль
-replaymod.gui.login.connectionerror=Не удалось подключиться к ReplayMod.com
-replaymod.gui.login.skip=Пропустить
-replaymod.gui.register.title=Регистрация на ReplayMod.com
-replaymod.gui.register.confirmpw=Повтор пароля
-replaymod.gui.register.disclaimer=Регистрируясь, Вы соглашаетесь с Правилами пользования Replay Mod: https://replaymod.com/legal/terms
-replaymod.gui.register.error.nomatch=Пароли не совпадают
-replaymod.gui.register.error.shortusername=Имя пользователя должно быть как минимум 5 символов длиной
-replaymod.gui.register.error.invalidname=Имя пользователя может содержать только цифры и буквы английского алфавита
-replaymod.gui.register.error.shortpw=Пароль должен быть как минимум 5 символов длиной
-replaymod.gui.register.error.longpw=Пароль должен быть не более 1024 символов длиной
-replaymod.gui.register.error.authfailed=Не удалось проверить подлинность вашей учётной записи Minecraft
+
 #Replay Viewer GUI
 replaymod.gui.viewer.rename.name=Название повтора
 replaymod.gui.viewer.replayfolder=Папка повторов...
+replaymod.gui.viewer.bulkrender=Render %1$d videos
+
 replaymod.gui.viewer.delete.linea=Вы уверены, что хотите удалить этот повтор?
 replaymod.gui.viewer.delete.failed1=ОС не дала возможность переместить повтор.
 replaymod.gui.viewer.delete.failed2=Ничего не поделать. Сделайте это сами.
 replaymod.gui.viewer.delete.lineb=«%1$s» будет удалён навсегда!
-replaymod.gui.viewer.download.title=Загрузка файла повтора...
-replaymod.gui.viewer.download.message=Подождите, пока «%1$s» будет загружен.
-replaymod.gui.viewer.chooser.title=Выбор файла повтора
-replaymod.gui.viewer.chooser.message=На компьютере есть изменённая версия «%1$s». Какой повтор открыть?
-replaymod.gui.login.noacc=Нет учётной записи?
-#Replay Center GUI
-replaymod.gui.center.logoutcallback=Вы действительно хотите выйти?
-replaymod.gui.center.top.recent=Последние
-replaymod.gui.center.top.best=Лучшие
-replaymod.gui.center.top.downloaded=Загруженные
-replaymod.gui.center.top.favorited=Избранные
-replaymod.gui.center.top.search=Поиск
-replaymod.gui.center.search.filters=Фильтры поиска
-replaymod.gui.center.search.gametype=Тип игры
-replaymod.gui.center.search.order=Сортировать по
-replaymod.gui.center.search.order.best=Лучшим
-replaymod.gui.center.search.order.recent=Последним
-replaymod.gui.center.search.name=Название
-replaymod.gui.center.search.server=Адрес сервера
-replaymod.gui.center.search.category=Категория...
-replaymod.gui.center.search.version=Версия...
-replaymod.gui.center.downloadrequired=Загрузите повтор, чтобы оценить его или добавить в избранное
-replaymod.gui.center.favorite=В избранное
-replaymod.gui.center.unfavorite=Из избранного
-replaymod.gui.center.author=Автор: %1$s%2$s
-#Upload GUI
-replaymod.gui.upload.title=Загрузка файла в центр
-replaymod.gui.upload.start=Начать загрузку
-replaymod.gui.upload.cancel=Отменить загрузку
-replaymod.gui.upload.tagshint=Тэги через запятую
-replaymod.gui.upload.namehint=Название
-replaymod.gui.upload.descriptionhint=Описание
-replaymod.gui.upload.duration=Длительность: %02dмин%02dс
-replaymod.gui.upload.uploading=Загрузка...
-replaymod.gui.upload.success=Файл успешно загружен
-replaymod.gui.upload.canceled=Загрузка была прервана
-replaymod.gui.upload.hideip2=Скрыть адрес сервера (%s)
-replaymod.gui.upload.nothumbnail=Отсутствует миниатюра. Создайте её в повторе, нажав клавишу %1$s.
-replaymod.gui.upload.tryagain=Повторить попытку?
-replaymod.gui.upload.error.name.length=Название должно быть от 5 до 30 символов длиной
-replaymod.gui.upload.error.name=Название не может содержать особые символы
-replaymod.gui.upload.error.tags=Тэги могут содержать только буквы, а также должны отделяться запятой
-#Replay Editor
-replaymod.gui.editor.savemode.override=Заменить исходный файл
-replaymod.gui.editor.savemode.newfile=Сохранить новый файл
-replaymod.gui.editor.trim.title=Обрезка повтора
-replaymod.gui.editor.connect.title=Соединение повторов
-replaymod.gui.editor.modify.title=Изменение повтора
-replaymod.gui.editor.trim.description=Удаляет начало и конец повтора, сохраняя его только между заданными временными метками.
-replaymod.gui.editor.connect.description=Соединяет несколько повторов в указанном порядке.
-replaymod.gui.editor.modify.description=Даёт на выбор несколько фильтров, с помощью которых можно видоизменить повтор
-replaymod.gui.editor.trim.marker=Маркер события...
-replaymod.gui.editor.progress.title=Изменение файла повтора...
-replaymod.gui.editor.progress.pleasewait=Подождите, пока повтор будет изменён.
-replaymod.gui.editor.progress.status.initializing=Инициализация
-replaymod.gui.editor.progress.status.writing.raw=Перезапись повтора...
-replaymod.gui.editor.progress.status.writing.final=Запись файла на диск...
-replaymod.gui.editor.progress.status.finished=Изменение завершено!
-replaymod.gui.editor.disclaimer=Редактор находится в разработке и может содержать ошибки.
+
+#Replay Editor UI 2.0 (marker based UI)
+replaymod.gui.edit.apply=Apply
+replaymod.gui.edit.split=Insert split
+replaymod.gui.edit.split.tooltip=Split the Replay into multiple Replays at the marked point
+replaymod.gui.edit.cut.start=Insert cut
+replaymod.gui.edit.cut.end=End cut
+replaymod.gui.edit.cut.tooltip=Cut (remove) a section of the Replay
+
 #Cancel Replay GUI
 replaymod.gui.cancelrender.title=Остановка визуализации
 replaymod.gui.cancelrender.message=Вы уверены, что хотите прекратить текущий процесс визуализации?
 #Saving Replay GUI
 replaymod.gui.replaysaving.title=Сохранение файла повтора...
-replaymod.gui.replaymodified.message=Повтор был изменён. Хотите сохранить изменения?
-replaymod.gui.replaymodified.yes=Сохранить изменённый повтор
-replaymod.gui.replaymodified.no=Оставить без изменений
-replaymod.gui.replaymodified.warning1=Повтор с названием «%1$s» уже существует.
-replaymod.gui.replaymodified.warning2=Вы уверены, что хотите заменить его?
+
 #Player Overview GUI
 replaymod.gui.playeroverview.visible=Видимый
 replaymod.gui.playeroverview.hideall=Скрыть всех
@@ -206,8 +132,11 @@ replaymod.gui.playeroverview.showall=Показать всех
 replaymod.gui.playeroverview.spectate=Наблюдать за...
 replaymod.gui.playeroverview.remembersettings=Запомнить скрытых игроков
 replaymod.gui.playeroverview.remembersettings.description=Сохраняет информацию о видимости игроков в файле повтора
+
 #Replay Mod Settings GUI
 replaymod.gui.settings.title=Настройки Replay Mod
+replaymod.gui.settings.default=DEFAULT
+
 replaymod.gui.settings.notifications=Уведомления
 replaymod.gui.settings.recordserver=Запись сервера
 replaymod.gui.settings.recordsingleplayer=Запись одиночной игры
@@ -216,6 +145,13 @@ replaymod.gui.settings.pathpreview=Дорожка камеры
 replaymod.gui.settings.camera=Камера
 replaymod.gui.settings.showchat=Чат
 replaymod.gui.settings.interpolator=Интерполяция
+replaymod.gui.settings.autostartrecording=Automatic Recording
+replaymod.gui.settings.rename_recording_dialog=Rename Dialog
+replaymod.gui.settings.fullbrightness=Full Brightness
+replaymod.gui.settings.fullbrightness.gamma=Gamma
+replaymod.gui.settings.fullbrightness.nightvision=Night Vision
+replaymod.gui.settings.fullbrightness.both=Both
+
 #Replay Mod Keybindings
 replaymod.input.lighting=Ночное видение
 replaymod.input.thumbnail=Сделать миниатюру
@@ -229,14 +165,20 @@ replaymod.input.resettilt=Наклон камеры: сброс
 replaymod.input.playpause=Воспроизведение/Пауза
 replaymod.input.marker=Добавить маркер события
 replaymod.input.pathpreview=Отображение дорожки
-replaymod.input.assetmanager=Менеджер изображений
-replaymod.input.objectmanager=Менеджер объектов
 replaymod.input.settings=Настройки ReplayMod
+replaymod.input.quickmode=Quick Mode
+replaymod.input.positionkeyframe=Position/Spectator Keyframe
+replaymod.input.positiononlykeyframe=Position Keyframe
+replaymod.input.timekeyframe=Time Keyframe
+replaymod.input.bothkeyframes=Position/Spectator + Time Keyframe
+
 # CameraControllers
 replaymod.camera.classic=Классическая
 replaymod.camera.vanilla=Стандартная
+
 #Keyframe Presets GUI
 replaymod.gui.keyframerepository.title=Сохранения ключевых кадров
+
 #Edit Keyframe GUI
 replaymod.gui.editkeyframe.title.pos=Ключевой кадр позиции
 replaymod.gui.editkeyframe.title.time=Ключевой кадр времени
@@ -251,6 +193,7 @@ replaymod.gui.editkeyframe.camroll=Крен
 replaymod.gui.editkeyframe.timelineposition=Временная шкала
 replaymod.gui.editkeyframe.markername=Название
 replaymod.gui.editkeyframe.timestamp=Индекс времени
+
 replaymod.gui.editkeyframe.interpolator=Интерполяция
 replaymod.gui.editkeyframe.interpolator.default.name=По умолчанию
 replaymod.gui.editkeyframe.interpolator.default.desc=Интерполяция по умолчанию, выбранная в настройках.
@@ -261,55 +204,76 @@ replaymod.gui.editkeyframe.interpolator.cubic.name=Кубический спла
 replaymod.gui.editkeyframe.interpolator.cubic.desc=Матрица кубического уравнения всех точек для плавности дорожки камеры.
 replaymod.gui.editkeyframe.interpolator.linear.name=Линейная
 replaymod.gui.editkeyframe.interpolator.linear.desc=Прямые линии между ключевыми кадрами.
+
 #Render Settings GUI
+replaymod.gui.rendersettings.addtoqueue=Add to Queue
+
 replaymod.gui.rendersettings.renderer=Визуализация
+
 replaymod.gui.rendersettings.renderer.default=Обычная
 replaymod.gui.rendersettings.renderer.tiled=Плиточная
 replaymod.gui.rendersettings.renderer.stereoscopic=Стереоскопическая
 replaymod.gui.rendersettings.renderer.cubic=Кубическая
 replaymod.gui.rendersettings.renderer.equirectangular=Равнопромежуточная
 replaymod.gui.rendersettings.renderer.ods=ODS
+replaymod.gui.rendersettings.renderer.blend=Blender Export [Experimental]
+
 replaymod.gui.rendersettings.renderer.default.description=Видео в указанном разрешении. Самый быстрый вариант.
 replaymod.gui.rendersettings.renderer.stereoscopic.description=Стереоскопическое 3D-видео (метод перекрёстного взгляда). Изображение для одного глаза составляет половину ширины видео.
 replaymod.gui.rendersettings.renderer.cubic.description=Видео с 360-градусным панорамным видом, использующее кубическую карту. Его можно воспроизвести в Oculus Rift, а также в некоторых видеоплеерах (например, в VR Player).
 replaymod.gui.rendersettings.renderer.equirectangular.description=Видео с 360-градусным панорамным видом, использующее равнопромежуточную проекцию. Его можно воспроизвести в YouTube, Oculus Rift, а также в некоторых видеоплеерах (например, в VR Player).
 replaymod.gui.rendersettings.renderer.ods.description=Видео со стереоскопическим 360-градусным панорамным видом, также известное как VR-видео. Его можно воспроизвести в YouTube.
+replaymod.gui.rendersettings.renderer.blend.description=Exports visible geometry as a .blend file which can be opened using the Blender software. Highly experimental: Requires lots of RAM, has quite a few known issues and sometimes produces broken Blender files.
+
 replaymod.gui.rendersettings.customresolution=Разрешение
-replaymod.gui.rendersettings.customresolution.warning.cubic=Кубическая визуализация работает с соотношением сторон 4:3
-replaymod.gui.rendersettings.customresolution.warning.equirectangular=Равнопромежуточная визуализация работает с соотношением сторон 2:1
 replaymod.gui.rendersettings.customresolution.warning.yuv420=Длина и ширина должны быть чётными числами.
-replaymod.gui.rendersettings.customresolution.warning.ods=ODS-визуализация работает с соотношением сторон 1:1
+replaymod.gui.rendersettings.customresolution.warning.yuv420.cubic=For this preset, the height must be divisible by 6
+replaymod.gui.rendersettings.customresolution.warning.cubic.height=Cubic Rendering requires a height divisible by 3
+replaymod.gui.rendersettings.bitrate=Bitrate
 replaymod.gui.rendersettings.framerate=Частота кадров
 replaymod.gui.rendersettings.chromakey=Хромакей
 replaymod.gui.rendersettings.nametags=Отображать имена
+replaymod.gui.rendersettings.includealpha=Preserve Alpha Channel
 replaymod.gui.rendersettings.outputfile=Выходной файл
-replaymod.gui.rendersettings.360metadata=Встроить метаданные о 360°
-replaymod.gui.rendersettings.360metadata.error=Метаданные о 360° могут быть добавлены в видео только с равнопромежуточной проекцией в формате MP4
+replaymod.gui.rendersettings.sphericalFov=Spherical FOV
+replaymod.gui.rendersettings.sphericalmetadata=Inject Spherical Metadata
+replaymod.gui.rendersettings.sphericalmetadata.error=Spherical Metadata can only be added to Equirectangular and ODS videos in MP4 format
+replaymod.gui.rendersettings.depthmap=Depth map
+replaymod.gui.rendersettings.depthmap.only_exr_or_png=Depth map export is only supported with OpenEXR or PNG format.
+replaymod.gui.rendersettings.camerapath=Export camera path
+
 replaymod.gui.rendersettings.command=Команда
 replaymod.gui.rendersettings.arguments=Аргументы командной строки
 replaymod.gui.rendersettings.ffmpeg.description=Если вы опытный пользователь, вы можете настроить параметры командной строки, используемые для экспорта видео. Для получения дополнительной информации посетите http://replaymod.com/docs
+
 replaymod.gui.rendersettings.stabilizecamera=Стабилизировать камеру
+
 replaymod.gui.rendersettings.video=Настройки видео
 replaymod.gui.rendersettings.advanced=Расширенные настройки
 replaymod.gui.rendersettings.commandline=Параметры командной строки
+
 replaymod.gui.rendersettings.presets=Кодирование
 replaymod.gui.rendersettings.presets.mp4.custom=MP4 — Свой битрейт
-replaymod.gui.rendersettings.presets.mp4.high=MP4 — Высокое качество
 replaymod.gui.rendersettings.presets.mp4.default=MP4 — Обычное качество
 replaymod.gui.rendersettings.presets.mp4.potato=MP4 — Картофельное качество
 replaymod.gui.rendersettings.presets.webm.custom=WEBM — Свой битрейт
 replaymod.gui.rendersettings.presets.mkv.lossless=MKV — Без потерь
+replaymod.gui.rendersettings.presets.blend=Blend file
 replaymod.gui.rendersettings.presets.png=PNG-файлы
+replaymod.gui.rendersettings.presets.exr=OpenEXR Sequence
+
 replaymod.gui.rendersettings.antialiasing=Сглаживание
 replaymod.gui.rendersettings.antialiasing.none=Нет
 replaymod.gui.rendersettings.antialiasing.x2=2x
 replaymod.gui.rendersettings.antialiasing.x4=4x
 replaymod.gui.rendersettings.antialiasing.x8=8x
+
 #Render Queue GUI
 replaymod.gui.renderqueue.title=Очередь
-replaymod.gui.renderqueue.open=Очередь
-replaymod.gui.renderqueue.jobname=Название:
 replaymod.gui.renderqueue.add=Добавить текущую конфигурацию
+replaymod.gui.renderqueue.renderall=Render All
+replaymod.gui.renderqueue.renderselected=Render Selected
+
 #Rendering GUI
 replaymod.gui.rendering.title=Визуализация видео
 replaymod.gui.rendering.pause=Приостановить
@@ -320,9 +284,14 @@ replaymod.gui.rendering.preview=Предпросмотр (производите
 replaymod.gui.rendering.progress=Обработано кадров: %1$d / %2$d
 replaymod.gui.rendering.timetaken=Время
 replaymod.gui.rendering.timeleft=Осталось времени
+
 #Render Errors
 replaymod.gui.rendering.error.title=Ошибка визуализации
 replaymod.gui.rendering.error.message=Чтобы визуализировать видео, необходимо установить ffmpeg.
+replaymod.gui.rendering.error.ffmpeglog=Результат FFmpeg:
+replaymod.gui.rendering.error.ffmpegargs.1=Похоже, аргументы командной строки были изменены.
+replaymod.gui.rendering.error.ffmpegargs.2=Вернуться к значениям по умолчанию и попробовать ещё раз?
+
 #Ingame Menu
 replaymod.gui.ingame.menu.addposkeyframe=Новый ключевой кадр позиции
 replaymod.gui.ingame.menu.removeposkeyframe=Удалить ключевой кадр позиции
@@ -338,15 +307,23 @@ replaymod.gui.ingame.menu.playpathfromstart=Воспроизвести доро�
 replaymod.gui.ingame.menu.pausepath=Приостановить дорожку
 replaymod.gui.ingame.menu.zoomin=Приблизить
 replaymod.gui.ingame.menu.zoomout=Отдалить
+
 replaymod.gui.ingame.unnamedmarker=Безымянный маркер события
+replaymod.gui.ingame.autoactivating=This keybinding may auto-activate at appropriate times.
+replaymod.gui.ingame.autoactivating.disable=Ctrl-click to disable auto-activation.
+replaymod.gui.ingame.autoactivating.enable=Ctrl-click to enable auto-activation.
+replaymod.gui.ingame.first_keyframe_not_at_start_warning=You just placed your first keyframe and it's not at 00:00.\n\nThis usually is an indication that you have misunderstood how the\nvideo timeline (that's the bottom one) works:\n\nWhile The top timeline shows your current time in the replay,\nthe bottom one shows the time in the video you are creating.\nThe video will always start at 00:00! If your first keyframe is not at 00:00,\nthen the video will appear frozen until the time of the first keyframe!
+
 #Clear Keyframe Callback
 replaymod.gui.clearcallback.title=Удалить все ключевые кадры?
+
 #Errors
 replaymod.error.unknownrestriction1=Повтор невозможно воспроизвести на данной версии.
 replaymod.error.unknownrestriction2=Была попытка запустить неизвестную версию %s.
 replaymod.error.negativetime1=Ключевые кадры времени расставлены не по порядку.
 replaymod.error.negativetime2=Переход назад во времени не поддерживается.
 replaymod.error.negativetime3=Недействительные части помечены красным.
+
 #Replay Mod Incompatibility Warning
 replaymod.gui.modwarning.title=Обнаружена несовместимость
 replaymod.gui.modwarning.message1=Обнаружена возможная несовместимость между
@@ -358,63 +335,15 @@ replaymod.gui.modwarning.missing=Недостающие модификации
 replaymod.gui.modwarning.version=Различие версий
 replaymod.gui.modwarning.version.expected=Ожидалась
 replaymod.gui.modwarning.version.found=Найдена
-#OpenEye
-replaymod.gui.offeropeneye1=Хотите установить OpenEye?
-replaymod.gui.offeropeneye2=OpenEye — модификация, собирающая анонимную информацию
-replaymod.gui.offeropeneye3=о запущенных модификациях и любых случающихся сбоях.
-replaymod.gui.offeropeneye4=
-replaymod.gui.offeropeneye5=OpenEye может быть отключён в любой момент.
-replaymod.gui.offeropeneye6=Больше информации по адресу: https://openeye.openmods.info/faq
-replaymod.gui.offeropeneye7=Нажав «Да», OpenEye будет загружен и помещён в папку с модификациями.
-replaymod.gui.offeropeneye8=Он будет активен при следующем запуске Minecraft.
-replaymod.api.invalidauthkey=Неверный ключ аутентификации
-replaymod.api.invalidfile=Недопустимый файл
-replaymod.api.filenoexist=Данный файл не существует
-replaymod.api.alreadyrated=Файл уже оценён
-replaymod.api.usernoexist=Данный пользователь не существует
-#Website API translations
-replaymod.api.parammissing=Требуемый параметр отсутствует: %1$s
-replaymod.api.invalidvalue=Передано недопустимое значение параметру %1$s — Возможные значения: %2$s
-replaymod.api.invalidcategory=Неверная категория файла
-replaymod.api.nofilesuploaded=Файлы не загружены
-replaymod.api.toomanyvalues=Передано слишком много значений в %1$s
-replaymod.api.noparameters=Требуется как минимум один параметр. Параметры: %1$s
-replaymod.gui.editkeyframe.spec.method=Наблюдение
-replaymod.gui.editkeyframe.spec.method.firstperson=От первого лица
-replaymod.gui.editkeyframe.spec.method.shoulder=От третьего лица
-replaymod.gui.editkeyframe.spec.method.shoulder.distance=Расстояние
-replaymod.gui.editkeyframe.spec.method.shoulder.pitch=Смещение тангажа
-replaymod.gui.editkeyframe.spec.method.shoulder.yaw=Угол поворота
-replaymod.gui.editkeyframe.spec.method.shoulder.smoothness=Плавность дорожки
-#Asset Manager Gui
-replaymod.gui.assets.title=Менеджер изображений
-replaymod.gui.assets.filechooser=Изображение
-replaymod.gui.assets.defaultname=Новое изображение
-replaymod.gui.assets.emptylist=Нет доступных изображений
-replaymod.gui.assets.namehint=Название
-replaymod.gui.assets.changefile=Сменить изображение
-replaymod.gui.assets.noselection=Не выбрано
-#Object Manager Gui
-replaymod.gui.objects.properties.anchor=Смещение
-replaymod.gui.objects.properties.position=Позиция
-replaymod.gui.objects.properties.scale=Размер
-replaymod.gui.objects.properties.orientation=Ориентация
-replaymod.gui.objects.properties.opacity=Непрозрачность
-replaymod.gui.objects.properties.name=Название объекта
-replaymod.gui.objects.empty=Нет объектов
-replaymod.gui.objects.defaultname=Новый объект
-replaymod.gui.objects=Изменённые объекты
-replaymod.gui.keyframerepo.overwrite=Вы уверены, что хотите перезаписать данные ключевые кадры?
-replaymod.gui.advancedscreenshots.resolution=Разрешение
+
 #Advanced Screenshots Gui
 replaymod.gui.advancedscreenshots.title=Настройки скриншота
 replaymod.gui.advancedscreenshots.create=Сделать скриншот
+replaymod.gui.advancedscreenshots.resolution=Разрешение
+
 # Screenshot Finished Gui
 replaymod.gui.advancedscreenshots.finished.description=Скриншот создан!
 replaymod.gui.advancedscreenshots.finished.description.360=Скриншот с углом обзора в 360° создан!
 replaymod.gui.advancedscreenshots.finished.description.veer=Загрузите и просмотрите изображение в VR на VeeR.tv или откройте его на диске.
 replaymod.gui.advancedscreenshots.finished.upload.veer=Загрузить на VeeR.tv
 replaymod.gui.advancedscreenshots.finished.showfile=Открыть файл
-replaymod.gui.rendering.error.ffmpeglog=Результат FFmpeg:
-replaymod.gui.rendering.error.ffmpegargs.1=Похоже, аргументы командной строки были изменены.
-replaymod.gui.rendering.error.ffmpegargs.2=Вернуться к значениям по умолчанию и попробовать ещё раз?
