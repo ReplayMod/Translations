@@ -220,7 +220,7 @@ replaymod.gui.rendersettings.renderer.blend=Export do blendera (Experimentálne)
 replaymod.gui.rendersettings.renderer.default.description=Vykreslí video v zadanom rozlíšení. Najrýchlejšia metóda.
 replaymod.gui.rendersettings.renderer.stereoscopic.description=Vykreslí video stereoskopicky, použiteľné rôznymi 3D technológiami. Snímka pre jedno oko je o polovicu tenšia ako celé video.
 replaymod.gui.rendersettings.renderer.cubic.description=Vykreslí video ako 360° panorámu s použitím kubickej projekcie. Použiteľné v niekoľkých 360° prehrávačoch a v Oculus Rift.
-replaymod.gui.rendersettings.renderer.equirectangular.descriptionVykreslí video ako 360° panorámu s použitím rovnoramennej projekcie. Používa youtube a niekoľkých 360° prehrávačoch a v Oculus Rift.
+replaymod.gui.rendersettings.renderer.equirectangular.description=Vykreslí video ako 360° panorámu s použitím rovnoramennej projekcie. Používa youtube a niekoľkých 360° prehrávačoch a v Oculus Rift.
 replaymod.gui.rendersettings.renderer.ods.description=Vykreslí video s 3D anaglyfom a 360° panorámou, tiež zvanej VR Video. Použiteľné s Youtube VR prehrávačom.
 replaymod.gui.rendersettings.renderer.blend.description=Exportuje geometriu sko *.blend súbor, ktorý je použiteľný v Blenderi. Veľmi experimentálne: Vyžaduje veľa RAM, má veľa chýb a niekedy produkuje skazené súbory.
 
