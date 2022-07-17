@@ -1,35 +1,4 @@
-## Swedish translators:
-# Regnander (2018-03-14, 2020-03-13)
-
 replaymod.title=Replay Mod
-
-#Website API translations
-replaymod.api.parammissing=Nödvändig parameter saknas: %1$s
-replaymod.api.invalidvalue=Ogiltigt värde användes för parametern %1$s - Möjliga värden: %2$s
-replaymod.api.invalidlogin=Ogiltig inloggningsdata tillhandahölls
-replaymod.api.invalidauthkey=Ogiltig autentiseringsnyckel tillhandahölls
-replaymod.api.notenoughspace=Inte tillräckligt mycket utrymme kvar för att ladda upp denna fil. Överväg att köpa Premium på ReplayMod.com
-replaymod.api.invalidfile=Denna fil är ogiltig
-replaymod.api.fileduplicate=Denna fil har redan laddats upp
-replaymod.api.filenoexist=Denna fil finns inte
-replaymod.api.alreadyrated=Du har redan betygsatt denna fil
-replaymod.api.usernoexist=Denna användare finns inte
-replaymod.api.invalidcategory=Ogiltig filkategori
-replaymod.api.nofilesuploaded=Inga uppladdade filer
-replaymod.api.toomanyvalues=För många värden användes för %1$s
-replaymod.api.noparameters=Minst en parameter krävs. Parametrar: %1$s
-replaymod.api.invalidfilename=Filnamnet måste vara mellan 5 och 30 tecken långt
-replaymod.api.usernameexists=Detta användarnamn är upptaget
-replaymod.api.mailexists=Denna e-postadress är redan länkad till ett konto
-replaymod.api.invalidmail=Ogiltig e-postadress
-replaymod.api.nopermissions=Du har inte behörighet att göra detta
-replaymod.api.authfailed=Autentiseringen till Minecrafts sessionsservrar misslyckades
-replaymod.api.mcuserexists=Ett ReplayMod-konto är redan associerat med detta Minecraft-konto
-replaymod.api.filetoobig=Den uppladdade filen är för stor
-replaymod.api.usernametoolong=Användarnamnet är för långt
-replaymod.api.descriptiontoolong=Beskrivningen är för lång
-replaymod.api.passwordlength=Lösenordet måste vara mellan 5 och 1024 tecken långt
-replaymod.api.suspended=Ditt konto har stängts av
 
 #All of the chat messages
 replaymod.chat.recordingstarted=Inspelningen har startats
@@ -43,44 +12,23 @@ replaymod.chat.addedmarker=Händelsemarkör har lagts till
 
 #Chat messages displayed in Replay Viewer
 replaymod.chat.morekeyframes=Minst 2 nyckelbilder för både position och tid krävs
-replaymod.chat.negativetime=Kamerabanor kan inte spela upp tiden baklänges. Var god kontakta din närmaste tidsmästare för hjälp.
 replaymod.chat.pathstarted=Kamerabanan har startats
 replaymod.chat.pathfinished=Kamerabanan har slutförts
 replaymod.chat.pathinterrupted=Kamerabanan har avbrutits
 
-#Replay Categories
-replaymod.category=Kategori
-replaymod.category.survival=Överlevnad
-replaymod.category.minigame=Minispel
-replaymod.category.build=Bygge
-replaymod.category.misc=Övrigt
-
 #Common GUI-related strings
-replaymod.gui.login=Logga in
-replaymod.gui.logout=Logga ut
 replaymod.gui.cancel=Avbryt
-replaymod.gui.username=Användarnamn
-replaymod.gui.password=Lösenord
 replaymod.gui.back=Tillbaka
 replaymod.gui.load=Läs in
-replaymod.gui.download=Ladda ned
-replaymod.gui.like=Gilla
-replaymod.gui.dislike=Gilla inte
 replaymod.gui.removelike=Sluta gilla
 replaymod.gui.removedislike=Sluta ogilla
 replaymod.gui.save=Spara
-replaymod.gui.upload=Ladda upp
 replaymod.gui.rename=Byt namn
 replaymod.gui.remove=Ta bort
-replaymod.gui.add=Lägg till
-replaymod.gui.start=Början
-replaymod.gui.end=Slutet
 replaymod.gui.delete=Radera
 replaymod.gui.recording=Spelar in
 replaymod.gui.paused=Pausad
 replaymod.gui.speed=Hastighet
-replaymod.gui.register=Registrera
-replaymod.gui.mail=E-postadress
 replaymod.gui.pleasewait=Var god vänta
 replaymod.gui.render=Rendera
 replaymod.gui.iphidden=Dold serveradress
@@ -133,7 +81,6 @@ replaymod.gui.unknownerror=Ett okänt fel uppstod
 
 replaymod.gui.exit=Avsluta repris
 
-replaymod.gui.mainmenu=Huvudmeny
 replaymod.gui.settings=Inställningar
 
 replaymod.gui.keyframerepo.delete=Är du säker på att du vill radera dessa nyckelbilder?
@@ -151,28 +98,6 @@ replaymod.gui.minimalmode.supportedversion=(endast Minecraft %1$s har stöd för
 
 #Only change these if it's neccessary
 replaymod.gui.replayviewer=Reprisvisare
-replaymod.gui.replaycenter=Repriscenter
-replaymod.gui.replayeditor=Reprisredigerare
-
-#Login GUI
-replaymod.gui.login.title=Logga in på ReplayMod.com
-replaymod.gui.login.logging=Loggar in...
-replaymod.gui.login.incorrect=Fel användarnamn eller lösenord
-replaymod.gui.login.connectionerror=Kunde inte ansluta till ReplayMod.com
-
-replaymod.gui.login.skip=Hoppa över
-
-replaymod.gui.register.title=Registrera dig på ReplayMod.com
-replaymod.gui.register.confirmpw=Bekräfta lösenord
-
-replaymod.gui.register.disclaimer=Genom att registrera ett konto samtycker du till Replay Mods användarvillkor: https://replaymod.com/legal/terms
-
-replaymod.gui.register.error.nomatch=Lösenorden stämmer inte överens
-replaymod.gui.register.error.shortusername=Användarnamnet måste vara minst 5 tecken långt
-replaymod.gui.register.error.invalidname=Användarnamnet får endast innehålla bokstäver och siffror
-replaymod.gui.register.error.shortpw=Lösenordet måste vara minst 5 tecken långt
-replaymod.gui.register.error.longpw=Lösenordet minst vara högst 1024 tecken långt
-replaymod.gui.register.error.authfailed=Kunde inte autentisera ditt Minecraft-konto
 
 #Replay Viewer GUI
 replaymod.gui.viewer.rename.name=Reprisnamn
@@ -182,82 +107,6 @@ replaymod.gui.viewer.delete.linea=Är du säker på att du vill radera denna rep
 replaymod.gui.viewer.delete.failed1=Ditt operativsystem lät oss inte ta bort reprisen. Det finns
 replaymod.gui.viewer.delete.failed2=ingenting som vi kan göra åt detta. Du måste göra det själv.
 replaymod.gui.viewer.delete.lineb="%1$s" kommer att försvinna för alltid! (Väldigt länge!)
-
-replaymod.gui.viewer.download.title=Laddar ned reprisfil...
-replaymod.gui.viewer.download.message=Var god vänta medan "%1$s" laddas ned.
-
-replaymod.gui.viewer.chooser.title=Välj reprisfil
-replaymod.gui.viewer.chooser.message=Du har en modifierad version av "%1$s" på din dator. Vilken repris vill du läsa in?
-
-replaymod.gui.login.noacc=Har du inte ett konto ännu?
-
-#Replay Center GUI
-replaymod.gui.center.logoutcallback=Vill du verkligen logga ut?
-replaymod.gui.center.top.recent=Senaste
-replaymod.gui.center.top.best=Bästa
-replaymod.gui.center.top.downloaded=Nedladdade
-replaymod.gui.center.top.favorited=Favoriter
-replaymod.gui.center.top.search=Sök
-
-replaymod.gui.center.search.filters=Sökfilter
-replaymod.gui.center.search.gametype=Speltyp
-replaymod.gui.center.search.order=Sortera efter
-replaymod.gui.center.search.order.best=Bästa
-replaymod.gui.center.search.order.recent=Senaste
-replaymod.gui.center.search.name=Reprisnamn
-replaymod.gui.center.search.server=Serveradress (endast flerspelarläge)
-replaymod.gui.center.search.category=Filtrera efter kategori
-replaymod.gui.center.search.version=Filtrera efter version
-
-replaymod.gui.center.downloadrequired=Ladda ned reprisen för att betygsätta eller favoritmarkera den
-
-replaymod.gui.center.favorite=Ange som favorit
-replaymod.gui.center.unfavorite=Ta bort favorit
-
-replaymod.gui.center.author=av %1$s%2$s
-
-#Upload GUI
-replaymod.gui.upload.title=Ladda upp fil
-replaymod.gui.upload.start=Starta uppladdning
-replaymod.gui.upload.cancel=Avbryt uppladdning
-replaymod.gui.upload.tagshint=Taggar separerade med kommatecken
-replaymod.gui.upload.namehint=Repristitel
-replaymod.gui.upload.descriptionhint=Beskrivning
-replaymod.gui.upload.duration=Varaktighet: %02dm %02ds
-replaymod.gui.upload.uploading=Laddar upp...
-replaymod.gui.upload.success=Filen har laddats upp
-replaymod.gui.upload.canceled=Uppladdningen har avbrutits
-replaymod.gui.upload.hideip2=Dölj serveradressen (%s)
-replaymod.gui.upload.nothumbnail=Miniatyr saknas. Var god skapa en miniatyr i reprisen genom att trycka på %1$s.
-replaymod.gui.upload.tryagain=Försök igen?
-
-replaymod.gui.upload.error.name.length=Reprisnamnet måste vara mellan 5 och 30 tecken långt
-replaymod.gui.upload.error.name=Reprisnamnet får inte innehålla specialtecken
-replaymod.gui.upload.error.tags=Taggar får endast innehålla bokstäver och separeras med kommatecken
-
-#Replay Editor
-replaymod.gui.editor.savemode.override=Ersätt källfil
-replaymod.gui.editor.savemode.newfile=Spara till ny fil
-
-replaymod.gui.editor.trim.title=Beskär repris
-replaymod.gui.editor.connect.title=Förena repriser
-replaymod.gui.editor.modify.title=Redigera repris
-
-replaymod.gui.editor.trim.description=Tar bort början och slutet på en reprisfil samt behåller reprisen mellan de angivna tidsstämplarna
-replaymod.gui.editor.connect.description=Förenar flera repriser i vald ordning
-replaymod.gui.editor.modify.description=Tillhandahåller flera filter för att redigera reprisfiler
-
-replaymod.gui.editor.trim.marker=Välj händelsemarkör
-
-replaymod.gui.editor.progress.title=Redigerar reprisfil...
-replaymod.gui.editor.progress.pleasewait=Var god vänta medan reprisen redigeras.
-
-replaymod.gui.editor.progress.status.initializing=Förbereder
-replaymod.gui.editor.progress.status.writing.raw=Skriver om repris...
-replaymod.gui.editor.progress.status.writing.final=Skriver filen till hårddisken...
-replaymod.gui.editor.progress.status.finished=Redigeringen är slutförd!
-
-replaymod.gui.editor.disclaimer=Reprisredigeraren är en experimentell funktion och kan innehålla buggar.
 
 #Replay Editor UI 2.0 (marker based UI)
 replaymod.gui.edit.apply=Verkställ
@@ -272,11 +121,6 @@ replaymod.gui.cancelrender.title=Avbryt rendering
 replaymod.gui.cancelrender.message=Är du säker på att du vill avbryta aktuell renderingsprocess?
 #Saving Replay GUI
 replaymod.gui.replaysaving.title=Sparar reprisfil...
-replaymod.gui.replaymodified.message=Reprisen har redigerats. Vill du spara ändringarna?
-replaymod.gui.replaymodified.yes=Spara redigerad repris
-replaymod.gui.replaymodified.no=Släng ändringar
-replaymod.gui.replaymodified.warning1=En repris med namnet "%1$s" finns redan.
-replaymod.gui.replaymodified.warning2=Är du säker på att du vill ersätta den?
 
 #Player Overview GUI
 replaymod.gui.playeroverview.visible=Synlighet
@@ -312,8 +156,6 @@ replaymod.input.resettilt=Återställ kameralutning
 replaymod.input.playpause=Spela upp/pausa repris
 replaymod.input.marker=Lägg till händelsemarkör
 replaymod.input.pathpreview=Förhandsvisa bana
-replaymod.input.assetmanager=Resurshanterare
-replaymod.input.objectmanager=Objekthanterare
 replaymod.input.settings=Inställningar
 replaymod.input.quickmode=Snabbläge
 
@@ -339,15 +181,6 @@ replaymod.gui.editkeyframe.timelineposition=Position i tidslinje
 replaymod.gui.editkeyframe.markername=Namn på händelsemarkör
 replaymod.gui.editkeyframe.timestamp=Tidsindex
 
-replaymod.gui.editkeyframe.spec.method=Åskådarmetod
-replaymod.gui.editkeyframe.spec.method.firstperson=Första person
-replaymod.gui.editkeyframe.spec.method.shoulder=Tredje person
-
-replaymod.gui.editkeyframe.spec.method.shoulder.distance=Kameraavstånd
-replaymod.gui.editkeyframe.spec.method.shoulder.pitch=Offset för vertikal lutning
-replaymod.gui.editkeyframe.spec.method.shoulder.yaw=Rotationsvinkel
-replaymod.gui.editkeyframe.spec.method.shoulder.smoothness=Mjukhet för bana
-
 replaymod.gui.editkeyframe.interpolator=Övergång
 replaymod.gui.editkeyframe.interpolator.default.name=Standardövergång
 replaymod.gui.editkeyframe.interpolator.default.desc=Använder standardövergången som definieras i inställningarna för Replay Mod.
@@ -359,7 +192,6 @@ replaymod.gui.editkeyframe.interpolator.cubic.desc=Beräknar en kubisk ekvations
 replaymod.gui.editkeyframe.interpolator.linear.name=Linjär övergång
 replaymod.gui.editkeyframe.interpolator.linear.desc=Ritar raka linjer mellan nyckelbilderna.
 
-#Render Settings GUI
 replaymod.gui.rendersettings.renderer=Renderingsmetod
 
 replaymod.gui.rendersettings.renderer.default=Standardrendering
@@ -402,7 +234,6 @@ replaymod.gui.rendersettings.commandline=Inställningar för kommandoraden
 
 replaymod.gui.rendersettings.presets=Förinställningar för kodning
 replaymod.gui.rendersettings.presets.mp4.custom=MP4 - Anpassad bithastighet
-replaymod.gui.rendersettings.presets.mp4.high=MP4 - Hög kvalitet
 replaymod.gui.rendersettings.presets.mp4.default=MP4 - Standardkvalitet
 replaymod.gui.rendersettings.presets.mp4.potato=MP4 - Usel kvalitet
 replaymod.gui.rendersettings.presets.webm.custom=WEBM - Anpassad bithastighet
@@ -418,8 +249,6 @@ replaymod.gui.rendersettings.antialiasing.x8=8x
 
 #Render Queue GUI
 replaymod.gui.renderqueue.title=Renderingskö
-replaymod.gui.renderqueue.open=Öppna kö
-replaymod.gui.renderqueue.jobname=Jobbnamn:
 replaymod.gui.renderqueue.add=Lägg till aktuell konfig.
 
 #Rendering GUI
@@ -461,26 +290,6 @@ replaymod.gui.ingame.unnamedmarker=Namnlös händelsemarkör
 #Clear Keyframe Callback
 replaymod.gui.clearcallback.title=Rensa alla nyckelbilder?
 
-#Asset Manager Gui
-replaymod.gui.assets.title=Resurshanterare
-replaymod.gui.assets.filechooser=Resursfil
-replaymod.gui.assets.defaultname=Ny resurs
-replaymod.gui.assets.emptylist=Inga tillgängliga resurser
-replaymod.gui.assets.namehint=Resursnamn
-replaymod.gui.assets.changefile=Ändra resursfil
-replaymod.gui.assets.noselection=Inga resurser har valts
-
-#Object Manager Gui
-replaymod.gui.objects.properties.anchor=Ankarpunkt
-replaymod.gui.objects.properties.position=Position
-replaymod.gui.objects.properties.scale=Skala
-replaymod.gui.objects.properties.orientation=Orientering
-replaymod.gui.objects.properties.opacity=Opacitet
-replaymod.gui.objects.properties.name=Objektnamn
-replaymod.gui.objects.empty=Inga objekt har lagts till
-replaymod.gui.objects.defaultname=Nytt objekt
-replaymod.gui.objects=Anpassade objekt
-
 #Errors
 replaymod.error.unknownrestriction1=Denna repris kan inte spelas upp med din nuvarande version.
 replaymod.error.unknownrestriction2=Den försökte tvinga %s som är okänd.
@@ -499,16 +308,6 @@ replaymod.gui.modwarning.missing=Moddar som saknas
 replaymod.gui.modwarning.version=Olika modversioner
 replaymod.gui.modwarning.version.expected=Förväntades
 replaymod.gui.modwarning.version.found=Hittades
-
-#OpenEye
-replaymod.gui.offeropeneye1=Vill du installera OpenEye?
-replaymod.gui.offeropeneye2=OpenEye är en mod som samlar in anonym information
-replaymod.gui.offeropeneye3=om moddar som körs och kraschar som inträffar.
-replaymod.gui.offeropeneye4=
-replaymod.gui.offeropeneye5=OpenEye kan inaktiveras när som helst och är helt valfritt.
-replaymod.gui.offeropeneye6=Mer information finns tillgänglig på https://openeye.openmods.info/faq
-replaymod.gui.offeropeneye7=Om du klickar på Ja laddas OpenEye ned och placeras i din modmapp.
-replaymod.gui.offeropeneye8=Den kommer sedan aktiveras nästa gång du startar Minecraft.
 
 #Advanced Screenshots Gui
 replaymod.gui.advancedscreenshots.title=Inställningar för skärmdumpar

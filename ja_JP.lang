@@ -1,62 +1,33 @@
-replaymod.api.invalidlogin=ログインデータが無効です
-replaymod.api.notenoughspace=このファイルをアップロードするための空き容量が足りません。ReplayMod.comへアクセスし、プレミアムサービスへの加入(有料)をご検討ください
-replaymod.api.fileduplicate=このファイルは既にアップロードされています
-replaymod.api.invalidfilename=ファイル名の長さは5文字から30文字にする必要があります
-replaymod.api.usernameexists=このユーザー名は既に使われています
-replaymod.api.mailexists=このメールアドレスは既にアカウントに紐づけられています
-replaymod.api.invalidmail=無効なメールアドレス
-replaymod.api.nopermissions=あなたはこの操作をする権限を持っていません
-replaymod.api.authfailed=Minecraftのログインサーバーの認証に失敗しました
-replaymod.api.mcuserexists=このReplayModアカウントは既にこのMinecraftアカウントに紐づけられています
-replaymod.api.filetoobig=アップロードされたファイルの容量が大き過ぎます
-replaymod.api.usernametoolong=ユーザー名が長過ぎます
-replaymod.api.descriptiontoolong=説明文が長過ぎます
-replaymod.api.passwordlength=パスワードの長さは5文字から1024文字にする必要があります
-replaymod.api.suspended=あなたのアカウントは停止されています
+replaymod.title=Replay Mod
+
 #All of the chat messages
 replaymod.chat.recordingstarted=録画を開始しました
 replaymod.chat.recordingfailed=録画の開始に失敗しました
+
 replaymod.chat.savingthumb=サムネイルを保存しています…
 replaymod.chat.savedthumb=サムネイルは正常に保存されました
 replaymod.chat.failedthumb=サムネイルを保存できませんでした
+
 replaymod.chat.addedmarker=イベントマーカーが追加されました
+
 #Chat messages displayed in Replay Viewer
 replaymod.chat.morekeyframes=少なくとも2つのポジションキーフレームと2つのタイムキーフレームが必要です
-replaymod.chat.negativetime=カメラは時間を後戻りすることはできません。直近のゲーム内時間を調べてタイムキーフレームを調整してください。
 replaymod.chat.pathstarted=カメラの移動を開始しました
 replaymod.chat.pathfinished=カメラの移動を終了しました
 replaymod.chat.pathinterrupted=カメラの移動が中止されました
-#Replay Categories
-replaymod.category=カテゴリー
-replaymod.category.survival=サバイバル
-replaymod.category.minigame=ミニゲーム
-replaymod.category.build=建築
-replaymod.category.misc=その他
+
 #Common GUI-related strings
-replaymod.gui.login=ログイン
-replaymod.gui.logout=ログアウト
 replaymod.gui.cancel=キャンセル
-replaymod.gui.username=ユーザー名
-replaymod.gui.password=パスワード
 replaymod.gui.back=戻る
 replaymod.gui.load=読み込む
-replaymod.gui.download=ダウンロード
-replaymod.gui.like=高評価
-replaymod.gui.dislike=低評価
 replaymod.gui.removelike=高評価を取り消す
 replaymod.gui.removedislike=低評価を取り消す
 replaymod.gui.save=保存
-replaymod.gui.upload=アップロード
 replaymod.gui.rename=名前変更
 replaymod.gui.remove=消去
-replaymod.gui.add=追加
-replaymod.gui.start=開始
-replaymod.gui.end=終了
 replaymod.gui.delete=削除
 replaymod.gui.recording=録画中
 replaymod.gui.speed=速度
-replaymod.gui.register=登録
-replaymod.gui.mail=メールアドレス
 replaymod.gui.pleasewait=お待ちください
 replaymod.gui.render=書き出す
 replaymod.gui.iphidden=サーバーIPは隠されています
@@ -65,6 +36,7 @@ replaymod.gui.saveas=名前を付けて保存…
 replaymod.gui.done=完了
 replaymod.gui.close=閉じる
 replaymod.gui.notagain=二度と表示しない
+
 replaymod.gui.renderdonetitle=動画が書き出されました
 replaymod.gui.openfolder=動画のフォルダーを開く
 replaymod.gui.youtubeupload=YouTubeにアップロード
@@ -85,120 +57,51 @@ replaymod.gui.ytuploadprogress.done=完了: %s
 replaymod.gui.titleempty=タイトルは空にできません
 replaymod.gui.videothumbnailtoolarge=サムネイルの容量が2MBを超えています
 replaymod.gui.videothumbnailformat=サムネイルはJPEGもしくはPNG形式にする必要があります
+
 replaymod.gui.hours=時間
 replaymod.gui.minutes=分
 replaymod.gui.seconds=秒
 replaymod.gui.milliseconds=ミリ秒
+
 replaymod.gui.pitch=ピッチ
 replaymod.gui.yaw=ヨー
 replaymod.gui.roll=ロール
+
 replaymod.gui.camera=カメラ
 replaymod.gui.position=位置
+
 replaymod.gui.unknownerror=不明なエラーが発生しました
+
 replaymod.gui.exit=リプレイを終了
-replaymod.gui.mainmenu=メインメニュー
+
 replaymod.gui.settings=設定
+
 replaymod.gui.keyframerepo.delete=本当にこれらのキーフレームを削除してよろしいですか?
+
 replaymod.gui.restorereplay1=Minecraftが正常に終了しなかったようです。
 replaymod.gui.restorereplay2=リプレイ「%1$s」は正しく保存されませんでした。
 replaymod.gui.restorereplay3=修復しますか?
+
 replaymod.gui.loadentitytracker=エンティティの位置を読み込んでいます: %%d %%%%
+
 #Only change these if it's neccessary
 replaymod.gui.replayviewer=リプレイビューワー
-replaymod.gui.replaycenter=リプレイセンター
-replaymod.gui.replayeditor=リプレイエディター
-#Login GUI
-replaymod.gui.login.title=ReplayMod.comにログイン
-replaymod.gui.login.logging=ログインしています…
-replaymod.gui.login.incorrect=ユーザー名またはパスワードが間違っています
-replaymod.gui.login.connectionerror=ReplayMod.comに接続できませんでした
-replaymod.gui.login.skip=スキップ
-replaymod.gui.register.title=ReplayMod.comに登録
-replaymod.gui.register.confirmpw=パスワードを確認
-replaymod.gui.register.disclaimer=アカウントを登録することにより、あなたはReplayMod.comの利用規約に同意したことになります:\nhttps://replaymod.com/legal/terms
-replaymod.gui.register.error.nomatch=パスワードが間違っています
-replaymod.gui.register.error.shortusername=ユーザー名の長さは少なくとも5文字以上にする必要があります
-replaymod.gui.register.error.invalidname=ユーザー名には文字と数字しか使えません
-replaymod.gui.register.error.shortpw=パスワードの長さは少なくとも5文字以上にする必要があります
-replaymod.gui.register.error.longpw=パスワードの長さは1024文字以下にする必要があります
-replaymod.gui.register.error.authfailed=あなたのMinecraftアカウントを認証できませんでした
+
 #Replay Viewer GUI
 replaymod.gui.viewer.rename.name=リプレイの名前
 replaymod.gui.viewer.replayfolder=リプレイのフォルダーを開く…
+
 replaymod.gui.viewer.delete.linea=本当にこのリプレイを削除してよろしいですか?
 replaymod.gui.viewer.delete.failed1=OSが原因で、リプレイを削除できませんでした。ここには
 replaymod.gui.viewer.delete.failed2=ReplayModはお力になれませんので、あなた自身で削除してください。
 replaymod.gui.viewer.delete.lineb=「%1$s」は削除されます! (二度と元に戻せません!)
-replaymod.gui.viewer.download.title=リプレイファイルをダウンロード中…
-replaymod.gui.viewer.download.message=「%1$s」がダウンロードされる間しばらくお待ちください。
-replaymod.gui.viewer.chooser.title=リプレイファイルを選択
-replaymod.gui.viewer.chooser.message=「%1$s」の編集済みバージョンも保存されています。どちらを読み込みますか？
-replaymod.gui.login.noacc=アカウントをまだお持ちでないですか？
-#Replay Center GUI
-replaymod.gui.center.logoutcallback=ログアウトしますか?
-replaymod.gui.center.top.recent=最近
-replaymod.gui.center.top.best=評価が高い
-replaymod.gui.center.top.downloaded=ダウンロード数
-replaymod.gui.center.top.favorited=お気に入り数
-replaymod.gui.center.top.search=検索
-replaymod.gui.center.search.filters=検索条件
-replaymod.gui.center.search.gametype=ゲームの種類
-replaymod.gui.center.search.order=並び順
-replaymod.gui.center.search.order.best=評価順
-replaymod.gui.center.search.order.recent=アップロード日時順
-replaymod.gui.center.search.name=リプレイのタイトル
-replaymod.gui.center.search.server=サーバーIP(マルチプレイのみ)
-replaymod.gui.center.search.category=カテゴリーで絞り込む
-replaymod.gui.center.search.version=バージョンで絞り込む
-replaymod.gui.center.downloadrequired=評価やお気に入り登録をするにはダウンロードしてください
-replaymod.gui.center.favorite=お気に入り
-replaymod.gui.center.unfavorite=お気に入り解除
-replaymod.gui.center.author=by %1$s%2$s
-#Upload GUI
-replaymod.gui.upload.title=ファイルをアップロード
-replaymod.gui.upload.start=アップロードを開始
-replaymod.gui.upload.tagshint=タグはコンマで区切ってください
-replaymod.gui.upload.namehint=リプレイのタイトル
-replaymod.gui.upload.descriptionhint=説明文
-replaymod.gui.upload.duration=長さ: %02d分%02d秒
-replaymod.gui.upload.uploading=アップロード中…
-replaymod.gui.upload.success=ファイルは正常にアップロードされました
-replaymod.gui.upload.canceled=アップロードはキャンセルされました
-replaymod.gui.upload.hideip2=サーバーIPを隠す(%s)
-replaymod.gui.upload.nothumbnail=サムネイルが見つかりません。リプレイ閲覧中に%1$sキーでサムネイルを作成してください。
-replaymod.title=Replay Mod
-replaymod.gui.upload.cancel=アップロードをキャンセル
-replaymod.gui.upload.tryagain=やり直しますか?
-replaymod.gui.upload.error.name.length=リプレイのタイトルの長さは5文字から30文字にする必要があります
-replaymod.gui.upload.error.name=リプレイのタイトルに特殊な文字は使えません
-replaymod.gui.upload.error.tags=タグには文字しか使えず、コンマで区切ります
-#Replay Editor
-replaymod.gui.editor.savemode.override=元のファイルを置き換える
-replaymod.gui.editor.savemode.newfile=新しいファイルに保存
-replaymod.gui.editor.trim.title=リプレイをトリムする
-replaymod.gui.editor.connect.title=リプレイを繋げる
-replaymod.gui.editor.modify.title=リプレイを編集する
-replaymod.gui.editor.trim.description=リプレイファイルの始めと終わりを消去し、指定された時間の間のリプレイだけ残します
-replaymod.gui.editor.connect.description=指定された順番で複数のリプレイを繋げます
-replaymod.gui.editor.modify.description=リプレイファイルを編集するためのいくつかのフィルターを提供します
-replaymod.gui.editor.trim.marker=イベントマーカーを選択
-replaymod.gui.editor.progress.title=リプレイファイルを編集中…
-replaymod.gui.editor.progress.pleasewait=リプレイが編集されている間しばらくお待ちください。
-replaymod.gui.editor.progress.status.initializing=最適化中
-replaymod.gui.editor.progress.status.writing.raw=リプレイを書き換え中…
-replaymod.gui.editor.progress.status.writing.final=ディスクにファイルを書き込み中…
-replaymod.gui.editor.progress.status.finished=編集が完了しました!
-replaymod.gui.editor.disclaimer=リプレイエディターは試験的な機能で、バグが含まれているかもしれません。
+
 #Cancel Replay GUI
 replaymod.gui.cancelrender.title=書き出しをキャンセル
 replaymod.gui.cancelrender.message=本当に書き出しの進行を中止しますか?
 #Saving Replay GUI
 replaymod.gui.replaysaving.title=リプレイファイルを保存中…
-replaymod.gui.replaymodified.message=リプレイは変更されました。変更を保存しますか?
-replaymod.gui.replaymodified.yes=編集したリプレイを保存
-replaymod.gui.replaymodified.no=変更を破棄
-replaymod.gui.replaymodified.warning1=「%1$s」という名前のリプレイは既に存在します。
-replaymod.gui.replaymodified.warning2=本当に置き換えますか?
+
 #Player Overview GUI
 replaymod.gui.playeroverview.visible=表示
 replaymod.gui.playeroverview.hideall=全て隠す
@@ -206,8 +109,10 @@ replaymod.gui.playeroverview.showall=全て表示
 replaymod.gui.playeroverview.spectate=プレイヤーを監視する
 replaymod.gui.playeroverview.remembersettings=非表示のプレイヤーを記憶
 replaymod.gui.playeroverview.remembersettings.description=プレイヤーの表示状態をリプレイファイルに保存
+
 #Replay Mod Settings GUI
 replaymod.gui.settings.title=Replay Modの設定
+
 replaymod.gui.settings.notifications=通知を有効にする
 replaymod.gui.settings.recordserver=サーバーでのプレイを録画
 replaymod.gui.settings.recordsingleplayer=シングルプレイを録画
@@ -216,6 +121,7 @@ replaymod.gui.settings.pathpreview=カメラ経路のプレビュー表示
 replaymod.gui.settings.camera=カメラ
 replaymod.gui.settings.showchat=チャットを表示
 replaymod.gui.settings.interpolator=デフォルトのカメラ移動補完方式
+
 #Replay Mod Keybindings
 replaymod.input.lighting=暗視の切り替え
 replaymod.input.thumbnail=サムネイルを撮影
@@ -229,14 +135,15 @@ replaymod.input.resettilt=カメラの傾きをリセット
 replaymod.input.playpause=リプレイを再生/一時停止
 replaymod.input.marker=イベントマーカーを追加
 replaymod.input.pathpreview=カメラ経路プレビューを切り替え
-replaymod.input.assetmanager=アセットマネージャー
-replaymod.input.objectmanager=オブジェクトマネージャー
 replaymod.input.settings=ReplayModの設定
+
 # CameraControllers
 replaymod.camera.classic=クラシック
 replaymod.camera.vanilla=バニラ風
+
 #Keyframe Presets GUI
 replaymod.gui.keyframerepository.title=保存したキーフレーム一覧
+
 #Edit Keyframe GUI
 replaymod.gui.editkeyframe.title.pos=ポジションキーフレームを編集
 replaymod.gui.editkeyframe.title.time=タイムキーフレームを編集
@@ -251,6 +158,7 @@ replaymod.gui.editkeyframe.camroll=カメラのロール
 replaymod.gui.editkeyframe.timelineposition=タイムライン上の位置
 replaymod.gui.editkeyframe.markername=イベントマーカーの名前
 replaymod.gui.editkeyframe.timestamp=時間指定
+
 replaymod.gui.editkeyframe.interpolator=補完方式
 replaymod.gui.editkeyframe.interpolator.default.name=デフォルトの経路補完方式
 replaymod.gui.editkeyframe.interpolator.default.desc=ReplayModの設定画面で指定されたデフォルトの経路補完方式を使います。
@@ -261,55 +169,57 @@ replaymod.gui.editkeyframe.interpolator.cubic.name=三次スプライン曲線
 replaymod.gui.editkeyframe.interpolator.cubic.desc=三次スプライン曲線を使って移動経路を滑らかにします。
 replaymod.gui.editkeyframe.interpolator.linear.name=線形補間
 replaymod.gui.editkeyframe.interpolator.linear.desc=キーフレームの間を直線的に移動します。
-#Render Settings GUI
+
 replaymod.gui.rendersettings.renderer=書き出し方式
+
 replaymod.gui.rendersettings.renderer.default=デフォルトの書き出し方式
 replaymod.gui.rendersettings.renderer.tiled=タイルレンダリング
 replaymod.gui.rendersettings.renderer.stereoscopic=ステレオスコピックレンダリング(立体視)
 replaymod.gui.rendersettings.renderer.cubic=キュービックレンダリング(360°)
 replaymod.gui.rendersettings.renderer.equirectangular=正距円筒図法(360°)
 replaymod.gui.rendersettings.renderer.ods=ODSレンダリング(3D/360°)
+
 replaymod.gui.rendersettings.renderer.default.description=指定された解像度の動画を書き出します。最も速く書き出しできます。
 replaymod.gui.rendersettings.renderer.stereoscopic.description=動画を2分割する形式の3D動画を書き出します。左右の目それぞれに視点をずらした動画を見せることで立体感を生み出します
 replaymod.gui.rendersettings.renderer.cubic.description=立方体の展開図の形をした360°パノラマ動画を書き出します。Oculus Riftを含むいくつかの360°動画プレイヤーに対応しています。
 replaymod.gui.rendersettings.renderer.equirectangular.description=360°のパノラマ動画を書き出します。YouTubeの新しい360°動画再生機能や、Oculus Riftを含むいくつかの動画プレイヤーに対応しています。
 replaymod.gui.rendersettings.renderer.ods.description=3Dの360°動画を書き出します。VR動画とも呼ばれます。YouTubeのVR動画再生機能に対応しています。
+
 replaymod.gui.rendersettings.customresolution=動画の解像度
-replaymod.gui.rendersettings.customresolution.warning.cubic=キュービックレンダリングではアスペクト比を4:3にする必要があります
-replaymod.gui.rendersettings.customresolution.warning.equirectangular=正距円筒図法ではアスペクト比を2:1にする必要があります
 replaymod.gui.rendersettings.customresolution.warning.yuv420=このプリセットでは、横幅と高さは偶数の値にする必要があります
-replaymod.gui.rendersettings.customresolution.warning.ods=ODSレンダリングではアスペクト比を1:1にする必要があります
 replaymod.gui.rendersettings.framerate=動画のフレームレート
 replaymod.gui.rendersettings.chromakey=クロマキー
 replaymod.gui.rendersettings.nametags=名札を表示
 replaymod.gui.rendersettings.outputfile=書き出す動画
-replaymod.gui.rendersettings.360metadata=360°動画用メタデータを添付
-replaymod.gui.rendersettings.360metadata.error=360°動画用メタデータはmp4形式の正距円筒図法の動画にのみ添付できます
+
 replaymod.gui.rendersettings.command=コマンド
 replaymod.gui.rendersettings.arguments=コマンドライン引数
 replaymod.gui.rendersettings.ffmpeg.description=上級者の方は、コマンドライン引数を使って動画の書き出し形式をカスタマイズできます。詳しい情報は http://replaymod.com/docs をチェックしてください
+
 replaymod.gui.rendersettings.stabilizecamera=カメラを安定化する
+
 replaymod.gui.rendersettings.video=動画の設定
 replaymod.gui.rendersettings.advanced=詳細設定
 replaymod.gui.rendersettings.commandline=コマンドライン設定
+
 replaymod.gui.rendersettings.presets=エンコードのプリセット
 replaymod.gui.rendersettings.presets.mp4.custom=MP4 - 任意のビットレート
-replaymod.gui.rendersettings.presets.mp4.high=MP4 - 高品質
 replaymod.gui.rendersettings.presets.mp4.default=MP4 - デフォルトの品質
 replaymod.gui.rendersettings.presets.mp4.potato=MP4 - 低品質
 replaymod.gui.rendersettings.presets.webm.custom=WEBM - 任意のビットレート
 replaymod.gui.rendersettings.presets.mkv.lossless=MKV - ロスレス
 replaymod.gui.rendersettings.presets.png=PNGシーケンス
+
 replaymod.gui.rendersettings.antialiasing=アンチエイリアス
 replaymod.gui.rendersettings.antialiasing.none=なし
 replaymod.gui.rendersettings.antialiasing.x2=2×
 replaymod.gui.rendersettings.antialiasing.x4=4×
 replaymod.gui.rendersettings.antialiasing.x8=8×
+
 #Render Queue GUI
 replaymod.gui.renderqueue.title=書き出しキュー
-replaymod.gui.renderqueue.open=キューを開く
-replaymod.gui.renderqueue.jobname=ジョブ名:
 replaymod.gui.renderqueue.add=現在の設定を追加する
+
 #Rendering GUI
 replaymod.gui.rendering.title=動画を書き出し中
 replaymod.gui.rendering.pause=書き出しを一時停止
@@ -320,9 +230,11 @@ replaymod.gui.rendering.preview=プレビューを表示(パフォーマンス�
 replaymod.gui.rendering.progress=書き出したフレーム: %1$d / %2$d
 replaymod.gui.rendering.timetaken=書き出し時間
 replaymod.gui.rendering.timeleft=残り時間
+
 #Render Errors
 replaymod.gui.rendering.error.title=書き出しに失敗しました
 replaymod.gui.rendering.error.message=動画を書き出すには、ffmpegをインストールする必要があります。
+
 #Ingame Menu
 replaymod.gui.ingame.menu.addposkeyframe=ポジションキーフレームを追加
 replaymod.gui.ingame.menu.removeposkeyframe=ポジションキーフレームを削除
@@ -338,15 +250,19 @@ replaymod.gui.ingame.menu.playpathfromstart=最初からカメラの移動を開
 replaymod.gui.ingame.menu.pausepath=カメラの移動を一時停止
 replaymod.gui.ingame.menu.zoomin=拡大
 replaymod.gui.ingame.menu.zoomout=縮小
+
 replaymod.gui.ingame.unnamedmarker=名前のないイベントマーカー
+
 #Clear Keyframe Callback
 replaymod.gui.clearcallback.title=全てのキーフレームを消去しますか?
+
 #Errors
 replaymod.error.unknownrestriction1=このリプレイは現在のバージョンでは再生できません。
 replaymod.error.unknownrestriction2=不明な%sが強制されました。
 replaymod.error.negativetime1=順番がおかしいタイムキーフレームがあるようです。
 replaymod.error.negativetime2=時間を後戻りすることはできません。
 replaymod.error.negativetime3=無効な区間は赤く表示されます。
+
 #Replay Mod Incompatibility Warning
 replaymod.gui.modwarning.title=互換性エラーが検知されました
 replaymod.gui.modwarning.message1=起こりうる互換性エラーが現在の
@@ -358,49 +274,3 @@ replaymod.gui.modwarning.missing=MODが見つかりません
 replaymod.gui.modwarning.version=MODのバージョンが違います
 replaymod.gui.modwarning.version.expected=本来のバージョン
 replaymod.gui.modwarning.version.found=実際のバージョン
-#OpenEye
-replaymod.gui.offeropeneye1=OpenEyeをインストールしますか?
-replaymod.gui.offeropeneye2=OpenEyeは匿名の情報を収集するMODです
-replaymod.gui.offeropeneye3=実行しているMODや起こったクラッシュの情報を収集します。
-replaymod.gui.offeropeneye5=OpenEyeは完全に任意のタイミングで無効化できます。
-replaymod.gui.offeropeneye6=さらなる情報はこちらにあります: https://openeye.openmods.info/faq
-replaymod.gui.offeropeneye7=はいをクリックすることでOpenEyeがダウンロードされ、modsフォルダーに配置されます。
-replaymod.gui.offeropeneye8=Minecraftの次回起動時に有効になります。
-replaymod.api.invalidauthkey=無効な認証キーが提供されました
-replaymod.api.invalidfile=このファイルは無効です
-replaymod.api.filenoexist=このファイルは存在しません
-replaymod.api.alreadyrated=既にこのファイルを評価しています
-replaymod.api.usernoexist=このユーザーは存在しません
-#Website API translations
-replaymod.api.parammissing=%1$sのパラメーターが足りません
-replaymod.api.invalidvalue=%1$sのパラメーターに無効な値が設定されました。正常な値: %2$s
-replaymod.api.invalidcategory=無効なファイルカテゴリー
-replaymod.api.nofilesuploaded=アップロードされたファイルがありません
-replaymod.api.toomanyvalues=%1$sの値が多すぎます
-replaymod.api.noparameters=少なくとも1つのパラメーターが必要です。パラメーター: %1$s
-replaymod.gui.editkeyframe.spec.method=監視の方式
-replaymod.gui.editkeyframe.spec.method.firstperson=一人称視点
-replaymod.gui.editkeyframe.spec.method.shoulder=肩カメラ
-replaymod.gui.editkeyframe.spec.method.shoulder.distance=カメラの距離
-replaymod.gui.editkeyframe.spec.method.shoulder.pitch=ピッチのオフセット
-replaymod.gui.editkeyframe.spec.method.shoulder.yaw=回転の角度
-replaymod.gui.editkeyframe.spec.method.shoulder.smoothness=経路の滑らかさ
-#Asset Manager Gui
-replaymod.gui.assets.title=アセットマネージャー
-replaymod.gui.assets.filechooser=アセットファイル
-replaymod.gui.assets.defaultname=新規アセット
-replaymod.gui.assets.emptylist=有効なアセットがありません
-replaymod.gui.assets.namehint=アセット名
-replaymod.gui.assets.changefile=アセットファイルを変更
-replaymod.gui.assets.noselection=アセットが選択されていません
-#Object Manager Gui
-replaymod.gui.objects.properties.anchor=アンカーポイント
-replaymod.gui.objects.properties.position=位置
-replaymod.gui.objects.properties.scale=大きさ
-replaymod.gui.objects.properties.orientation=回転
-replaymod.gui.objects.properties.opacity=透明度
-replaymod.gui.objects.properties.name=オブジェクト名
-replaymod.gui.objects.empty=オブジェクトが追加されていません
-replaymod.gui.objects.defaultname=新規オブジェクト
-replaymod.gui.objects=カスタムオブジェクト
-replaymod.gui.offeropeneye4=
