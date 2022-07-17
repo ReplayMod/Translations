@@ -25,6 +25,7 @@ replaymod.gui.rename=Переименовать
 replaymod.gui.remove=Убрать
 replaymod.gui.delete=Удалить
 replaymod.gui.recording=Запись
+replaymod.gui.paused=Пауза
 replaymod.gui.speed=Скорость
 replaymod.gui.pleasewait=Подождите
 replaymod.gui.render=Визуализировать
@@ -34,6 +35,7 @@ replaymod.gui.saveas=Сохранить как...
 replaymod.gui.done=Готово
 replaymod.gui.close=Закрыть
 replaymod.gui.notagain=Не показывать снова
+replaymod.gui.paste=Вставить
 
 replaymod.gui.renderdonetitle=Визуализация завершена
 replaymod.gui.openfolder=Открыть папку с видео
@@ -42,7 +44,7 @@ replaymod.gui.renderdone1=Видео визуализировано.
 replaymod.gui.renderdone2=Что дальше?
 replaymod.gui.videotitle=Название
 replaymod.gui.videodescription=Описание
-replaymod.gui.videotags=Тэг,Тэг,Тэг
+replaymod.gui.videotags=Теги,Теги,Теги
 replaymod.gui.videothumbnail=Значок видео
 replaymod.gui.videovisibility.private=Ограниченный доступ
 replaymod.gui.videovisibility.unlisted=Доступ по ссылке
@@ -82,6 +84,8 @@ replaymod.gui.restorereplay2=Повтор «%1$s» неправильно сох
 replaymod.gui.restorereplay3=Хотите восстановить его?
 
 replaymod.gui.loadentitytracker=Загрузка местоположения сущностей: %%d%%%%
+replaymod.gui.loadquickmode=Загрузка быстрого режима: %%d%%%%
+replaymod.gui.noquickmode=Быстрый режим доступен только в Minecraft %1$s и выше
 
 #Only change these if it's neccessary
 replaymod.gui.replayviewer=Просмотрщик
@@ -94,6 +98,9 @@ replaymod.gui.viewer.delete.linea=Вы уверены, что хотите уд�
 replaymod.gui.viewer.delete.failed1=ОС не дала возможность переместить повтор.
 replaymod.gui.viewer.delete.failed2=Ничего не поделать. Сделайте это сами.
 replaymod.gui.viewer.delete.lineb=«%1$s» будет удалён навсегда!
+
+#Replay Editor UI 2.0 (marker based UI)
+replaymod.gui.edit.apply=Применить
 
 #Cancel Replay GUI
 replaymod.gui.cancelrender.title=Остановка визуализации
@@ -120,6 +127,8 @@ replaymod.gui.settings.pathpreview=Дорожка камеры
 replaymod.gui.settings.camera=Камера
 replaymod.gui.settings.showchat=Чат
 replaymod.gui.settings.interpolator=Интерполяция
+replaymod.gui.settings.fullbrightness.gamma=Гамма
+replaymod.gui.settings.fullbrightness.both=Оба
 
 #Replay Mod Keybindings
 replaymod.input.lighting=Ночное видение
@@ -135,6 +144,8 @@ replaymod.input.playpause=Воспроизведение/Пауза
 replaymod.input.marker=Добавить маркер события
 replaymod.input.pathpreview=Отображение дорожки
 replaymod.input.settings=Настройки ReplayMod
+replaymod.input.quickmode=Быстрый режим
+replaymod.input.timekeyframe=Ключевой кадр времени
 
 # CameraControllers
 replaymod.camera.classic=Классическая
@@ -185,6 +196,7 @@ replaymod.gui.rendersettings.renderer.ods.description=Видео со стере
 
 replaymod.gui.rendersettings.customresolution=Разрешение
 replaymod.gui.rendersettings.customresolution.warning.yuv420=Длина и ширина должны быть чётными числами.
+replaymod.gui.rendersettings.bitrate=Битрейт
 replaymod.gui.rendersettings.framerate=Частота кадров
 replaymod.gui.rendersettings.chromakey=Хромакей
 replaymod.gui.rendersettings.nametags=Отображать имена
