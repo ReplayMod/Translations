@@ -36,6 +36,8 @@ replaymod.gui.done=完成
 replaymod.gui.close=关闭
 replaymod.gui.notagain=不再显示
 replaymod.gui.edit=编辑
+replaymod.gui.copy=复制
+replaymod.gui.paste=粘贴
 
 replaymod.gui.recording.resume=继续录制
 replaymod.gui.recording.pause=暂停录制
@@ -99,7 +101,8 @@ replaymod.gui.replayviewer=回放中心
 
 #Replay Viewer GUI
 replaymod.gui.viewer.rename.name=录像名称
-replaymod.gui.viewer.replayfolder=打开录像文件夹……
+replaymod.gui.viewer.replayfolder=打开录像文件夹...
+replaymod.gui.viewer.bulkrender=渲染了 %1$d 个视频
 
 replaymod.gui.viewer.delete.linea=确定要删除这个录像吗？
 replaymod.gui.viewer.delete.failed1=你的操作系统不允许继续重播,我们
@@ -130,6 +133,7 @@ replaymod.gui.playeroverview.remembersettings.description=玩家将在录像文�
 
 #Replay Mod Settings GUI
 replaymod.gui.settings.title=录像回放设置
+replaymod.gui.settings.default=默认
 
 replaymod.gui.settings.notifications=启用通知
 replaymod.gui.settings.recordserver=录制多人游戏
@@ -140,6 +144,11 @@ replaymod.gui.settings.camera=镜头
 replaymod.gui.settings.showchat=显示聊天
 replaymod.gui.settings.interpolator=默认插值器
 replaymod.gui.settings.autostartrecording=自动录制
+replaymod.gui.settings.rename_recording_dialog=重命名对话框
+replaymod.gui.settings.fullbrightness=高亮度
+replaymod.gui.settings.fullbrightness.gamma=Gamma值
+replaymod.gui.settings.fullbrightness.nightvision=夜视
+replaymod.gui.settings.fullbrightness.both=同时使用
 
 #Replay Mod Keybindings
 replaymod.input.lighting=照明模式
@@ -156,6 +165,10 @@ replaymod.input.marker=添加标记事件
 replaymod.input.pathpreview=切换路径预览
 replaymod.input.settings=ReplayMod配置
 replaymod.input.quickmode=快速模式
+replaymod.input.positionkeyframe=位置/旁观者关键帧
+replaymod.input.positiononlykeyframe=位置关键帧
+replaymod.input.timekeyframe=时间关键帧
+replaymod.input.bothkeyframes=位置/旁观者+时间关键帧
 
 # CameraControllers
 replaymod.camera.classic=经典
@@ -190,6 +203,9 @@ replaymod.gui.editkeyframe.interpolator.cubic.desc=利用三次方程矩阵计�
 replaymod.gui.editkeyframe.interpolator.linear.name=线性插值器
 replaymod.gui.editkeyframe.interpolator.linear.desc=在关键帧直接构建直线。
 
+#Render Settings GUI
+replaymod.gui.rendersettings.addtoqueue=添加到队列
+
 replaymod.gui.rendersettings.renderer=渲染方式
 
 replaymod.gui.rendersettings.renderer.default=默认渲染
@@ -214,10 +230,14 @@ replaymod.gui.rendersettings.bitrate=比特率
 replaymod.gui.rendersettings.framerate=录像帧率
 replaymod.gui.rendersettings.chromakey=色度键控
 replaymod.gui.rendersettings.nametags=名称标签
+replaymod.gui.rendersettings.includealpha=保留音频轨道
 replaymod.gui.rendersettings.outputfile=导出文件
 replaymod.gui.rendersettings.sphericalFov=球形FOV
 replaymod.gui.rendersettings.sphericalmetadata=添加球体元数据
 replaymod.gui.rendersettings.sphericalmetadata.error=球体元数据只能用360度全景图渲染成MP4格式
+replaymod.gui.rendersettings.depthmap=深度图
+replaymod.gui.rendersettings.depthmap.only_exr_or_png=只支持使用PNG或OpenEXR格式进行深度图导出
+replaymod.gui.rendersettings.camerapath=导出摄像路径
 
 replaymod.gui.rendersettings.command=命令
 replaymod.gui.rendersettings.arguments=命令行参数
@@ -237,6 +257,7 @@ replaymod.gui.rendersettings.presets.webm.custom=WEBM - 自定义码率
 replaymod.gui.rendersettings.presets.mkv.lossless=MKV - 无损质量
 replaymod.gui.rendersettings.presets.blend=Blend 格式文件
 replaymod.gui.rendersettings.presets.png=PNG格式
+replaymod.gui.rendersettings.presets.exr=OpenEXR序列
 
 replaymod.gui.rendersettings.antialiasing=图形保真
 replaymod.gui.rendersettings.antialiasing.none=无
@@ -247,6 +268,8 @@ replaymod.gui.rendersettings.antialiasing.x8=8x
 #Render Queue GUI
 replaymod.gui.renderqueue.title=渲染序列
 replaymod.gui.renderqueue.add=添加当前配置
+replaymod.gui.renderqueue.renderall=渲染全部
+replaymod.gui.renderqueue.renderselected=渲染选定项
 
 #Rendering GUI
 replaymod.gui.rendering.title=渲染视频
@@ -262,6 +285,9 @@ replaymod.gui.rendering.timeleft=剩余时间
 #Render Errors
 replaymod.gui.rendering.error.title=渲染失败
 replaymod.gui.rendering.error.message=要渲染视频,需要安装ffmpeg
+replaymod.gui.rendering.error.ffmpeglog=FFmpeg输出：
+replaymod.gui.rendering.error.ffmpegargs.1=你似乎修改了命令行参数
+replaymod.gui.rendering.error.ffmpegargs.2=你想恢复他们到默认值然后再试一次吗？
 
 #Ingame Menu
 replaymod.gui.ingame.menu.addposkeyframe=添加位置关键帧
@@ -280,6 +306,10 @@ replaymod.gui.ingame.menu.zoomin=放大
 replaymod.gui.ingame.menu.zoomout=缩小
 
 replaymod.gui.ingame.unnamedmarker=未命名的标记事件
+replaymod.gui.ingame.autoactivating=这个按键绑定可能会在恰当的时候自动激活。
+replaymod.gui.ingame.autoactivating.disable=Ctrl+点击来关闭自动激活。
+replaymod.gui.ingame.autoactivating.enable=Ctrl+点击来开启自动激活。
+replaymod.gui.ingame.first_keyframe_not_at_start_warning=您刚刚放置了第一个关键帧，但他不在00:00。\n\n这通常表明您误解了视频时间轴（底部的时间轴）的工作方式：\n\n顶部的时间轴在replay中显示您当前的时间，\n底部的时间轴显示您正在制作的视频中的时间。\n视频将始终在00:00开始！如果你的第一个关键帧不在 00:00,\n则视频将显示为冻结，直到第一个关键帧出现！
 
 #Clear Keyframe Callback
 replaymod.gui.clearcallback.title=清除所有的关键帧？
