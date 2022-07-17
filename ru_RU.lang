@@ -39,10 +39,10 @@ replaymod.gui.edit=Изменить
 replaymod.gui.copy=Копировать
 replaymod.gui.paste=Вставить
 
-replaymod.gui.recording.resume=Возобновить
-replaymod.gui.recording.pause=Приостановить
-replaymod.gui.recording.stop=Завершить запись
-replaymod.gui.recording.start=Начать запись
+replaymod.gui.recording.resume=⏯ Запись
+replaymod.gui.recording.pause=⏸Запись
+replaymod.gui.recording.stop=■ Запись
+replaymod.gui.recording.start=▶ Запись
 
 replaymod.gui.renderdonetitle=Визуализация завершена
 replaymod.gui.openfolder=Открыть папку с видео
@@ -102,6 +102,7 @@ replaymod.gui.replayviewer=Просмотрщик повторов
 #Replay Viewer GUI
 replaymod.gui.viewer.rename.name=Название повтора
 replaymod.gui.viewer.replayfolder=Папка повторов...
+replaymod.gui.viewer.bulkrender=Рендер %1$d видео
 
 replaymod.gui.viewer.delete.linea=Вы уверены, что хотите удалить этот повтор?
 replaymod.gui.viewer.delete.failed1=ОС не дала возможность переместить повтор.
@@ -142,6 +143,8 @@ replaymod.gui.settings.pathpreview=Дорожка камеры
 replaymod.gui.settings.camera=Камера
 replaymod.gui.settings.showchat=Чат
 replaymod.gui.settings.interpolator=Интерполяция
+replaymod.gui.settings.autostartrecording=Авто-Запись
+replaymod.gui.settings.rename_recording_dialog=Переимен. Диалог
 replaymod.gui.settings.fullbrightness=Полная яркость
 replaymod.gui.settings.fullbrightness.gamma=Гамма
 replaymod.gui.settings.fullbrightness.nightvision=Ночное зрение
@@ -254,6 +257,7 @@ replaymod.gui.rendersettings.presets.webm.custom=WEBM — Свой битрей�
 replaymod.gui.rendersettings.presets.mkv.lossless=MKV — Без потерь
 replaymod.gui.rendersettings.presets.blend=Blend файл
 replaymod.gui.rendersettings.presets.png=PNG-файлы
+replaymod.gui.rendersettings.presets.exr=OpenEXR-файлы
 
 replaymod.gui.rendersettings.antialiasing=Сглаживание
 replaymod.gui.rendersettings.antialiasing.none=Нет
