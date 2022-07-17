@@ -20,8 +20,6 @@ replaymod.chat.pathinterrupted=Воспроизведение дорожки о�
 replaymod.gui.cancel=Отмена
 replaymod.gui.back=Назад
 replaymod.gui.load=Открыть
-replaymod.gui.removelike=Убрать оценку
-replaymod.gui.removedislike=Убрать оценку
 replaymod.gui.save=Сохранить
 replaymod.gui.rename=Переименовать
 replaymod.gui.remove=Убрать
@@ -174,7 +172,6 @@ replaymod.gui.editkeyframe.interpolator.linear.desc=Прямые линии ме
 replaymod.gui.rendersettings.renderer=Визуализация
 
 replaymod.gui.rendersettings.renderer.default=Обычная
-replaymod.gui.rendersettings.renderer.tiled=Плиточная
 replaymod.gui.rendersettings.renderer.stereoscopic=Стереоскопическая
 replaymod.gui.rendersettings.renderer.cubic=Кубическая
 replaymod.gui.rendersettings.renderer.equirectangular=Равнопромежуточная

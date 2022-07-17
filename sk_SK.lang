@@ -20,8 +20,6 @@ replaymod.chat.pathinterrupted=Cesta kamery bola ukončená
 replaymod.gui.cancel=Zrušiť
 replaymod.gui.back=Späť
 replaymod.gui.load=Načítať
-replaymod.gui.removelike=Odstrániť lajk
-replaymod.gui.removedislike=Odstrániť dislajk
 replaymod.gui.save=Uložiť
 replaymod.gui.rename=Premenovať
 replaymod.gui.remove=Odstrániť
@@ -199,7 +197,6 @@ replaymod.gui.rendersettings.addtoqueue=Pridať do poradia
 replaymod.gui.rendersettings.renderer=Metóda vykresľovania
 
 replaymod.gui.rendersettings.renderer.default=Predvolené
-replaymod.gui.rendersettings.renderer.tiled=Tilované     #?
 replaymod.gui.rendersettings.renderer.stereoscopic=3D Anaglyf
 replaymod.gui.rendersettings.renderer.cubic=Kubické 360°
 replaymod.gui.rendersettings.renderer.equirectangular=Rovnoramenné

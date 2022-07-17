@@ -20,8 +20,6 @@ replaymod.chat.pathinterrupted=Kamerabanan har avbrutits
 replaymod.gui.cancel=Avbryt
 replaymod.gui.back=Tillbaka
 replaymod.gui.load=Läs in
-replaymod.gui.removelike=Sluta gilla
-replaymod.gui.removedislike=Sluta ogilla
 replaymod.gui.save=Spara
 replaymod.gui.rename=Byt namn
 replaymod.gui.remove=Ta bort
@@ -195,7 +193,6 @@ replaymod.gui.editkeyframe.interpolator.linear.desc=Ritar raka linjer mellan nyc
 replaymod.gui.rendersettings.renderer=Renderingsmetod
 
 replaymod.gui.rendersettings.renderer.default=Standardrendering
-replaymod.gui.rendersettings.renderer.tiled=Rutformad rendering
 replaymod.gui.rendersettings.renderer.stereoscopic=Stereoskopisk rendering
 replaymod.gui.rendersettings.renderer.cubic=Kubisk rendering
 replaymod.gui.rendersettings.renderer.equirectangular=Ekvirektangulär rendering

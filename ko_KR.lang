@@ -20,8 +20,6 @@ replaymod.chat.pathinterrupted=카메라 경로를 취소함
 replaymod.gui.cancel=취소
 replaymod.gui.back=이전
 replaymod.gui.load=불러오기
-replaymod.gui.removelike=좋아요 취소
-replaymod.gui.removedislike=싫어요 취소
 replaymod.gui.save=저장
 replaymod.gui.rename=이름 바꾸기
 replaymod.gui.remove=제거
@@ -210,7 +208,6 @@ replaymod.gui.rendersettings.addtoqueue=대기열에 추가
 replaymod.gui.rendersettings.renderer=렌더링 방식
 
 replaymod.gui.rendersettings.renderer.default=기본 렌더링
-replaymod.gui.rendersettings.renderer.tiled=타일 렌더링
 replaymod.gui.rendersettings.renderer.stereoscopic=스테레오스코픽 렌더링
 replaymod.gui.rendersettings.renderer.cubic=큐빅 렌더링
 replaymod.gui.rendersettings.renderer.equirectangular=등장방형도법 렌더링

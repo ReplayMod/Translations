@@ -20,8 +20,6 @@ replaymod.chat.pathinterrupted=Camera Path canceled
 replaymod.gui.cancel=Cancel
 replaymod.gui.back=Back
 replaymod.gui.load=Load
-replaymod.gui.removelike=Remove Like
-replaymod.gui.removedislike=Remove Dislike
 replaymod.gui.save=Save
 replaymod.gui.rename=Rename
 replaymod.gui.remove=Remove
@@ -211,7 +209,6 @@ replaymod.gui.rendersettings.addtoqueue=Add to Queue
 replaymod.gui.rendersettings.renderer=Rendering Method
 
 replaymod.gui.rendersettings.renderer.default=Default Rendering
-replaymod.gui.rendersettings.renderer.tiled=Tiled Rendering
 replaymod.gui.rendersettings.renderer.stereoscopic=Stereoscopic Rendering
 replaymod.gui.rendersettings.renderer.cubic=Cubic Rendering
 replaymod.gui.rendersettings.renderer.equirectangular=Equirectangular Rendering

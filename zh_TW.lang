@@ -20,8 +20,6 @@ replaymod.chat.pathinterrupted=取消鏡頭路徑
 replaymod.gui.cancel=取消
 replaymod.gui.back=返回
 replaymod.gui.load=載入
-replaymod.gui.removelike=移除喜歡
-replaymod.gui.removedislike=移除不喜歡
 replaymod.gui.save=儲存
 replaymod.gui.rename=重新命名
 replaymod.gui.remove=移除
@@ -155,7 +153,6 @@ replaymod.gui.editkeyframe.timestamp=時間指數
 replaymod.gui.rendersettings.renderer=渲染方法
 
 replaymod.gui.rendersettings.renderer.default=預設渲染
-replaymod.gui.rendersettings.renderer.tiled=Tiled渲染
 replaymod.gui.rendersettings.renderer.stereoscopic=Stereoscopic渲染
 replaymod.gui.rendersettings.renderer.cubic=Cubic渲染
 replaymod.gui.rendersettings.renderer.equirectangular=Equirectangular渲染

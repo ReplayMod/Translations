@@ -20,8 +20,6 @@ replaymod.chat.pathinterrupted=Kamerapfad abgebrochen
 replaymod.gui.cancel=Abbrechen
 replaymod.gui.back=Zurück
 replaymod.gui.load=Laden
-replaymod.gui.removelike=Like entfernen
-replaymod.gui.removedislike=Dislike entfernen
 replaymod.gui.save=Speichern
 replaymod.gui.rename=Umbenennen
 replaymod.gui.remove=Entfernen
@@ -174,7 +172,6 @@ replaymod.gui.editkeyframe.interpolator.linear.desc=Zieht gerade Linien zwischen
 replaymod.gui.rendersettings.renderer=Rendermethode
 
 replaymod.gui.rendersettings.renderer.default=Standardmäßiges Rendern
-replaymod.gui.rendersettings.renderer.tiled=Gekacheltes Rendern
 replaymod.gui.rendersettings.renderer.stereoscopic=Stereoskopisches Rendern
 replaymod.gui.rendersettings.renderer.cubic=Kubisches Rendern
 replaymod.gui.rendersettings.renderer.equirectangular=Äquirektanguläres Rendern

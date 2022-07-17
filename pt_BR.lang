@@ -20,8 +20,6 @@ replaymod.chat.pathinterrupted=Caminho da Câmera cancelado
 replaymod.gui.cancel=Cancelar
 replaymod.gui.back=Voltar
 replaymod.gui.load=Carregar
-replaymod.gui.removelike=Retirar curtida
-replaymod.gui.removedislike=Retirar descurtida
 replaymod.gui.save=Salvar
 replaymod.gui.rename=Renomear
 replaymod.gui.remove=Remover
@@ -194,7 +192,6 @@ replaymod.gui.editkeyframe.interpolator.linear.desc=Desenha linhas retas entre o
 replaymod.gui.rendersettings.renderer=Método de renderização
 
 replaymod.gui.rendersettings.renderer.default=Renderização Padrão
-replaymod.gui.rendersettings.renderer.tiled=Renderização mosaico
 replaymod.gui.rendersettings.renderer.stereoscopic=Renderização estereoscópica
 replaymod.gui.rendersettings.renderer.cubic=Renderização Cúbica
 replaymod.gui.rendersettings.renderer.equirectangular=Renderização retangular

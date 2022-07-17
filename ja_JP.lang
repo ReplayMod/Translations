@@ -20,8 +20,6 @@ replaymod.chat.pathinterrupted=カメラの移動が中止されました
 replaymod.gui.cancel=キャンセル
 replaymod.gui.back=戻る
 replaymod.gui.load=読み込む
-replaymod.gui.removelike=高評価を取り消す
-replaymod.gui.removedislike=低評価を取り消す
 replaymod.gui.save=保存
 replaymod.gui.rename=名前変更
 replaymod.gui.remove=消去
@@ -173,7 +171,6 @@ replaymod.gui.editkeyframe.interpolator.linear.desc=キーフレームの間を�
 replaymod.gui.rendersettings.renderer=書き出し方式
 
 replaymod.gui.rendersettings.renderer.default=デフォルトの書き出し方式
-replaymod.gui.rendersettings.renderer.tiled=タイルレンダリング
 replaymod.gui.rendersettings.renderer.stereoscopic=ステレオスコピックレンダリング(立体視)
 replaymod.gui.rendersettings.renderer.cubic=キュービックレンダリング(360°)
 replaymod.gui.rendersettings.renderer.equirectangular=正距円筒図法(360°)
