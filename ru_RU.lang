@@ -269,6 +269,7 @@ replaymod.gui.rendersettings.antialiasing.x8=8x
 replaymod.gui.renderqueue.title=Очередь рендера
 replaymod.gui.renderqueue.add=Добавить текущую конфигурацию
 replaymod.gui.renderqueue.renderall=Рендерить все
+replaymod.gui.renderqueue.renderselected=Рендер выбран
 
 #Rendering GUI
 replaymod.gui.rendering.title=Рендер видео
