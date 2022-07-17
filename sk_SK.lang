@@ -71,10 +71,6 @@ replaymod.gui.minutes=min
 replaymod.gui.seconds=sek
 replaymod.gui.milliseconds=ms
 
-replaymod.gui.pitch=Pitch
-replaymod.gui.yaw=Yaw
-replaymod.gui.roll=Roll
-
 replaymod.gui.camera=Kamera
 replaymod.gui.position=Pozícia
 
@@ -175,9 +171,6 @@ replaymod.input.bothkeyframes=Obe kľúčové snímky
 replaymod.camera.classic=Klasická
 replaymod.camera.vanilla=Približne vanilová
 
-#Keyframe Presets GUI
-replaymod.gui.keyframerepository.title=Keyframe Repository
-
 #Edit Keyframe GUI
 replaymod.gui.editkeyframe.title.pos=Upraviť kľúčovú snímku pozície
 replaymod.gui.editkeyframe.title.time=Upraviť kľúčovú snímku času
@@ -196,11 +189,7 @@ replaymod.gui.editkeyframe.timestamp=Časový index
 replaymod.gui.editkeyframe.interpolator=Zakladač                              #may change later
 replaymod.gui.editkeyframe.interpolator.default.name=Predvolený zakladač
 replaymod.gui.editkeyframe.interpolator.default.desc=Používa predvolený zakladač definovaný v nastaveniach módu.
-replaymod.gui.editkeyframe.interpolator.catmullrom.name=Catmull Rom Spline Interpolator
-replaymod.gui.editkeyframe.interpolator.catmullrom.desc=Calculates a catmull rom spline with customizable alpha value for precise tightness and smoothness of the camera path.
 replaymod.gui.editkeyframe.interpolator.catmullrom.alpha=Alfa:
-replaymod.gui.editkeyframe.interpolator.cubic.name=Cubic Spline Interpolator
-replaymod.gui.editkeyframe.interpolator.cubic.desc=Calculates a cubic equation matrix for all points for a smooth camera path.
 replaymod.gui.editkeyframe.interpolator.linear.name=Lineárny zakladač
 replaymod.gui.editkeyframe.interpolator.linear.desc=Vykreslí priamu čiaru pohybu.
 

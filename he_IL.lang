@@ -119,9 +119,6 @@ replaymod.input.playpause=השהה\הפעל שידור
 replaymod.input.marker=הוסף סמן אירוע
 replaymod.input.pathpreview=הפעל\כבה תצוגה מקדימה של הנתיב
 
-#Keyframe Presets GUI
-replaymod.gui.keyframerepository.title=Keyframe Repository
-
 #Edit Keyframe GUI
 replaymod.gui.editkeyframe.title.pos=ערוך קי-פריים של מיקום
 replaymod.gui.editkeyframe.title.time=ערוך קי-פריים של זמן
@@ -130,9 +127,7 @@ replaymod.gui.editkeyframe.title.spec=ערוך קי-פריים של צופה
 replaymod.gui.editkeyframe.xpos=X מיקום
 replaymod.gui.editkeyframe.ypos=Y מיקום
 replaymod.gui.editkeyframe.zpos=Z מיקום
-replaymod.gui.editkeyframe.campitch=Camera Pitch
 replaymod.gui.editkeyframe.camyaw=סיבוב המצלמה
-replaymod.gui.editkeyframe.camroll=Camera Roll
 replaymod.gui.editkeyframe.timelineposition=מיקום ציר הזמן
 replaymod.gui.editkeyframe.markername=שם סמן הזמן
 replaymod.gui.editkeyframe.timestamp=אינדקס זמן
@@ -140,27 +135,19 @@ replaymod.gui.editkeyframe.timestamp=אינדקס זמן
 replaymod.gui.rendersettings.renderer=שיטת רינדור
 
 replaymod.gui.rendersettings.renderer.default=רינדור ברירת מחדל
-replaymod.gui.rendersettings.renderer.tiled=Tiled Rendering
 replaymod.gui.rendersettings.renderer.stereoscopic=רינדור סטריאוסקופי
 replaymod.gui.rendersettings.renderer.cubic=רינדור קובייתי
-replaymod.gui.rendersettings.renderer.equirectangular=Equirectangular Rendering
 replaymod.gui.rendersettings.renderer.ods=ODS רינדור 
 
 replaymod.gui.rendersettings.renderer.default.description=מרנדר את הסרטון ברזולוציה הנתונה. אפשרות הרינדור המהירה ביותר.
 replaymod.gui.rendersettings.renderer.stereoscopic.description= .ששמיש לטכנולוגיות תלת מימד שונות ,מרנדר את הסרטון כסרט תלת מימדי סטריאוסקופי (צד ליד צד)
 replaymod.gui.rendersettings.renderer.cubic.description=(וה-Oculus Rift) מרנדר את הסרטון במראה פנורמי בעל 360 מעלות, בשימוש בהקרנה קובייתית. זה שמיש למספר משקפי מציאות מדומה , for example VR Player.
-replaymod.gui.rendersettings.renderer.equirectangular.description=Renders the video with a 360 degree panoramic view, using Equirectangular Projection. This is usable by YouTube's new 360 degree video function, and several video players (and the Oculus Rift), for example VR Player.
-replaymod.gui.rendersettings.renderer.ods.description=Renders the video with a stereoscopic 3D 360 degree panoramic view, also called VR Video. This is usable by YouTube's new VR video function.
 
 replaymod.gui.rendersettings.customresolution=רזולוצית וידאו
-replaymod.gui.rendersettings.customresolution.warning.yuv420=For this preset, the width and height values need to be even numbers
 replaymod.gui.rendersettings.framerate=קצב הפריימים של הסרטון
-replaymod.gui.rendersettings.chromakey=Chroma Keying
-replaymod.gui.rendersettings.nametags=Render Name Tags
 replaymod.gui.rendersettings.outputfile= קובץ פלט
 
 replaymod.gui.rendersettings.command=פקודה
-replaymod.gui.rendersettings.arguments=Command Line Arguments
 replaymod.gui.rendersettings.ffmpeg.description=אם אתה משתמש מתקדם, you can customize the command line parameters used to export the video. בדוק:, למידע נוסף http://replaymod.com/docs
 
 replaymod.gui.rendersettings.stabilizecamera=יצב מצלמה
@@ -169,12 +156,8 @@ replaymod.gui.rendersettings.video=הגדרות וידאו
 replaymod.gui.rendersettings.advanced=הגדרות מתקדמות
 replaymod.gui.rendersettings.commandline=הגדרות שורת פקודה
 
-replaymod.gui.rendersettings.presets=Encoding Presets
-replaymod.gui.rendersettings.presets.mp4.custom=MP4 - Custom Bitrate
 replaymod.gui.rendersettings.presets.mp4.default=MP4 - איכות רגילה
 replaymod.gui.rendersettings.presets.mp4.potato=MP4 - איכות גרועה
-replaymod.gui.rendersettings.presets.webm.custom=WEBM - Custom Bitrate
-replaymod.gui.rendersettings.presets.mkv.lossless=MKV - Lossless
 replaymod.gui.rendersettings.presets.png=PNG רצף תמונות
 
 #Rendering GUI

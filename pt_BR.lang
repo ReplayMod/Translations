@@ -161,7 +161,6 @@ replaymod.input.quickmode=Modo rápido
 
 # CameraControllers
 replaymod.camera.classic=Clássico
-replaymod.camera.vanilla=Vanilla-ish
 
 #Keyframe Presets GUI
 replaymod.gui.keyframerepository.title=Repositório de Keyframe
@@ -215,7 +214,6 @@ replaymod.gui.rendersettings.customresolution.warning.yuv420.cubic=Para esta pre
 replaymod.gui.rendersettings.customresolution.warning.cubic.height=A renderização cúbica requer uma altura divisível por 3
 replaymod.gui.rendersettings.bitrate=Taxa de bits
 replaymod.gui.rendersettings.framerate=Taxa de quadros do vídeo
-replaymod.gui.rendersettings.chromakey=Chroma Keying
 replaymod.gui.rendersettings.nametags=Renderizar tags de nome
 replaymod.gui.rendersettings.outputfile=Arquivo de saída
 replaymod.gui.rendersettings.sphericalFov=FOV esférico

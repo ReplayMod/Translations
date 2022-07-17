@@ -63,10 +63,6 @@ replaymod.gui.minutes=min
 replaymod.gui.seconds=sek
 replaymod.gui.milliseconds=ms
 
-replaymod.gui.pitch=Pitch
-replaymod.gui.yaw=Yaw
-replaymod.gui.roll=Roll
-
 replaymod.gui.camera=Kamera
 replaymod.gui.position=Pozycja
 
@@ -125,7 +121,6 @@ replaymod.gui.settings.showchat=Pokazuj czat
 replaymod.input.lighting=Wlacz/wylacz oswietlenie
 replaymod.input.thumbnail=Zapisz miniaturke
 replaymod.input.playeroverview=Przeglad gracza
-replaymod.input.clearkeyframes=Clear Keyframes
 replaymod.input.synctimeline=Zsynchronizuj os czasu
 replaymod.input.keyframerepository=Otwórz szabony Keyframe
 replaymod.input.rollclockwise=Obracaj zgodnie ze wskazówkami zegara
@@ -136,14 +131,9 @@ replaymod.input.marker=Dodaj marker wydarzenia
 replaymod.input.pathpreview=Przelacz podglad sciezki
 replaymod.input.settings=Ustawienia ReplayMod
 
-#Keyframe Presets GUI
-replaymod.gui.keyframerepository.title=Keyframe Repository
-
 #Edit Keyframe GUI
 replaymod.gui.editkeyframe.title.pos=Edytuj pozycje kamery
 replaymod.gui.editkeyframe.title.time=Edytuj punkt linii czasu
-replaymod.gui.editkeyframe.title.marker=Edit Event Marker
-replaymod.gui.editkeyframe.title.spec=Edit Spectator Keyframe
 replaymod.gui.editkeyframe.xpos=Pozycja osi X
 replaymod.gui.editkeyframe.ypos=Pozycja osi Y
 replaymod.gui.editkeyframe.zpos=Pozycja osi Z
@@ -151,16 +141,12 @@ replaymod.gui.editkeyframe.campitch=Obrót pionowy kamery
 replaymod.gui.editkeyframe.camyaw=Obrót poziomy kamery
 replaymod.gui.editkeyframe.camroll=Obrót kamery
 replaymod.gui.editkeyframe.timelineposition=Pozycja na linii czasu
-replaymod.gui.editkeyframe.markername=Event Marker Name
-replaymod.gui.editkeyframe.timestamp=Time Index
 
 replaymod.gui.rendersettings.renderer=Metoda renderowania
 
 replaymod.gui.rendersettings.renderer.default=Domyslne renderowanie
-replaymod.gui.rendersettings.renderer.tiled=Tiled Rendering
 replaymod.gui.rendersettings.renderer.stereoscopic=Renderowanie stereoskopowe
 replaymod.gui.rendersettings.renderer.cubic=Renderowanie szescienne
-replaymod.gui.rendersettings.renderer.equirectangular=Equirectangular Rendering
 
 replaymod.gui.rendersettings.renderer.default.description=Renderuje wideo z obecna rodzielczoscia. Najszybsza opcja.
 replaymod.gui.rendersettings.renderer.stereoscopic.description=Renderuje wideo jako stereoskopowy film 3D, uzyteczne we wielu technologiach 3D.
@@ -168,9 +154,7 @@ replaymod.gui.rendersettings.renderer.cubic.description=Renderuje wideo z widoki
 replaymod.gui.rendersettings.renderer.equirectangular.description=Renderuje wideo z widokiem panoramicnym (360 stopni), uzywajac projekcji Equirectangular. Jest to przydatne z nowa technologia odtwarzania filmów   panoramicnych oraz w paru odtwarzaczach obslugujacych filmy panoramiczne (oraz w Oculus Rift), na przyklad w VR Player.
 
 replaymod.gui.rendersettings.customresolution=Nistandardowa rozdzielczosc filmu
-replaymod.gui.rendersettings.customresolution.warning.yuv420=For this preset, the width and height values need to be even numbers
 replaymod.gui.rendersettings.framerate=Klatkowanie wideo
-replaymod.gui.rendersettings.chromakey=Chroma Keying
 replaymod.gui.rendersettings.nametags=Renderuj nazwy graczy
 replaymod.gui.rendersettings.outputfile=Plik wyjsciowy
 
