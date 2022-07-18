@@ -66,7 +66,7 @@ replaymod.gui.videothumbnailtoolarge=Размер изображения пре�
 replaymod.gui.videothumbnailformat=Изображение должно быть в формате JPEG или PNG
 
 replaymod.gui.hours=ч
-replaymod.gui.minutes=мин.
+replaymod.gui.minutes=мин
 replaymod.gui.seconds=с
 replaymod.gui.milliseconds=мс
 
@@ -232,7 +232,7 @@ replaymod.gui.rendersettings.chromakey=Хромакей
 replaymod.gui.rendersettings.nametags=Отображать имена
 replaymod.gui.rendersettings.includealpha=Сохранить Альфа-канал
 replaymod.gui.rendersettings.outputfile=Выходной файл
-replaymod.gui.rendersettings.sphericalFov=Сферический FOV
+replaymod.gui.rendersettings.sphericalFov=Сферическое поле зрения
 replaymod.gui.rendersettings.sphericalmetadata=Сферические метаданные
 replaymod.gui.rendersettings.sphericalmetadata.error=Сферические метаданные могут быть добавлены только к равноугольным видео в формате ODS или MP4
 replaymod.gui.rendersettings.depthmap=Карта глубины
