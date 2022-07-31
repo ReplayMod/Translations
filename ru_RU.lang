@@ -29,7 +29,7 @@ replaymod.gui.paused=Пауза
 replaymod.gui.speed=Скорость
 replaymod.gui.pleasewait=Подождите
 replaymod.gui.render=Отрендерить
-replaymod.gui.iphidden=Адрес сервера скрыт
+replaymod.gui.iphidden=IP-Адрес сервера скрыт
 replaymod.gui.overwrite=Перезаписать
 replaymod.gui.saveas=Сохранить...
 replaymod.gui.done=Готово
@@ -52,7 +52,7 @@ replaymod.gui.renderdone2=Что дальше?
 replaymod.gui.videotitle=Название
 replaymod.gui.videodescription=Описание
 replaymod.gui.videotags=Теги,Теги,Теги
-replaymod.gui.videothumbnail=Значок видео
+replaymod.gui.videothumbnail=Обложка видео
 replaymod.gui.videovisibility.private=Ограниченный доступ
 replaymod.gui.videovisibility.unlisted=Доступ по ссылке
 replaymod.gui.videovisibility.public=Открытый доступ
@@ -90,18 +90,18 @@ replaymod.gui.restorereplay1=Похоже, Minecraft был закрыт нео�
 replaymod.gui.restorereplay2=Повтор «%1$s» неправильно сохранён.
 replaymod.gui.restorereplay3=Хотите восстановить его?
 
-replaymod.gui.loadentitytracker=Загрузка местоположения сущностей: %%d%%%%
-replaymod.gui.loadquickmode=Загрузка быстрого режима: %%d%%%%
-replaymod.gui.noquickmode=Быстрый режим доступен только в Minecraft %1$s и выше
-replaymod.gui.minimalmode.unsupported=Эта функция недоступна в текущей версии Minecraft.
+replaymod.gui.loadentitytracker=Загрузка позиций сущностей: %%d%%%%
+replaymod.gui.loadquickmode=Загрузка Быстрого Режима: %%d%%%%
+replaymod.gui.noquickmode=Быстрый Режим доступен только в Minecraft %1$s и выше
+replaymod.gui.minimalmode.unsupported=Эта функция недоступна в вашей версии Minecraft.
 replaymod.gui.minimalmode.supportedversion=(текущая версия Replay Mod поддерживает только Minecraft %1$s)
 
 #Only change these if it's neccessary
-replaymod.gui.replayviewer=Просмотрщик повторов
+replaymod.gui.replayviewer=Просмотрщик Повторов
 
 #Replay Viewer GUI
 replaymod.gui.viewer.rename.name=Название повтора
-replaymod.gui.viewer.replayfolder=Папка повторов...
+replaymod.gui.viewer.replayfolder=Открыть папку повторов...
 replaymod.gui.viewer.bulkrender=Отрендерить %1$d видео
 
 replaymod.gui.viewer.delete.linea=Вы уверены, что хотите удалить этот повтор?
@@ -111,10 +111,10 @@ replaymod.gui.viewer.delete.lineb=«%1$s» будет удалён навсег�
 
 #Replay Editor UI 2.0 (marker based UI)
 replaymod.gui.edit.apply=Применить
-replaymod.gui.edit.split=Разделитель
-replaymod.gui.edit.split.tooltip=По отмеченным точкам разделяет повтор на несколько мелких
-replaymod.gui.edit.cut.start=Начало отреза
-replaymod.gui.edit.cut.end=Конец отреза
+replaymod.gui.edit.split=Разрезать
+replaymod.gui.edit.split.tooltip=Разрезать Повтор на несколько Повторов в данной точке
+replaymod.gui.edit.cut.start=Вырезать фрагмент
+replaymod.gui.edit.cut.end=Закончить вырезку
 replaymod.gui.edit.cut.tooltip=Удаляет отрезок из повтора
 
 #Cancel Replay GUI
@@ -133,7 +133,7 @@ replaymod.gui.playeroverview.remembersettings.description=Сохраняет и�
 
 #Replay Mod Settings GUI
 replaymod.gui.settings.title=Настройки Replay Mod
-replaymod.gui.settings.default=Как в настройках
+replaymod.gui.settings.default=ПО УМОЛЧАНИЮ
 
 replaymod.gui.settings.notifications=Уведомления
 replaymod.gui.settings.recordserver=Запись сервера
@@ -142,7 +142,7 @@ replaymod.gui.settings.indicator=Индикатор записи
 replaymod.gui.settings.pathpreview=Отображение дорожки
 replaymod.gui.settings.camera=Камера
 replaymod.gui.settings.showchat=Чат
-replaymod.gui.settings.interpolator=Интерполяция
+replaymod.gui.settings.interpolator=Интерп.
 replaymod.gui.settings.autostartrecording=Автозапись
 replaymod.gui.settings.rename_recording_dialog=Диалог сохранения
 replaymod.gui.settings.fullbrightness=Полная яркость
@@ -164,7 +164,7 @@ replaymod.input.playpause=Воспроизвести или приостанов
 replaymod.input.marker=Добавить маркер события
 replaymod.input.pathpreview=Отображение дорожки
 replaymod.input.settings=Настройки ReplayMod
-replaymod.input.quickmode=Быстрый режим
+replaymod.input.quickmode=Быстрый Режим
 replaymod.input.positionkeyframe=Ключевой кадр позиции
 replaymod.input.positiononlykeyframe=Ключевой кадр позиции вне наблюдения
 replaymod.input.timekeyframe=Ключевой кадр времени
@@ -213,31 +213,31 @@ replaymod.gui.rendersettings.renderer.stereoscopic=Стереоскопичес�
 replaymod.gui.rendersettings.renderer.cubic=Кубический
 replaymod.gui.rendersettings.renderer.equirectangular=Равнопромежуточный
 replaymod.gui.rendersettings.renderer.ods=ODS
-replaymod.gui.rendersettings.renderer.blend=Экспорт в Blender [Экспериментально]
+replaymod.gui.rendersettings.renderer.blend=Экспорт в Blender [БЕТА]
 
 replaymod.gui.rendersettings.renderer.default.description=Видео в указанном разрешении. Самый быстрый вариант.
 replaymod.gui.rendersettings.renderer.stereoscopic.description=Стереоскопическое 3D-видео (метод перекрёстного взгляда). Изображение для одного глаза составляет половину ширины видео.
 replaymod.gui.rendersettings.renderer.cubic.description=Видео с 360-градусным панорамным видом, использующее кубическую карту. Его можно воспроизвести в Oculus Rift, а также в некоторых видеоплеерах (например, в VR Player).
 replaymod.gui.rendersettings.renderer.equirectangular.description=Видео с 360-градусным панорамным видом, использующее равнопромежуточную проекцию. Его можно воспроизвести в YouTube, Oculus Rift, а также в некоторых видеоплеерах (например, в VR Player).
 replaymod.gui.rendersettings.renderer.ods.description=Видео со стереоскопическим 360-градусным панорамным видом, также известное как VR-видео. Его можно воспроизвести в YouTube.
-replaymod.gui.rendersettings.renderer.blend.description=Видимые контуры, экспортированные в .blend-файл, который можно открыть в Blender. Крайне нестабильная функция! Требуется большой объём памяти, содержит довольно много ошибок, иногда генерирует повреждённые файлы.
+replaymod.gui.rendersettings.renderer.blend.description=Экспортирует видимую геометрию как файл .blend, который может быть открыт используя Blender. Экспериментальная функция: Требует много ОЗУ, есть ошибки и иногда на выходе образуются нерабочие файлы.
 
 replaymod.gui.rendersettings.customresolution=Разрешение
 replaymod.gui.rendersettings.customresolution.warning.yuv420=Длина и ширина должны быть чётными числами
 replaymod.gui.rendersettings.customresolution.warning.yuv420.cubic=Высота должна быть кратна 6
-replaymod.gui.rendersettings.customresolution.warning.cubic.height=При кубическом рендеринге высота должна быть кратна 3
+replaymod.gui.rendersettings.customresolution.warning.cubic.height=Высота должна быть кратна 3
 replaymod.gui.rendersettings.bitrate=Битрейт
 replaymod.gui.rendersettings.framerate=Частота кадров
 replaymod.gui.rendersettings.chromakey=Хромакей
 replaymod.gui.rendersettings.nametags=Отображать имена
-replaymod.gui.rendersettings.includealpha=Сохранить альфа-канал
+replaymod.gui.rendersettings.includealpha=Сохранить Альфа-канал
 replaymod.gui.rendersettings.outputfile=Выходной файл
 replaymod.gui.rendersettings.sphericalFov=Сферическое поле зрения
 replaymod.gui.rendersettings.sphericalmetadata=Сферические метаданные
 replaymod.gui.rendersettings.sphericalmetadata.error=Сферические метаданные возможно добавить только в видео формата MP4 с проекцией ODS или с равнопромежуточной проекцией
 replaymod.gui.rendersettings.depthmap=Карта глубины
-replaymod.gui.rendersettings.depthmap.only_exr_or_png=Карту глубины возможно экспортировать только для файлов формата PNG и OpenEXR.
-replaymod.gui.rendersettings.camerapath=Экспортировать дорожку
+replaymod.gui.rendersettings.depthmap.only_exr_or_png=Экспорт карты глубины поддерживается только в формате OpenEXR или PNG.
+replaymod.gui.rendersettings.camerapath=Экспорт пути камеры
 
 replaymod.gui.rendersettings.command=Команда
 replaymod.gui.rendersettings.arguments=Аргументы командной строки
@@ -272,12 +272,12 @@ replaymod.gui.renderqueue.renderall=Отрендерить всё
 replaymod.gui.renderqueue.renderselected=Отрендерить выбранное
 
 #Rendering GUI
-replaymod.gui.rendering.title=Рендеринг
+replaymod.gui.rendering.title=Рендер видео
 replaymod.gui.rendering.pause=Приостановить
 replaymod.gui.rendering.resume=Возобновить
 replaymod.gui.rendering.cancel=Отмена
 replaymod.gui.rendering.cancel.callback=Вы уверены?
-replaymod.gui.rendering.preview=Предпросмотр (производительность может пострадать)
+replaymod.gui.rendering.preview=Предпросмотр (Производительность может пострадать)
 replaymod.gui.rendering.progress=Обработано кадров: %1$d / %2$d
 replaymod.gui.rendering.timetaken=Время
 replaymod.gui.rendering.timeleft=Осталось времени
@@ -306,9 +306,9 @@ replaymod.gui.ingame.menu.zoomin=Приблизить
 replaymod.gui.ingame.menu.zoomout=Отдалить
 
 replaymod.gui.ingame.unnamedmarker=Безымянный маркер события
-replaymod.gui.ingame.autoactivating=Эта функция поддерживает автоматическую активацию.
-replaymod.gui.ingame.autoactivating.disable=Ctrl+щелчок — отключить автоматическую активацию.
-replaymod.gui.ingame.autoactivating.enable=Ctrl+щелчок — включить автоматическую активацию.
+replaymod.gui.ingame.autoactivating=Эта привязка клавиш может автоматически активироваться в подходящее время.
+replaymod.gui.ingame.autoactivating.disable=Ctrl+ЛКМ — отключить автоматическую активацию.
+replaymod.gui.ingame.autoactivating.enable=Ctrl+ЛКМ — включить автоматическую активацию.
 replaymod.gui.ingame.first_keyframe_not_at_start_warning=Заданный первый ключевой кадр находится не в 00:00.\n\nОбычно это признак того, что вы не поняли,\nкак работает временная шкала видео (нижняя).\n\nВерхняя шкала определяет текущий момент повтора,\nа нижняя — текущий момент создаваемого видео.\nВидео всегда начинается с 00:00! Если первый ключевой кадр\nне в 00:00, видео будет казаться зависшим до этого кадра.
 
 #Clear Keyframe Callback
