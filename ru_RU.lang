@@ -41,7 +41,7 @@ replaymod.gui.paste=Вставить
 
 replaymod.gui.recording.resume=Возобновить
 replaymod.gui.recording.pause=Приостановить
-replaymod.gui.recording.stop=Завершить запись
+replaymod.gui.recording.stop=Закончить запись
 replaymod.gui.recording.start=Начать запись
 
 replaymod.gui.renderdonetitle=Рендеринг завершён
