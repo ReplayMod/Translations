@@ -1,0 +1,345 @@
+replaymod.title=Replay Mod
+
+#All of the chat messages
+replaymod.chat.recordingstarted=Запис розпочато
+replaymod.chat.recordingfailed=Не вдалося розпочати запис
+
+replaymod.chat.savingthumb=Збереження мініатюри...
+replaymod.chat.savedthumb=Мініатюру успішно збережено
+replaymod.chat.failedthumb=Не вдалося зберегти мініатюру  
+
+replaymod.chat.addedmarker=Додано маркер подій
+
+#Chat messages displayed in Replay Viewer
+replaymod.chat.morekeyframes=Потрібно не менше двох ключових кадрів позиції та двох кадрів часу
+replaymod.chat.pathstarted=Відтворення доріжки розпочато
+replaymod.chat.pathfinished=Відтворення доріжки завершено
+replaymod.chat.pathinterrupted=Відтворення доріжки зупинено
+
+#Common GUI-related strings
+replaymod.gui.cancel=Скасувати
+replaymod.gui.back=Назад
+replaymod.gui.load=Завантажити
+replaymod.gui.save=Зберегти
+replaymod.gui.rename=Перейменувати
+replaymod.gui.remove=Видалити
+replaymod.gui.delete=Видалити
+replaymod.gui.recording=Запис
+replaymod.gui.paused=Призупинено
+replaymod.gui.speed=Швидкість
+replaymod.gui.pleasewait=Будь ласка, зачекайте
+replaymod.gui.render=Візуалізувати
+replaymod.gui.iphidden=IP-адреса сервера прихована
+replaymod.gui.overwrite=Перезаписати
+replaymod.gui.saveas=Зберегти як...
+replaymod.gui.done=Готово
+replaymod.gui.close=Закрити
+replaymod.gui.notagain=Більше не показувати
+replaymod.gui.edit=Редагувати
+replaymod.gui.copy=Копіювати
+replaymod.gui.paste=Вставити
+
+replaymod.gui.recording.resume=Відновити запис
+replaymod.gui.recording.pause=Призупинити запис
+replaymod.gui.recording.stop=Зупинити запис
+replaymod.gui.recording.start=Почати запис
+
+replaymod.gui.renderdonetitle=Візуалізацію завершено
+replaymod.gui.openfolder=Відкрити теку з відео
+replaymod.gui.youtubeupload=Завантажити на YouTube
+replaymod.gui.renderdone1=Ваше відео було успішно візуалізовано.
+replaymod.gui.renderdone2=Що далі?
+replaymod.gui.videotitle=Назва
+replaymod.gui.videodescription=Опис
+replaymod.gui.videotags=Теги,Теги,Теги
+replaymod.gui.videothumbnail=Значок для відео
+replaymod.gui.videovisibility.private=Приватне
+replaymod.gui.videovisibility.unlisted=Не для всіх
+replaymod.gui.videovisibility.public=Для всіх
+replaymod.gui.ytuploadprogress.auth=[1/4] Авторизація
+replaymod.gui.ytuploadprogress.prepare_video=[2/4] Підготовка відео: %%d%%%%
+replaymod.gui.ytuploadprogress.upload=[3/4] Завантаження: %%d%%%%
+replaymod.gui.ytuploadprogress.cleanup=[4/4] Очищення
+replaymod.gui.ytuploadprogress.done=Готово: %s
+replaymod.gui.titleempty=Відео мусить мати назву
+replaymod.gui.videothumbnailtoolarge=Розмір значка перевищує 2 МБ
+replaymod.gui.videothumbnailformat=Значок повинен бути в форматі JPEG або PNG
+
+replaymod.gui.hours=г
+replaymod.gui.minutes=хв
+replaymod.gui.seconds=сек
+replaymod.gui.milliseconds=мс
+
+replaymod.gui.pitch=Вертик. обертання камери
+replaymod.gui.yaw=Горизонт. поворот камери
+replaymod.gui.roll=Обертання камери
+
+replaymod.gui.camera=Камера
+replaymod.gui.position=Позиція
+
+replaymod.gui.unknownerror=Сталася невідома помилка
+
+replaymod.gui.exit=Вийти з повтору
+
+replaymod.gui.settings=Налаштування
+
+replaymod.gui.keyframerepo.delete=Ви впевнені, що хочете видалити ці ключові кадри?
+replaymod.gui.keyframerepo.overwrite=Ви впевнені, що хочете перезаписати ці ключові кадри?
+
+replaymod.gui.restorereplay1=Схоже, Minecraft був закритий неналежним чином.
+replaymod.gui.restorereplay2=Повтор '%1$s' було збережено неправильно.
+replaymod.gui.restorereplay3=Ви бажаєте його відновити?
+replaymod.gui.loadentitytracker=Завантаження позицій сутностей: %%d%%%%
+replaymod.gui.loadquickmode=Завантаження швидкого режиму: %%d%%%%
+replaymod.gui.noquickmode=Швидкий режим доступний лише в Minecraft %1$s і вище
+replaymod.gui.minimalmode.unsupported=Ця функція недоступна для вашої поточної версії Minecraft.
+replaymod.gui.minimalmode.supportedversion=(лише Minecraft %1$s підтримується вашою версією Replay Mod)
+
+#Only change these if it's neccessary
+replaymod.gui.replayviewer=Програвач повторів
+
+#Replay Viewer GUI
+replaymod.gui.viewer.rename.name=Назва повтору
+replaymod.gui.viewer.replayfolder=Відкрити теку відтворення...
+replaymod.gui.viewer.bulkrender=Візуалізувати %1$d відео
+
+replaymod.gui.viewer.delete.linea=Ви впевнені, що хочете видалити цей повтор?
+replaymod.gui.viewer.delete.failed1=Ваша ОС не дозволила нам видалити повтор. 
+replaymod.gui.viewer.delete.failed2=Ми нічого не можемо з цим зробити. Ви повинні зробити це самі.
+replaymod.gui.viewer.delete.lineb='%1$s' буде втрачено назавжди! (довгий час!)
+
+#Replay Editor UI 2.0 (marker based UI)
+replaymod.gui.edit.apply=Застосувати
+replaymod.gui.edit.split=Розділити
+replaymod.gui.edit.split.tooltip=Розділити повтор на декілька повторів у позначеній точці
+replaymod.gui.edit.cut.start=Вставити фрагмент
+replaymod.gui.edit.cut.end=Кінцевий фрагмент
+replaymod.gui.edit.cut.tooltip=Вирізати (видалити) частину повтору
+
+#Cancel Replay GUI
+replaymod.gui.cancelrender.title=Скасувати візуалізацію
+replaymod.gui.cancelrender.message=Ви впевнені, що бажаєте скасувати поточний процес візуалізації?
+#Saving Replay GUI
+replaymod.gui.replaysaving.title=Збереження файлу повтору...
+
+#Player Overview GUI
+replaymod.gui.playeroverview.visible=Видимість
+replaymod.gui.playeroverview.hideall=Приховати всіх
+replaymod.gui.playeroverview.showall=Показати всіх
+replaymod.gui.playeroverview.spectate=Спостерігати за...
+replaymod.gui.playeroverview.remembersettings=Запам'ятати прихованих гравців
+replaymod.gui.playeroverview.remembersettings.description=Зберігає видимість гравця у файлі повтору
+
+#Replay Mod Settings GUI
+replaymod.gui.settings.title=Налаштування Replay Mod
+replaymod.gui.settings.default=ЗА ЗАМОВЧУВАННЯМ
+
+replaymod.gui.settings.notifications=Увімкнути сповіщення
+replaymod.gui.settings.recordserver=Запис серверів
+replaymod.gui.settings.recordsingleplayer=Запис гри наодинці 
+replaymod.gui.settings.indicator=Індикатор запису
+replaymod.gui.settings.pathpreview=Відображення доріжки
+replaymod.gui.settings.camera=Камера
+replaymod.gui.settings.showchat=Показати чат
+replaymod.gui.settings.interpolator=Інтерполятор
+replaymod.gui.settings.autostartrecording=Автозапис
+replaymod.gui.settings.rename_recording_dialog=Вікно перейменування
+replaymod.gui.settings.fullbrightness=Повна яскравість
+replaymod.gui.settings.fullbrightness.gamma=Гамма
+replaymod.gui.settings.fullbrightness.nightvision=Нічне бачення
+replaymod.gui.settings.fullbrightness.both=Обидва
+
+#Replay Mod Keybindings
+replaymod.input.lighting=Увімкнути освітлення
+replaymod.input.thumbnail=Створити мініатюру
+replaymod.input.playeroverview=Список гравців
+replaymod.input.clearkeyframes=Очистити ключові 
+replaymod.input.synctimeline=Синхронізація шкали часу
+replaymod.input.keyframerepository=Набори ключових кадрів
+replaymod.input.rollclockwise=Нахил камери: праворуч
+replaymod.input.rollcounterclockwise=Нахил камери: ліворуч
+replaymod.input.resettilt=Скинути нахил камери
+replaymod.input.playpause=Відтворення/пауза повтору
+replaymod.input.marker=Додати маркер події
+replaymod.input.pathpreview=Відтворити доріжку
+replaymod.input.settings=Налаштування ReplayMod
+replaymod.input.quickmode=Швидкий режим
+replaymod.input.positionkeyframe=Ключовий кадр позиції
+replaymod.input.positiononlykeyframe=Ключовий кадр позиції
+replaymod.input.timekeyframe=Ключовий кадр часу
+replaymod.input.bothkeyframes=Ключовий кадр позиції та часу
+
+# CameraControllers
+replaymod.camera.classic=Replay Mod
+replaymod.camera.vanilla=Minecraft
+
+#Keyframe Presets GUI
+replaymod.gui.keyframerepository.title=Набори ключових кадрів
+
+#Edit Keyframe GUI
+replaymod.gui.editkeyframe.title.pos=Ред. ключовий кадр позиції
+replaymod.gui.editkeyframe.title.time=Ред. ключовий кадр часу
+replaymod.gui.editkeyframe.title.marker=Ред. маркер події
+replaymod.gui.editkeyframe.title.spec=Ред. ключовий кадр спостерігача
+replaymod.gui.editkeyframe.xpos=X
+replaymod.gui.editkeyframe.ypos=Y
+replaymod.gui.editkeyframe.zpos=Z
+replaymod.gui.editkeyframe.campitch=Вертик. обертання камери
+replaymod.gui.editkeyframe.camyaw=Горизонт. поворот камери
+replaymod.gui.editkeyframe.camroll=Обертання камери
+replaymod.gui.editkeyframe.timelineposition=Положення шкали часу
+replaymod.gui.editkeyframe.markername=Назва маркера події
+replaymod.gui.editkeyframe.timestamp=Позначка часу
+
+replaymod.gui.editkeyframe.interpolator=Інтерполяція
+replaymod.gui.editkeyframe.interpolator.default.name=Інтерполяція за замовчуванням
+replaymod.gui.editkeyframe.interpolator.default.desc=Використовує інтерполятор за замовчуванням, визначений у налаштуваннях Replay Mod.
+replaymod.gui.editkeyframe.interpolator.catmullrom.name=Катмула — Рома 
+replaymod.gui.editkeyframe.interpolator.catmullrom.desc=Катмула — Рома зі змінним значенням для точного калібрування плавності дорожньої камери.
+replaymod.gui.editkeyframe.interpolator.catmullrom.alpha=Плавність:
+replaymod.gui.editkeyframe.interpolator.cubic.name=Кубічна інтерполяція
+replaymod.gui.editkeyframe.interpolator.cubic.desc=Кубічна інтерполяція всіх точок, що створює плавність доріжки камери.
+replaymod.gui.editkeyframe.interpolator.linear.name=Лінійна інтерполяція
+replaymod.gui.editkeyframe.interpolator.linear.desc=Малює прямі лінії між ключовими кадрами.
+
+#Render Settings GUI
+replaymod.gui.rendersettings.addtoqueue=Додати в чергу
+
+replaymod.gui.rendersettings.renderer=Спосіб візуалізації
+
+replaymod.gui.rendersettings.renderer.default=Візуалізація за замовчуванням
+replaymod.gui.rendersettings.renderer.stereoscopic=Стереоскопічна візуалізація
+replaymod.gui.rendersettings.renderer.cubic=Кубічна візуалізація
+replaymod.gui.rendersettings.renderer.equirectangular=Рівнопрямокутна візуалізація
+replaymod.gui.rendersettings.renderer.ods=ODS візуалізація
+replaymod.gui.rendersettings.renderer.blend=Експорт в  Blender [БЕТА]
+
+replaymod.gui.rendersettings.renderer.default.description=Візуалізує відео у вказаній роздільній здатності. Найшвидший варіант візуалізації.
+replaymod.gui.rendersettings.renderer.stereoscopic.description=Візуалізує відео як стереоскопічний (паралельний) 3D-фільм, який можна використовувати за допомогою різних 3D-технологій. Зображення для одного ока становить половину ширини відео.
+replaymod.gui.rendersettings.renderer.cubic.description=Візуалізує відео з панорамним оглядом на 360 градусів, використовуючи кубічну проєкцію. Його можна відтворити в Oculus Rift, та декількох відеопрогравачах (наприклад VR Player).
+replaymod.gui.rendersettings.renderer.equirectangular.description=Візуалізує відео з панорамним оглядом на 360 градусів з використанням рівнопрямокутної проєкції. Його можна відтворити у YouTube, Oculus Rift, а також у деяких відеопрогравачах (наприклад VR Player).
+replaymod.gui.rendersettings.renderer.ods.description=Візуалізує відео зі стереоскопічним 3D панорамним оглядом на 360 градусів, яке також називається VR Video. Його можна відтворити на YouTube.
+replaymod.gui.rendersettings.renderer.blend.description=Експортує видиму геометрію у вигляді файлу .blend, який можна відкрити за допомогою ПЗ Blender. Експериментальна функція: вимагає багато оперативної пам'яті, має чимало відомих проблем і іноді створює пошкоджені файли Blender.
+
+replaymod.gui.rendersettings.customresolution=Роздільна здатність відео
+replaymod.gui.rendersettings.customresolution.warning.yuv420=Для цього пресету значення ширини та висоти мають бути парними числами
+replaymod.gui.rendersettings.customresolution.warning.yuv420.cubic=Для цього пресету висота повинна бути кратна 6
+replaymod.gui.rendersettings.customresolution.warning.cubic.height=Для кубічної візуалізації висота повинна бути кратна 3
+replaymod.gui.rendersettings.bitrate=Бітрейт
+replaymod.gui.rendersettings.framerate=Частота кадрів відео
+replaymod.gui.rendersettings.chromakey=Хромакей
+replaymod.gui.rendersettings.nametags=Показувати імена гравців
+replaymod.gui.rendersettings.includealpha=Зберегти альфа-канал
+replaymod.gui.rendersettings.outputfile=Вихідний файл
+replaymod.gui.rendersettings.sphericalFov=Сферичне поле зору
+replaymod.gui.rendersettings.sphericalmetadata=Сферичні метадані
+replaymod.gui.rendersettings.sphericalmetadata.error=Сферичні метадані можна додавати лише до рівнопрямокутного відео та ODS у форматі MP4
+replaymod.gui.rendersettings.depthmap=Мапа глибини
+replaymod.gui.rendersettings.depthmap.only_exr_or_png=Експорт мапи глибини підтримується тільки у форматі OpenEXR або PNG.
+replaymod.gui.rendersettings.camerapath=Експортувати шлях камери
+
+replaymod.gui.rendersettings.command=Команда
+replaymod.gui.rendersettings.arguments=Аргументи командного рядка
+replaymod.gui.rendersettings.ffmpeg.description=Якщо ви досвідчений користувач, ви можете налаштувати параметри командного рядка, які використовуються для експорту відео. Для отримання додаткової інформації відвідайте http://replaymod.com/docs
+
+replaymod.gui.rendersettings.stabilizecamera=Стабілізувати камеру
+
+replaymod.gui.rendersettings.video=Налаштування відео
+replaymod.gui.rendersettings.advanced=Розширені налаштування
+replaymod.gui.rendersettings.commandline=Налаштування командного рядка
+
+replaymod.gui.rendersettings.presets=Пресети кодування
+replaymod.gui.rendersettings.presets.mp4.custom=MP4 - Користувацький бітрейт
+replaymod.gui.rendersettings.presets.mp4.default=MP4 - Звичайна якість
+replaymod.gui.rendersettings.presets.mp4.potato=MP4 - Шакальна якість
+replaymod.gui.rendersettings.presets.webm.custom=WEBM - Користувацький бітрейт
+replaymod.gui.rendersettings.presets.mkv.lossless=MKV - Без втрат
+replaymod.gui.rendersettings.presets.blend=.blend файл
+replaymod.gui.rendersettings.presets.png=Послідовність PNG
+replaymod.gui.rendersettings.presets.exr=Послідовність OpenEXR
+
+replaymod.gui.rendersettings.antialiasing=Згладжування
+replaymod.gui.rendersettings.antialiasing.none=Жодного
+replaymod.gui.rendersettings.antialiasing.x2=2x
+replaymod.gui.rendersettings.antialiasing.x4=4x
+replaymod.gui.rendersettings.antialiasing.x8=8x
+
+#Render Queue GUI
+replaymod.gui.renderqueue.title=Черга візуалізації
+replaymod.gui.renderqueue.add=Додати поточну конфігурацію
+replaymod.gui.renderqueue.renderall=Візуалізувати все
+replaymod.gui.renderqueue.renderselected=Візуалізація обраного
+
+#Rendering GUI
+replaymod.gui.rendering.title=Візуалізація відео
+replaymod.gui.rendering.pause=Призупинити візуалізацію
+replaymod.gui.rendering.resume=Відновити візуалізацію
+replaymod.gui.rendering.cancel=Скасувати візуалізацію
+replaymod.gui.rendering.cancel.callback=Ви впевнені?
+replaymod.gui.rendering.preview=Показати попередній перегляд (продуктивність може погіршитися)
+replaymod.gui.rendering.progress=Візуалізовані кадри: %1$d / %2$d
+replaymod.gui.rendering.timetaken=Час візуалізації
+replaymod.gui.rendering.timeleft=Часу лишилось
+
+#Render Errors
+replaymod.gui.rendering.error.title=Помилка візуалізації
+replaymod.gui.rendering.error.message=Для візуалізації відео, вам потрібно встановити ffmpeg.
+replaymod.gui.rendering.error.ffmpeglog=Вивід FFmpeg:
+replaymod.gui.rendering.error.ffmpegargs.1=Схоже, ви змінили аргументи командного рядка.
+replaymod.gui.rendering.error.ffmpegargs.2=Ви хочете скинути їх до значень за замовчуванням і повторити спробу?
+
+#Ingame Menu
+replaymod.gui.ingame.menu.addposkeyframe=Додати ключовий кадр позиції
+replaymod.gui.ingame.menu.removeposkeyframe=Видалити ключовий кадр позиції
+replaymod.gui.ingame.menu.addspeckeyframe=Додати ключовий кадр спостерігача
+replaymod.gui.ingame.menu.removespeckeyframe=Видалити ключовий кадр спостерігача
+replaymod.gui.ingame.menu.addtimekeyframe=Додати ключовий кадр часу
+replaymod.gui.ingame.menu.removetimekeyframe=Видалити ключовий кадр часу
+replaymod.gui.ingame.menu.pause=Призупинити повтор
+replaymod.gui.ingame.menu.unpause=Відновити повтор
+replaymod.gui.ingame.menu.renderpath=Візуалізувати шлях камери
+replaymod.gui.ingame.menu.playpath=Відтворити шлях камери
+replaymod.gui.ingame.menu.playpathfromstart=Відтворити шлях камери з початку
+replaymod.gui.ingame.menu.pausepath=Призупинити шлях камери
+replaymod.gui.ingame.menu.zoomin=Збільшити масштаб
+replaymod.gui.ingame.menu.zoomout=Зменшити масштаб
+
+replaymod.gui.ingame.unnamedmarker=Безіменний маркер події
+replaymod.gui.ingame.autoactivating=Ця прив'язка клавіш може автоматично активуватися у відповідний час.
+replaymod.gui.ingame.autoactivating.disable=Ctrl+ЛКМ — вимкнути автоматичну активацію.
+replaymod.gui.ingame.autoactivating.enable=Ctrl+ЛКМ — увімкнути автоматичну активацію.
+replaymod.gui.ingame.first_keyframe_not_at_start_warning=Ви щойно розмістили свій перший ключовий кадр, і він знаходиться не на 00:00.\n\nЗазвичай це свідчить про те, що ви неправильно зрозуміли,\nяк працює шкала часу відео (та що знаходиться внизу):\n\nХоча верхня шкала показує ваш поточний час у повторі, нижня показує \nчас у відео, яке ви створюєте.Відео завжди починатиметься \nвід 00:00! Якщо ваш перший ключовий кадр не на 00:00, відео \nбуде заморожено до моменту першого ключового кадру!
+
+#Clear Keyframe Callback
+replaymod.gui.clearcallback.title=Очистити всі ключові кадри?
+
+#Errors
+replaymod.error.unknownrestriction1=Цей повтор неможливо відтворити на поточній версії.
+replaymod.error.unknownrestriction2=Була спроба запустити невідому версію %s.
+replaymod.error.negativetime1=Деякі з ваших ключових кадрів часу розставлені не послідовно.
+replaymod.error.negativetime2=Повернення назад у часі не підтримується.
+replaymod.error.negativetime3=Недійсні частини позначені червоним кольором.
+
+#Replay Mod Incompatibility Warning
+replaymod.gui.modwarning.title=Виявлено несумісність
+replaymod.gui.modwarning.message1=Виявлена можлива несумісність між вашою
+replaymod.gui.modwarning.message2=поточною версією Minecraft і цим відтворенням.
+replaymod.gui.modwarning.message3=Завантаження цього повтору може призвести до помилок або збою.
+replaymod.gui.modwarning.name=Назва мода:
+replaymod.gui.modwarning.id=Id мода:
+replaymod.gui.modwarning.missing=Відсутні моди
+replaymod.gui.modwarning.version=Різні версії модів
+replaymod.gui.modwarning.version.expected=Очікувана версія
+replaymod.gui.modwarning.version.found=Знайдена версія
+
+#Advanced Screenshots Gui
+replaymod.gui.advancedscreenshots.title=Налаштування знімка екрана
+replaymod.gui.advancedscreenshots.create=Зробити знімок екрана
+replaymod.gui.advancedscreenshots.resolution=Роздільна здатність
+
+# Screenshot Finished Gui
+replaymod.gui.advancedscreenshots.finished.description=Ви успішно створили знімок екрана!
+replaymod.gui.advancedscreenshots.finished.description.360=Ви успішно створили знімок екрана в 360°!
+replaymod.gui.advancedscreenshots.finished.description.veer=Завантажте та перегляньте зображення у VR на VeeR.tv або відкрийте його на своєму диску.
+replaymod.gui.advancedscreenshots.finished.upload.veer=Завантажити на VeeR.tv
+replaymod.gui.advancedscreenshots.finished.showfile=Показати файл на диску
