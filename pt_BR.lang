@@ -39,7 +39,7 @@ replaymod.gui.edit=Editar
 replaymod.gui.copy=Copiar
 replaymod.gui.paste=Colar
 
-replaymod.gui.recording.resume=Voltar a gravação
+replaymod.gui.recording.resume=Retomar a gravação
 replaymod.gui.recording.pause=Pausar a gravação
 replaymod.gui.recording.stop=Parar a gravação
 replaymod.gui.recording.start=Iniciar a gravação
@@ -83,12 +83,12 @@ replaymod.gui.exit=Sair do Replay
 
 replaymod.gui.settings=Configurações
 
-replaymod.gui.keyframerepo.delete=Deseja mesmo excluir esses keyframes?
-replaymod.gui.keyframerepo.overwrite=Deseja mesmo substituir esses keyframes?
+replaymod.gui.keyframerepo.delete=Deseja mesmo excluir estas keyframes?
+replaymod.gui.keyframerepo.overwrite=Deseja mesmo substituir estas keyframes?
 
 replaymod.gui.restorereplay1=Parece que o Minecraft não fechou normalmente.
 replaymod.gui.restorereplay2=O replay "%1$s" não foi salvo corretamente.
-replaymod.gui.restorereplay3=Deseja mesmo recuperá-lo?
+replaymod.gui.restorereplay3=Deseja recuperá-lo?
 
 replaymod.gui.loadentitytracker=Carregando as posições da entidade: %%d%%%%
 replaymod.gui.loadquickmode=Carregando o modo rápido: %%d%%%%
@@ -115,7 +115,7 @@ replaymod.gui.edit.split=Inserir divisão
 replaymod.gui.edit.split.tooltip=Divida o replay em vários replays nos pontos marcados
 replaymod.gui.edit.cut.start=Inserir corte
 replaymod.gui.edit.cut.end=Finalizar corte
-replaymod.gui.edit.cut.tooltip=Cortar (remover) uma seção do replay
+replaymod.gui.edit.cut.tooltip=Remover uma seção do replay
 
 #Cancel Replay GUI
 replaymod.gui.cancelrender.title=Cancelar renderização
@@ -133,7 +133,7 @@ replaymod.gui.playeroverview.remembersettings.description=Salva a visibilidade d
 
 #Replay Mod Settings GUI
 replaymod.gui.settings.title=Configurações do Replay Mod
-replaymod.gui.settings.default=DEFAULT
+replaymod.gui.settings.default=PADRÃO
 
 replaymod.gui.settings.notifications=Notificações
 replaymod.gui.settings.recordserver=Gravar servidor
@@ -312,12 +312,12 @@ replaymod.gui.ingame.autoactivating.enable=Clique com Ctrl para ativar.
 replaymod.gui.ingame.first_keyframe_not_at_start_warning=Você colocou um keyframe fora do 00:00.\n\nIsto indica que você não entendeu como\na linha do tempo funciona (visível abaixo):\n\nEnquanto a linha do tempo acima exibe seu tempo atual no replay,\na inferior exibe o tempo no vídeo que você está criando.\nO vídeo sempre começará em 00:00! Se o seu primeiro keyframe não estiver em 00:00,\nentão o vídeo aparecerá congelado até o momento do primeiro keyframe!
 
 #Clear Keyframe Callback
-replaymod.gui.clearcallback.title=Limpar todos os keyframes?
+replaymod.gui.clearcallback.title=Limpar todas as keyframes?
 
 #Errors
 replaymod.error.unknownrestriction1=Este replay não pode ser reproduzido nesta versão.
 replaymod.error.unknownrestriction2=Ele tentou aplicar %s que é desconhecido.
-replaymod.error.negativetime1=Alguns dos seus keyframes de tempo estão fora de ordem.
+replaymod.error.negativetime1=Algumas das suas keyframes de tempo estão fora de ordem.
 replaymod.error.negativetime2=Retroceder no tempo não é suportado.
 replaymod.error.negativetime3=As partes inválidas estão marcadas em vermelho.
 
@@ -341,6 +341,6 @@ replaymod.gui.advancedscreenshots.resolution=Resolução
 # Screenshot Finished Gui
 replaymod.gui.advancedscreenshots.finished.description=Tela capturada!
 replaymod.gui.advancedscreenshots.finished.description.360=Tela capturada em 360°!
-replaymod.gui.advancedscreenshots.finished.description.veer=Publique e veja a imagem em VR no VeeR.tv ou abra no seu disco.
+replaymod.gui.advancedscreenshots.finished.description.veer=Publique e veja a imagem em VR no VeeR.tv ou abra a pasta do arquivo.
 replaymod.gui.advancedscreenshots.finished.upload.veer=Enviar ao VeeR.tv
-replaymod.gui.advancedscreenshots.finished.showfile=Exibir arquivo no disco
+replaymod.gui.advancedscreenshots.finished.showfile=Abrir pasta do arquivo
