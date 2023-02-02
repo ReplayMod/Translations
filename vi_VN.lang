@@ -1,0 +1,345 @@
+replaymod.title=Replay Mod
+
+#All of the chat messages
+replaymod.chat.recordingstarted=Bắt đầu quay
+replaymod.chat.recordingfailed=Thất bại khi tiến hành quay
+
+replaymod.chat.savingthumb=Lưu hình thu nhỏ...
+replaymod.chat.savedthumb=Hình thu nhỏ đã được lưu thành công
+replaymod.chat.failedthumb=Không thể lưu hình thu nhỏ
+
+replaymod.chat.addedmarker=Điểm đánh dấu sự kiện đã được thêm vào
+
+#Chat messages displayed in Replay Viewer
+replaymod.chat.morekeyframes=Yêu cầu ít nhất 2 khung hình vị trí và 2 khung hình thời gian
+replaymod.chat.pathstarted=Đường dẫn camera đã bắt đầu
+replaymod.chat.pathfinished=Đường dẫn camera đã hoàn tất
+replaymod.chat.pathinterrupted=Đường dẫn camera bị hủy
+
+#Common GUI-related strings
+replaymod.gui.cancel=Hủy bỏ
+replaymod.gui.back=Trở lại
+replaymod.gui.load=Tải
+replaymod.gui.save=Lưu
+replaymod.gui.rename=Đổi tên
+replaymod.gui.remove=Loại bỏ
+replaymod.gui.delete=Xoá
+replaymod.gui.recording=Đang quay
+replaymod.gui.paused=Đã tạm dừng
+replaymod.gui.speed=Tốc độ
+replaymod.gui.pleasewait=Làm ơn chờ
+replaymod.gui.render=Xuất
+replaymod.gui.iphidden=Ẩn IP Server
+replaymod.gui.overwrite=Ghi đè
+replaymod.gui.saveas=Lưu như ...
+replaymod.gui.done=Xong
+replaymod.gui.close=Đóng
+replaymod.gui.notagain=Không hiển thị lại
+replaymod.gui.edit=Chỉnh sửa
+replaymod.gui.copy=Chép
+replaymod.gui.paste=Dán
+
+replaymod.gui.recording.resume=Tiếp tục quay
+replaymod.gui.recording.pause=Tạm dừng quay
+replaymod.gui.recording.stop=Dừng quay
+replaymod.gui.recording.start=Bắt đầu quay
+
+replaymod.gui.renderdonetitle=Đã xuất video
+replaymod.gui.openfolder=Mở thư mục video
+replaymod.gui.youtubeupload=Tải lên YouTube
+replaymod.gui.renderdone1=Video của bạn đã được hiển thị thành công.
+replaymod.gui.renderdone2=Bạn muốn tiến hành như thế nào?
+replaymod.gui.videotitle=Tiêu đề
+replaymod.gui.videodescription=Mô tả
+replaymod.gui.videotags=Thẻ,Thẻ,Thẻ
+replaymod.gui.videothumbnail=Hình thu nhỏ cho video
+replaymod.gui.videovisibility.private=Riêng tư
+replaymod.gui.videovisibility.unlisted=Không công khai
+replaymod.gui.videovisibility.public=Công khai
+replaymod.gui.ytuploadprogress.auth=[1/4] Ủy quyền
+replaymod.gui.ytuploadprogress.prepare_video=[2/4] Đang chuẩn bị video: %%d%%%%
+replaymod.gui.ytuploadprogress.upload=[3/4] Đang tải lên: %%d%%%%
+replaymod.gui.ytuploadprogress.cleanup=[4/4] Dọn dẹp
+replaymod.gui.ytuploadprogress.done=Xong: %s
+replaymod.gui.titleempty=Tiêu đề không được để trống
+replaymod.gui.videothumbnailtoolarge=Kích thước hình thu nhỏ vượt quá 2MB
+replaymod.gui.videothumbnailformat=Hình thu nhỏ phải ở định dạng JPEG hoặc PNG
+
+replaymod.gui.hours=:
+replaymod.gui.minutes=:
+replaymod.gui.seconds=:
+replaymod.gui.milliseconds=:
+
+replaymod.gui.pitch=Pitch
+replaymod.gui.yaw=Yaw
+replaymod.gui.roll=Roll
+
+replaymod.gui.camera=Camera
+replaymod.gui.position=Vị trí
+
+replaymod.gui.unknownerror=Đã xảy ra lỗi không xác định
+
+replaymod.gui.exit=Thoát Replay
+
+replaymod.gui.settings=Cài đặt
+
+replaymod.gui.keyframerepo.delete=Bạn có chắc chắn muốn xóa các khung hình chính này không?
+replaymod.gui.keyframerepo.overwrite=Bạn có chắc chắn muốn ghi đè lên các khung hình chính này không?
+replaymod.gui.restorereplay1=Có vẻ như Minecraft không được thoát đúng cách.
+replaymod.gui.restorereplay2=Bản phát lại '%1$s' không được lưu chính xác.
+replaymod.gui.restorereplay3=Bạn muốn phục hồi nó không?
+
+replaymod.gui.loadentitytracker=Đang tải vị trí thực thể: %%d%%%%
+replaymod.gui.loadquickmode=Đang tải chế độ nhanh: %%d%%%%
+replaymod.gui.noquickmode=Chế độ nhanh chỉ khả dụng trên Minecraft %1$s trở lên
+replaymod.gui.minimalmode.unsupported=Tính năng này không khả dụng cho phiên bản Minecraft hiện tại của bạn.
+replaymod.gui.minimalmode.supportedversion=(chỉ Minecraft %1$s được hỗ trợ bởi phiên bản Replay Mod của bạn)
+
+#Only change these if it's neccessary
+replaymod.gui.replayviewer=Replay Viewer
+
+#Replay Viewer GUI
+replaymod.gui.viewer.rename.name=Tên Replay
+replaymod.gui.viewer.replayfolder=Mở thư mục Replay...
+replaymod.gui.viewer.bulkrender=Xuất %1$d video
+
+replaymod.gui.viewer.delete.linea=Bạn có chắc chắn muốn xóa bản phát lại này không?
+replaymod.gui.viewer.delete.failed1=Hệ điều hành của bạn không cho phép chúng tôi xóa bản phát lại. Chúng tôi
+replaymod.gui.viewer.delete.failed2=không thể làm gì về việc này. Bạn phải tự làm lấy.
+replaymod.gui.viewer.delete.lineb='%1$s' sẽ biến mất mãi mãi! (một thời gian dài!)
+
+#Replay Editor UI 2.0 (marker based UI)
+replaymod.gui.edit.apply=Áp dụng
+replaymod.gui.edit.split=Chèn tách
+replaymod.gui.edit.split.tooltip=Chia bản phát lại thành nhiều bản riêng biệt tại điểm được đánh dấu.
+replaymod.gui.edit.cut.start=Chèn cắt
+replaymod.gui.edit.cut.end=Cắt một phần
+replaymod.gui.edit.cut.tooltip=Cắt(xóa) một phần của bản phát lại
+
+#Cancel Replay GUI
+replaymod.gui.cancelrender.title=Hủy kết xuất
+replaymod.gui.cancelrender.message=Bạn có chắc chắn muốn hủy bỏ quá trình kết xuất hiện tại không?
+#Saving Replay GUI
+replaymod.gui.replaysaving.title=Lưu bản phát lại...
+
+#Player Overview GUI
+replaymod.gui.playeroverview.visible=Có thể nhìn thấy
+replaymod.gui.playeroverview.hideall=Ẩn tất cả
+replaymod.gui.playeroverview.showall=Hiện tất cả
+replaymod.gui.playeroverview.spectate=Khán giả
+replaymod.gui.playeroverview.remembersettings=Ghi nhớ người chơi ẩn
+replaymod.gui.playeroverview.remembersettings.description=Lưu khả năng hiển thị của trình phát trong bản phát lại
+
+#Replay Mod Settings GUI
+replaymod.gui.settings.title=Cài đặt Replay Mod
+replaymod.gui.settings.default=MẶC ĐỊNH
+
+replaymod.gui.settings.notifications=Bật thông báo
+replaymod.gui.settings.recordserver=Quay máy chủ
+replaymod.gui.settings.recordsingleplayer=Quay chế độ chơi đơn
+replaymod.gui.settings.indicator=Chỉ báo ghi âm
+replaymod.gui.settings.pathpreview=Hiển thị bản xem trước đường dẫn
+replaymod.gui.settings.camera=Camera
+replaymod.gui.settings.showchat=Hiển thị khung trò chuyện
+replaymod.gui.settings.interpolator=Nội suy
+replaymod.gui.settings.autostartrecording=Tự động quay
+replaymod.gui.settings.rename_recording_dialog=Đổi tên hộp thoại
+replaymod.gui.settings.fullbrightness=Độ sáng đầy đủ
+replaymod.gui.settings.fullbrightness.gamma=Gamma
+replaymod.gui.settings.fullbrightness.nightvision=Nhìn trong bóng tối
+replaymod.gui.settings.fullbrightness.both=Cả hai
+
+#Replay Mod Keybindings
+replaymod.input.lighting=Chuyển đổi ánh sáng
+replaymod.input.thumbnail=Chụp hình thu nhỏ
+replaymod.input.playeroverview=Tổng quan về người chơi
+replaymod.input.clearkeyframes=Xóa khung hình
+replaymod.input.synctimeline=Đồng bộ hóa dòng thời gian
+replaymod.input.keyframerepository=Mở cài đặt trước khung hình
+replaymod.input.rollclockwise=Cuộn theo chiều kim đồng hồ
+replaymod.input.rollcounterclockwise=Cuộn ngược chiều kim đồng hồ
+replaymod.input.resettilt=Đặt lại độ nghiêng của camera
+replaymod.input.playpause=Phát/Tạm dừng bản phát lại
+replaymod.input.marker=Thêm điểm đánh dấu sự kiện
+replaymod.input.pathpreview=Chuyển đổi xem trước đường dẫn
+replaymod.input.settings=Cài đặt ReplayMod
+replaymod.input.quickmode=Chế độ nhanh
+replaymod.input.positionkeyframe=Vị trí/Khung hình người xem
+replaymod.input.positiononlykeyframe=Vị trí khung hình
+replaymod.input.timekeyframe=Khung thời gian
+replaymod.input.bothkeyframes=Vị trí/Người xem+Khung thời gian
+
+# CameraControllers
+replaymod.camera.classic=Cổ điển
+replaymod.camera.vanilla=Kiểu vanilla
+
+#Keyframe Presets GUI
+replaymod.gui.keyframerepository.title=Danh sách các khung hình đã lưu
+
+#Edit Keyframe GUI
+replaymod.gui.editkeyframe.title.pos=Chỉnh sửa vị trí khung hình
+replaymod.gui.editkeyframe.title.time=Chỉnh sửa khung thời gian
+replaymod.gui.editkeyframe.title.marker=Chỉnh sửa điểm đánh dấu sự kiện
+replaymod.gui.editkeyframe.title.spec=Chỉnh sửa khung hình người xem
+replaymod.gui.editkeyframe.xpos=Vị trí X
+replaymod.gui.editkeyframe.ypos=Vị trí Y
+replaymod.gui.editkeyframe.zpos=Vị trí Z
+replaymod.gui.editkeyframe.campitch=Camera Pitch
+replaymod.gui.editkeyframe.camyaw=Camera Yaw
+replaymod.gui.editkeyframe.camroll=Camera Roll
+replaymod.gui.editkeyframe.timelineposition=Vị trí dòng thời gian
+replaymod.gui.editkeyframe.markername=Tên đánh dấu sự kiện
+replaymod.gui.editkeyframe.timestamp=Chỉ mục thời gian
+
+replaymod.gui.editkeyframe.interpolator=Nội suy
+replaymod.gui.editkeyframe.interpolator.default.name=Nội suy
+replaymod.gui.editkeyframe.interpolator.default.desc=Sử dụng bộ nội suy mặc định trong cài đặt Replay Mod.
+replaymod.gui.editkeyframe.interpolator.catmullrom.name=Đường cong Catmull-Rom
+replaymod.gui.editkeyframe.interpolator.catmullrom.desc=Tính toán một đường cong catmull-rom với giá trị alpha có thể tùy chỉnh để có độ kín chính xác và độ mượt của đường dẫn camera.
+replaymod.gui.editkeyframe.interpolator.catmullrom.alpha=Alpha:
+replaymod.gui.editkeyframe.interpolator.cubic.name=Đường cong khối nội suy
+replaymod.gui.editkeyframe.interpolator.cubic.desc=Tính toán ma trận phương trình bậc ba cho tất cả các điểm để có đường dẫn máy ảnh mượt mà.
+replaymod.gui.editkeyframe.interpolator.linear.name=Nội suy tuyến tính
+replaymod.gui.editkeyframe.interpolator.linear.desc=Vẽ các đường thẳng giữa các khung hình chính.
+
+#Render Settings GUI
+replaymod.gui.rendersettings.addtoqueue=Thêm vào hàng
+
+replaymod.gui.rendersettings.renderer=Phương pháp kết xuất
+
+replaymod.gui.rendersettings.renderer.default=Kết xuất mặc định
+replaymod.gui.rendersettings.renderer.stereoscopic=Kết xuất lập thể
+replaymod.gui.rendersettings.renderer.cubic=Kết xuất khối
+replaymod.gui.rendersettings.renderer.equirectangular=Kết xuất hình chữ nhật
+replaymod.gui.rendersettings.renderer.ods=Kết xuất ODS
+replaymod.gui.rendersettings.renderer.blend=Xuất sang Blender[Thực nghiệm]
+
+replaymod.gui.rendersettings.renderer.default.description=Hiển thị video ở độ phân giải được chỉ định. Tùy chọn kết xuất nhanh nhất.
+replaymod.gui.rendersettings.renderer.stereoscopic.description=Hiển thị video dưới dạng phim 3D lập thể (cạnh nhau), có thể sử dụng được bằng các công nghệ 3D khác nhau. Hình ảnh cho một mắt bằng một nửa chiều rộng của video
+replaymod.gui.rendersettings.renderer.cubic.description=Kết xuất video với chế độ xem toàn cảnh 360 độ, sử dụng phép chiếu hình khối. Điều này có thể được sử dụng bởi một số trình phát video 360 độ (và Oculus Rift), chẳng hạn như VR Player.
+replaymod.gui.rendersettings.renderer.equirectangular.description=Kết xuất video với chế độ xem toàn cảnh 360 độ, sử dụng phép chiếu cân bằng. Điều này có thể sử dụng được nhờ chức năng video 360 độ mới của YouTube và một số trình phát video (và Oculus Rift), chẳng hạn như VR Player.
+replaymod.gui.rendersettings.renderer.ods.description=Kết xuất video với chế độ xem toàn cảnh 3D 360 độ lập thể, còn được gọi là VR Video. Điều này có thể sử dụng được nhờ chức năng video VR mới của YouTube.
+replaymod.gui.rendersettings.renderer.blend.description=Xuất hình học có thể nhìn thấy dưới dạng tệp .blend có thể được mở bằng Blender. Mang tính thử nghiệm cao: Yêu cầu nhiều RAM, có khá nhiều sự cố đã biết và đôi khi tạo ra các tệp Blender bị hỏng.
+
+replaymod.gui.rendersettings.customresolution=Độ phân giải video
+replaymod.gui.rendersettings.customresolution.warning.yuv420=Đối với giá trị đặt trước này, giá trị chiều rộng và chiều cao phải là số chẵn
+replaymod.gui.rendersettings.customresolution.warning.yuv420.cubic=Đối với giá trị đặt trước này, chiều cao phải chia hết cho 6
+replaymod.gui.rendersettings.customresolution.warning.cubic.height=Kết xuất khối yêu cầu chiều cao chia hết cho 3
+replaymod.gui.rendersettings.bitrate=Tốc độ bit
+replaymod.gui.rendersettings.framerate=Tốc độ khung hình video
+replaymod.gui.rendersettings.chromakey=khóa màu
+replaymod.gui.rendersettings.nametags=Hiển thị thẻ tên
+replaymod.gui.rendersettings.includealpha=Bảo toàn kênh Alpha
+replaymod.gui.rendersettings.outputfile=Tệp đầu ra
+replaymod.gui.rendersettings.sphericalFov=FOV hình cầu
+replaymod.gui.rendersettings.sphericalmetadata=Tiêm siêu dữ liệu hình cầu
+replaymod.gui.rendersettings.sphericalmetadata.error=Chỉ có thể thêm Siêu dữ liệu hình cầu vào video Hình chữ nhật cân bằng và ODS ở định dạng MP4
+replaymod.gui.rendersettings.depthmap=bản đồ độ sâu
+replaymod.gui.rendersettings.depthmap.only_exr_or_png=Xuất bản đồ độ sâu chỉ được hỗ trợ với định dạng OpenEXR hoặc PNG.
+replaymod.gui.rendersettings.camerapath=Xuất đường dẫn camera
+
+replaymod.gui.rendersettings.command=Lệnh
+replaymod.gui.rendersettings.arguments=Đối số dòng lệnh
+replaymod.gui.rendersettings.ffmpeg.description=Nếu bạn là người dùng nâng cao, bạn có thể tùy chỉnh các tham số dòng lệnh được sử dụng để xuất video. Để biết thêm thông tin, hãy kiểm tra http://replaymod.com/docs
+
+replaymod.gui.rendersettings.stabilizecamera=Ổn định máy ảnh
+
+replaymod.gui.rendersettings.video=Cài đặt video
+replaymod.gui.rendersettings.advanced=Cài đặt nâng cao
+replaymod.gui.rendersettings.commandline=Cài đặt dòng lệnh
+
+replaymod.gui.rendersettings.presets=Cài đặt mã hóa
+replaymod.gui.rendersettings.presets.mp4.custom=MP4 - Tốc độ bit tùy chỉnh
+replaymod.gui.rendersettings.presets.mp4.default=MP4 - Chất lượng mặc định
+replaymod.gui.rendersettings.presets.mp4.potato=MP4 - Chất lượng khoai
+replaymod.gui.rendersettings.presets.webm.custom=WEBM - Tốc độ bit tùy chỉnh
+replaymod.gui.rendersettings.presets.mkv.lossless=MKV - Không hao tổn
+replaymod.gui.rendersettings.presets.blend=Trộn tập tin
+replaymod.gui.rendersettings.presets.png=Chuỗi PNG
+replaymod.gui.rendersettings.presets.exr=Trình tự OpenEXR
+
+replaymod.gui.rendersettings.antialiasing=Khử răng cưa
+replaymod.gui.rendersettings.antialiasing.none=Không dùng
+replaymod.gui.rendersettings.antialiasing.x2=2x
+replaymod.gui.rendersettings.antialiasing.x4=4x
+replaymod.gui.rendersettings.antialiasing.x8=8x
+
+#Render Queue GUI
+replaymod.gui.renderqueue.title=Hàng đợi kết xuất
+replaymod.gui.renderqueue.add=Thêm cấu hình hiện tại
+replaymod.gui.renderqueue.renderall=Kết xuất tất cả
+replaymod.gui.renderqueue.renderselected=Hiển thị đã chọn
+
+#Rendering GUI
+replaymod.gui.rendering.title=Xuất video
+replaymod.gui.rendering.pause=Tạm dừng kết xuất
+replaymod.gui.rendering.resume=Tiếp tục kết xuất
+replaymod.gui.rendering.cancel=Hủy kết xuất
+replaymod.gui.rendering.cancel.callback=Bạn có chắc không?
+replaymod.gui.rendering.preview=Hiển thị bản xem trước (Có thể ảnh hưởng đến hiệu suất)
+replaymod.gui.rendering.progress=Khung hình kết xuất: %1$d / %2$d
+replaymod.gui.rendering.timetaken=Thời gian kết xuất
+replaymod.gui.rendering.timeleft=Thời gian còn lại
+
+#Render Errors
+replaymod.gui.rendering.error.title=Kết xuất thất bại
+replaymod.gui.rendering.error.message=Để kết xuất video, bạn cần cài đặt ffmpeg.
+replaymod.gui.rendering.error.ffmpeglog=Đầu ra FFmpeg:
+replaymod.gui.rendering.error.ffmpegargs.1=Có vẻ như các đối số dòng lệnh đã được thay đổi.
+replaymod.gui.rendering.error.ffmpegargs.2=Bạn có muốn đặt về giá trị mặc định và thử lại không?
+
+#Ingame Menu
+replaymod.gui.ingame.menu.addposkeyframe=Thêm vị trí khung hình chính
+replaymod.gui.ingame.menu.removeposkeyframe=Xóa vị trí khung hình chính
+replaymod.gui.ingame.menu.addspeckeyframe=Thêm khung hình chính của người xem
+replaymod.gui.ingame.menu.removespeckeyframe=Xóa khung hình chính của người xem
+replaymod.gui.ingame.menu.addtimekeyframe=Thêm khung thời gian chính
+replaymod.gui.ingame.menu.removetimekeyframe=Xóa khung thời gian chính
+replaymod.gui.ingame.menu.pause=Tạm dừng phát lại
+replaymod.gui.ingame.menu.unpause=Bỏ tạm dừng phát lại
+replaymod.gui.ingame.menu.renderpath=Kết xuất đường dẫn máy ảnh
+replaymod.gui.ingame.menu.playpath=Phát đường dẫn máy ảnh từ vị trí con trỏ
+replaymod.gui.ingame.menu.playpathfromstart=Phát đường dẫn camera từ đầu
+replaymod.gui.ingame.menu.pausepath=Tạm dừng đường dẫn máy ảnh
+replaymod.gui.ingame.menu.zoomin=Phóng to
+replaymod.gui.ingame.menu.zoomout=Thu nhỏ
+
+replaymod.gui.ingame.unnamedmarker=Đánh dấu sự kiện chưa được đặt tên
+replaymod.gui.ingame.autoactivating=Liên kết phím này có thể tự động kích hoạt vào những thời điểm thích hợp.
+replaymod.gui.ingame.autoactivating.disable=Ctrl-click để tắt tự động kích hoạt.
+replaymod.gui.ingame.autoactivating.enable=Ctrl-click để bật tự động kích hoạt.
+replaymod.gui.ingame.first_keyframe_not_at_start_warning=Khung hình chính đầu tiên được chỉ định không ở 00:00.\n\nĐây thường là dấu hiệu cho thấy bạn\nkhông hiểu cách thức hoạt động của dòng thời gian video (phía dưới).\n\nThang trên xác định thời điểm phát lại hiện tại,\nvà thang dưới - thời điểm hiện tại của video đang được tạo.\nVideo luôn bắt đầu lúc 00:00! Nếu khung hình chính đầu tiên\nkhông phải ở 00:00, thì video sẽ bị kẹt cho đến khung hình đó.
+
+#Clear Keyframe Callback
+replaymod.gui.clearcallback.title=Xóa tất cả Khung chính?
+
+#Errors
+replaymod.error.unknownrestriction1=Bản phát lại này không thể phát được với phiên bản hiện tại của bạn.
+replaymod.error.unknownrestriction2=Nó đã cố thực thi %s mà không rõ.
+replaymod.error.negativetime1=Một số khung hình chính thời gian của bạn không theo thứ tự.
+replaymod.error.negativetime2=Tua ngược thời gian không được hỗ trợ.
+replaymod.error.negativetime3=Các phần không hợp lệ được đánh dấu màu đỏ.
+
+#Replay Mod Incompatibility Warning
+replaymod.gui.modwarning.title=Phát hiện không tương thích
+replaymod.gui.modwarning.message1=Khả năng không tương thích giữa
+replaymod.gui.modwarning.message2=phiên bản hiện tại của Minecraft và phát lại đã chọn.
+replaymod.gui.modwarning.message3=Mở một bản phát lại có thể dẫn đến lỗi hoặc sự cố.
+replaymod.gui.modwarning.name=Tên:
+replaymod.gui.modwarning.id=Id:
+replaymod.gui.modwarning.missing=Thiếu Mod
+replaymod.gui.modwarning.version=Phiên bản khác biệt
+replaymod.gui.modwarning.version.expected=Phiên bản dự kiến
+replaymod.gui.modwarning.version.found=Phiên bản đã tìm thấy
+
+#Advanced Screenshots Gui
+replaymod.gui.advancedscreenshots.title=Cài đặt ảnh chụp màn hình
+replaymod.gui.advancedscreenshots.create=Chụp màn hình
+replaymod.gui.advancedscreenshots.resolution=Độ phân giải
+
+# Screenshot Finished Gui
+replaymod.gui.advancedscreenshots.finished.description=Đã tạo ảnh chụp màn hình!
+replaymod.gui.advancedscreenshots.finished.description.360=Đã tạo ảnh chụp màn hình 360°!
+replaymod.gui.advancedscreenshots.finished.description.veer=Tải xuống và xem nó trong VR trên VeeR.tv hoặc mở thư mục tệp.
+replaymod.gui.advancedscreenshots.finished.upload.veer=Tải lên VeeR.tv
+replaymod.gui.advancedscreenshots.finished.showfile=Hiển thị trong thư mục
