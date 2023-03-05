@@ -1,0 +1,428 @@
+#Translated by: bangetto
+#Ha magyar vagy akkor esetleg a YT csatimat is megnézheted: YouTube.com/bangetto
+
+
+
+replaymod.title=Replay Mod
+
+#Az összes csevegő üzenet
+replaymod.chat.recordingstarted=Felvétel elindult
+replaymod.chat.recordingfailed=A felvétel indítása sikertelen
+
+replaymod.chat.savingthumb=Bélyegkép mentése...
+replaymod.chat.savedthumb=A bélyegkép sikeresen mentve
+replaymod.chat.failedthumb=A bélyegkép mentése nem sikerült
+
+replaymod.chat.addedmarker=Eseménymarkőr hozzáadva
+
+#Csevegő üzenetek, amik a felvétel visszajátszóban jelennek meg
+replaymod.chat.morekeyframes=Legalább 2 pozíció kulcspont és 2 idő kulcspont szükséges
+replaymod.chat.pathstarted=Kamera út elkezdve
+replaymod.chat.pathfinished=Kamera út befejezve
+replaymod.chat.pathinterrupted=Kamera út megszakítva
+
+#Gyakori GUI szövegek
+replaymod.gui.cancel=Mégse
+replaymod.gui.back=Vissza
+replaymod.gui.load=Betöltés
+replaymod.gui.save=Mentés
+replaymod.gui.rename=Átnevezés
+replaymod.gui.remove=Eltávolítás
+replaymod.gui.delete=Törlés
+replaymod.gui.recording=Felvétel
+replaymod.gui.paused=Szüneteltetve
+replaymod.gui.speed=Sebesség
+replaymod.gui.pleasewait=Kérem, várjon
+replaymod.gui.render=Renderelés
+replaymod.gui.iphidden=Szerver IP elrejtve
+replaymod.gui.overwrite=Felülírás
+replaymod.gui.saveas=Mentés másként...
+replaymod.gui.done=Kész
+replaymod.gui.close=Bezárás
+replaymod.gui.notagain=Ne jelenjen meg újra
+replaymod.gui.edit=Szerkesztés
+replaymod.gui.copy=Másolás
+replaymod.gui.paste=Beszúrás
+
+replaymod.gui.recording.resume=Felvétel folytatása
+replaymod.gui.recording.pause=Felvétel szüneteltetése
+replaymod.gui.recording.stop=Felvétel leállítása
+replaymod.gui.recording.start=Felvétel indítása
+
+replaymod.gui.renderdonetitle=Videó renderelve
+replaymod.gui.openfolder=Videó mappa megnyitása
+replaymod.gui.youtubeupload=Feltöltés YouTube-ra
+replaymod.gui.renderdone1=A videód sikeresen lett renderelve.
+replaymod.gui.renderdone2=Hogyan szeretnél tovább haladni?
+replaymod.gui.videotitle=Cím
+replaymod.gui.videodescription=Leírás
+replaymod.gui.videotags=Címkék,Címkék,Címkék
+replaymod.gui.videothumbnail=Videó előnézete
+replaymod.gui.videovisibility.private=Privát
+replaymod.gui.videovisibility.unlisted=Nem nyilvános
+replaymod.gui.videovisibility.public=Nyilvános
+replaymod.gui.ytuploadprogress.auth=[1/4] Azonosítás
+replaymod.gui.ytuploadprogress.prepare_video=[2/4] A videó előkészítése: %%d%%%%
+replaymod.gui.ytuploadprogress.upload=[3/4] Feltöltés: %%d%%%%
+replaymod.gui.ytuploadprogress.cleanup=[4/4] Takarítás
+replaymod.gui.ytuploadprogress.done=Kész: %s
+replaymod.gui.titleempty=A cím nem lehet üres
+replaymod.gui.videothumbnailtoolarge=Az előnézet mérete nem lehet nagyobb, mint 2MB
+replaymod.gui.videothumbnailformat=Az előnézet csak JPEG vagy PNG formátumban lehet
+
+replaymod.gui.hours=ó
+replaymod.gui.minutes=perc
+replaymod.gui.seconds=mp
+replaymod.gui.milliseconds=ms
+
+replaymod.gui.pitch=Dőlés
+replaymod.gui.yaw=Forgatás
+replaymod.gui.roll=Döntés
+
+replaymod.gui.camera=Kamera
+replaymod.gui.position=Pozíció
+
+replaymod.gui.unknownerror=Ismeretlen hiba történt
+
+replaymod.gui.exit=Replay Kilépése
+
+replaymod.gui.settings=Beállítások
+
+replaymod.gui.keyframerepo.delete=Biztosan törölni szeretnéd ezeket a kulcspontokat?
+replaymod.gui.keyframerepo.overwrite=Biztosan felül szeretnéd írni ezeket a kulcspontokat?
+
+replaymod.gui.restorereplay1=Úgy tűnik, hogy a Minecraft nem záródott le normálisan.
+replaymod.gui.restorereplay2=A(z) "%1$s" Replay-t nem sikerült megfelelően menteni.
+replaymod.gui.restorereplay3=Szeretnéd visszaállítani?
+
+replaymod.gui.loadentitytracker=Entitás pozíciók betöltése: %%d%%%%
+replaymod.gui.loadquickmode=Gyors mód betöltése: %%d%%%%
+replaymod.gui.noquickmode=A Gyors mód csak a Minecraft %1$s verziója és újabb verzióiban érhető el
+replaymod.gui.minimalmode.unsupported=Ez a funkció nem elérhető a jelenlegi Minecraft verziódban.
+replaymod.gui.minimalmode.supportedversion=(csak a Minecraft %1$s verziója támogatott a Replay Mod verziódhoz)
+#Csak akkor változtasd meg ezeket, ha szükséges
+replaymod.gui.replayviewer=Lejátszó Nézet
+
+#Replay Viewer GUI
+replaymod.gui.viewer.rename.name=Lejátszás neve
+replaymod.gui.viewer.replayfolder=Lejátszás mappa megnyitása...
+replaymod.gui.viewer.bulkrender=%1$d videó renderelése
+
+replaymod.gui.viewer.delete.linea=Biztosan törölni szeretné ezt a lejátszást?
+replaymod.gui.viewer.delete.failed1=A rendszer nem engedte a lejátszás törlését.
+replaymod.gui.viewer.delete.failed2=Ezügyben nem tudunk segíteni. Kézzel kell törölni.
+replaymod.gui.viewer.delete.lineb='%1$s' örökre elveszik! (hosszú időre!)
+
+#Replay Editor UI 2.0 (marker based UI)
+replaymod.gui.edit.apply=Alkalmaz
+replaymod.gui.edit.split=Vágás beszúrása
+replaymod.gui.edit.split.tooltip=A lejátszást több lejátszásra bontja az adott ponton.
+replaymod.gui.edit.cut.start=Kezdő vágás
+replaymod.gui.edit.cut.end=Vég vágás
+replaymod.gui.edit.cut.tooltip=Egy szakaszt vág ki a lejátszásból.
+
+#Cancel Replay GUI
+replaymod.gui.cancelrender.title=Lejátszás megszakítása
+replaymod.gui.cancelrender.message=Biztosan megszakítja az aktuális lejátszás folyamatot?
+
+#Saving Replay GUI
+replaymod.gui.replaysaving.title=Lejátszás mentése...
+
+#Player Overview GUI
+replaymod.gui.playeroverview.visible=Látható
+replaymod.gui.playeroverview.hideall=Mindenki elrejtése
+replaymod.gui.playeroverview.showall=Mindenki megjelenítése
+replaymod.gui.playeroverview.spectate=Játékos megfigyelése
+replaymod.gui.playeroverview.remembersettings=Játékos elrejtése megjegyzése
+replaymod.gui.playeroverview.remembersettings.description=A játékos elrejtése a lejátszás fájljában lesz mentve.
+
+#Replay Mod Settings GUI
+replaymod.gui.settings.title=Replay Mod Beállítások
+replaymod.gui.settings.default=ALAPÉRTÉK
+
+replaymod.gui.viewer.rename.name=Ismétlés neve
+replaymod.gui.viewer.replayfolder=Ismétlésmappa megnyitása...
+replaymod.gui.viewer.bulkrender=%1$d videó renderelése
+
+replaymod.gui.viewer.delete.linea=Biztosan törölni szeretnéd ezt az ismétlést?
+replaymod.gui.viewer.delete.failed1=Az operációs rendszered nem engedte, hogy eltávolítsuk az ismétlést.
+replaymod.gui.viewer.delete.failed2=Nincs mit tennünk. Ezt magadnak kell megtenned.
+replaymod.gui.viewer.delete.lineb='%1$s' örökre elveszik! (nagyon hosszú időre!)
+
+#Replay Editor UI 2.0 (marker based UI)
+replaymod.gui.edit.apply=Alkalmaz
+replaymod.gui.edit.split=Osztás beillesztése
+replaymod.gui.edit.split.tooltip=Az ismétlést több ismétlésre bontja a jelölt pontnál.
+replaymod.gui.edit.cut.start=Vágás beillesztése
+replaymod.gui.edit.cut.end=Vágás vége
+replaymod.gui.edit.cut.tooltip=Egy szakaszt vág ki az ismétlésből.
+
+#Cancel Replay GUI
+replaymod.gui.cancelrender.title=Renderelés leállítása
+replaymod.gui.cancelrender.message=Biztosan le szeretnéd állítani a jelenlegi renderelési folyamatot?
+
+#Saving Replay GUI
+replaymod.gui.replaysaving.title=Ismétlés mentése...
+
+#Player Overview GUI
+replaymod.gui.playeroverview.visible=Látható
+replaymod.gui.playeroverview.hideall=Mindent elrejt
+replaymod.gui.playeroverview.showall=Mindent mutat
+replaymod.gui.playeroverview.spectate=Játékos megtekintése
+replaymod.gui.playeroverview.remembersettings=Rejtett játékosok megjegyzése
+replaymod.gui.playeroverview.remembersettings.description=A játékosok láthatóságának mentése az ismétlés fájlban.
+
+#Replay Mod Settings GUI
+replaymod.gui.settings.title=Ismétlés Mod beállításai
+replaymod.gui.settings.default=ALAPÉRTÉK
+
+replaymod.gui.settings.notifications=Értesítések engedélyezése
+replaymod.gui.settings.recordserver=Szerver felvétele
+replaymod.gui.settings.recordsingleplayer=Egyjátékos felvétele
+replaymod.gui.settings.indicator=Felvétel jelző
+replaymod.gui.settings.pathpreview=Útvonal előnézet
+replaymod.gui.settings.camera=Kamera
+replaymod.gui.settings.showchat=Csevegés mutatása
+replaymod.gui.settings.interpolator=Alap interpolátor
+replaymod.gui.settings.autostartrecording=Automatikus felvétel
+replaymod.gui.settings.rename_recording_dialog=Átnevezés ablak
+replaymod.gui.settings.fullbrightness=Teljes fényerő
+replaymod.gui.settings.fullbrightness.gamma=Gamma
+replaymod.gui.settings.fullbrightness.nightvision=Éjszakai látás
+replaymod.gui.settings.fullbrightness.both=Mindkettő
+
+#Replay Mod Keybindings
+replaymod.input.lighting=Fények kapcsolása
+replaymod.input.thumbnail=Képernyőkép készítése
+replaymod.input.playeroverview=Játékos áttekintés
+replaymod.input.clearkeyframes=Kulcsképkockák törlése
+replaymod.input.synctimeline=Idővonal szinkronizálása
+replaymod.input.keyframerepository=Kulcskép előredefiniált beállítások megnyitása
+replaymod.input.rollclockwise=Forgatás az óramutató járásával megegyező irányba
+replaymod.input.rollcounterclockwise=Forgatás az óramutató járásával ellentétes irányba
+replaymod.input.resettilt=Kamera billentésének visszaállítása
+replaymod.input.playpause=Lejátszás/szünet Replay
+replaymod.input.marker=Eseményjelző hozzáadása
+replaymod.input.pathpreview=Útvonal előnézet kapcsolása
+replaymod.input.settings=ReplayMod beállítások
+replaymod.input.quickmode=Gyors mód
+replaymod.input.positionkeyframe=Pozíció/spectator kulcsképkocka
+replaymod.input.positiononlykeyframe=Pozíció kulcsképkocka
+replaymod.input.timekeyframe=Idő kulcsképkocka
+replaymod.input.bothkeyframes=Pozíció/spectator + idő kulcsképkocka
+
+#Kamera vezérlők
+replaymod.camera.classic=Klasszikus
+replaymod.camera.vanilla=Vanilla-szerű
+
+#Kulcskép előredefiniált beállítások GUI
+replaymod.gui.keyframerepository.title=Kulcskép előredefiniált beállítások
+
+#Kulcskép szerkesztő GUI
+replaymod.gui.editkeyframe.title.pos=Pozíció kulcsképkocka szerkesztése
+replaymod.gui.editkeyframe.title.time=Idő kulcsképkocka szerkesztése
+replaymod.gui.editkeyframe.title.marker=Eseményjelző szerkesztése
+replaymod.gui.editkeyframe.title.spec=Spectator kulcsképkocka szerkesztése
+replaymod.gui.editkeyframe.xpos=X pozíció
+replaymod.gui.editkeyframe.ypos=Y pozíció
+replaymod.gui.editkeyframe.zpos=Z pozíció
+replaymod.gui.editkeyframe.campitch=Kamera dőlésszöge
+replaymod.gui.editkeyframe.camyaw=Kamera irányvonala
+replaymod.gui.editkeyframe.camroll=Kamera forgása
+replaymod.gui.editkeyframe.timelineposition=Idővonal pozíciója
+replaymod.gui.editkeyframe.markername=Eseményjelző neve
+replaymod.gui.editkeyframe.timestamp=Időbélyeg
+
+#Replay Mod Keybindings
+replaymod.input.lighting=Fények ki-/bekapcsolása
+replaymod.input.thumbnail=Képernyőfotó készítése
+replaymod.input.playeroverview=Játékos áttekintése
+replaymod.input.clearkeyframes=Kulcsképkockák törlése
+replaymod.input.synctimeline=Idővonal szinkronizálása
+replaymod.input.keyframerepository=Kulcskép előre beállítások megnyitása
+replaymod.input.rollclockwise=Forgatás az óramutató járásával megegyezően
+replaymod.input.rollcounterclockwise=Forgatás az óramutató járásával ellentétesen
+replaymod.input.resettilt=Kamera döntésének alaphelyzetbe állítása
+replaymod.input.playpause=Lejátszás/Szüneteltetés
+replaymod.input.marker=Eseményjelölő hozzáadása
+replaymod.input.pathpreview=Útvonal-előnézet ki-/bekapcsolása
+replaymod.input.settings=ReplayMod beállítások
+replaymod.input.quickmode=Gyors üzemmód
+replaymod.input.positionkeyframe=Pozíció/spectator kulcsképkocka
+replaymod.input.positiononlykeyframe=Pozíció kulcsképkocka
+replaymod.input.timekeyframe=Idő kulcsképkocka
+replaymod.input.bothkeyframes=Pozíció/spectator és idő kulcsképkocka
+
+#CameraControllers
+replaymod.camera.classic=Klasszikus
+replaymod.camera.vanilla=Vanilla-szerű
+
+#Keyframe Presets GUI
+replaymod.gui.keyframerepository.title=Kulcskép előre beállítások
+
+#Edit Keyframe GUI
+replaymod.gui.editkeyframe.title.pos=Pozíció kulcsképkocka szerkesztése
+replaymod.gui.editkeyframe.title.time=Idő kulcsképkocka szerkesztése
+replaymod.gui.editkeyframe.title.marker=Eseményjelölő szerkesztése
+replaymod.gui.editkeyframe.title.spec=Megfigyelő kulcsképkocka szerkesztése
+replaymod.gui.editkeyframe.xpos=X pozíció
+replaymod.gui.editkeyframe.ypos=Y pozíció
+replaymod.gui.editkeyframe.zpos=Z pozíció
+replaymod.gui.editkeyframe.campitch=Kamera dőlése
+replaymod.gui.editkeyframe.camyaw=Kamera iránya
+replaymod.gui.editkeyframe.camroll=Kamera forgatása
+replaymod.gui.editkeyframe.timelineposition=Idővonal pozíció
+replaymod.gui.editkeyframe.markername=Eseményjelölő neve
+replaymod.gui.editkeyframe.timestamp=Időindex
+replaymod.gui.editkeyframe.interpolator=Interpolátor
+replaymod.gui.editkeyframe.interpolator.default.name=Alapértelmezett interpolátor
+replaymod.gui.editkeyframe.interpolator.default.desc=Az alapértelmezett interpolátort használja, amit a Replay Mod beállításaiban
+replaymod.gui.editkeyframe.interpolator.catmullrom.name=Catmull Rom Spline Interpolator
+replaymod.gui.editkeyframe.interpolator.catmullrom.desc=Egy catmull rom spline-t számít ki testreszabható alpha értékkel, hogy pontosan beállítható legyen a kamera útvonalának szorossága és simasága.
+replaymod.gui.editkeyframe.interpolator.catmullrom.alpha=Alpha:
+replaymod.gui.editkeyframe.interpolator.cubic.name=Cubic Spline Interpolator
+replaymod.gui.editkeyframe.interpolator.cubic.desc=Egy kubikus egyenlet mátrixot számít ki minden pont számára egy sima kamera útvonalért.
+replaymod.gui.editkeyframe.interpolator.linear.name=Lineáris interpolátor
+replaymod.gui.editkeyframe.interpolator.linear.desc=Közvetlen vonalakat rajzol a kulcspontok között.
+
+#Render beállítások GUI
+replaymod.gui.rendersettings.addtoqueue=Hozzáadás a sorba
+
+replaymod.gui.rendersettings.renderer=Renderelési mód
+
+replaymod.gui.rendersettings.renderer.default=Alapértelmezett renderelés
+replaymod.gui.rendersettings.renderer.stereoscopic=Stereoszkópikus renderelés
+replaymod.gui.rendersettings.renderer.cubic=Cubic renderelés
+replaymod.gui.rendersettings.renderer.equirectangular=Equirectangular renderelés
+replaymod.gui.rendersettings.renderer.ods=ODS renderelés
+replaymod.gui.rendersettings.renderer.blend=Blender exportálás [Kísérleti]
+
+replaymod.gui.rendersettings.renderer.default.description=A videót a megadott felbontásban rendereli. Leggyorsabb renderelési lehetőség.
+replaymod.gui.rendersettings.renderer.stereoscopic.description=A videót sztereoszkópikus (oldalról-nézetes) 3D filmként rendereli, amelyet különböző 3D technológiákhoz lehet használni. Az egyik szem képe fél a videó szélességének.
+replaymod.gui.rendersettings.renderer.cubic.description=A videót 360 fokos panorámaként rendereli, Cubic Projection használatával. Ez több 360 fokos videolejátszó (és az Oculus Rift) számára is használható, például a VR Player.
+replaymod.gui.rendersettings.renderer.equirectangular.description=A videót 360 fokos panorámaként rendereli, Equirectangular Projection használatával. Ez a YouTube új 360 fokos videó funkciójában és több videolejátszó (és az Oculus Rift) számára is használható, például a VR Player.
+replaymod.gui.rendersettings.renderer.ods.description=A videót sztereoszkópikus 3D 360 fokos panorámaként, VR Video-ként rendereli. Ez a YouTube új VR videó funkciójában használható.
+replaymod.gui.rendersettings.renderer.blend.description=Az látható geometria exportálása .blend fájlba, amelyet a Blender szoftverrel lehet megnyitni. Nagyon kísérleti jellegű: sok RAM-ra van szükség, számos ismert problémával rendelkezik, és néha hibás Blender fájlokat eredményez.
+
+replaymod.gui.rendersettings.customresolution=Videó felbontás
+replaymod.gui.rendersettings.customresolution.warning.yuv420=Ehhez a beállításhoz a szélesség és magasság értékeinek páros számoknak kell lenniük.
+replaymod.gui.rendersettings.customresolution.warning.yuv420.cubic=Ehhez a beállításhoz a magasságnak oszthatónak kell lennie 6-tal.
+replaymod.gui.rendersettings.customresolution.warning.cubic.height=A kockás projekcióhoz a magasságnak 3-mal oszthatónak kell lennie.
+replaymod.gui.rendersettings.bitrate=Bitráta
+replaymod.gui.rendersettings.framerate=Videó képkockasebessége
+replaymod.gui.rendersettings.chromakey=Chroma Key effekt
+replaymod.gui.rendersettings.nametags=Névcímkék megjelenítése
+replaymod.gui.rendersettings.includealpha=Alpha-csatorna megőrzése
+replaymod.gui.rendersettings.outputfile=Kimeneti fájl
+replaymod.gui.rendersettings.sphericalFov=Gömbi látószög
+replaymod.gui.rendersettings.sphericalmetadata=Gömbi metadaták beillesztése
+replaymod.gui.rendersettings.sphericalmetadata.error=Gömbi metadatákat csak Equirectangular és ODS videók esetén lehet MP4 formátumban hozzáadni.
+replaymod.gui.rendersettings.depthmap=Mélységi térkép
+replaymod.gui.rendersettings.depthmap.only_exr_or_png=A mélységi térkép exportálása csak az OpenEXR vagy PNG formátummal támogatott.
+replaymod.gui.rendersettings.camerapath=A kamera útvonalának exportálása
+
+replaymod.gui.rendersettings.command=Parancs
+replaymod.gui.rendersettings.arguments=Parancssori argumentumok
+replaymod.gui.rendersettings.ffmpeg.description=Ha haladó felhasználó vagy, testreszabhatod a parancssori paramétereket, amelyeket a videó exportálásához használsz. További információkért látogasd meg a http://replaymod.com/docs oldalt.
+
+replaymod.gui.rendersettings.stabilizecamera=Kamera stabilizálása
+
+replaymod.gui.rendersettings.video=Videó beállítások
+replaymod.gui.rendersettings.advanced=Haladó beállítások
+replaymod.gui.rendersettings.commandline=Parancssor beállítások
+
+replaymod.gui.rendersettings.presets=Kódolási előbeállítások
+replaymod.gui.rendersettings.presets.mp4.custom=MP4 - Egyéni bitráta
+replaymod.gui.rendersettings.presets.mp4.default=MP4 - Alapértelmezett minőség
+replaymod.gui.rendersettings.presets.mp4.potato=MP4 - Alacsony minőség
+replaymod.gui.rendersettings.presets.webm.custom=WEBM - Egyéni bitráta
+replaymod.gui.rendersettings.presets.mkv.lossless=MKV - Veszteségmentes
+replaymod.gui.rendersettings.presets.blend=Blend fájl
+replaymod.gui.rendersettings.presets.png=PNG sorozat
+replaymod.gui.rendersettings.presets.exr=OpenEXR sorozat
+
+replaymod.gui.rendersettings.antialiasing=Antialiasing
+replaymod.gui.rendersettings.antialiasing.none=Nincs
+replaymod.gui.rendersettings.antialiasing.x2=2x
+replaymod.gui.rendersettings.antialiasing.x4=4x
+replaymod.gui.rendersettings.antialiasing.x8=8x
+
+#Render Queue GUI
+replaymod.gui.renderqueue.title=Renderelési várólista
+replaymod.gui.renderqueue.add=Jelenlegi beállítás hozzáadása
+replaymod.gui.renderqueue.renderall=Minden renderelése
+replaymod.gui.renderqueue.renderselected=Kiválasztottak renderelése
+
+#Rendering GUI
+replaymod.gui.rendering.title=Videó renderelése
+replaymod.gui.rendering.pause=Renderelés szüneteltetése
+replaymod.gui.rendering.resume=Renderelés folytatása
+replaymod.gui.rendering.cancel=Renderelés megszakítása
+replaymod.gui.rendering.cancel.callback=Biztos vagy benne?
+replaymod.gui.rendering.preview=Előnézet mutatása (Teljesítmény csökkenhet)
+replaymod.gui.rendering.progress=Renderelt képkockák: %1$d / %2$d
+replaymod.gui.rendering.timetaken=Renderelés ideje
+replaymod.gui.rendering.timeleft=Hátralévő idő
+
+#Render Errors
+replaymod.gui.rendering.error.title=Renderelés sikertelen
+replaymod.gui.rendering.error.message=Ahhoz, hogy videót renderelhess, telepítened kell a ffmpeg-et.
+replaymod.gui.rendering.error.ffmpeglog=FFmpeg kimenet:
+replaymod.gui.rendering.error.ffmpegargs.1=Úgy tűnik, módosítottad a parancssori argumentumokat.
+replaymod.gui.rendering.error.ffmpegargs.2=Szeretnéd alaphelyzetbe állítani őket és újra megpróbálni?
+
+#Ingame Menu
+replaymod.gui.ingame.menu.addposkeyframe=Pozíció kulcspont hozzáadása
+replaymod.gui.ingame.menu.removeposkeyframe=Pozíció kulcspont eltávolítása
+replaymod.gui.ingame.menu.addspeckeyframe=Kamera kulcspont hozzáadása
+replaymod.gui.ingame.menu.removespeckeyframe=Kamera kulcspont eltávolítása
+replaymod.gui.ingame.menu.addtimekeyframe=Idő kulcspont hozzáadása
+replaymod.gui.ingame.menu.removetimekeyframe=Idő kulcspont eltávolítása
+replaymod.gui.ingame.menu.pause=Lejátszás szüneteltetése
+replaymod.gui.ingame.menu.unpause=Lejátszás folytatása
+replaymod.gui.ingame.menu.renderpath=Kamera útvonal renderelése
+replaymod.gui.ingame.menu.playpath=Kamera útvonal lejátszása az egérmutató helyétől
+replaymod.gui.ingame.menu.playpathfromstart=Kamera útvonal lejátszása a kezdettől
+replaymod.gui.ingame.menu.pausepath=Kamera útvonal szüneteltetése
+replaymod.gui.ingame.menu.zoomin=Közelítés
+replaymod.gui.ingame.menu.zoomout=Távolítás
+
+replaymod.gui.ingame.unnamedmarker=Névtelen esemény jelző
+replaymod.gui.ingame.autoactivating=Ez a billentyűkombináció automatikusan aktiválódhat a megfelelő időpontokban.
+replaymod.gui.ingame.autoactivating.disable=Ctrl-klikk az automatikus aktiválás kikapcsolásához.
+replaymod.gui.ingame.autoactivating.enable=Ctrl-klikk az automatikus aktiválás bekapcsolásához.
+replaymod.gui.ingame.first_keyframe_not_at_start_warning=Ezt az első kulcspontodat nem a 00:00 időpontra helyezted.\n\nEz általában arra utal, hogy félreértetted, hogyan működik a videó idővonal (ami az alsó). \nMíg az felső idővonal mutatja a jelenlegi időt a visszajátszási folyamatban,\n az alsó idővonal a létrehozott videó időt mutatja. A videó mindig a 00:00-tól indul!
+
+#Clear Keyframe Callback
+replaymod.gui.clearcallback.title=Összes kulcskép törlése?
+
+#Errors
+replaymod.error.unknownrestriction1=Ez a felvétel nem játszható le a jelenlegi verzióval.
+replaymod.error.unknownrestriction2=%s, amit megpróbál alkalmazni, ismeretlen.
+replaymod.error.negativetime1=Néhány időkulcsa nem megfelelő sorrendben van.
+replaymod.error.negativetime2=Az idő visszafelé történő haladása nem támogatott.
+replaymod.error.negativetime3=A hibás részek pirossal vannak jelölve.
+
+#Replay Mod Incompatibility Warning
+replaymod.gui.modwarning.title=Nem kompatibilis változat
+replaymod.gui.modwarning.message1=Egy lehetséges nem kompatibilitás az Ön jelenlegi
+replaymod.gui.modwarning.message2=Minecraft verziója és a felvétel között észlelhető.
+replaymod.gui.modwarning.message3=A felvétel betöltése hibákat vagy összeomlást okozhat.
+replaymod.gui.modwarning.name=Mod neve:
+replaymod.gui.modwarning.id=Mod azonosítója:
+replaymod.gui.modwarning.missing=Hiányzó modok
+replaymod.gui.modwarning.version=Különböző mod verziók
+replaymod.gui.modwarning.version.expected=Várt verzió
+replaymod.gui.modwarning.version.found=Talált verzió
+
+#Advanced Screenshots Gui
+replaymod.gui.advancedscreenshots.title=Képernyőkép beállításai
+replaymod.gui.advancedscreenshots.create=Képernyőkép készítése
+replaymod.gui.advancedscreenshots.resolution=Felbontás
+
+#Screenshot Finished Gui
+replaymod.gui.advancedscreenshots.finished.description=Sikeresen létrehozott képernyőkép!
+replaymod.gui.advancedscreenshots.finished.description.360=Sikeresen létrehozott 360°-os képernyőkép!
+replaymod.gui.advancedscreenshots.finished.description.veer=Töltsd fel és nézd meg a képet VR-ben a VeeR.tv-n vagy nyisd meg a lemezeden.
+replaymod.gui.advancedscreenshots.finished.upload.veer=Feltöltés a VeeR.tv-re
+replaymod.gui.advancedscreenshots.finished.showfile=Mutasd a fájlt a lemezen
