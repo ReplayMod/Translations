@@ -227,7 +227,7 @@ replaymod.gui.rendersettings.customresolution.warning.yuv420=Os valores de largu
 replaymod.gui.rendersettings.customresolution.warning.yuv420.cubic=A altura deve ser divisível por 6
 replaymod.gui.rendersettings.customresolution.warning.cubic.height=A renderização cúbica requer uma altura divisível por 3
 replaymod.gui.rendersettings.bitrate=Taxa de bits
-replaymod.gui.rendersettings.framerate=Taxa de marcadores
+replaymod.gui.rendersettings.framerate=Taxa de quadros
 replaymod.gui.rendersettings.chromakey=Chroma key
 replaymod.gui.rendersettings.nametags=Renderizar nomes
 replaymod.gui.rendersettings.includealpha=Preservar canal alfa
@@ -317,7 +317,7 @@ replaymod.gui.clearcallback.title=Limpar todos os marcadores?
 #Errors
 replaymod.error.unknownrestriction1=Este replay não pode ser reproduzido nesta versão.
 replaymod.error.unknownrestriction2=Ele tentou aplicar %s que é desconhecido.
-replaymod.error.negativetime1=Algumas das suas marcadores de tempo estão fora de ordem.
+replaymod.error.negativetime1=Alguns dos seus marcadores de tempo estão fora de ordem.
 replaymod.error.negativetime2=Retroceder no tempo não é suportado.
 replaymod.error.negativetime3=As partes inválidas estão marcadas em vermelho.
 
