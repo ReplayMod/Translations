@@ -11,7 +11,7 @@ replaymod.chat.failedthumb=Falha ao salvar a miniatura
 replaymod.chat.addedmarker=Marcador de evento adicionado
 
 #Chat messages displayed in Replay Viewer
-replaymod.chat.morekeyframes=São necessários pelo menos 2 quadros de tempo e de posição
+replaymod.chat.morekeyframes=São necessários pelo menos 2 marcadores de tempo e de posição
 replaymod.chat.pathstarted=Caminho da câmera iniciado
 replaymod.chat.pathfinished=Caminho da câmera finalizado
 replaymod.chat.pathinterrupted=Caminho da câmera cancelado
@@ -83,8 +83,8 @@ replaymod.gui.exit=Sair do replay
 
 replaymod.gui.settings=Configurações
 
-replaymod.gui.keyframerepo.delete=Deseja mesmo excluir estes quadros?
-replaymod.gui.keyframerepo.overwrite=Deseja mesmo substituir estas quadros?
+replaymod.gui.keyframerepo.delete=Deseja mesmo excluir estes marcadores?
+replaymod.gui.keyframerepo.overwrite=Deseja mesmo substituir estes marcadores?
 
 replaymod.gui.restorereplay1=Parece que o Minecraft não fechou normalmente.
 replaymod.gui.restorereplay2=O replay "%1$s" não foi salvo corretamente.
@@ -154,9 +154,9 @@ replaymod.gui.settings.fullbrightness.both=Ambos
 replaymod.input.lighting=Alternar iluminação
 replaymod.input.thumbnail=Capturar a miniatura
 replaymod.input.playeroverview=Visibilidade de jogadores
-replaymod.input.clearkeyframes=Limpar quadros
+replaymod.input.clearkeyframes=Limpar marcadores
 replaymod.input.synctimeline=Sincronizar linha do tempo
-replaymod.input.keyframerepository=Abrir predefinições de quadros
+replaymod.input.keyframerepository=Abrir predefinições de marcadores
 replaymod.input.rollclockwise=Girar no sentido horário
 replaymod.input.rollcounterclockwise=Girar no sentido anti-horário
 replaymod.input.resettilt=Redefinir inclinação da câmera
@@ -175,7 +175,7 @@ replaymod.camera.classic=Clássico
 replaymod.camera.vanilla=Padrão
 
 #Keyframe Presets GUI
-replaymod.gui.keyframerepository.title=Repositório de quadros
+replaymod.gui.keyframerepository.title=Repositório de marcadores
 
 #Edit Keyframe GUI
 replaymod.gui.editkeyframe.title.pos=Editar marcador de posição
@@ -227,7 +227,7 @@ replaymod.gui.rendersettings.customresolution.warning.yuv420=Os valores de largu
 replaymod.gui.rendersettings.customresolution.warning.yuv420.cubic=A altura deve ser divisível por 6
 replaymod.gui.rendersettings.customresolution.warning.cubic.height=A renderização cúbica requer uma altura divisível por 3
 replaymod.gui.rendersettings.bitrate=Taxa de bits
-replaymod.gui.rendersettings.framerate=Taxa de quadros
+replaymod.gui.rendersettings.framerate=Taxa de marcadores
 replaymod.gui.rendersettings.chromakey=Chroma key
 replaymod.gui.rendersettings.nametags=Renderizar nomes
 replaymod.gui.rendersettings.includealpha=Preservar canal alfa
