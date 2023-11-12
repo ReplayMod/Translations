@@ -11,7 +11,7 @@ replaymod.chat.failedthumb=Falha ao salvar a miniatura
 replaymod.chat.addedmarker=Marcador de evento adicionado
 
 #Chat messages displayed in Replay Viewer
-replaymod.chat.morekeyframes=São necessários pelo menos 2 keyframes de tempo e de posição
+replaymod.chat.morekeyframes=São necessários pelo menos 2 quadros de tempo e de posição
 replaymod.chat.pathstarted=Caminho da câmera iniciado
 replaymod.chat.pathfinished=Caminho da câmera finalizado
 replaymod.chat.pathinterrupted=Caminho da câmera cancelado
@@ -39,10 +39,10 @@ replaymod.gui.edit=Editar
 replaymod.gui.copy=Copiar
 replaymod.gui.paste=Colar
 
-replaymod.gui.recording.resume=Retomar a gravação
-replaymod.gui.recording.pause=Pausar a gravação
-replaymod.gui.recording.stop=Parar a gravação
-replaymod.gui.recording.start=Iniciar a gravação
+replaymod.gui.recording.resume=Retomar gravação
+replaymod.gui.recording.pause=Pausar gravação
+replaymod.gui.recording.stop=Parar gravação
+replaymod.gui.recording.start=Iniciar gravação
 
 replaymod.gui.renderdonetitle=Vídeo renderizado
 replaymod.gui.openfolder=Abrir pasta de vídeo
@@ -79,12 +79,12 @@ replaymod.gui.position=Posição
 
 replaymod.gui.unknownerror=Ocorreu um erro desconhecido
 
-replaymod.gui.exit=Sair do Replay
+replaymod.gui.exit=Sair do replay
 
 replaymod.gui.settings=Configurações
 
-replaymod.gui.keyframerepo.delete=Deseja mesmo excluir estas keyframes?
-replaymod.gui.keyframerepo.overwrite=Deseja mesmo substituir estas keyframes?
+replaymod.gui.keyframerepo.delete=Deseja mesmo excluir estes quadros?
+replaymod.gui.keyframerepo.overwrite=Deseja mesmo substituir estas quadros?
 
 replaymod.gui.restorereplay1=Parece que o Minecraft não fechou normalmente.
 replaymod.gui.restorereplay2=O replay "%1$s" não foi salvo corretamente.
@@ -154,34 +154,34 @@ replaymod.gui.settings.fullbrightness.both=Ambos
 replaymod.input.lighting=Alternar iluminação
 replaymod.input.thumbnail=Capturar a miniatura
 replaymod.input.playeroverview=Visibilidade de jogadores
-replaymod.input.clearkeyframes=Limpar keyframes
+replaymod.input.clearkeyframes=Limpar quadros
 replaymod.input.synctimeline=Sincronizar linha do tempo
-replaymod.input.keyframerepository=Abrir predefinições de keyframe
+replaymod.input.keyframerepository=Abrir predefinições de quadros
 replaymod.input.rollclockwise=Girar no sentido horário
 replaymod.input.rollcounterclockwise=Girar no sentido anti-horário
 replaymod.input.resettilt=Redefinir inclinação da câmera
-replaymod.input.playpause=Reproduzir/Pausar o replay
+replaymod.input.playpause=Reproduzir/Pausar replay
 replaymod.input.marker=Adicionar marcador de evento
 replaymod.input.pathpreview=Visibilidade do caminho
 replaymod.input.settings=Configurações do Replay Mod
 replaymod.input.quickmode=Modo rápido
-replaymod.input.positionkeyframe=Keyframe de posição/espectador
-replaymod.input.positiononlykeyframe=Keyframe de posição
-replaymod.input.timekeyframe=Keyframe de tempo
-replaymod.input.bothkeyframes=Keyframe de tempo e de posição/espectador
+replaymod.input.positionkeyframe=Marcador de posição/espectador
+replaymod.input.positiononlykeyframe=Marcador de posição
+replaymod.input.timekeyframe=Marcador de tempo
+replaymod.input.bothkeyframes=Marcador de tempo e de posição/espectador
 
 # CameraControllers
 replaymod.camera.classic=Clássico
 replaymod.camera.vanilla=Padrão
 
 #Keyframe Presets GUI
-replaymod.gui.keyframerepository.title=Repositório de keyframes
+replaymod.gui.keyframerepository.title=Repositório de quadros
 
 #Edit Keyframe GUI
-replaymod.gui.editkeyframe.title.pos=Editar keyframe de posição
-replaymod.gui.editkeyframe.title.time=Editar keyframe de tempo
+replaymod.gui.editkeyframe.title.pos=Editar marcador de posição
+replaymod.gui.editkeyframe.title.time=Editar marcador de tempo
 replaymod.gui.editkeyframe.title.marker=Editar marcador de evento
-replaymod.gui.editkeyframe.title.spec=Editar keyframe de espectador
+replaymod.gui.editkeyframe.title.spec=Editar marcador de espectador
 replaymod.gui.editkeyframe.xpos=Posição X
 replaymod.gui.editkeyframe.ypos=Posição Y
 replaymod.gui.editkeyframe.zpos=Posição Z
@@ -201,7 +201,7 @@ replaymod.gui.editkeyframe.interpolator.catmullrom.alpha=Alfa:
 replaymod.gui.editkeyframe.interpolator.cubic.name=Interpolador cúbico
 replaymod.gui.editkeyframe.interpolator.cubic.desc=Calcula uma matriz de equações cúbicas para todos os pontos para suavidade da câmera.
 replaymod.gui.editkeyframe.interpolator.linear.name=Interpolador linear
-replaymod.gui.editkeyframe.interpolator.linear.desc=Desenha linhas retas entre os keyframes.
+replaymod.gui.editkeyframe.interpolator.linear.desc=Desenha linhas retas entre os marcadores.
 
 #Render Settings GUI
 replaymod.gui.rendersettings.addtoqueue=Adicionar à fila
@@ -213,7 +213,7 @@ replaymod.gui.rendersettings.renderer.stereoscopic=Renderização esteroscópica
 replaymod.gui.rendersettings.renderer.cubic=Renderização cúbica
 replaymod.gui.rendersettings.renderer.equirectangular=Rederização retangular
 replaymod.gui.rendersettings.renderer.ods=Renderização ODS
-replaymod.gui.rendersettings.renderer.blend=Renderização para o Blender [Experimental]
+replaymod.gui.rendersettings.renderer.blend=Renderização experimental para o Blender
 
 replaymod.gui.rendersettings.renderer.default.description=Renderiza o vídeo na resolução especificada. Método mais rápido.
 replaymod.gui.rendersettings.renderer.stereoscopic.description=Renderiza o vídeo como um filme 3D esteroscópico (lado a lado), útil para diferentes tecnologias 3D. A imagem de um olho tem metade da largura do vídeo.
@@ -290,12 +290,12 @@ replaymod.gui.rendering.error.ffmpegargs.1=Parece que você modificou os argumen
 replaymod.gui.rendering.error.ffmpegargs.2=Deseja mesmo redefinir ao padrão e tentar novamente?
 
 #Ingame Menu
-replaymod.gui.ingame.menu.addposkeyframe=Adicionar keyframe de posição
-replaymod.gui.ingame.menu.removeposkeyframe=Remover keyframe de posição
-replaymod.gui.ingame.menu.addspeckeyframe=Adicionar keyframe de espectador
-replaymod.gui.ingame.menu.removespeckeyframe=Remover keyframe de espectador
-replaymod.gui.ingame.menu.addtimekeyframe=Adicionar keyframe de tempo
-replaymod.gui.ingame.menu.removetimekeyframe=Remover keyframe de tempo
+replaymod.gui.ingame.menu.addposkeyframe=Adicionar marcador de posição
+replaymod.gui.ingame.menu.removeposkeyframe=Remover marcador de posição
+replaymod.gui.ingame.menu.addspeckeyframe=Adicionar marcador de espectador
+replaymod.gui.ingame.menu.removespeckeyframe=Remover marcador de espectador
+replaymod.gui.ingame.menu.addtimekeyframe=Adicionar marcador de tempo
+replaymod.gui.ingame.menu.removetimekeyframe=Remover marcador de tempo
 replaymod.gui.ingame.menu.pause=Pausar replay
 replaymod.gui.ingame.menu.unpause=Retomar replay
 replaymod.gui.ingame.menu.renderpath=Renderizar caminho da câmera
@@ -309,15 +309,15 @@ replaymod.gui.ingame.unnamedmarker=Marcador de evento sem nome
 replaymod.gui.ingame.autoactivating=Este atalho pode ser ativado automaticamente no momento adequado.
 replaymod.gui.ingame.autoactivating.disable=Clique com Ctrl para desativar.
 replaymod.gui.ingame.autoactivating.enable=Clique com Ctrl para ativar.
-replaymod.gui.ingame.first_keyframe_not_at_start_warning=Você colocou um keyframe fora do 00:00.\n\nIsto indica que você não entendeu como\na linha do tempo funciona (visível abaixo):\n\nEnquanto a linha do tempo acima exibe seu tempo atual no replay,\na inferior exibe o tempo no vídeo que você está criando.\nO vídeo sempre começará em 00:00! Se o seu primeiro keyframe não estiver em 00:00,\nentão o vídeo aparecerá congelado até o momento do primeiro keyframe!
+replaymod.gui.ingame.first_keyframe_not_at_start_warning=Você colocou um marcador fora do 00:00.\n\nIsto indica que você não entendeu como\na linha do tempo funciona (visível abaixo):\n\nEnquanto a linha do tempo acima exibe seu tempo atual no replay,\na inferior exibe o tempo no vídeo que você está criando.\nO vídeo sempre começará em 00:00! Se o seu primeiro marcador não estiver em 00:00,\nentão o vídeo aparecerá congelado até o momento do primeiro marcador!
 
 #Clear Keyframe Callback
-replaymod.gui.clearcallback.title=Limpar todas as keyframes?
+replaymod.gui.clearcallback.title=Limpar todos os marcadores?
 
 #Errors
 replaymod.error.unknownrestriction1=Este replay não pode ser reproduzido nesta versão.
 replaymod.error.unknownrestriction2=Ele tentou aplicar %s que é desconhecido.
-replaymod.error.negativetime1=Algumas das suas keyframes de tempo estão fora de ordem.
+replaymod.error.negativetime1=Algumas das suas marcadores de tempo estão fora de ordem.
 replaymod.error.negativetime2=Retroceder no tempo não é suportado.
 replaymod.error.negativetime3=As partes inválidas estão marcadas em vermelho.
 
