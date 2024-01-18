@@ -25,6 +25,7 @@ replaymod.gui.rename=名前変更
 replaymod.gui.remove=消去
 replaymod.gui.delete=削除
 replaymod.gui.recording=録画中
+replaymod.gui.paused=一時停止中
 replaymod.gui.speed=速度
 replaymod.gui.pleasewait=お待ちください
 replaymod.gui.render=書き出す
@@ -34,12 +35,20 @@ replaymod.gui.saveas=名前を付けて保存…
 replaymod.gui.done=完了
 replaymod.gui.close=閉じる
 replaymod.gui.notagain=二度と表示しない
+replaymod.gui.edit=編集
+replaymod.gui.copy=コピー
+replaymod.gui.paste=貼り付け
+
+replaymod.gui.recording.resume=録画を再開
+replaymod.gui.recording.pause=録画を一時停止
+replaymod.gui.recording.stop=録画を停止
+replaymod.gui.recording.start=録画を開始
 
 replaymod.gui.renderdonetitle=動画が書き出されました
 replaymod.gui.openfolder=動画のフォルダーを開く
 replaymod.gui.youtubeupload=YouTubeにアップロード
-replaymod.gui.renderdone1=動画は正常に書き出されました。
-replaymod.gui.renderdone2=続行しますか?
+replaymod.gui.renderdone1=動画は正常に書き出されました
+replaymod.gui.renderdone2=続行しますか？
 replaymod.gui.videotitle=タイトル
 replaymod.gui.videodescription=説明文
 replaymod.gui.videotags=タグ,タグ,タグ
@@ -74,13 +83,18 @@ replaymod.gui.exit=リプレイを終了
 
 replaymod.gui.settings=設定
 
-replaymod.gui.keyframerepo.delete=本当にこれらのキーフレームを削除してよろしいですか?
+replaymod.gui.keyframerepo.delete=本当にこれらのキーフレームを削除してよろしいですか？
+replaymod.gui.keyframerepo.overwrite=これらのキーフレームを上書きしてもよろしいですか？
 
-replaymod.gui.restorereplay1=Minecraftが正常に終了しなかったようです。
-replaymod.gui.restorereplay2=リプレイ「%1$s」は正しく保存されませんでした。
-replaymod.gui.restorereplay3=修復しますか?
+replaymod.gui.restorereplay1=Minecraftが正常に終了しなかったようです
+replaymod.gui.restorereplay2=リプレイ「%1$s」は正しく保存されませんでした
+replaymod.gui.restorereplay3=修復しますか？
 
 replaymod.gui.loadentitytracker=エンティティの位置を読み込んでいます: %%d %%%%
+replaymod.gui.loadquickmode=クイックモードをロード中： %%d%%%%
+replaymod.gui.noquickmode=クイックモードはMinecraft %1$s以降でのみ利用可能です
+replaymod.gui.minimalmode.unsupported=この機能は、現在のMinecraftバージョンでは利用できません
+replaymod.gui.minimalmode.supportedversion=(お使いのReplay ModバージョンではMinecraft %1$sのみがサポートされています)
 
 #Only change these if it's neccessary
 replaymod.gui.replayviewer=リプレイビューワー
@@ -88,15 +102,24 @@ replaymod.gui.replayviewer=リプレイビューワー
 #Replay Viewer GUI
 replaymod.gui.viewer.rename.name=リプレイの名前
 replaymod.gui.viewer.replayfolder=リプレイのフォルダーを開く…
+replaymod.gui.viewer.bulkrender=%1$d 個のビデオを書き出し
 
-replaymod.gui.viewer.delete.linea=本当にこのリプレイを削除してよろしいですか?
-replaymod.gui.viewer.delete.failed1=OSが原因で、リプレイを削除できませんでした。ここには
-replaymod.gui.viewer.delete.failed2=ReplayModはお力になれませんので、あなた自身で削除してください。
+replaymod.gui.viewer.delete.linea=本当にこのリプレイを削除してよろしいですか？
+replaymod.gui.viewer.delete.failed1=OSが原因で、リプレイを削除できませんでした。これは
+replaymod.gui.viewer.delete.failed2=Replay Modではどうしようも出来ませんので、あなた自身で削除してください
 replaymod.gui.viewer.delete.lineb=「%1$s」は削除されます! (二度と元に戻せません!)
+
+#Replay Editor UI 2.0 (marker based UI)
+replaymod.gui.edit.apply=適用
+replaymod.gui.edit.split=分割
+replaymod.gui.edit.split.tooltip=マークされたポイントでリプレイを複数のリプレイに分割する
+replaymod.gui.edit.cut.start=カットの開始
+replaymod.gui.edit.cut.end=カットの終了
+replaymod.gui.edit.cut.tooltip=リプレイの一部をカット（削除）します
 
 #Cancel Replay GUI
 replaymod.gui.cancelrender.title=書き出しをキャンセル
-replaymod.gui.cancelrender.message=本当に書き出しの進行を中止しますか?
+replaymod.gui.cancelrender.message=本当に書き出しの進行を中止しますか？
 #Saving Replay GUI
 replaymod.gui.replaysaving.title=リプレイファイルを保存中…
 
@@ -110,6 +133,7 @@ replaymod.gui.playeroverview.remembersettings.description=プレイヤーの表�
 
 #Replay Mod Settings GUI
 replaymod.gui.settings.title=Replay Modの設定
+replaymod.gui.settings.default=デフォルト
 
 replaymod.gui.settings.notifications=通知を有効にする
 replaymod.gui.settings.recordserver=サーバーでのプレイを録画
@@ -119,6 +143,12 @@ replaymod.gui.settings.pathpreview=カメラ経路のプレビュー表示
 replaymod.gui.settings.camera=カメラ
 replaymod.gui.settings.showchat=チャットを表示
 replaymod.gui.settings.interpolator=デフォルトのカメラ移動補完方式
+replaymod.gui.settings.autostartrecording=自動録画
+replaymod.gui.settings.rename_recording_dialog=名前変更ダイアログ
+replaymod.gui.settings.fullbrightness=最大の明るさ
+replaymod.gui.settings.fullbrightness.gamma=ガンマ
+replaymod.gui.settings.fullbrightness.nightvision=暗視
+replaymod.gui.settings.fullbrightness.both=両方
 
 #Replay Mod Keybindings
 replaymod.input.lighting=暗視の切り替え
@@ -133,7 +163,12 @@ replaymod.input.resettilt=カメラの傾きをリセット
 replaymod.input.playpause=リプレイを再生/一時停止
 replaymod.input.marker=イベントマーカーを追加
 replaymod.input.pathpreview=カメラ経路プレビューを切り替え
-replaymod.input.settings=ReplayModの設定
+replaymod.input.settings=Replay Modの設定
+replaymod.input.quickmode=クイックモード
+replaymod.input.positionkeyframe=位置/スペクテイターキーフレーム
+replaymod.input.positiononlykeyframe=位置キーフレーム
+replaymod.input.timekeyframe=タイムキーフレーム
+replaymod.input.bothkeyframes=位置/スペクテイター + タイムキーフレーム
 
 # CameraControllers
 replaymod.camera.classic=クラシック
@@ -159,14 +194,17 @@ replaymod.gui.editkeyframe.timestamp=時間指定
 
 replaymod.gui.editkeyframe.interpolator=補完方式
 replaymod.gui.editkeyframe.interpolator.default.name=デフォルトの経路補完方式
-replaymod.gui.editkeyframe.interpolator.default.desc=ReplayModの設定画面で指定されたデフォルトの経路補完方式を使います。
+replaymod.gui.editkeyframe.interpolator.default.desc=ReplayModの設定画面で指定されたデフォルトの経路補完方式を使います
 replaymod.gui.editkeyframe.interpolator.catmullrom.name=Catmull-Romスプライン曲線
-replaymod.gui.editkeyframe.interpolator.catmullrom.desc=Catmull-Romスプライン曲線を計算します。精密な密度と滑らかさをアルファ値を使って調整できます。
+replaymod.gui.editkeyframe.interpolator.catmullrom.desc=Catmull-Romスプライン曲線を計算します。精密な密度と滑らかさをアルファ値を使って調整できます
 replaymod.gui.editkeyframe.interpolator.catmullrom.alpha=アルファ値:
 replaymod.gui.editkeyframe.interpolator.cubic.name=三次スプライン曲線
-replaymod.gui.editkeyframe.interpolator.cubic.desc=三次スプライン曲線を使って移動経路を滑らかにします。
+replaymod.gui.editkeyframe.interpolator.cubic.desc=三次スプライン曲線を使って移動経路を滑らかにします
 replaymod.gui.editkeyframe.interpolator.linear.name=線形補間
-replaymod.gui.editkeyframe.interpolator.linear.desc=キーフレームの間を直線的に移動します。
+replaymod.gui.editkeyframe.interpolator.linear.desc=キーフレームの間を直線的に移動します
+
+#Render Settings GUI
+replaymod.gui.rendersettings.addtoqueue=キューに追加
 
 replaymod.gui.rendersettings.renderer=書き出し方式
 
@@ -175,23 +213,35 @@ replaymod.gui.rendersettings.renderer.stereoscopic=ステレオスコピック�
 replaymod.gui.rendersettings.renderer.cubic=キュービックレンダリング(360°)
 replaymod.gui.rendersettings.renderer.equirectangular=正距円筒図法(360°)
 replaymod.gui.rendersettings.renderer.ods=ODSレンダリング(3D/360°)
+replaymod.gui.rendersettings.renderer.blend=Blenderエクスポート[実験的]
 
-replaymod.gui.rendersettings.renderer.default.description=指定された解像度の動画を書き出します。最も速く書き出しできます。
+replaymod.gui.rendersettings.renderer.default.description=指定された解像度の動画を書き出します。最も速く書き出せます
 replaymod.gui.rendersettings.renderer.stereoscopic.description=動画を2分割する形式の3D動画を書き出します。左右の目それぞれに視点をずらした動画を見せることで立体感を生み出します
-replaymod.gui.rendersettings.renderer.cubic.description=立方体の展開図の形をした360°パノラマ動画を書き出します。Oculus Riftを含むいくつかの360°動画プレイヤーに対応しています。
-replaymod.gui.rendersettings.renderer.equirectangular.description=360°のパノラマ動画を書き出します。YouTubeの新しい360°動画再生機能や、Oculus Riftを含むいくつかの動画プレイヤーに対応しています。
-replaymod.gui.rendersettings.renderer.ods.description=3Dの360°動画を書き出します。VR動画とも呼ばれます。YouTubeのVR動画再生機能に対応しています。
+replaymod.gui.rendersettings.renderer.cubic.description=立方体の展開図の形をした360°パノラマ動画を書き出します。Oculus Riftを含むいくつかの360°動画プレイヤーに対応しています
+replaymod.gui.rendersettings.renderer.equirectangular.description=360°のパノラマ動画を書き出します。YouTubeの360°動画再生機能や、Oculus Riftを含むいくつかの動画プレイヤーに対応しています
+replaymod.gui.rendersettings.renderer.ods.description=3Dの360°動画を書き出しますVR動画とも呼ばれます。YouTubeのVR動画再生機能に対応しています
+replaymod.gui.rendersettings.renderer.blend.description=表示されているジオメトリを、Blenderソフトウェアを使用して開くことができる.blendファイルとしてエクスポートします。実験的機能：大量のRAMが必要で、かなりの数の既知の問題があり、壊れたBlenderファイルが生成されることもあります
 
 replaymod.gui.rendersettings.customresolution=動画の解像度
 replaymod.gui.rendersettings.customresolution.warning.yuv420=このプリセットでは、横幅と高さは偶数の値にする必要があります
+replaymod.gui.rendersettings.customresolution.warning.yuv420.cubic=このプリセットの場合、高さは 6 で割り切れる必要があります
+replaymod.gui.rendersettings.customresolution.warning.cubic.height=立方体レンダリングには3で割り切れる高さが必要です
+replaymod.gui.rendersettings.bitrate=ビットレート
 replaymod.gui.rendersettings.framerate=動画のフレームレート
 replaymod.gui.rendersettings.chromakey=クロマキー
 replaymod.gui.rendersettings.nametags=名札を表示
+replaymod.gui.rendersettings.includealpha=アルファチャンネルを保持する
 replaymod.gui.rendersettings.outputfile=書き出す動画
+replaymod.gui.rendersettings.sphericalFov=球状の視野
+replaymod.gui.rendersettings.sphericalmetadata=球状メタデータの挿入
+replaymod.gui.rendersettings.sphericalmetadata.error=球状メタデータは、MP4形式の正距円筒図法およびODSビデオにのみ追加できます
+replaymod.gui.rendersettings.depthmap=深度マップ
+replaymod.gui.rendersettings.depthmap.only_exr_or_png=深度マップのエクスポートはOpenEXRまたはPNG形式でのみサポートされています
+replaymod.gui.rendersettings.camerapath=カメラパスのエクスポート
 
 replaymod.gui.rendersettings.command=コマンド
 replaymod.gui.rendersettings.arguments=コマンドライン引数
-replaymod.gui.rendersettings.ffmpeg.description=上級者の方は、コマンドライン引数を使って動画の書き出し形式をカスタマイズできます。詳しい情報は http://replaymod.com/docs をチェックしてください
+replaymod.gui.rendersettings.ffmpeg.description=上級者の方は、コマンドライン引数を使って動画の書き出し形式をカスタマイズできます。詳しい情報はhttp://replaymod.com/docsをチェックしてください
 
 replaymod.gui.rendersettings.stabilizecamera=カメラを安定化する
 
@@ -205,7 +255,9 @@ replaymod.gui.rendersettings.presets.mp4.default=MP4 - デフォルトの品質
 replaymod.gui.rendersettings.presets.mp4.potato=MP4 - 低品質
 replaymod.gui.rendersettings.presets.webm.custom=WEBM - 任意のビットレート
 replaymod.gui.rendersettings.presets.mkv.lossless=MKV - ロスレス
+replaymod.gui.rendersettings.presets.blend=ブレンドファイル
 replaymod.gui.rendersettings.presets.png=PNGシーケンス
+replaymod.gui.rendersettings.presets.exr=OpenEXRシーケンス
 
 replaymod.gui.rendersettings.antialiasing=アンチエイリアス
 replaymod.gui.rendersettings.antialiasing.none=なし
@@ -216,13 +268,15 @@ replaymod.gui.rendersettings.antialiasing.x8=8×
 #Render Queue GUI
 replaymod.gui.renderqueue.title=書き出しキュー
 replaymod.gui.renderqueue.add=現在の設定を追加する
+replaymod.gui.renderqueue.renderall=全て書き出し
+replaymod.gui.renderqueue.renderselected=選択したものを書き出し
 
 #Rendering GUI
 replaymod.gui.rendering.title=動画を書き出し中
 replaymod.gui.rendering.pause=書き出しを一時停止
 replaymod.gui.rendering.resume=書き出しを再開
 replaymod.gui.rendering.cancel=書き出しを中止
-replaymod.gui.rendering.cancel.callback=本当にいいんですか?
+replaymod.gui.rendering.cancel.callback=本当によろしいですか？
 replaymod.gui.rendering.preview=プレビューを表示(パフォーマンスが低下する恐れがあります)
 replaymod.gui.rendering.progress=書き出したフレーム: %1$d / %2$d
 replaymod.gui.rendering.timetaken=書き出し時間
@@ -230,7 +284,10 @@ replaymod.gui.rendering.timeleft=残り時間
 
 #Render Errors
 replaymod.gui.rendering.error.title=書き出しに失敗しました
-replaymod.gui.rendering.error.message=動画を書き出すには、ffmpegをインストールする必要があります。
+replaymod.gui.rendering.error.message=動画を書き出すには、ffmpegをインストールする必要があります
+replaymod.gui.rendering.error.ffmpeglog=FFmpeg 出力:
+replaymod.gui.rendering.error.ffmpegargs.1=コマンドライン引数を変更したようです
+replaymod.gui.rendering.error.ffmpegargs.2=デフォルトにリセットして再試行しますか？
 
 #Ingame Menu
 replaymod.gui.ingame.menu.addposkeyframe=ポジションキーフレームを追加
@@ -249,25 +306,41 @@ replaymod.gui.ingame.menu.zoomin=拡大
 replaymod.gui.ingame.menu.zoomout=縮小
 
 replaymod.gui.ingame.unnamedmarker=名前のないイベントマーカー
+replaymod.gui.ingame.autoactivating=このキーバインドは、適切なタイミングで自動的にアクティブ化される場合があります
+replaymod.gui.ingame.autoactivating.disable=Ctrlキーを押しながらクリックすると、自動アクティブ化を無効にします
+replaymod.gui.ingame.autoactivating.enable=Ctrlキーを押しながらクリックして、自動アクティブ化を有効にします
+replaymod.gui.ingame.first_keyframe_not_at_start_warning=最初のキーフレームを配置したばかりですが、00:00ではありません\n\nこれは通常、\nビデオタイムライン(一番下のタイムライン)の仕組みを誤解していることを示しています:\n\n上のタイムラインには現在の時間が表示されますが、リプレイでは、\n一番下の部分には作成中のビデオの時間が表示されます\nビデオは常に00:00から始まります。最初のキーフレームが00:00でない場合、\nビデオは最初のキーフレームの時間までフリーズした状態で表示されます
 
 #Clear Keyframe Callback
-replaymod.gui.clearcallback.title=全てのキーフレームを消去しますか?
+replaymod.gui.clearcallback.title=全てのキーフレームを消去しますか？
 
 #Errors
-replaymod.error.unknownrestriction1=このリプレイは現在のバージョンでは再生できません。
-replaymod.error.unknownrestriction2=不明な%sが強制されました。
-replaymod.error.negativetime1=順番がおかしいタイムキーフレームがあるようです。
-replaymod.error.negativetime2=時間を後戻りすることはできません。
-replaymod.error.negativetime3=無効な区間は赤く表示されます。
+replaymod.error.unknownrestriction1=このリプレイは現在のバージョンでは再生できません
+replaymod.error.unknownrestriction2=不明な%sが強制されました
+replaymod.error.negativetime1=順番がおかしいタイムキーフレームがあるようです
+replaymod.error.negativetime2=時間を遡ることはできません
+replaymod.error.negativetime3=無効な区間は赤く表示されます
 
 #Replay Mod Incompatibility Warning
 replaymod.gui.modwarning.title=互換性エラーが検知されました
 replaymod.gui.modwarning.message1=起こりうる互換性エラーが現在の
-replaymod.gui.modwarning.message2=Minecraftのバージョンとこのリプレイの間で検知されました。
-replaymod.gui.modwarning.message3=このリプレイを読み込むことでエラーやクラッシュが引き起こされる可能性があります。
+replaymod.gui.modwarning.message2=Minecraftのバージョンとこのリプレイの間で検知されました
+replaymod.gui.modwarning.message3=このリプレイを読み込むことでエラーやクラッシュが引き起こされる可能性があります
 replaymod.gui.modwarning.name=MOD名:
 replaymod.gui.modwarning.id=MODのID:
 replaymod.gui.modwarning.missing=MODが見つかりません
 replaymod.gui.modwarning.version=MODのバージョンが違います
 replaymod.gui.modwarning.version.expected=本来のバージョン
 replaymod.gui.modwarning.version.found=実際のバージョン
+
+#Advanced Screenshots Gui
+replaymod.gui.advancedscreenshots.title=スクリーンショットの設定
+replaymod.gui.advancedscreenshots.create=スクリーンショットの撮影
+replaymod.gui.advancedscreenshots.resolution=解像度
+
+# Screenshot Finished Gui
+replaymod.gui.advancedscreenshots.finished.description=スクリーンショットが正常に作成されました
+replaymod.gui.advancedscreenshots.finished.description.360=360°スクリーンショットが正常に作成されました
+replaymod.gui.advancedscreenshots.finished.description.veer=画像をVeeR.tvにアップロードしてVRで表示するか、ディスク上で開きます
+replaymod.gui.advancedscreenshots.finished.upload.veer=VeeR.tvにアップロードする
+replaymod.gui.advancedscreenshots.finished.showfile=ディスク上のファイルを表示
