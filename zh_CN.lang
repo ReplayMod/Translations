@@ -1,5 +1,5 @@
 replaymod.title=Replay Mod
-
+modmenu.descriptionTranslation.replaymod=一个允许您录制、回放和分享您的 Minecraft 的 Mod
 #All of the chat messages
 replaymod.chat.recordingstarted=开始录制
 replaymod.chat.recordingfailed=无法开启录制
