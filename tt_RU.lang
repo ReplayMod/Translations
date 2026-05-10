@@ -1,0 +1,351 @@
+modmenu.summaryTranslation.replaymod=Яздырыгыз, яңадан карап чыгыгыз һәм Minecraft тәҗрибәсен уртаклашыгыз!
+modmenu.descriptionTranslation.replaymod=Сезгә яздырырга, яңадан карап чыгырга һәм Minecraft тәҗрибәсен уртаклашырга рөхсәт итүче мод.
+
+replaymod.title=Replay Mod
+
+#All of the chat messages
+replaymod.chat.recordingstarted=Яздыру башланды
+replaymod.chat.recordingfailed=Яздыру башлап булмады
+
+replaymod.chat.savingthumb=Эскиз саклау...
+replaymod.chat.savedthumb=Эскиз сакланды
+replaymod.chat.failedthumb=Эскиз саклап булмады
+
+replaymod.chat.addedmarker=Вакыйга маркеры өстәлде
+
+#Chat messages displayed in Replay Viewer
+replaymod.chat.morekeyframes=Ике урын төп кадрлары һәм ике вакыт төп кадрлары таләп ителә
+replaymod.chat.pathstarted=Камера юлы башланды
+replaymod.chat.pathfinished=Камера юлы тәмамланды
+replaymod.chat.pathinterrupted=Камера юлы баш тартылды
+
+#Common GUI-related strings
+replaymod.gui.cancel=Баш тарту
+replaymod.gui.back=Артка
+replaymod.gui.load=Йөкләү
+replaymod.gui.save=Саклау
+replaymod.gui.rename=Исем үзгәртү
+replaymod.gui.remove=Бетерү
+replaymod.gui.delete=Бетерү
+replaymod.gui.recording=Яздыру
+replaymod.gui.paused=Туктатылган
+replaymod.gui.speed=Тизлек
+replaymod.gui.pleasewait=Зинһар, көтегез
+replaymod.gui.render=Render
+replaymod.gui.iphidden=Серверның IP адресы яшерен
+replaymod.gui.overwrite=Яңадан язу
+replaymod.gui.saveas=Саклау...
+replaymod.gui.done=Булды
+replaymod.gui.close=Ябу
+replaymod.gui.notagain=Бүтән күрсәтмәскә
+replaymod.gui.edit=Үзгәртү
+replaymod.gui.copy=Күчереп алу
+replaymod.gui.paste=Өстәү
+
+replaymod.gui.recording.resume=Яздыру дәвам итү
+replaymod.gui.recording.pause=Яздыру туктатып тору
+replaymod.gui.recording.stop=Яздыру туктату
+replaymod.gui.recording.start=Яздыру башлау
+
+replaymod.gui.renderdonetitle=Видео rendered
+replaymod.gui.openfolder=Видео папкасын ачу
+replaymod.gui.youtubeupload=YouTube'ка йөкләтү
+replaymod.gui.renderdone1=Сезнең видео rendered.
+replaymod.gui.renderdone2=Сез алга таба нишләргә телисез?
+replaymod.gui.videotitle=Исем
+replaymod.gui.videodescription=Тасвирлама
+replaymod.gui.videotags=Тәгләр,тәгләр,Тәгләр
+replaymod.gui.videothumbnail=Видео эскизы
+replaymod.gui.videovisibility.private=Хосусый керү
+replaymod.gui.videovisibility.unlisted=Сылтама буенча керү
+replaymod.gui.videovisibility.public=Ачык керү
+replaymod.gui.ytuploadprogress.auth=[1/4] Вәкаләт бирү
+replaymod.gui.ytuploadprogress.prepare_video=[2/4] Видео әзерләү: %%d%%%%
+replaymod.gui.ytuploadprogress.upload=[3/4] Йөкләтү: %%d%%%%
+replaymod.gui.ytuploadprogress.cleanup=[4/4] Чистарту
+replaymod.gui.ytuploadprogress.done=Тәмам: %s
+replaymod.gui.titleempty=Исем буш була алмый
+replaymod.gui.videothumbnailtoolarge=Эскиз зурлыгы exceeds 2MB
+replaymod.gui.videothumbnailformat=Эскиз JPEG яки PNG форматында булырга тиеш
+
+replaymod.gui.hours= сәг.,
+replaymod.gui.minutes= мин.,
+replaymod.gui.seconds= с
+replaymod.gui.milliseconds= мс
+
+replaymod.gui.pitch=Тангаж
+replaymod.gui.yaw=Борылу
+replaymod.gui.roll=Янтаю
+
+replaymod.gui.camera=Камера
+replaymod.gui.position=Урын
+
+replaymod.gui.unknownerror=Көтелмәгән хата килеп чыкты
+
+replaymod.gui.exit=Кабатлаудан чыгу
+
+replaymod.gui.settings=Көйләүләр
+replaymod.gui.keyframerepo.delete=Сез чыннан да бу төп кадрларны бетерергә телисезме?
+replaymod.gui.keyframerepo.overwrite=Сез чыннан да бу төп кадрларны күчерергә телисезме?
+
+replaymod.gui.restorereplay1=Сез Minecraft'тан гадәттәгечә чыгалды, ахрысы.
+replaymod.gui.restorereplay2=%1$s кабатлавы дөрес сакланмады
+replaymod.gui.restorereplay3=Сез аны тергезергә телисезме?
+
+replaymod.gui.loadentitytracker=Асыл урыннары йөкләү: %%d%%%%
+replaymod.gui.loadquickmode=Тиз шарт йөкләү: %%d%%%%
+replaymod.gui.noquickmode=Тиз шарт %1$s һәм югарырак версиясенең Minecraft'ында гына кулланышлы.
+replaymod.gui.minimalmode.unsupported=Бу функция Minecraft версиясегез өчен кулланып булмый.
+replaymod.gui.minimalmode.supportedversion=(Minecraft %1$s гына Сезнең Replay Mod версиясе белән ярдәм күрсәтелә)
+
+#Only change these if it's neccessary
+replaymod.gui.replayviewer=Кабатлау күзәткече
+
+#Replay Viewer GUI
+replaymod.gui.viewer.rename.name=Кабатлау исеме
+replaymod.gui.viewer.replayfolder=Кабатлау папкасын ачу...
+replaymod.gui.viewer.bulkrender=%1$d видео render
+
+replaymod.gui.viewer.delete.linea=Сез чыннан да бу кабатлауны бетерергә телисезме?
+replaymod.gui.viewer.delete.failed1=Your OS did not allow us to remove the replay. There is
+replaymod.gui.viewer.delete.failed2=nothing we can do about this. You have to do it yourself.
+replaymod.gui.viewer.delete.lineb=«%s» бөтенләйгә бетәчәк! (Мәңгегә!)
+
+#Replay Editor UI 2.0 (marker based UI)
+replaymod.gui.edit.apply=Куллану
+replaymod.gui.edit.split=Бүлү
+replaymod.gui.edit.split.tooltip=Кабатлауны күрсәтелгән ноктадагы күп кабатлауларга бүлү
+replaymod.gui.edit.cut.start=Кисүне өстәү
+replaymod.gui.edit.cut.end=Кисүне тәмамлау
+replaymod.gui.edit.cut.tooltip=Кабатлау өлешен кисү (бетерү)
+
+#Cancel Replay GUI
+replaymod.gui.cancelrender.title=Rendering баш тарту
+replaymod.gui.cancelrender.message=Сез чыннан да хәзерге rendering процессын баш тартырга телисезме?
+#Saving Replay GUI
+replaymod.gui.replaysaving.title=Кабатлау файлы саклау...
+
+#Player Overview GUI
+replaymod.gui.playeroverview.visible=Күренә
+replaymod.gui.playeroverview.hideall=Барлык яшерү
+replaymod.gui.playeroverview.showall=Барлык күрсәтү
+replaymod.gui.playeroverview.spectate=Уенчыны күзәтү
+replaymod.gui.playeroverview.remembersettings=Яшереннәр хәтердә калдыру
+replaymod.gui.playeroverview.remembersettings.description=Кабатлау файлында уенчылар күренүчәнлеген саклый
+
+#Replay Mod Settings GUI
+replaymod.gui.settings.title=Replay Mod көйләүләре
+replaymod.gui.settings.default=БЕРЕНЧЕЛ
+
+replaymod.gui.settings.notifications=Белдерүне кушу
+replaymod.gui.settings.recordserver=Челтәр уен яздыру
+replaymod.gui.settings.recordsingleplayer=Берлек уен яздыру
+replaymod.gui.settings.indicator=Яздыру күрсәткеч
+replaymod.gui.settings.pathpreview=Күрсәтмә юл күрсәтү
+replaymod.gui.settings.camera=Камера
+replaymod.gui.settings.showchat=Чатны күрсәтү
+replaymod.gui.settings.interpolator=Интерп.
+replaymod.gui.settings.autostartrecording=Автоматик яздыру
+replaymod.gui.settings.rename_recording_dialog=Исем үзгәртү тәрәзе
+replaymod.gui.settings.fullbrightness=Тулы яктылык
+replaymod.gui.settings.fullbrightness.gamma=Гамма
+replaymod.gui.settings.fullbrightness.nightvision=Төн күре
+replaymod.gui.settings.fullbrightness.both=Икесе дә
+
+#Replay Mod Keybindings
+replaymod.input.lighting=Яктылык күчерү
+replaymod.input.thumbnail=Эскиз ясау
+replaymod.input.playeroverview=Уенчылар исемлеге
+replaymod.input.clearkeyframes=Төп кадрлар чистарту
+replaymod.input.synctimeline=Вакыт сызыгы синхронлаштыру
+replaymod.input.keyframerepository=Төп кадр Presets ачу
+replaymod.input.rollclockwise=Cәгать теле уңаена бору
+replaymod.input.rollcounterclockwise=Cәгать теле каршы бору
+replaymod.input.resettilt=Камера бору ташлау
+replaymod.input.playpause=Кабатлау уйнату/туктатып тору
+replaymod.input.marker=Вакыйга маркеры өстәү
+replaymod.input.pathpreview=Күрсәтмә юл күчерү
+replaymod.input.settings=ReplayMod көйләүләре
+replaymod.input.quickmode=Тиз шарт
+replaymod.input.positionkeyframe=Урын төп кадры
+replaymod.input.positiononlykeyframe=Күзәтүдән тыш урын төп кадры
+replaymod.input.timekeyframe=Вакыт төп кадры
+replaymod.input.bothkeyframes=Урын + вакыт төп кадры
+
+# CameraControllers
+replaymod.camera.classic=Replay Mod
+replaymod.camera.vanilla=Minecraft
+
+#Keyframe Presets GUI
+replaymod.gui.keyframerepository.title=Төп кадр Repository
+
+#Edit Keyframe GUI
+replaymod.gui.editkeyframe.title.pos=Урын төп кадры үзгәртү
+replaymod.gui.editkeyframe.title.time=Вакыт төп кадры үзгәртү
+replaymod.gui.editkeyframe.title.marker=Вакыйга маркеры үзгәртү
+replaymod.gui.editkeyframe.title.spec=Күзәтү төп кадры үзгәртү
+replaymod.gui.editkeyframe.xpos=X буенча урын
+replaymod.gui.editkeyframe.ypos=Y буенча урын
+replaymod.gui.editkeyframe.zpos=Z буенча урын
+replaymod.gui.editkeyframe.campitch=Тангаж
+replaymod.gui.editkeyframe.camyaw=Борылу
+replaymod.gui.editkeyframe.camroll=Янтаю
+replaymod.gui.editkeyframe.timelineposition=Вакыт сызыгының урынсе
+replaymod.gui.editkeyframe.markername=Вакыйга маркерының исем
+replaymod.gui.editkeyframe.timestamp=Вакыт тамгасы
+
+replaymod.gui.editkeyframe.interpolator=Интерполяция
+replaymod.gui.editkeyframe.interpolator.default.name=Беренчел
+replaymod.gui.editkeyframe.interpolator.default.desc=Replay Mod көйләүләрендә билгеләнгән гади интерполяцияне куллана.
+replaymod.gui.editkeyframe.interpolator.catmullrom.name=Кәтмулла-Романың
+replaymod.gui.editkeyframe.interpolator.catmullrom.desc=Calculates a catmull rom spline with customizable alpha value for precise tightness and smoothness of the camera path.
+replaymod.gui.editkeyframe.interpolator.catmullrom.alpha=Салмаклык:
+replaymod.gui.editkeyframe.interpolator.cubic.name=Кубик
+replaymod.gui.editkeyframe.interpolator.cubic.desc=Calculates a cubic equation matrix for all points for a smooth camera path.
+replaymod.gui.editkeyframe.interpolator.linear.name=Сызыкча
+replaymod.gui.editkeyframe.interpolator.linear.desc=Draws straight lines between the keyframes.
+
+#Render Settings GUI
+replaymod.gui.rendersettings.addtoqueue=Чиратка өстәү
+
+replaymod.gui.rendersettings.renderer=Rendering рәвеше
+
+replaymod.gui.rendersettings.renderer.default=Гадәти
+replaymod.gui.rendersettings.renderer.stereoscopic=Стереоскопик
+replaymod.gui.rendersettings.renderer.cubic=Кубик
+replaymod.gui.rendersettings.renderer.equirectangular=Тигез арадаш
+replaymod.gui.rendersettings.renderer.ods=ODS
+replaymod.gui.rendersettings.renderer.blend=Blender экспорты [Эксперименталь]
+
+replaymod.gui.rendersettings.renderer.default.description=Renders the video in the specified resolution. Fastest Rendering Option.
+replaymod.gui.rendersettings.renderer.stereoscopic.description=Renders the video as a stereoscopic (side-by-side) 3D movie, usable by different 3D technologies. The image for one eye is half the width of the video
+replaymod.gui.rendersettings.renderer.cubic.description=Renders the video with a 360 degree panoramic view, using Cubic Projection. This is usable by several 360 degree video players (and the Oculus Rift), for example VR Player.
+replaymod.gui.rendersettings.renderer.equirectangular.description=Renders the video with a 360 degree panoramic view, using Equirectangular Projection. This is usable by YouTube's new 360 degree video function, and several video players (and the Oculus Rift), for example VR Player.
+replaymod.gui.rendersettings.renderer.ods.description=Renders the video with a stereoscopic 3D 360 degree panoramic view, also called VR Video. This is usable by YouTube's new VR video
+function.
+replaymod.gui.rendersettings.renderer.blend.description=Exports visible geometry as a .blend file which can be opened using the Blender software. Highly experimental: Requires lots of RAM, has quite a few known issues and sometimes produces broken Blender files.
+
+replaymod.gui.rendersettings.customresolution=Видео ачыклыгы
+replaymod.gui.rendersettings.customresolution.warning.yuv420=For this preset, the width and height values need to be even numbers
+replaymod.gui.rendersettings.customresolution.warning.yuv420.cubic=For this preset, the height must be divisible by 6
+replaymod.gui.rendersettings.customresolution.warning.cubic.height=Cubic Rendering requires a height divisible by 3
+replaymod.gui.rendersettings.bitrate=Битрейт
+replaymod.gui.rendersettings.framerate=Видео ешлыгы
+replaymod.gui.rendersettings.chromakey=Chroma Keying
+replaymod.gui.rendersettings.nametags=Билгеләр күрсәтү
+replaymod.gui.rendersettings.includealpha=Preserve Alpha Channel
+replaymod.gui.rendersettings.outputfile=Чыгыш файлы
+replaymod.gui.rendersettings.sphericalFov=Сферик күрү мәйданы
+replaymod.gui.rendersettings.sphericalmetadata=Сферик метамәгълүмат өстәү
+replaymod.gui.rendersettings.sphericalmetadata.error=Spherical Metadata can only be added to Equirectangular and ODS videos in MP4 format
+replaymod.gui.rendersettings.depthmap=Depth map
+replaymod.gui.rendersettings.depthmap.only_exr_or_png=Depth map export is only supported with OpenEXR or PNG format.
+replaymod.gui.rendersettings.camerapath=Камера юлын экспортлау
+
+replaymod.gui.rendersettings.command=Боерык
+replaymod.gui.rendersettings.arguments=Command Line Arguments
+replaymod.gui.rendersettings.ffmpeg.description=If you are an advanced user, you can customize the command line parameters used to export the video. For more information, check http://replaymod.com/docs
+
+replaymod.gui.rendersettings.stabilizecamera=Камера тотрыклыландыру
+
+replaymod.gui.rendersettings.video=Видео көйләүләр
+replaymod.gui.rendersettings.advanced=Киңәйтелгән көйләүләр
+replaymod.gui.rendersettings.commandline=Command Line көйләүләре
+
+replaymod.gui.rendersettings.presets=Кодлау төрләре
+replaymod.gui.rendersettings.presets.mp4.custom=MP4 — Көйләнелгән битрейт
+replaymod.gui.rendersettings.presets.mp4.default=MP4 — Гади сыйфат
+replaymod.gui.rendersettings.presets.mp4.potato=MP4 — 1 сыйфат
+replaymod.gui.rendersettings.presets.webm.custom=WEBM — Көйләнелгән битрейт
+replaymod.gui.rendersettings.presets.mkv.lossless=MKV — Югалтусыз
+replaymod.gui.rendersettings.presets.blend=.blend — Blender файлы
+replaymod.gui.rendersettings.presets.png=PNG эзлеклелеге
+replaymod.gui.rendersettings.presets.exr=OpenEXR эзлеклелеге
+
+replaymod.gui.rendersettings.antialiasing=Анти-алиасинг
+replaymod.gui.rendersettings.antialiasing.none=Юк
+replaymod.gui.rendersettings.antialiasing.x2=2×
+replaymod.gui.rendersettings.antialiasing.x4=4×
+replaymod.gui.rendersettings.antialiasing.x8=8×
+
+#Render Queue GUI
+replaymod.gui.renderqueue.title=Render чират
+replaymod.gui.renderqueue.add=Хәзерге көйләүләр өстәү
+replaymod.gui.renderqueue.renderall=Барлык Render
+replaymod.gui.renderqueue.renderselected=Сайланган Render
+
+#Rendering GUI
+replaymod.gui.rendering.title=Видео Rendering
+replaymod.gui.rendering.pause=Rendering туктатып тору
+replaymod.gui.rendering.resume=Rendering дәвам итү
+replaymod.gui.rendering.cancel=Rendering баш тарту
+replaymod.gui.rendering.cancel.callback=Чыннан да моңа ышанасызмы?
+
+replaymod.gui.rendering.preview=Күрсәтмәне күрсәтү (Эшчәнлек зыян күрергә мөмкин)
+replaymod.gui.rendering.progress=Кадр rendered: %1$d / %2$d
+replaymod.gui.rendering.timetaken=Render вакыты
+replaymod.gui.rendering.timeleft=Вакыт калды
+
+#Render Errors
+replaymod.gui.rendering.error.title=Rendering булмады
+replaymod.gui.rendering.error.message=Видеоны To render булмады; Сез утыртылган ffmpeg-ны кирәк.
+replaymod.gui.rendering.error.ffmpeglog=FFmpeg чыгару:
+replaymod.gui.rendering.error.ffmpegargs.1=It seems like you have modified the Command Line Arguments.
+replaymod.gui.rendering.error.ffmpegargs.2=Do you want to reset them to the defaults and try again?
+
+#Ingame Menu
+replaymod.gui.ingame.menu.addposkeyframe=Урын төп кадры өстәү
+replaymod.gui.ingame.menu.removeposkeyframe=Урын төп кадры бетерү
+replaymod.gui.ingame.menu.addspeckeyframe=Күзәтү төп кадрын өстәү
+replaymod.gui.ingame.menu.removespeckeyframe=Күзәтү төп кадрын бетерү
+replaymod.gui.ingame.menu.addtimekeyframe=Вакыт төп кадры өстәү
+replaymod.gui.ingame.menu.removetimekeyframe=Вакыт төп кадры бетерү
+replaymod.gui.ingame.menu.pause=Кабатлау туктатып тору
+replaymod.gui.ingame.menu.unpause=Кабатлау дәвам итү
+replaymod.gui.ingame.menu.renderpath=Камера юлы Render
+replaymod.gui.ingame.menu.playpath=Тычкан урынсеннән камера юлы уйнату
+replaymod.gui.ingame.menu.playpathfromstart=Камера юлының башыннан уйнату
+replaymod.gui.ingame.menu.pausepath=Камера юлы туктатып тору
+replaymod.gui.ingame.menu.zoomin=Зурайту
+replaymod.gui.ingame.menu.zoomout=Кечерәйтү
+
+replaymod.gui.ingame.unnamedmarker=Исемсез вакыйга маркеры
+replaymod.gui.ingame.autoactivating=This keybinding may auto-activate at appropriate times.
+replaymod.gui.ingame.autoactivating.disable=Ctrl-click to disable auto-activation.
+replaymod.gui.ingame.autoactivating.enable=Ctrl-click to enable auto-activation.
+replaymod.gui.ingame.first_keyframe_not_at_start_warning=You just placed your first keyframe and it's not at 00:00.\n\nThis usually is an indication that you have misunderstood how the\nvideo timeline (that's the bottom one) works:\n\nWhile The top timeline shows your current time in the replay,\nthe bottom one shows the time in the video you are creating.\nThe video
+will always start at 00:00! If your first keyframe is not at 00:00,\nthen the video will appear frozen until the time of the first keyframe!
+
+#Clear Keyframe Callback
+replaymod.gui.clearcallback.title=Барлык төп кадрларны бетерергәме?
+
+#Errors
+replaymod.error.unknownrestriction1=This replay cannot be played with your current version.
+replaymod.error.unknownrestriction2=It tried to enforce %s which is unknown.
+replaymod.error.negativetime1=Some of your time keyframes are out of order.
+replaymod.error.negativetime2=Going backwards in time is not supported.
+replaymod.error.negativetime3=The invalid parts are marked in red.
+
+#Replay Mod Incompatibility Warning
+replaymod.gui.modwarning.title=Яраксызлык табылды
+replaymod.gui.modwarning.message1=Сезнең хәзерге Minecraft версиясе һәм бу кабатлау
+replaymod.gui.modwarning.message2=арасындагы мөмкин яраксызлык табылды
+replaymod.gui.modwarning.message3=Бу кабатлауны йөкләү хаталарны яки сафтан чыгуны чакыра ала.
+replaymod.gui.modwarning.name=Мод исеме:
+replaymod.gui.modwarning.id=Мод ID:
+replaymod.gui.modwarning.missing=Модлар югала
+replaymod.gui.modwarning.version=Төрле мод версияләре
+replaymod.gui.modwarning.version.expected=Көтелгән
+replaymod.gui.modwarning.version.found=Табылган
+
+#Advanced Screenshots Gui
+replaymod.gui.advancedscreenshots.title=Экран сурәте көйләүләр
+replaymod.gui.advancedscreenshots.create=Экран сурәте ясау
+replaymod.gui.advancedscreenshots.resolution=Ачыклык
+
+# Screenshot Finished Gui
+replaymod.gui.advancedscreenshots.finished.description=Сез экран сурәтен ясады!
+replaymod.gui.advancedscreenshots.finished.description.360=Сез 360° экран сурәтен ясады!
+replaymod.gui.advancedscreenshots.finished.description.veer=VeeR.tv'та VR'да сурәтен йөкләтеп карагыз яки дискыгызда аны ачыгыз.
+replaymod.gui.advancedscreenshots.finished.upload.veer=VeeR.tv'ка йөкләтү
+replaymod.gui.advancedscreenshots.finished.showfile=Дискта файл күрсәтү
